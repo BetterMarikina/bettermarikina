@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Marikina City profile",
+    "sources": [
+      { "id": "city-facts", "tier": 1, "url": "https://www.marikina.gov.ph/facts/2023%20Facts%20and%20Figures.pdf", "retrievedAt": "2026-10-19", "covers": "Land area, census series 1960-2020, 2020 households, history" },
+      { "id": "city-ecoprofile", "tier": 1, "url": "https://www.marikina.gov.ph/facts/Ecological-Profile.pdf", "retrievedAt": "2026-10-19", "covers": "Land area, 2015 and 2020 density, growth rate, history, districts" },
+      { "id": "city-our-city", "tier": 1, "url": "https://www.marikina.gov.ph/our-city", "retrievedAt": "2026-10-19", "covers": "History timeline, inauguration date" },
+      { "id": "law-ra8223", "tier": 1, "url": "https://lawphil.net/statutes/repacts/ra1996/ra_8223_1996.html", "retrievedAt": "2026-10-19", "covers": "Charter of Marikina City, approved 1996-11-06" },
+      { "id": "law-ra9364", "tier": 1, "url": "https://lawphil.net/statutes/repacts/ra2006/ra_9364_2006.html", "retrievedAt": "2026-10-19", "covers": "Two legislative districts, approved 2006-12-15" },
+      { "id": "psa-popcen-2024", "tier": 1, "url": "https://psa.gov.ph/classification/psgc/barangays/137402000", "retrievedAt": "2026-10-19", "covers": "2024 POPCEN city total 471,323, read from the search-result snippet of this PSA page; the page itself blocked access" }
+    ],
+    "asOf": "2024-07-01",
+    "notes": "Population is the PSA census count (2010, 2015, 2020 as printed in the city's 2023 Facts and Figures; 2024 POPCEN total from the PSA PSGC page snippet). incomeClass is null: the PSA PSGC page and DOF orders could not be read. The PD 824 (1975) and Act No. 137 (1901) rows cite the city documents, not the original texts. Land area uses 2,314.37 ha (see discrepancy log #1)."
+  },
+  "data": {
+    "name": "City of Marikina",
+    "psgc": "137402000",
+    "region": "National Capital Region (NCR)",
+    "classification": "Highly urbanized city",
+    "incomeClass": null,
+    "legislativeDistricts": 2,
+    "barangayCount": 16,
+    "landAreaHa": 2314.37,
+    "landAreaSqKm": 23.14,
+    "landAreaBasis": "Cadastral surveys by the Bureau of Lands in 2012 and Q3 2013; adopted as official by the city government (previously ~2,150 ha as certified by the BLM).",
+    "population": [
+      { "year": 2010, "count": 424150, "asOfDate": "2010-05-01", "source": "city-facts" },
+      { "year": 2015, "count": 450741, "asOfDate": "2015-08-01", "source": "city-facts" },
+      { "year": 2020, "count": 456059, "asOfDate": "2020-05-01", "source": "city-facts" },
+      { "year": 2024, "count": 471323, "asOfDate": "2024-07-01", "source": "psa-popcen-2024" }
+    ],
+    "households2020": { "households": 104415, "householdPopulation": 452961, "source": "city-facts" },
+    "densityPerHa": [
+      { "year": 2015, "value": 194.76, "source": "city-ecoprofile" },
+      { "year": 2020, "value": 197.1, "source": "city-ecoprofile" }
+    ],
+    "annualGrowthRate2015to2020Pct": 0.25,
+    "legalBasis": [
+      { "instrument": "Presidential Decree No. 824", "year": 1975, "subject": "Created the Metropolitan Manila Commission; Marikina became part of Metro Manila", "source": "city-ecoprofile" },
+      { "instrument": "Republic Act No. 8223", "date": "1996-11-06", "subject": "Charter of the City of Marikina; converts the municipality into a highly urbanized city, effective upon ratification in a plebiscite", "source": "law-ra8223" },
+      { "instrument": "Republic Act No. 9364", "date": "2006-12-15", "subject": "Amends Sections 10 and 53 of RA 8223 to create two legislative districts", "source": "law-ra9364" }
+    ],
+    "history": [
+      { "year": 1500, "event": "Augustinians arrive in the Marikina valley at Chorillo in Barangka.", "source": "city-ecoprofile" },
+      { "year": 1630, "event": "Jesuits establish a mission and chapel at what is now Jesus dela Peña.", "source": "city-ecoprofile" },
+      { "year": 1687, "event": "The settlement becomes a parish named Mariquina.", "source": "city-ecoprofile" },
+      { "year": 1887, "event": "Shoemaking begins under Don Laureano \"Kapitan Moy\" Guevarra.", "source": "city-ecoprofile" },
+      { "year": 1901, "date": "1901-06-11", "event": "The name officially becomes Marikina; incorporated into the Province of Rizal under Act No. 137 of the Philippine Commission.", "source": "city-ecoprofile" },
+      { "year": 1975, "event": "Marikina becomes part of Metropolitan Manila under PD 824.", "source": "city-ecoprofile" },
+      { "year": 1996, "date": "1996-11-06", "event": "RA 8223 approved; the city's creation was ratified in a plebiscite; the city's own pages give both 1996-12-06 and 1996-12-08 as the date it became a city (unresolved; see discrepancy log).", "source": "law-ra8223" },
+      { "year": 1997, "date": "1997-03-13", "event": "Marikina is formally inaugurated as a city.", "source": "city-our-city" },
+      { "year": 2006, "date": "2006-12-15", "event": "RA 9364 creates two congressional districts.", "source": "law-ra9364" }
+    ]
+  }
+}

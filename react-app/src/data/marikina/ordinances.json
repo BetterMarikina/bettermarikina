@@ -1,0 +1,1359 @@
+{
+  "meta": {
+    "title": "City Ordinances of Marikina (as listed on the Full Disclosure Portal)",
+    "sources": [
+      {
+        "id": "fdp-ordinances",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/city-ordinance",
+        "retrievedAt": "2026-10-19",
+        "covers": "Number, title and PDF link as listed on the portal"
+      }
+    ],
+    "asOf": "2026-10-19",
+    "notes": "Coverage: series of 2000 to 2026; 149 ordinances. This is only what the portal lists, not the full set of enacted ordinances; the series 2000-2026 has large gaps. approvedDate is null because the portal lists number and title only; the date is inside each PDF. Categories are assigned by keyword matching on the title and are not part of the source. Some numbers repeat on the portal with different titles (kept as listed)."
+  },
+  "data": [
+    {
+      "id": "ord-2026-001",
+      "number": "001",
+      "series": 2026,
+      "title": "ORDINANCE GRANTING AMNESTY ON INTERESTS AND PENALTIES OF DELINQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA UNTIL JULY 5, 2026",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20001,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-002",
+      "number": "002",
+      "series": 2026,
+      "title": "ORDINANCE PROVIDING FOR FULL BUSINESS PERMIT AND BUSINESS TAX EXEMPTION FOR SARI-SARI STORES AND CARINDERIA IN MARIKINA CITY FOR THE TAX YEAR 2026",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20002,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-003",
+      "number": "003",
+      "series": 2026,
+      "title": "ORDINANCE EXTENDING THE RENEWAL PERIOD FOR BUSINESS PERMITS FROM JANUARY 20, 2026 TO FEBRUARY 28, 2026",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20003,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-011",
+      "number": "011",
+      "series": 2026,
+      "title": "ORDINANCE ADOPTING THE METRO MANILA COUNCIL RESOLUTION NO. 23-02, SERIES OF 2023, IMPLEMENTING THE SINGLE TICKETING SYSTEM THROUGH THE METRO MANILA TRAFFIC CODE OF 2023 AND PROVIDING THE MECHANISMS FOR ITS IMPLEMENTATION IN THE CITY OF MARIKINA THEREBY AMENDING THE EXISTING TRAFFIC CODE OF THE CITY",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20011,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-016",
+      "number": "016",
+      "series": 2026,
+      "title": "ORDINANCE PRESCRIBING THE RENTAL RATES OF CERTAIN CITY OWNED HERITAGE AND RECREATIONAL FACILITIES IN THE CITY OF MARIKINA, PARTICULARLY THE LEODEGARIO HERITAGE BUILDING IN BRGY JESUS DELA PEÑA",
+      "approvedDate": null,
+      "category": "education-culture",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20016,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-018",
+      "number": "018",
+      "series": 2026,
+      "title": "ORDINANCE PRESCRIBING THE RENTAL RATES OF CENTAIN RECREATIONAL FACILITIES IN THE CITY OF MARIKINA, PARTICULARLY THE TAÑONG MULTIPURPOSE HALL IN BARANGAY TAÑONG.",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20018,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-028",
+      "number": "028",
+      "series": 2026,
+      "title": "ORDINANCE AMENDING SECTION 4 OF ORDINANCE NO. 56, SERIES OF 2021, OTHERWISE KNOWN AS THE “ORDINANCE UPDATING THE FEES, OPERATING HOURS, AND OTHER CONDITIONS FOR THE CITY HALL PARKING AREAS”, TO PROVIDE THAT THE OPENING AND CLOSING HOURS OF THE CITY HALL PARKING AREAS MAY BE REASONABLY ADJUSTED BY THE CITY ADMINISTRATOR DEPENDING ON NECESSITY AND THE COLUME OF VEHICLES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20028,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-032",
+      "number": "032",
+      "series": 2026,
+      "title": "ORDINANCE PRESCRIBING RENTAL RATES FOR THE USE OF THE COMMUNITY HALL LOCATED AT THE COMPOUND OF MARIKINA HOTEL BRGY. CONCEPCION DOS, CITY OF MARIKKINA, AND PROVIDING GUIDELINES THEREFOR",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20032,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-029",
+      "number": "029",
+      "series": 2026,
+      "title": "ORDINANCE IMPOSING A TOTAL TRUCK BAN ON THE USE AND PASSAGE OF ALL TRUCKS THROUGH THE BARANGKA BRIDGE, PROVIDING PENALTIES THEREFOR, AND FOR OTHER PURPOSES.",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20029,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-036",
+      "number": "036",
+      "series": 2026,
+      "title": "ORDINANCE MANDATING THE PROVISION OF STANDBY AMBULANCE AND EMERGENCY MEDICAL SERVICES (EMS) FOR LARGE PUBLIC GATHERINGS , SPORTS TOURNAMENTS AND BRGY. ASSEMBLIES IN THE CITY OF MARIKINA, WITH EXCEPTIONS FOR THE EXERCISE OF CONSTITUTIONALLY PROTECTED RIGHTS",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20036,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-038",
+      "number": "038",
+      "series": 2026,
+      "title": "ORDINANCE EXEMPTING SENIOR CITIZENS FROM PAYMENT OF PARKING FEES FOR THE FIRST THREE (3) HOURS IN ALL MALL PARKING AREAS WITHIN THE TERRITORIAL JURISDICTION OF MARIKINA CITY, AND IMPOSING PENALTIES FOR VIOLATIONS THEREOF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20038,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-043",
+      "number": "043",
+      "series": 2026,
+      "title": "ORDINANCE ESTABLISHING THE MONTHLY RENTAL RATES FOR THE LEASE OR OCCUPANCY OF COMMERCIAL SPACES AT THE MARIKINA GOVERNMENT HUB, BARANGAY STA. ELENA, MARIKINA CITY, AND PROVIDING GUIDELINES FOR ITS IMPLEMENTATION",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20043,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-045",
+      "number": "045",
+      "series": 2026,
+      "title": "ORDINANCE REQUIRING ALL HEALTH CARE PROVIDERS, MEDICALS ORGANIZATIONS, NON-GOVERNMENT ORGANIZATIONS, CIVIC ORGANIZATIONS, FOUNDATIONS, PRIVATE ENTITIES, EDUCATIONAL INSTITUTIONS, RELIGIOUS ORGANIZATIONS, AND OTHER PERSON/S OR ENTITIES CONDUCTING MEDICAL MISSIONS, DENTAL MISSIONS, SURGICAL MISSIONS, HEALTH OUTREACH PROGRAMS, AND OTHER SIMILAR HEALTH-RELATED ACTIVITIES WITHIN MARIKINA CITY TO NOTIFY, COORDINATE AND SECURE A PERMIT FROM THE CITY HEALTH OFFICE PRIOR TO THE CONDUCT THEREOF; PRESCRIBING THE GUIDELINES, REQUIREMENTS, AND RESPONSIBILITIES OF ORGANIZERS; IMPOSING PENALTIES FOR VIOLATIONS; AND FOR OTHER PURPOSES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20045,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-046",
+      "number": "046",
+      "series": 2026,
+      "title": "ORDINANCE AMENDING SECTIONS 3 AND 34 OF THE MARIKINA VETERINARY CODE OF 2007 BY ESTABLISHING A FRAMEWORK FOR INCLUSIVE PET OWNERSHIP",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20046,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-048",
+      "number": "048",
+      "series": 2026,
+      "title": "ORDINANCE PRESCRIBING THE FEES AND REGULATING THE USE OF THE MARIKINA HERITAGE BUILDING AND ITS DESIGNATED SPACES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20048,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-049",
+      "number": "049",
+      "series": 2026,
+      "title": "ORDINANCE PROHIBITING THE USE OF TOBACCO PRODUCTS, HEATED TOBACCO PRODUCTS AND VAPOS PRODUCTS WITHIN ONE HUNDRED METER RADIUS FROM SCHOOL ZONES AND SCHOOL PREMISES, PROVIDING FOR STRICT ENFORCEMENT AND PRESCRIBING PENALTIES FOR VIOLATIONS THEREOF, AND FOR OTHER PURPOSES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20049,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2026-051",
+      "number": "051",
+      "series": 2026,
+      "title": "ORDINANCE UPDATING THE PUBLIC UTILITY TRICYCLE FARE TARIFF OF THE CITY OF MARIKINA, REPEALING ORDINANCE NO. 011, SERIES OF 2013 AND FOR OTHER PURPOSES",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20051,%20SERIES%20OF%202026.pdf"
+    },
+    {
+      "id": "ord-2024-007",
+      "number": "007",
+      "series": 2024,
+      "title": "ORDINANCE REGULATING THE MANUFACTURE SALE AND USE OF PNP BFP AND BJMP UNIFORMS INSIGNIAS AND OTHER ACCOUTREMENTS IN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20007,%20SERIES%20OF%202024.pdf"
+    },
+    {
+      "id": "ord-2024-008",
+      "number": "008",
+      "series": 2024,
+      "title": "ORDINANCE REQUIRING ALL BUSINESS ESTABLISHMENTS ORGANIZATIONS OR ENTREPRENEURAL ENTITIES WITH LESS THAN FIFTY (50) BUT MORE THAN TEN (10) EMPLOYEES OR OCCUPANTS TO PARTICIPATE IN A FIRE SAFETY SEMINAR CONDUCT FIRE AND EXIT DRILLS",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20008,%20SERIES%20OF%202024.pdf"
+    },
+    {
+      "id": "ord-2024-023",
+      "number": "023",
+      "series": 2024,
+      "title": "ORDINANCE APPROVING AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2024",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20023,%20SERIES%20OF%202024.pdf"
+    },
+    {
+      "id": "ord-2024-024",
+      "number": "024",
+      "series": 2024,
+      "title": "ORDINANCE APPROVING AMNESTY ON INTEREST OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2024",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20024,%20SERIES%20OF%202024.pdf"
+    },
+    {
+      "id": "ord-2023-026",
+      "number": "026",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURCHARGES AND INTERESTS OF DELINQUENT BUSINESS TAXPAYER IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2023",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20026,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-001",
+      "number": "001",
+      "series": 2023,
+      "title": "ORDINANCE EXTENDING THE PERIOD FOR THE RENEWAL OF BUSINESS PERMITS WITHOUT SURCHARGES AND PENALTIES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20001,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-006",
+      "number": "006",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURCHARGES AND INTERESTS OF DELINQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA UNTIL MARCH 31, 2023",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20006,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-007",
+      "number": "007",
+      "series": 2023,
+      "title": "ORDINANCE EXTENDING THE GRANT OF AMNESTY ON INTERESTS OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA UNTIL MARCH 31, 2023",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20007,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-001-2",
+      "number": "001",
+      "series": 2023,
+      "title": "ORDINANCE EXTENDING THE PERIOD FOR THE RENEWAL OF BUSINESS PERMITS WITHOUT SURCHARGES AND PENALTIES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20001,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-002",
+      "number": "002",
+      "series": 2023,
+      "title": "ORDINANCE PROHIBITING PARKING SLOT RESERVATION BY WAY OF STANDING ON IT PRESCRIBING PENALTIES FOR VIOLATION THEROF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20002,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-004",
+      "number": "004",
+      "series": 2023,
+      "title": "ORDINANCE CREATING THE MARIKINA CITY ANTI SMOKING TASK FORCE AND DEFINING ITS DUTIES AND RESPOSIBILITIES",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20004,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-006-2",
+      "number": "006",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA UNTIL MARCH 31, 2023",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20006,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-009",
+      "number": "009",
+      "series": 2023,
+      "title": "ORDINANCE TAX RELIEF ON THE REAL PROPERTY TAX ARREARAGES OVER THAT PROPERTY OWNED BY ANAMARIE GRACE DANCEL ONG SITUATED IN BRGY. PARAG MARIKINA CITY TO BE DISTRIBUTED TO ACTUAL OCCUOANTS OF 129 MOLAVE BARANGAY PARANG",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20009,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-020",
+      "number": "020",
+      "series": 2023,
+      "title": "ORDINANCE ENHANCING THE EARTHQUAKE PREPAREDNESS OF RESIDENTS AND ESTABLISHMENTS IN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20020,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-022",
+      "number": "022",
+      "series": 2023,
+      "title": "ORDINANCE EXEMPTING PROPERTIES DECLARED AS PERMANENT SETTLEMENT SITES AND OTHER AWARDED CITY GOVERNMENT OWNED LOTS IN THE CITY OF MARIKINA FROM PAYMENT OF CERTAIN TAXES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20022,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-025",
+      "number": "025",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING AMNESTY ON INTERESTS OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2023",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20025,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-026-2",
+      "number": "026",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2023",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20026,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-032",
+      "number": "032",
+      "series": 2023,
+      "title": "ORDINANCE FORMALLY ESTABLISHING THE PLMAR SENIOR HIGHSCHOOL AS A LABORATORY SCHOOL OF THE PAMANTASAN NG LUNGSOD NG MARIKINA",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20032,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-045",
+      "number": "045",
+      "series": 2023,
+      "title": "ORDINANCE PRESCRIBING THE FEES OPERATING HOURS AND OTHER CONDITIONS FOR THE USE OF PARKING SPACES OF THE MULTI LEVEL PARKING FACILITY",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20045,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-153",
+      "number": "153",
+      "series": 2023,
+      "title": "ORDINANCE REPEALING SECTIONS 61 AND 62 OF ORDINANCE NO. 161 SERIES OF 2006 OTHERWISE KNOWN AS REVISED COMPREHENSIVE ZONING REGULATIONS OF THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "land-use-zoning",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20153,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-068",
+      "number": "068",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING RELIEF ON RENTAL PAYMENTS TO RICE RETAILERS AT THE MARIKINA PUBLIC MARKET WITHIN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20068,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-069",
+      "number": "069",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING RELIEF ON BUSINESS TAX PAYMENT TO RICE RETAILERS WITHIN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20069,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-070",
+      "number": "070",
+      "series": 2023,
+      "title": "ORDINANCE GRANTING CASH ASSISTANCE TO RICE RETAILERS IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20070,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-061",
+      "number": "061",
+      "series": 2023,
+      "title": "ORDINANCE PROBITING THE STORING OF OLD OR SCRAP TIRES AT HOMES OR PLACING THEM ON ROOFS OF HOUSES IN ORDER TO AVERT THE BREEDING OF MOSQUITOES THAT SPREAD DENGUE",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20061,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-059",
+      "number": "059",
+      "series": 2023,
+      "title": "ORDINANCE DECLARING THE MARIKINA POLICE MEMORIAL MONUMENT AS A LOCAL HISTORICAL MONUMENT AND PART OF THE CULTURAL AND HISTORICAL HERITAGE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "peace-order-safety",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20059,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-053",
+      "number": "053",
+      "series": 2023,
+      "title": "ORDINANCE DECLARING AND CELEBRATING MARCH 5 EVERY YEAR AS BANTAY BAYAN FOUNDING ANNIVERSARY DAY IN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20053,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-121",
+      "number": "121",
+      "series": 2023,
+      "title": "ORDINANCE EXEMPTING SHOE AND LEATHER GOODS RETAILERS OF PFFI FROM PAYMENT OF RENTAL FEES INCLUDING ELECTRICITY CHARGES FOR THE USE OF STALLS ON THE GROUND FLOOR OF THE CITY GOV'T OWNED MULTILEVEL PARKING BLDG. FROM NOVEMBER 2023 TO JANUARY 2024",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20121,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-139",
+      "number": "139",
+      "series": 2023,
+      "title": "ORDINANCE EXTENDING THE PERIOD FOR THE RENEWAL OF BUSINESS PERMITS WITHOUT SURCHARGES AMD PENALTIES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20139,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2023-140",
+      "number": "140",
+      "series": 2023,
+      "title": "ORDINANCE PROVIDING FOR FULL BUSINESS PERMIT AND BUSINESS TAX EXEMPTION FOR SARI SARI STORES AND CARINDERIA IN MARIKINA CITY FOR THE TAX YEAR 2024",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20140,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2022-003",
+      "number": "003",
+      "series": 2022,
+      "title": "ORDINANCE EXTENDING THE DEADLINE OF RENEWAL OF BUSINESS PERMITS FROM JANUARY 20 TO FEBRUARY 28, 2022 WITHOUT SURCHARGES AND PENALTIES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20003,%20SERIES%20OF%202022.pdf"
+    },
+    {
+      "id": "ord-2022-006",
+      "number": "006",
+      "series": 2022,
+      "title": "ORDINANCE EXTENDING THE GRANT OF AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAX PAYERS IN THE CITY OF MARIKINA UNTIL JUNE 30, 2022",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20006,%20SERIES%20OF%202022.pdf"
+    },
+    {
+      "id": "ord-2022-010",
+      "number": "010",
+      "series": 2022,
+      "title": "ORDINANCE TEMPORARILY SUSPENDING SECTION 25 ARTICLE 1 CHAPTER 4 OF ORDINANCE NO. 62 SERIES OF 2007 OTHERWISE KNOWN AS THE MARIKINA VETERINARY CODE OF 2007",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20010,%20SERIES%20OF%202022.pdf"
+    },
+    {
+      "id": "ord-2022-154",
+      "number": "154",
+      "series": 2022,
+      "title": "ORDINANCE REPEALING ORDINANCE NO. 192 SERIES OF 1994 OTHERWISE KNOWN AS REGULATING THE CONSTRUCTION OF FENCES",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20154,%20SERIES%20OF%202022.pdf"
+    },
+    {
+      "id": "ord-2022-162",
+      "number": "162",
+      "series": 2022,
+      "title": "ORDINANCE PRESCRIBING THE RENTAL RATES FOR THE USE OF SPACE IN THE CHINESE PAGODA, HARDIN NG BAYAN, HAWKER'S STALL IN JESUS DELA PEÑA AND FVR ROAD BRGY. INDUSTRIAL VALLEY COMPLEX, THE RIVERBANK BIKE STATION AND OTHER SPACES IN MARIKINA HOTEL",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20162,%20SERIES%20OF%202022.pdf"
+    },
+    {
+      "id": "ord-2021-016",
+      "number": "016",
+      "series": 2021,
+      "title": "ORDINANCE ADOPTING THE STAYSAFE.PH APPLICATION AS THE CONTACT TRACING SYSTEM OF THE CITY OF MARIKINA MANDATING THE USE THEREOF BY ALL RESIDENTS AND PROVIDING PENALTIES THEREOF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20016,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-019",
+      "number": "019",
+      "series": 2021,
+      "title": "ORDINANCE EXTENDING THE GRANT OF AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA UNTIL APRIL 30 2021",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20019,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-021",
+      "number": "021",
+      "series": 2021,
+      "title": "ORDINANCE IMPOSING A TRUCK BAN IN THE CITY OF MARIKINA PROVIDING PENALTIES FOR VIOLATIONS THEREOF AND FOR OTHER PURPOSES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20021,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-024",
+      "number": "024",
+      "series": 2021,
+      "title": "ORDINANCE STRENGTHENING COMPLIANCE TO HEALTH AND SAFETY GUIDELINES FOR THE NEW NORMAL IN THE CITY OF MARIKINA AND PROVIDING PENALTIES FOR VIOLATIONS THEREOF THE MARIKINA HEALTH AND SAFETY PROTOCOL",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20024,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-025",
+      "number": "025",
+      "series": 2021,
+      "title": "ORDINANCE EXTENDING THE GRANT OF AMNESTY ON INTERESTS OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA UNTIL APRIL 30, 2021",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20025,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-033",
+      "number": "033",
+      "series": 2021,
+      "title": "ORDINANCE TEMPORARILY WAVING PAYMENT OF PENALTIES AND SURCHARGES FOR STALLHOLDERS WHO ARE ENGAGED IN THE BUSINESS OF SELLING NON ESSENTIAL PRODUCTS AT THE DRY GOODS SECTION LOCATED AT THE CITY PUBLIC MARKET",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20033,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-041",
+      "number": "041",
+      "series": 2021,
+      "title": "ORDINANCE GRANTING RELIEF ON RENTAL PAYMENTS TO STALLHOLDERS IN THE DRY GOODS SECTION OF THE CITY PUBLIC MARKET FOR THE MONTH OF APRIL 2021",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20041,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-052",
+      "number": "052",
+      "series": 2021,
+      "title": "ORDINANCE EXTENDING THE GRANT OF AMNESTY OF INTERESTS OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2021",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20052,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-072",
+      "number": "072",
+      "series": 2021,
+      "title": "ORDINANCE AMENDING SECTION 6 OF ORDINANCE NO.21 SERIES OF 2021 ENTITLED ORDINANCE IMPOSING A TRUCKBAN IN THE CITY OF MARIKINA PROVIDING PENALTIES FOR VIOLATIONS THEREOF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20072,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-089",
+      "number": "089",
+      "series": 2021,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2021",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20089,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-093",
+      "number": "093",
+      "series": 2021,
+      "title": "ORDINANCE EXEMPTING CERTAIN TRANSACTIONS FROM THE PAYMENT OF TRANSFER TAXES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20093,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-110",
+      "number": "110",
+      "series": 2021,
+      "title": "ORDINANCE GRANTING BUSINESS TAX EXEMPTION AND RELIEF TO LOCAL FOOTWEAR AND OTHER LEATHER GOODS MANUFACTURERS OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20110,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2021-111",
+      "number": "111",
+      "series": 2021,
+      "title": "ORDINANCE EXTENDING THE GRANT OF AMNESTY ON INTERESTS OF DELIQUENT REAL PROPERTY TAX PAYERS IN THE CITY OF MARIKINA UNTIL DECEMBER 31, 2021",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20111,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2020-128",
+      "number": "128",
+      "series": 2020,
+      "title": "ORDINANCE ENSURING THE SAFETY OF PEDESTRIAN IN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "peace-order-safety",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20128,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-014",
+      "number": "014",
+      "series": 2020,
+      "title": "ORDINANCE EMJOINING SHOPPING MALLS TO TEMPORARILY SUSPEND MALL OPERATIONS IN THE CITY OF MARIKINA AS A MEASURE TO CONTAIN THE SPREAD OF THE CORONA VIRUS DISEASE (COVID-19)",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20014,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-018",
+      "number": "018",
+      "series": 2020,
+      "title": "ORDINANCE IMPLEMENTING A PUBLIC HEALTH CURFEW IN THE CITY OF MARIKINA TO CONTAIN THE SPREAD OF THE CORONA VIRUS (COVID-19)",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20018,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-017",
+      "number": "017",
+      "series": 2020,
+      "title": "ORDINANCE PROHIBITING MASS GATHERINGS IN THE CITY OF MARIKINA DURING THE COMMUNITY QUARANTINE OF METRO MANILA",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20017,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-026",
+      "number": "026",
+      "series": 2020,
+      "title": "ORDINANCE REQUIRING PUBLIC TRANSPORT PLYING IN MARIKINA CITY AND LOCAL ESTABLISHMENTS TO PROVIDE ALCOHOL OR HAND SANITIZER FOR THEIR COMMUTERS AND CONSUMERS EFFECTIVELY",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20026,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-028",
+      "number": "028",
+      "series": 2020,
+      "title": "ORDINANCE WAIVING PENALTIES SURCHARGES AND INTEREST UNPAID BUSINESS TAXES REAL PROPERTY TAXES MONTLY STALL FEES AND SUCH OTHER FEES AND CHARGES WHEN ARE DUE WITHIN THE FIRST QUARTER OF THIS YEAR",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20028,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-030",
+      "number": "030",
+      "series": 2020,
+      "title": "ORDINANCE GRANTING RELIEF ON RENTAL PAYMENTS TO STALL HOLDER IN THE WET AND DRY SECTIONS OF THE CITY PUBLIC MARKET FOR THE MONTHS OF MARCH AND APRIL 2020",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20030,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-032",
+      "number": "032",
+      "series": 2020,
+      "title": "ORDINANCE EXTENDING THE SECOND QUARTER DEADLINE OF PAYMENT OF BUSINESS TAX TO MAY 2020 AS A FORM OF RELIEF TO BUSINESS OWNERS AFFECTED BY THE ENHANCE COMMUNITY QUARANTINE",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20032,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-033",
+      "number": "033",
+      "series": 2020,
+      "title": "ORDINANCE WAVING PENALTIES AND INTEREST FOR UNPAID TRANSFER TAXES AS A FORM OF TAX RELIEF TO THE BENEFICIARIES DURING THE PERIOD OF ENHANCE COMMUNITY QUARANTINE",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20033,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-034",
+      "number": "034",
+      "series": 2020,
+      "title": "ORDINANCE WAVING PENALTIES AND INTEREST FOR UNPAID AMORTIZATIONS ON EMERGENCY RELOCATION CENTERS AND PERMANENT SETTLEMENT SITE AS A FORM OF TAX RELIEF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20034,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-040",
+      "number": "040",
+      "series": 2020,
+      "title": "ORDINANCE IMPOSING A TEMPORARY LIQUOR BAN IN MARIKINA CITY DURING THE ENHANCED COMMUNITY QUARANTINE",
+      "approvedDate": null,
+      "category": "peace-order-safety",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20040,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-056",
+      "number": "056",
+      "series": 2020,
+      "title": "ORDINANCE FURTHER EXTENDING THE FIRST QUARTER DEADLINE OF PAYMENT OF REAL PROPERTY TAX TO MAY 30, 2020 AS A FORM OF RELIEF TO TAX PAYERS",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20056,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-057",
+      "number": "057",
+      "series": 2020,
+      "title": "ORDINANCE AMENDING SECTION 2 OF ORDINANCE NO. 033 SERIES OF 2020 ENTITLED ORD. WAVING PENALTIES AND INTERESTS FOR UNPAID TRANSFER TAXES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20057,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-058",
+      "number": "058",
+      "series": 2020,
+      "title": "ORD. AMENDING SECTION 2 OF ORDINANCE NO. 34 SERIES OF 2020 ENTITLED ORDINANCE WAVING PENALTIES AND INTERESTS FOR UNPAID AMORTIZATIONS ON EMERGENCY RELOCATION",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20058,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-060",
+      "number": "060",
+      "series": 2020,
+      "title": "ORDINANCE EXTENDING THE DEADLINE OF PAYMENT OF AMUSEMENT TAX TO MAY 30, 2020 AS A FORM OF RELIEF TO BUSINESS OWNERS",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20060,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-061",
+      "number": "061",
+      "series": 2020,
+      "title": "ORDINANCE AMENDING SECTION 8 OF ORDINANCE NO. 048 SERIES OF 2020 ENTITLED ORD. OF PROHIBITING DISCRIMINATION AGAINST COVID 19 FRONTLINERS",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20061,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-064",
+      "number": "064",
+      "series": 2020,
+      "title": "ORDINANCE MODIFYING THE LIQUOR BAN IMPOSED IN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "peace-order-safety",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20064,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-074",
+      "number": "074",
+      "series": 2020,
+      "title": "ORDINANCE AMENDING SEC. 9 OF ORD. 15 S. 2020 ORD. IMPLEMENTING A PUBLIC HEALTH CURFEW IN THE CITY OF MARIKINA TO CONTAIN THE SPREAD OF COVID 19",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20074,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-076",
+      "number": "076",
+      "series": 2020,
+      "title": "ORDINANCE EXTENDING THE DEADLINE OF PAYMENT OF TAXES FEES AND CHARGES IMPOSED AND COLLECTED IN MARIKINA CITY PURSUANT TO REPUBLIC ACT NO. 11469 OTHERWISE KNOWN AS BAYANIHAN TO HEAL AS ONE ACT",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20076,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-077",
+      "number": "077",
+      "series": 2020,
+      "title": "ORDINANCE REQUIRING ALL WET MARKET INCLUDING VEGETABLES AND FRUITS STALLS IN MARIKINA CITY TO PROVIDE HAND WASHING FACILITY WITH SOAP FOR SAFETY PURPOSES AND PROVIDING PENALTIES THEREOF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20077,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-094",
+      "number": "094",
+      "series": 2020,
+      "title": "ORDINANCE SETTING A NEW DEADLINE FOR THE PAYMENT OF REAL PROPERTY TAX FOR THE FIRST AND SECOND QUARTERS FOR CURRENT YEAR 2020",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20094,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-095",
+      "number": "095",
+      "series": 2020,
+      "title": "ORDINANCE SETTING A NEW DEADLINE FOR THE PAYMENT OF BUSINESS TAX FOR THE SECOND AND 3RD QUARTERS FOR THE CURRENT YEAR 2020",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20095,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-098",
+      "number": "098",
+      "series": 2020,
+      "title": "ORDINANCE ALLOWING THE OPERATION OF DINE IN RESTAURANTS AND OTHER ESTABLISHMENTS UP TO 9:00 O' CLOCK IN THE EVENING DURING THE QUARANTINE PERIOD COVERED BY COVID 19 PANDEMIC",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20098,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-099",
+      "number": "099",
+      "series": 2020,
+      "title": "ORDINANCE PROVIDING ALTERNATIVE PENALTIES IN THE FORM OF COMMUNITY SERVICE BLOOD DONATION AND MORAL AND SPIRITUAL COUNSELLING IN CASE OF VIOLATION OF COVID 19",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20099,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-126",
+      "number": "126",
+      "series": 2020,
+      "title": "ORDINANCE RE IMPOSING A THREE (3) YEAR MORATORIUM ON THE ESTABLISHMENT OF FUNERAL HOMES IN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20126,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-127",
+      "number": "127",
+      "series": 2020,
+      "title": "ORDINANCE DECLARING A FIVE YEAR (5) MORATORIUM ON THE ESTABLSIHMENT/CONSTRUCTION OF NEW GASOLINE DIESEL AND KEROSENE STATIONS WITHIN CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20127,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-130",
+      "number": "130",
+      "series": 2020,
+      "title": "ORDINANCE AMENDING SEC 2, 3 AND 5 OF ORD. 15 2020 ENTITLED ORD. IMPLEMENTING A PUBLIC HEALTH CURFEW IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20130,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-134",
+      "number": "134",
+      "series": 2020,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURHCARGES AND INTEREST OF DELIQUENT BUSINESS TAXPAYERS IN TE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20134,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-137",
+      "number": "137",
+      "series": 2020,
+      "title": "ORDINANCE GRANTING AMNESTY ON INTERESTS OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20137,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-157",
+      "number": "157",
+      "series": 2020,
+      "title": "ORDINANCE EXTENDING THE PERIOD FOR THE RENEWAL OF BUSINESS PERMITS FROM JANUARY 20 TO MARCH 20, 2020 WITHOUT SURCHARGES AND INTERESTS",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20157,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2020-158",
+      "number": "158",
+      "series": 2020,
+      "title": "ORDINANCE PROVIDING FOR FULL PAYMENT AND BUSINESS TAX EXEMPTION FOR SARI-SARI STORES AND CARINDERIA IN MARIKINA CITY FOR TAX YEAR 2021",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20158,%20SERIES%20OF%202020.pdf"
+    },
+    {
+      "id": "ord-2021-001",
+      "number": "001",
+      "series": 2021,
+      "title": "ORDINANCE GRANTING AMNESTY ON INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20001,%20SERIES%20OF%202021.pdf"
+    },
+    {
+      "id": "ord-2019-001",
+      "number": "001",
+      "series": 2019,
+      "title": "ORDINANCE EXTENDING THE PERIOD FOR THE RENEWAL OF BUSINESS PERMIT FROM JAN. 21 TO FEB. 15 2019 WITHOUT SURCHARGES AND PENALTIES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20001,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-002",
+      "number": "002",
+      "series": 2019,
+      "title": "ORDINANCE GRANTING AMNESTY ON SURCHARGES AND INTERESTS OF DELIQUENT BUSINESS TAXPAYERS IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20002,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-003",
+      "number": "003",
+      "series": 2019,
+      "title": "ORDINANCE GRANTING AMNESTY ON INTERESTS OF DELIQUENT REAL PROPERTY TAXPAYERS IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20003,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2023-008",
+      "number": "008",
+      "series": 2023,
+      "title": "ORDINANCE FIXING THE BASIC RATE FOR ALL COMMERCIAL INDUSTRIAL AND SPECIAL CLASSES TO 2%",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20008,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2019-009",
+      "number": "009",
+      "series": 2019,
+      "title": "ORDINANCE GRANTING TAX DISCOUNT OF 10% ON PROMPT PAYMENT AND 10% FOR ADVANCE PAYMENT OF REAL PROPERTY TAXES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20009,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-021",
+      "number": "021",
+      "series": 2019,
+      "title": "ORDINANCE AMENDING ARTICLE XV SEC. 107 (d) OF ORD. NO. 133 OF 2006 ENTITLED ORDINANCE ADOPTING THE 2006 TRAFFIC MANAGEMENT CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20021,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-065",
+      "number": "065",
+      "series": 2019,
+      "title": "ORDINANCE IMPLEMENTING THE ANTI DISCRIMINATION ORDINANCE OF MARIKINA CITY AND PROVIDING PENALTIES FOR VIOLATION THEREOF",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20065,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-066",
+      "number": "066",
+      "series": 2019,
+      "title": "ORDINANCE REGULATING THE UNBUNDLING CABLE WIRES OF PUBLIC UTILITY COMPANIES",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20066,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-071",
+      "number": "071",
+      "series": 2019,
+      "title": "ORDINANCE AMENDING SEC. 46 AND 54 OF ORDINANCE 161 OF 2006 ORDINANCE ADOPTING THE 2006 COMPREHENSIVE ZONING REGULATION FOR MARIKINA CITY",
+      "approvedDate": null,
+      "category": "land-use-zoning",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20071,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-073",
+      "number": "073",
+      "series": 2019,
+      "title": "ORDINANCE REQUIRING THE PROVISION OF PARKING FACILITIES AS A PREREQUISITE FOR SECURING A BUILDING PERMIT FOR THE CONSTRUCTION OF STRUCTURES IN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20073,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2023-078",
+      "number": "078",
+      "series": 2023,
+      "title": "ORDINANCE PROVIDING LIBRENG PAG AARAL SA PAGDODOKTOR PARA SA MGA MARIKEÑOS",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20078,%20SERIES%20OF%202023.pdf"
+    },
+    {
+      "id": "ord-2019-079",
+      "number": "079",
+      "series": 2019,
+      "title": "ORDINANCE AMENDING SEC.166 OF ORDINANCE NO. 133 OF 2006 ENTITLED ORDINANCE ADOPTING THE 2006 TRAFFIC MANAGEMENT CODE OF MARIKINA AS AMENDED BY. ORD. NO. 53 S.2018",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20079,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-080",
+      "number": "080",
+      "series": 2019,
+      "title": "ORDINANCE REPEALING ORD. 159 OF 2008 ENTITLED ORD. AMENDING 57 AND 62 OF ORD. 133 OF 2006 THUS REVERTING SEC. 57 AND 62 TO ITS ORIGINAL FORM",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20080,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-124",
+      "number": "124",
+      "series": 2019,
+      "title": "ORD. AMENDING SEC.2 AND 3 OF ORD. 49 S. 2018 AN ORD. PROVIDING FOR THE INTEGRATION OF BRGY. CLEARANCE FEE TO THE BUSINESS PERMITS AND LICENSING SYSTEM",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20124,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-138",
+      "number": "138",
+      "series": 2019,
+      "title": "ORDINANCE AMENDING SEC.18 AND 21 OF ORD. 86 2015 AS AMENDED BY ORD.43 OF 2017 OTHERWISE KNOWN AS ORD. ADOPTING THE 2015 SENIOR CITIZEN CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20138,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-143",
+      "number": "143",
+      "series": 2019,
+      "title": "ORDINANCE LOCALIZING THE APPLICATION OF THE SAFE SPACES ACT OF 2019 IN THE CITY OF MARIKINA AND PROVIDING PENALTIES FOR VIOLATIONS THEREOF OTHERWISE KNOWN AS THE \"BAWAL BASTOS ORDINANCE OF 2019",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20143,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2019-149",
+      "number": "149",
+      "series": 2019,
+      "title": "ORDINANCE GRANTING SPECIAL ADDITIONAL TAX DISCOUNT OF 10% FOR FULL PAYMENT OF REAL PROPERTY TAX ON OR BEFORE JANUARY 31, 2020",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20149,%20SERIES%20OF%202019.pdf"
+    },
+    {
+      "id": "ord-2015-086",
+      "number": "086",
+      "series": 2015,
+      "title": "SENIOR CITIZENS CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20086,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-085",
+      "number": "085",
+      "series": 2015,
+      "title": "ORDINANCE ADOPTING THE 2015 REVENUE CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20085,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-084",
+      "number": "084",
+      "series": 2015,
+      "title": "ORDINANCE ADOPTING THE 2015 TRAFFIC MANAGEMENT CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20084,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-028",
+      "number": "028",
+      "series": 2015,
+      "title": "ORDINANCE AMENDING CHAPTER 4 SECTION 37 PARAGRAPH (B) OF ORDINANCE NO.38 S. 2014 OTHERWISE KNOWN AS THE 2014 HEALTH AND SANITATION CODE OF MARIKINA",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20028,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-028-2",
+      "number": "028",
+      "series": 2015,
+      "title": "ORDINANCE ADOPTING THE 2014 HEALTH AND SANITATION CODE OF MARIKINA (AMENDED)",
+      "approvedDate": null,
+      "category": "health",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20028,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-085-2",
+      "number": "085",
+      "series": 2015,
+      "title": "ORDINANCE ADOPTING THE 2015 REVENUE CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20085,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-039",
+      "number": "039",
+      "series": 2015,
+      "title": "ORDINANSA NA NAGSASABATAS NG MGA ALITUNTUNIN PATUNGKOL SA TUNGKULIN NG MGA MAGULANG BILANG PAGTATANGGOL AT PANGANGALAGA SA KARAPATAN NG MGA BATA SA LUNGSOD NG MARIKINA AT PAGPAPAW NG KARAMPATANG PARUSA SA PAGLABAG NITO",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20039,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-036",
+      "number": "036",
+      "series": 2015,
+      "title": "ORDINANCE ADOPTING THE MARIKINA CITY GENDER AND DEVELOPMENT CODE OF 2015",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20036,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-065",
+      "number": "065",
+      "series": 2015,
+      "title": "AMENDED TOURISM CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20065,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2015-064",
+      "number": "064",
+      "series": 2015,
+      "title": "ORDINANCE PROHIBITING THE HARBORING OR ACCEPTING RENTALS FROM OR ALLOWING THE USE OF FRONTAGE OF A RESIDENTIAL AND COMMERCIAL ESTABLISHMENT OF SIDEWALKS, ILLEGAL AND MOBILE VENDORS IN ALL PUBLIC MARKET, MARIKINA MARKET ZONE, PRIVATE MARKETS AND TALIPAPA",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20064,%20SERIES%20OF%202015.pdf"
+    },
+    {
+      "id": "ord-2014-015",
+      "number": "015",
+      "series": 2014,
+      "title": "ORDINANCE APPROVING THE PERSONS WITH DISABILITIES CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20015,%20SERIES%20OF%202014.pdf"
+    },
+    {
+      "id": "ord-2014-061",
+      "number": "061",
+      "series": 2014,
+      "title": "BICYCLE CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20061,%20SERIES%20OF%202014.pdf"
+    },
+    {
+      "id": "ord-2014-011",
+      "number": "011",
+      "series": 2014,
+      "title": "ORDINANCE ADOPTING THE REVISED MARKET CODE OF 2014",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20011,%20SERIES%20OF%202014.pdf"
+    },
+    {
+      "id": "ord-2013-023",
+      "number": "023",
+      "series": 2013,
+      "title": "APPROVING THE REVISED SENIOR CITIZEN CODE OF MARIKINA CITY",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20023,%20SERIES%20OF%202013.pdf"
+    },
+    {
+      "id": "ord-2008-119",
+      "number": "119",
+      "series": 2008,
+      "title": "AMENDING SECTION 33 (B) OF ORDINANCE 100 SERIES OF 2005 ENTITLED ADOPTING THE SENIOR CITIZENS CODE OF MARIKINA",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20119,%20SERIES%20OF%202008.pdf"
+    },
+    {
+      "id": "ord-2009-040",
+      "number": "040",
+      "series": 2009,
+      "title": "FOR THE IMPLEMENTATION OF R.A 9257 OTHERWISE KNOWN AS AN ACT GRANTING ADDITIONAL BENEFITS AND PRIVILEGES TO SENIOR CITIZENS",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20040,%20SERIES%20OF%202009.pdf"
+    },
+    {
+      "id": "ord-2009-075",
+      "number": "075",
+      "series": 2009,
+      "title": "GRANTING TWO THOUSAND PESOS AS FINANCIAL/BURIAL ASSISTANCE TO THE IMMEDIATE FAMILY OF A DECEASED REGISTERED SENIOR CITIZEN OF MARIKINA",
+      "approvedDate": null,
+      "category": "social-welfare",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20075,%20SERIES%20OF%202009.pdf"
+    },
+    {
+      "id": "ord-2007-114",
+      "number": "114",
+      "series": 2007,
+      "title": "2007 ADOPTING THE NEW REGULATIONS ON THE USE OF STREETS AND SIDEWALKS WITHIN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20114,%20SERIES%20OF%202007.pdf"
+    },
+    {
+      "id": "ord-2007-114-2",
+      "number": "114",
+      "series": 2007,
+      "title": "ORDINANCE ADOPTING THE NEW REGULATIONS ON THE USE OF STREETS AND SIDEWALKS WITHIN MARIKINA CITY",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20114,%20SERIES%20OF%202007.pdf"
+    },
+    {
+      "id": "ord-2006-116",
+      "number": "116",
+      "series": 2006,
+      "title": "2006 COMPREHENSIVE ZONING REGULATIONS FOR MARIKINA CITY",
+      "approvedDate": null,
+      "category": "land-use-zoning",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20116,%20SERIES%20OF%202006.pdf"
+    },
+    {
+      "id": "ord-2006-145",
+      "number": "145",
+      "series": 2006,
+      "title": "REVISED MARIKINA PEACE, ORDER, PUBLIC SAFETY AND SECURITY CODE OF 2006",
+      "approvedDate": null,
+      "category": "peace-order-safety",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20145,%20SERIES%20OF%202006.pdf"
+    },
+    {
+      "id": "ord-2006-062",
+      "number": "062",
+      "series": 2006,
+      "title": "ORDINANCE GRANTING TAX EXEMPTIONS TO THE PROPERTIES OF MANILA ELECTRIC COMPANY WHICH ARE USED AS ROADS AND SIDEWALKS",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20062,%20SERIES%20OF%202006.pdf"
+    },
+    {
+      "id": "ord-2004-143",
+      "number": "143",
+      "series": 2004,
+      "title": "ORDINANCE ADOPTING THE MARIKINA CITY FOOD FORTIFICATION CODE",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20143,%20SERIES%20OF%202004.pdf"
+    },
+    {
+      "id": "ord-2004-048",
+      "number": "048",
+      "series": 2004,
+      "title": "ORDINANCE IMPOSING USAGE FEES ON ALL TELECOMMUNICATION CARRIERS AND COMMUNITY ANTENNA TELEVISION (CATV) COMPANIES THAT UTILIZE OR ATTACH THEIR APPARATUS TO MERALCO POSTS ENCROACHED ON PUBLIC SIDEWALKS AND ROADS",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20048,%20SERIES%20OF%202004.pdf"
+    },
+    {
+      "id": "ord-2004-087",
+      "number": "087",
+      "series": 2004,
+      "title": "ORDINANCE AMENDING ORDINANCE NO.59 SERIES OF 1993 ENTITLE \"ORDINANCE REGULATING THE USE OF STREETS AND SIDEWALKS IN THE MUNICIPALITY OF MARIKINA \"AS AMENDED BY ORDINANCE NO. 16 SERIES OF 2001",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20087,%20SERIES%20OF%202004.pdf"
+    },
+    {
+      "id": "ord-2003-175",
+      "number": "175",
+      "series": 2003,
+      "title": "THE MARIKINA CITY INVESTMENT CODE OF 2004",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20175,%20SERIES%20OF%202003.pdf"
+    },
+    {
+      "id": "ord-2002-167",
+      "number": "167",
+      "series": 2002,
+      "title": "TRANSFERRING TO INFORMANTS THE CANCELLED FRANCHISE TO OPERATE OF PUBLIC UTILITY TRICYCLES APPREHENDED AND FOUND TO BE OPERATED BY A DRUG PUSHER/USER OR BEING USED AS A MEANS OF TRANSPORT IN THE DISTRIBUTION OF ILLEGAL DRUGS",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20167,%20SERIES%20OF%202002.pdf"
+    },
+    {
+      "id": "ord-2002-124",
+      "number": "124",
+      "series": 2002,
+      "title": "IMPOSING THE PENALTY OF PERMANENT CANCELLATION OF THE FRANCHISE TO OPERATE OF ANY PUBLIC UTILITY TRICYCLE APPREHENDED AND FOUND TO BE OPERATED BY A DRUG USER/PUSHER AND/OR BEING USED AS A MEANS OF TRANSPORT IN THE DISTRIBUTION OF ILLEGAL DRUGS",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20124,%20SERIES%20OF%202002.pdf"
+    },
+    {
+      "id": "ord-2002-073",
+      "number": "073",
+      "series": 2002,
+      "title": "ORDINANCE ADOPTING THE ANTI-LITTERING CODE OF MARIKINA",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20073,%20SERIES%20OF%202002.pdf"
+    },
+    {
+      "id": "ord-2002-072",
+      "number": "072",
+      "series": 2002,
+      "title": "ORDINANCE AMENDING ORDINANCE NO. 108 SERIES OF 2002 ENTITLED ORDINANCE ADOPTING THE MARIKINA CITY DRESS CODE IN PUBLIC PLACES 2002",
+      "approvedDate": null,
+      "category": "governance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20072,%20SERIES%20OF%202002.pdf"
+    },
+    {
+      "id": "ord-2001-119",
+      "number": "119",
+      "series": 2001,
+      "title": "THE MARIKINA BUSINESS AND COMMERCIAL ESTABLISHMENT CODE OF 2001",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20119,%20SERIES%20OF%202001.pdf"
+    },
+    {
+      "id": "ord-2001-126",
+      "number": "126",
+      "series": 2001,
+      "title": "THE MARIKINA STREETS AND SIDEWALKS AND USE OF OPEN SPACES CODE OF 2001",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20126,%20SERIES%20OF%202001.pdf"
+    },
+    {
+      "id": "ord-2001-008",
+      "number": "008",
+      "series": 2001,
+      "title": "ORDINANCE IMPOSING CLEARANCE FEE ON ALL DIGGINGS AND/OR EXCAVATIONS FOR THE INSTALLATION OF ELECTRICAL LINES, TELEPHONE LINES, CABLE NETWORKS, REPAIR OF WATERLINES, AND FOR SUCH OTHER LAWFUL PURPOSES ON ALL SIDEWALKS STREETS AND PUBLIC PLACES",
+      "approvedDate": null,
+      "category": "finance",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20008,%20SERIES%20OF%202001.pdf"
+    },
+    {
+      "id": "ord-2001-161",
+      "number": "161",
+      "series": 2001,
+      "title": "ORDINANCE PROHIBITING THE CONDUCT OF BUSINESS OF BUYING AND SELLING OF JEWELRY AND/OR PAWNSHOP PAPERS ON SIDEWALKS AND OTHER PUBLIC PLACES WITHIN THE CITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "business",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20161,%20SERIES%20OF%202001.pdf"
+    },
+    {
+      "id": "ord-2000-165",
+      "number": "165",
+      "series": 2000,
+      "title": "ORDINANCE AMENDING ORDINANCE NO.59 SERIES OF 1993 ENTITLED \"ORDINANCE REGULATING THE USE OF STREETS AND SIDEWALKS IN THE MUNICIPALITY OF MARIKINA",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20165,%20SERIES%20OF%202000.pdf"
+    },
+    {
+      "id": "ord-2000-201",
+      "number": "201",
+      "series": 2000,
+      "title": "ORDINANCE PROHIBITING THE BURNING OF GARBAGE TRASH OR ANY OTHER REFUSE MATERIALS IN STREETS SIDEWALKS AND OTHER PUBLIC PLACES",
+      "approvedDate": null,
+      "category": "traffic-transport",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/ORDINANCE%20NO.%20201,%20SERIES%20OF%202000.pdf"
+    }
+  ]
+}

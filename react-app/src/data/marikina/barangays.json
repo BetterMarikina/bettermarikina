@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "title": "Barangays of Marikina City",
+    "sources": [
+      {
+        "id": "city-contact",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/contact-us",
+        "retrievedAt": "2026-10-19",
+        "covers": "Punong Barangay (\"Kap.\") and barangay office landline per barangay"
+      },
+      {
+        "id": "city-facts",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/facts/2023%20Facts%20and%20Figures.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "2020 population per barangay (PSA census as printed by the city), land area per barangay, official barangay names"
+      },
+      {
+        "id": "city-ecoprofile",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/facts/Ecological-Profile.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Land area per barangay (text of Table 2), district membership"
+      },
+      {
+        "id": "law-ra9364",
+        "tier": 1,
+        "url": "https://lawphil.net/statutes/repacts/ra2006/ra_9364_2006.html",
+        "retrievedAt": "2026-10-19",
+        "covers": "District membership of 14 barangays (Fortune and Tumana did not yet exist)"
+      },
+      {
+        "id": "law-ra9431",
+        "tier": 1,
+        "url": "https://lawphil.net/statutes/repacts/ra2007/ra_9431_2007.html",
+        "retrievedAt": "2026-10-19",
+        "covers": "Creation of Barangay Fortune"
+      },
+      {
+        "id": "law-ra9432",
+        "tier": 1,
+        "url": "https://lawphil.net/statutes/repacts/ra2007/ra_9432_2007.html",
+        "retrievedAt": "2026-10-19",
+        "covers": "Creation of Barangay Tumana"
+      },
+      {
+        "id": "citypopulation",
+        "tier": 3,
+        "url": "https://citypopulation.de/en/philippines/marikina/",
+        "retrievedAt": "2026-10-19",
+        "covers": "SECONDARY: 2010, 2015 and 2024 barangay populations and 9-digit PSGC codes, which cite PSA. The PSA site was blocked, so these were not checked against PSA directly; their sums match the official city totals (424,150 / 450,741 / 471,323), and the 2020 column matches the city document."
+      }
+    ],
+    "asOf": "2024-07-01",
+    "notes": "Per-barangay 2010, 2015 and 2024 populations and PSGC codes are secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad and skChairperson are null (no source read). urbanRural (PSA PSGC), hall, facebook and floodHazard are null: those sources were blocked or not checked. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326; a Supreme Court challenge was pending when this was written). Some area figures differ between city pages; see discrepancy log."
+  },
+  "data": [
+    {
+      "id": "barangka",
+      "name": "Barangka",
+      "alsoKnownAs": null,
+      "district": "I",
+      "psgc": "137402001",
+      "population": {
+        "2010": 19222,
+        "2015": 18504,
+        "2020": 16639,
+        "2024": 16144
+      },
+      "landAreaHa": 80.11,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Efren Managuit",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8948-1274",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "kalumpang",
+      "name": "Kalumpang",
+      "alsoKnownAs": "Calumpang",
+      "district": "I",
+      "psgc": "137402002",
+      "population": {
+        "2010": 14879,
+        "2015": 14857,
+        "2020": 15602,
+        "2024": 15914
+      },
+      "landAreaHa": 80.27,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Mario M. De Leon",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8647-7205",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "industrial-valley-complex",
+      "name": "Industrial Valley Complex",
+      "alsoKnownAs": "IVC",
+      "district": "I",
+      "psgc": "137402014",
+      "population": {
+        "2010": 14263,
+        "2015": 15995,
+        "2020": 16461,
+        "2024": 16678
+      },
+      "landAreaHa": 74.89,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Fernando F. Mira",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8523-5306",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "jesus-dela-pena",
+      "name": "Jesus dela Peña",
+      "alsoKnownAs": null,
+      "district": "I",
+      "psgc": "137402004",
+      "population": {
+        "2010": 9465,
+        "2015": 10175,
+        "2020": 10201,
+        "2024": 10224
+      },
+      "landAreaHa": 90.03,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Rosette Sarmiento",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8948-6963",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "malanday",
+      "name": "Malanday",
+      "alsoKnownAs": null,
+      "district": "I",
+      "psgc": "137402005",
+      "population": {
+        "2010": 51956,
+        "2015": 55442,
+        "2020": 53886,
+        "2024": 54134
+      },
+      "landAreaHa": 165.58,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Mark James P. Alfonso",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8941-6106",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "san-roque",
+      "name": "San Roque",
+      "alsoKnownAs": null,
+      "district": "I",
+      "psgc": "137402008",
+      "population": {
+        "2010": 18252,
+        "2015": 17945,
+        "2020": 16949,
+        "2024": 17268
+      },
+      "landAreaHa": 115.79,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Tadeo Allan Aramil",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8646-8479",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "santa-elena",
+      "name": "Santa Elena",
+      "alsoKnownAs": "Poblacion",
+      "district": "I",
+      "psgc": "137402009",
+      "population": {
+        "2010": 6954,
+        "2015": 6928,
+        "2020": 7403,
+        "2024": 7599
+      },
+      "landAreaHa": 51.43,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Bernard C. Bernardo",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8646-1877 / 8647-8954",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "santo-nino",
+      "name": "Santo Niño",
+      "alsoKnownAs": null,
+      "district": "I",
+      "psgc": "137402010",
+      "population": {
+        "2010": 26120,
+        "2015": 30759,
+        "2020": 28849,
+        "2024": 30271
+      },
+      "landAreaHa": 162.56,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Rizaldy C. Josef",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8543-9703",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "tanong",
+      "name": "Tañong",
+      "alsoKnownAs": null,
+      "district": "I",
+      "psgc": "137402011",
+      "population": {
+        "2010": 8479,
+        "2015": 8270,
+        "2020": 8902,
+        "2024": 9415
+      },
+      "landAreaHa": 116.86,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Danilo C. Del Castillo",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8525-3037",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "concepcion-uno",
+      "name": "Concepcion Uno",
+      "alsoKnownAs": "Concepcion I",
+      "district": "II",
+      "psgc": "137402003",
+      "population": {
+        "2010": 39204,
+        "2015": 42564,
+        "2020": 44683,
+        "2024": 46629
+      },
+      "landAreaHa": 226.24,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Gerardo F. Sto. Domingo",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8942-0419",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "concepcion-dos",
+      "name": "Concepcion Dos",
+      "alsoKnownAs": "Concepcion II",
+      "district": "II",
+      "psgc": "137402012",
+      "population": {
+        "2010": 26114,
+        "2015": 25637,
+        "2020": 24023,
+        "2024": 25268
+      },
+      "landAreaHa": 194.77,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Mary Jane Zubiri-Dela Rosa",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8942-0561",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "fortune",
+      "name": "Fortune",
+      "alsoKnownAs": null,
+      "district": "II",
+      "psgc": "137402015",
+      "population": {
+        "2010": 33390,
+        "2015": 36142,
+        "2020": 38624,
+        "2024": 40941
+      },
+      "landAreaHa": 200.93,
+      "urbanRural": null,
+      "creation": {
+        "instrument": "Republic Act No. 9431",
+        "date": "2007-04-10",
+        "note": "Sitio Fortune separated from Barangay Parang; the act states about 219.18 hectares.",
+        "source": "law-ra9431"
+      },
+      "officials": {
+        "punongBarangay": "Rafael Teope",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": null,
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "marikina-heights",
+      "name": "Marikina Heights",
+      "alsoKnownAs": "Concepcion",
+      "district": "II",
+      "psgc": "137402013",
+      "population": {
+        "2010": 35416,
+        "2015": 38795,
+        "2020": 42761,
+        "2024": 45968
+      },
+      "landAreaHa": 233.55,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Miguel A. Punzalan Jr.",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8942-0527",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "nangka",
+      "name": "Nangka",
+      "alsoKnownAs": null,
+      "district": "II",
+      "psgc": "137402006",
+      "population": {
+        "2010": 40731,
+        "2015": 43828,
+        "2020": 43368,
+        "2024": 43661
+      },
+      "landAreaHa": 159.5,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Celso delas Armas",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "7934-8626",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "parang",
+      "name": "Parang",
+      "alsoKnownAs": null,
+      "district": "II",
+      "psgc": "137402007",
+      "population": {
+        "2010": 37896,
+        "2015": 41661,
+        "2020": 40240,
+        "2024": 41259
+      },
+      "landAreaHa": 170.46,
+      "urbanRural": null,
+      "creation": null,
+      "officials": {
+        "punongBarangay": "Ronald D. Zulieta",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": "8570-1643",
+      "facebook": null,
+      "floodHazard": null
+    },
+    {
+      "id": "tumana",
+      "name": "Tumana",
+      "alsoKnownAs": null,
+      "district": "II",
+      "psgc": "137402016",
+      "population": {
+        "2010": 41809,
+        "2015": 43239,
+        "2020": 47468,
+        "2024": 49950
+      },
+      "landAreaHa": 191.4,
+      "urbanRural": null,
+      "creation": {
+        "instrument": "Republic Act No. 9432",
+        "date": "2007-04-10",
+        "note": "Sitio Tumana separated from Barangay Concepcion Uno.",
+        "source": "law-ra9432"
+      },
+      "officials": {
+        "punongBarangay": "Akiko Lynne Centeno",
+        "kagawad": null,
+        "skChairperson": null
+      },
+      "hall": null,
+      "officePhone": null,
+      "facebook": null,
+      "floodHazard": null
+    }
+  ]
+}
