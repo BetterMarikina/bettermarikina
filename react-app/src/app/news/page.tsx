@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageContext';
-import ComingSoon from '@/components/ComingSoon';
+import NewsChannels from '@/components/NewsChannels';
 
 export default function NewsPage(): JSX.Element {
   const { t } = useLanguage();
@@ -32,7 +32,7 @@ export default function NewsPage(): JSX.Element {
       {/* News List */}
       <section className="section">
         <div className="container">
-          <ComingSoon title="News coming soon" message="Marikina City announcements will appear here, linked to their official sources." />
+          <NewsChannels />
         </div>
       </section>
     </>

@@ -35,7 +35,8 @@ export default function BudgetPage(): JSX.Element {
               <h2>Statement of Receipts &amp; Expenditures</h2>
             </div>
           </div>
-          <ComingSoon message="Marikina City's financial reports will be published here once sourced from official records." />
+          <ComingSoon title="Figures not yet transcribed" message="The city publishes its Annual Budget, Statement of Receipts and Expenditures, SEF, LDRRMF and indebtedness reports as PDF scans (2020 to 2026). They have no text layer, so the figures cannot yet be extracted reliably. Read the originals on the city's Full Disclosure Portal." />
+          <p className="sre-source"><i className="bi bi-box-arrow-up-right"></i> <a href="https://fdpp.marikina.gov.ph/full-disclosure" target="_blank" rel="noopener noreferrer">Marikina Full Disclosure Portal</a></p>
           <p className="sre-source"><i className="bi bi-info-circle"></i> Source: <a href="https://blgf.gov.ph/" target="_blank" rel="noopener noreferrer">Bureau of Local Government Finance (BLGF)</a></p>
         </div>
       </section>
@@ -47,7 +48,7 @@ export default function BudgetPage(): JSX.Element {
             <span className="infra-label-v5"><i className="bi bi-building"></i> National Government Projects</span>
             <h2>DPWH Infrastructure Projects in Marikina</h2>
           </div>
-          <ComingSoon message="DPWH infrastructure projects in Marikina City will be listed here once sourced." />
+          <ComingSoon title="Project list not yet available" message="Search results indicate that DPWH's Metro Manila 1st District Engineering Office covers Marikina, but we have not been able to read DPWH's project listings, so no projects are shown." />
           <p className="sre-source dpwh-source-margin"><i className="bi bi-info-circle"></i> Source: <a href="https://transparency.dpwh.gov.ph/" target="_blank" rel="noopener noreferrer">DPWH Transparency Portal</a></p>
         </div>
       </section>

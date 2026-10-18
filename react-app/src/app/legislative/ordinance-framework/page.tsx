@@ -1,5 +1,10 @@
 import Link from 'next/link';
-import ComingSoon from '@/components/ComingSoon';
+import LegislativeList from '@/components/LegislativeList';
+import SourceNote from '@/components/SourceNote';
+import ordinancesData from '@/data/marikina/ordinances.json';
+import type { Dataset, OrdinanceRecord } from '@/types';
+
+const ordinances = ordinancesData as unknown as Dataset<OrdinanceRecord[]>;
 
 export const metadata = {
   title: 'Ordinance Framework | BetterMarikina.org',
@@ -74,7 +79,8 @@ export default function OrdinanceFrameworkPage() {
       {/* Ordinances List */}
       <section className="section">
         <div className="container">
-          <ComingSoon message="A searchable list of Marikina City ordinances is being prepared." />
+          <LegislativeList items={ordinances.data} noun="ordinance" />
+          <SourceNote meta={ordinances.meta} />
           <div className="text-center" style={{ marginTop: 'var(--spacing-lg)' }}>
             <a href="https://fdpp.marikina.gov.ph/city-ordinance" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               <i className="bi bi-box-arrow-up-right"></i> View Official Ordinances on marikina.gov.ph

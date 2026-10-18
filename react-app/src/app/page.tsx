@@ -4,7 +4,15 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import SearchAutocomplete from '@/components/SearchAutocomplete';
-import ComingSoon from '@/components/ComingSoon';
+import NewsChannels from '@/components/NewsChannels';
+import SourceNote from '@/components/SourceNote';
+import cityProfileData from '@/data/marikina/city-profile.json';
+import officialsData from '@/data/marikina/officials.json';
+import type { CityProfile, Dataset, ElectedOfficial } from '@/types';
+
+const cityProfile = cityProfileData as unknown as Dataset<CityProfile>;
+const officials = officialsData as unknown as Dataset<ElectedOfficial[]>;
+const leaders = officials.data.filter((o) => ['mayor', 'vice-mayor', 'rep-d1', 'rep-d2'].includes(o.id));
 
 export default function HomePage() {
   const { t } = useLanguage();
@@ -197,7 +205,28 @@ export default function HomePage() {
           <div className="home-stats-v2-header">
             <h2><i className="bi bi-book" aria-hidden="true"></i> Brief History of Marikina</h2>
           </div>
-          <ComingSoon title="History coming soon" message="A sourced history of Marikina City is being prepared." />
+          <div className="history-content">
+            <div className="history-timeline">
+              {cityProfile.data.history.map((item) => (
+                <div key={`${item.year}-${item.event}`} className="timeline-item">
+                  <div className="timeline-marker"></div>
+                  <div className="timeline-content">
+                    <span className="timeline-year">{item.year}</span>
+                    <p>{item.event}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="history-summary">
+              <div className="history-card">
+                <div className="history-card-content">
+                  <h4>Marikina at a glance</h4>
+                  <p>{cityProfile.data.classification} in the {cityProfile.data.region}. {cityProfile.data.barangayCount} barangays, {cityProfile.data.legislativeDistricts} legislative districts, {cityProfile.data.landAreaHa.toLocaleString('en-PH')} hectares. Population {cityProfile.data.population[cityProfile.data.population.length - 1].count.toLocaleString('en-PH')} (PSA 2024 Census).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <SourceNote meta={cityProfile.meta} />
         </div>
         <style jsx>{`
           .history-section { background: linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%); }
@@ -243,7 +272,7 @@ export default function HomePage() {
             <h2>{t('section-updates')}</h2>
             <Link href="/news" className="home-section-link"><span>{t('btn-view-all')}</span> <i className="bi bi-arrow-right"></i></Link>
           </div>
-          <ComingSoon title="Updates coming soon" message="City announcements and advisories will appear here." />
+          <NewsChannels />
         </div>
       </section>
 
@@ -254,7 +283,16 @@ export default function HomePage() {
             <h2>{t('section-leadership')}</h2>
             <Link href="/government" className="home-section-link"><span>{t('btn-view-officials')}</span> <i className="bi bi-arrow-right"></i></Link>
           </div>
-          <ComingSoon message="Names and contact details of Marikina City officials will be published once verified from official sources." />
+          <div className="grid grid-4" style={{ gap: 'var(--spacing-sm)' }}>
+            {leaders.map((o) => (
+              <div key={o.id} className="dept-card">
+                <div className="dept-card-content">
+                  <h4 className="dept-card-title">{o.name}</h4>
+                  <p className="dept-card-desc">{o.position}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

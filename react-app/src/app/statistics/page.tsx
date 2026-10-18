@@ -1,5 +1,10 @@
 import Link from 'next/link';
-import ComingSoon from '@/components/ComingSoon';
+import SourceNote from '@/components/SourceNote';
+import StatisticsCharts from '@/components/StatisticsCharts';
+import statisticsData from '@/data/marikina/statistics.json';
+import type { Dataset, StatisticsData } from '@/types';
+
+const statistics = statisticsData as unknown as Dataset<StatisticsData>;
 
 export default function StatisticsPage(): JSX.Element {
   return (
@@ -28,8 +33,8 @@ export default function StatisticsPage(): JSX.Element {
 
       <section className="stats-section">
         <div className="container">
-          <ComingSoon message="Population, economic and competitiveness data for Marikina City will be published here once sourced from PSA and DTI." />
-          <p className="data-source"><i className="bi bi-info-circle"></i> Sources: <a href="https://psa.gov.ph/" target="_blank" rel="noopener noreferrer">Philippine Statistics Authority</a>, <a href="https://cmci.dti.gov.ph/" target="_blank" rel="noopener noreferrer">DTI Cities and Municipalities Competitiveness Index</a></p>
+          <StatisticsCharts data={statistics.data} />
+          <SourceNote meta={statistics.meta} />
         </div>
       </section>
     </>

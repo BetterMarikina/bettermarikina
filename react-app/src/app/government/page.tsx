@@ -1,5 +1,14 @@
 import Link from 'next/link';
-import ComingSoon from '@/components/ComingSoon';
+import SourceNote from '@/components/SourceNote';
+import officialsData from '@/data/marikina/officials.json';
+import barangaysData from '@/data/marikina/barangays.json';
+import type { Barangay, Dataset, DatasetMeta, ElectedOfficial } from '@/types';
+
+const officials = officialsData as unknown as Dataset<ElectedOfficial[]>;
+const barangays = barangaysData as unknown as Dataset<Barangay[]>;
+const executive = officials.data.filter((o) => ['mayor', 'vice-mayor', 'rep-d1', 'rep-d2'].includes(o.id));
+const councilors = officials.data.filter((o) => o.body === 'Sangguniang Panlungsod');
+const councilDistricts: ('I' | 'II')[] = ['I', 'II'];
 
 export const metadata = {
   title: 'Government Officials & Structure',
@@ -40,7 +49,17 @@ export default function GovernmentPage() {
             <p style={{ color: 'var(--color-text-light)' }}>The executive officials leading Marikina&apos;s governance</p>
           </div>
 
-          <ComingSoon message="Official names and contact details for Marikina City officials will be published once verified from official sources." />
+          <div className="grid grid-4" style={{ gap: 'var(--spacing-sm)' }}>
+            {executive.map((o) => (
+              <div key={o.id} className="dept-card">
+                <div className="dept-card-content">
+                  <h4 className="dept-card-title">{o.name}</h4>
+                  <p className="dept-card-desc">{o.position}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="data-source" style={{ marginTop: 'var(--spacing-sm)' }}>Term: June 30, 2025 to June 30, 2028. Office contacts are on the <Link href="/contact">Contact page</Link>.</p>
         </div>
       </section>
 
@@ -55,7 +74,18 @@ export default function GovernmentPage() {
             <p style={{ color: 'var(--color-text-light)' }}>City Councilors serving the people of Marikina</p>
           </div>
 
-          <ComingSoon message="Sangguniang Panlungsod members and their committees will be published once verified from official sources." />
+          {councilDistricts.map((district) => (
+            <div key={district} style={{ marginBottom: 'var(--spacing-md)' }}>
+              <h4>District {district}</h4>
+              <ul style={{ columns: 2, paddingLeft: "1.25rem" }}>
+                {councilors.filter((o) => o.district === district).map((o) => (
+                  <li key={o.id}>{o.name}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+          <p className="data-source">The Liga ng mga Barangay and SK Federation presidents (ex-officio members) and committee chairs are not yet published on the sources we checked.</p>
+          <SourceNote meta={officials.meta as DatasetMeta} />
         </div>
       </section>
 
@@ -202,27 +232,23 @@ export default function GovernmentPage() {
               <i className="bi bi-geo-alt-fill"></i> Barangay Units
             </span>
             <h3 style={{ fontSize: '1.75rem', marginBottom: 'var(--spacing-xs)' }}>Barangays of Marikina</h3>
-            <p style={{ color: 'var(--color-text-light)' }}>16 Barangays serving our community</p>
+            <p style={{ color: 'var(--color-text-light)' }}>16 Barangays serving our community. <Link href="/barangays">See populations, areas and districts</Link></p>
           </div>
 
           <div className="grid grid-4" style={{ gap: 'var(--spacing-sm)' }}>
-            {[
-              'Barangka', 'Calumpang', 'Concepcion Uno', 'Concepcion Dos',
-              'Fortune', 'Industrial Valley', 'Jesus de la Peña', 'Malanday',
-              'Marikina Heights', 'Nangka', 'Parang', 'San Roque',
-              'Santa Elena', 'Santo Niño', 'Tañong', 'Tumana',
-            ].map((name) => (
-              <div key={name} className="barangay-card">
+            {barangays.data.map((b) => (
+              <div key={b.id} className="barangay-card">
                 <div className="barangay-card-header">
                   <i className="bi bi-geo-alt-fill"></i>
-                  <span className="barangay-name">{name}</span>
+                  <span className="barangay-name">{b.name}</span>
                 </div>
                 <div className="barangay-card-body">
-                  <span className="barangay-captain">Contact details coming soon</span>
+                  <span className="barangay-captain">{b.officials ? `Punong Barangay: ${b.officials.punongBarangay}` : 'Officials not yet published'}</span>
                 </div>
               </div>
             ))}
           </div>
+          <SourceNote meta={barangays.meta as DatasetMeta} />
         </div>
       </section>
     </>

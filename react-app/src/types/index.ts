@@ -95,3 +95,83 @@ export interface Dataset<T> {
   meta: DatasetMeta;
   data: T;
 }
+
+// Marikina datasets (react-app/src/data/marikina/*.json)
+export interface CityProfile {
+  name: string;
+  psgc: string;
+  region: string;
+  classification: string;
+  incomeClass: string | null;
+  legislativeDistricts: number;
+  barangayCount: number;
+  landAreaHa: number;
+  landAreaSqKm: number;
+  landAreaBasis: string;
+  population: { year: number; count: number; asOfDate: string; source: string }[];
+  households2020: { households: number; householdPopulation: number; source: string };
+  densityPerHa: { year: number; value: number; source: string }[];
+  annualGrowthRate2015to2020Pct: number;
+  legalBasis: { instrument: string; date?: string; year?: number; subject: string; source: string }[];
+  history: { year: number; date?: string; event: string; source: string }[];
+}
+
+export interface Barangay {
+  id: string;
+  name: string;
+  alsoKnownAs: string | null;
+  district: 'I' | 'II';
+  psgc: string;
+  population: Record<'2010' | '2015' | '2020' | '2024', number>;
+  landAreaHa: number;
+  urbanRural: string | null;
+  creation: { instrument: string; date: string; note: string; source: string } | null;
+  officials: { punongBarangay: string; kagawad: string[] | null; skChairperson: string | null } | null;
+  officePhone: string | null;
+}
+
+export interface ElectedOfficial {
+  id: string;
+  name: string;
+  position: string;
+  body: string;
+  district?: 'I' | 'II';
+  term: { start: string; end: string };
+  image: string | null;
+}
+
+export interface OrdinanceRecord {
+  id: string;
+  number: string;
+  series: number;
+  title: string;
+  approvedDate: string | null;
+  category: string;
+  url: string;
+}
+
+export interface DirectoryGroup {
+  id: string;
+  title: string;
+  entries: { name: string; phones: string[] }[];
+}
+
+export interface DirectoryData {
+  cityHall: { address: string; phone: string; hours: string; email: string };
+  groups: DirectoryGroup[];
+}
+
+export interface CmciRow {
+  year: number;
+  overallRank: number;
+  overallScore: number;
+  pillars: Record<string, { rank: number; score: number } | null>;
+}
+
+export interface StatisticsData {
+  population: { year: number; count: number }[];
+  households: { year: number; households: number }[];
+  cmci: CmciRow[];
+  businessByNature: { years: number[]; rows: { nature: string; counts: number[] }[]; total: number[] };
+  footwearManufacturers: { year: number; value: number | null }[];
+}

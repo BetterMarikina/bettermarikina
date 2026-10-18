@@ -1,5 +1,10 @@
 import Link from 'next/link';
-import ComingSoon from '@/components/ComingSoon';
+import LegislativeList from '@/components/LegislativeList';
+import SourceNote from '@/components/SourceNote';
+import resolutionsData from '@/data/marikina/resolutions.json';
+import type { Dataset, OrdinanceRecord } from '@/types';
+
+const resolutions = resolutionsData as unknown as Dataset<OrdinanceRecord[]>;
 
 export const metadata = {
   title: 'Resolution Framework | BetterMarikina.org',
@@ -73,7 +78,8 @@ export default function ResolutionFrameworkPage() {
       {/* Resolutions List */}
       <section className="section">
         <div className="container">
-          <ComingSoon message="A searchable list of Marikina City resolutions is being prepared." />
+          <LegislativeList items={resolutions.data} noun="resolution" />
+          <SourceNote meta={resolutions.meta} />
           <div className="text-center" style={{ marginTop: 'var(--spacing-lg)' }}>
             <a href="https://fdpp.marikina.gov.ph/city-ordinance" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               <i className="bi bi-box-arrow-up-right"></i> View Official Resolutions on marikina.gov.ph

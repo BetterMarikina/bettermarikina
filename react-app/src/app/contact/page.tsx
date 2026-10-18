@@ -1,7 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import ComingSoon from '@/components/ComingSoon';
+import SourceNote from '@/components/SourceNote';
+import directoryData from '@/data/marikina/directory.json';
+import type { Dataset, DirectoryData } from '@/types';
+
+const directory = directoryData as unknown as Dataset<DirectoryData>;
+const medicalGroups = directory.data.groups.filter((group) => ['health-office', 'health-centers'].includes(group.id));
 
 export default function ContactPage(): JSX.Element {
   return (
@@ -168,7 +173,18 @@ export default function ContactPage(): JSX.Element {
             </div>
             <p>For medical emergencies and hospital inquiries.</p>
           </div>
-          <ComingSoon message="Verified hospital and medical hotlines for Marikina City will be listed here." />
+          {medicalGroups.map((group) => (
+            <div key={group.id} style={{ marginBottom: 'var(--spacing-md)' }}>
+              <h3>{group.title}</h3>
+              <ul style={{ columns: 2, paddingLeft: '1.25rem' }}>
+                {group.entries.map((entry) => (
+                  <li key={entry.name}>{entry.name}: {entry.phones.join(' / ')}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+          <p className="contact-card-note">Private hospitals and DOH-registered facilities are not listed yet. For emergencies call Rescue 161.</p>
+          <SourceNote meta={directory.meta} />
         </div>
       </section>
     </>
