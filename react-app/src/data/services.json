@@ -1,664 +1,334 @@
 {
+  "meta": {
+    "title": "Marikina City services (Citizen's Charter)",
+    "sources": [
+      {
+        "id": "city-charter-2022",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/facts/MARIKINA%202022%20Citizens%20Charter.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Fees, processing time, requirements and office for each service, 2022 edition"
+      }
+    ],
+    "asOf": "2022-12-31",
+    "notes": "Only services read directly from the 2022 Citizen's Charter are listed (12 of the charter's many services); all other services are carry-over (see sprint blockers). Fees stated as \"Based on ...\" are ordinance-based in the charter itself. Processing times are as printed. The 2022 edition may be outdated; newer per-office charters are listed at fdpp.marikina.gov.ph/citizen-charter and were not compared. Staff names printed in the charter are deliberately omitted."
+  },
   "services": [
     {
-      "id": "birth-certificate",
-      "title": "Birth Certificate",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Get a certified copy of birth certificate registered in Marikina",
-      "keywords": ["birth", "certificate", "born", "baby", "civil registry", "lcr", "vital records"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Local Civil Registrar",
-      "url": "../service-details/birth-certificate.html"
-    },
-    {
-      "id": "marriage-certificate",
-      "title": "Marriage Certificate",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Register or request certified true copy of marriage certificate",
-      "keywords": ["marriage", "wedding", "married", "spouse", "civil registry", "kasal", "COM", "certificate of marriage"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Local Civil Registrar",
-      "url": "../service-details/marriage-certificate.html"
-    },
-    {
-      "id": "death-certificate",
-      "title": "Death Certificate",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Register death certificate and obtain burial or transfer permit",
-      "keywords": ["death", "died", "deceased", "obituary", "civil registry", "burial permit", "transfer permit"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Local Civil Registrar",
-      "url": "../service-details/death-certificate.html"
-    },
-    {
-      "id": "barangay-clearance",
-      "title": "Barangay Clearance",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Certificate of residence from your barangay",
-      "keywords": ["barangay", "clearance", "residence", "residency", "brgy"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Barangay Hall",
-      "url": "certificates.html"
-    },
-    {
-      "id": "barangay-id",
-      "title": "Barangay ID",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Official barangay identification card",
-      "keywords": ["barangay", "id", "identification", "brgy"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Barangay Hall",
-      "url": "certificates.html"
-    },
-    {
-      "id": "police-clearance",
-      "title": "Police Clearance",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Police clearance coordination through city office",
-      "keywords": ["police", "clearance", "nbi", "criminal", "record"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "PNP Marikina",
-      "url": "certificates.html"
-    },
-    {
-      "id": "business-permit-new",
-      "title": "Business Permit (New)",
+      "id": "business-new-registration",
+      "title": "New Business Registration",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "description": "Apply for a new mayor's permit to operate a business",
-      "keywords": ["business", "permit", "new", "mayor", "license", "negosyo", "store", "shop"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Business Permits & Licensing Office",
-      "url": "business.html"
+      "description": "Register a new business and get the permit assessed, billed and paid at the Treasury Office.",
+      "keywords": [
+        "business permit",
+        "new business",
+        "registration",
+        "bplo",
+        "mayor's permit"
+      ],
+      "fee": "Based on the Revenue Code of Marikina City (Chapters 4, 5, 6, 11, 10, 13, 26, 30, 33)",
+      "processingTime": "File 15 minutes; pay 15 minutes (walk-in)",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "url": "/services/business",
+      "requirements": [
+        "Zoning clearance (City Planning Office)",
+        "Photo of the establishment showing permanent signboard and sidewalk",
+        "DTI registration (sole proprietorship), SEC registration with Articles and Bylaws (corporation/partnership) or CDA registration (cooperative)",
+        "Valid ID",
+        "Certificate of Compliance",
+        "If representative: authorization from the owner, or Secretary's Certificate for a corporation"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "BPLO, pp. 107-108"
+      },
+      "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
     },
     {
-      "id": "business-permit-renewal",
-      "title": "Business Permit Renewal",
+      "id": "business-renewal",
+      "title": "Renewal of Business Permit",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "description": "Renew your annual business permit",
-      "keywords": ["business", "permit", "renewal", "renew", "annual", "negosyo"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Business Permits & Licensing Office",
-      "url": "business.html"
+      "description": "Renew an existing business permit through the BPLO or online.",
+      "keywords": [
+        "business permit",
+        "renewal",
+        "renew",
+        "bplo"
+      ],
+      "fee": "See Citizen's Charter, p. 109 (not transcribed)",
+      "processingTime": "See Citizen's Charter, p. 109 (not transcribed)",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "url": "/services/business",
+      "requirements": [
+        "Marikina Business Portal compliance",
+        "Financial statement / quarterly VAT returns / monthly percentage tax (photocopies)",
+        "Valid ID (photocopy)",
+        "If representative: authorization from the owner, or Secretary's Certificate for a corporation"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "BPLO, p. 109"
+      },
+      "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
     },
     {
-      "id": "business-closure",
-      "title": "Business Closure",
+      "id": "business-amendments",
+      "title": "Change of Business Ownership",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "description": "File for business closure/termination",
-      "keywords": ["business", "closure", "close", "terminate", "end"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Business Permits & Licensing Office",
-      "url": "business.html"
+      "description": "Amend a business registration to change the owner (single proprietorship or corporation).",
+      "keywords": [
+        "change of ownership",
+        "amendment",
+        "business",
+        "bplo"
+      ],
+      "fee": "Based on the Revenue Code of Marikina City",
+      "processingTime": "15 minutes (filing)",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "url": "/services/business",
+      "requirements": [
+        "Single proprietorship: DTI registration, affidavit of change of ownership, deed of conveyance, original business permit, authorization letter, valid IDs",
+        "Corporation to corporation: SEC amended registration, board resolution, Secretary's Certificate, original business permit, authorization letter, valid IDs",
+        "Public market stalls: goodwill/deed of assignment, market clearance, treasurer's clearance, death certificate and affidavit of agreement (where applicable)"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "BPLO, pp. 110-111"
+      }
     },
     {
-      "id": "sanitary-permit",
-      "title": "Sanitary Permit",
-      "category": "Business, Trade & Investment",
-      "categoryId": "business",
-      "description": "Health and sanitation permit for businesses",
-      "keywords": ["sanitary", "permit", "health", "sanitation", "food", "restaurant"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Health Office",
-      "url": "business.html"
+      "id": "business-tax-payment",
+      "title": "Payment of Business Tax",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "description": "Pay business tax at the Treasury Office using the BIN and the tax billing from the BPLO.",
+      "keywords": [
+        "business tax",
+        "treasury",
+        "payment"
+      ],
+      "fee": "Based on the assessment of the business",
+      "processingTime": "About 3 minutes at the window (30-second queue number)",
+      "office": "City Treasurer's Office, Business Tax Division",
+      "url": "/services/tax-payments",
+      "requirements": [
+        "Business Identification Number (BIN)",
+        "Previous official receipt / tax billing from the BPLO"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Treasury, pp. 90-91"
+      },
+      "onlineUrl": "https://payment.marikina.gov.ph/"
     },
     {
-      "id": "cedula",
+      "id": "community-tax-certificate",
       "title": "Community Tax Certificate (Cedula)",
-      "category": "Business, Trade & Investment",
-      "categoryId": "business",
-      "description": "Obtain cedula for individuals and businesses",
-      "keywords": ["cedula", "community", "tax", "certificate", "ctc"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "business.html"
-    },
-    {
-      "id": "senior-citizen-id",
-      "title": "Senior Citizen ID",
-      "category": "Social Services & Assistance",
-      "categoryId": "social-services",
-      "description": "ID card and benefits for citizens 60 years and above",
-      "keywords": ["senior", "citizen", "elderly", "old", "60", "osca", "discount"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO / OSCA",
-      "url": "social-services.html"
-    },
-    {
-      "id": "pwd-id",
-      "title": "PWD ID & Services",
-      "category": "Social Services & Assistance",
-      "categoryId": "social-services",
-      "description": "ID and benefits for persons with disabilities",
-      "keywords": ["pwd", "disability", "disabled", "handicap", "special", "discount"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO",
-      "url": "social-services.html"
-    },
-    {
-      "id": "financial-assistance",
-      "title": "Financial Assistance",
-      "category": "Social Services & Assistance",
-      "categoryId": "social-services",
-      "description": "Emergency financial aid for qualified residents",
-      "keywords": ["financial", "assistance", "aid", "help", "money", "emergency", "aics"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO",
-      "url": "social-services.html"
-    },
-    {
-      "id": "burial-assistance",
-      "title": "Burial Assistance",
-      "category": "Social Services & Assistance",
-      "categoryId": "social-services",
-      "description": "Financial assistance for burial expenses",
-      "keywords": ["burial", "funeral", "death", "assistance", "aid"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO",
-      "url": "social-services.html"
-    },
-    {
-      "id": "solo-parent-id",
-      "title": "Solo Parent ID",
-      "category": "Social Services & Assistance",
-      "categoryId": "social-services",
-      "description": "ID and benefits for solo parents",
-      "keywords": ["solo", "parent", "single", "mother", "father"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO",
-      "url": "social-services.html"
-    },
-    {
-      "id": "vaccination",
-      "title": "Vaccination Programs",
-      "category": "Health & Wellness",
-      "categoryId": "health",
-      "description": "Free immunization for children and adults",
-      "keywords": ["vaccine", "vaccination", "immunization", "shot", "covid", "flu"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Health Office",
-      "url": "health.html"
-    },
-    {
-      "id": "health-certificate",
-      "title": "Health Certificate",
-      "category": "Health & Wellness",
-      "categoryId": "health",
-      "description": "Medical certificate for employment or business",
-      "keywords": ["health", "certificate", "medical", "employment", "work"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Health Office",
-      "url": "health.html"
-    },
-    {
-      "id": "medical-assistance",
-      "title": "Medical Assistance",
-      "category": "Health & Wellness",
-      "categoryId": "health",
-      "description": "Financial aid for medical expenses and hospitalization",
-      "keywords": ["medical", "assistance", "hospital", "medicine", "health", "sick"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Health Office / CSWDO",
-      "url": "health.html"
-    },
-    {
-      "id": "prenatal-checkup",
-      "title": "Prenatal Checkup",
-      "category": "Health & Wellness",
-      "categoryId": "health",
-      "description": "Free prenatal care for pregnant women",
-      "keywords": ["prenatal", "pregnant", "pregnancy", "baby", "maternal", "checkup"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Health Office",
-      "url": "health.html"
-    },
-    {
-      "id": "real-property-tax",
-      "title": "Real Property Tax Payment",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "description": "Pay annual real property tax (amilyar)",
-      "keywords": ["property", "tax", "real", "amilyar", "land", "house", "lot"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "tax-payments.html"
+      "description": "Get a Community Tax Certificate (cedula) at the Treasury Office.",
+      "keywords": [
+        "cedula",
+        "community tax certificate",
+        "ctc",
+        "treasury"
+      ],
+      "fee": "Based on the taxpayer's income",
+      "processingTime": "About 3 minutes at the window (30-second queue number)",
+      "office": "City Treasurer's Office, Business Tax Division",
+      "url": "/services/tax-payments",
+      "requirements": [
+        "Duly accomplished Community Tax Certificate (CTC) form (from the Treasury Help Desk)"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Treasury, pp. 92-93"
+      }
     },
     {
-      "id": "business-tax",
-      "title": "Business Tax Payment",
+      "id": "professional-tax",
+      "title": "Payment of Professional Tax",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "description": "Pay quarterly or annual business taxes",
-      "keywords": ["business", "tax", "payment", "quarterly", "annual"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "tax-payments.html"
+      "description": "Annual professional tax for persons legally authorized to practice a profession; payable on or before January 31.",
+      "keywords": [
+        "professional tax",
+        "prc",
+        "ibp",
+        "treasury"
+      ],
+      "fee": "PHP 300.00",
+      "processingTime": "About 3 minutes at the window",
+      "office": "City Treasurer's Office, Business Tax Division",
+      "url": "/services/tax-payments",
+      "requirements": [
+        "PRC or IBP identification card",
+        "Previous receipt"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Treasury, p. 93"
+      }
     },
     {
-      "id": "tax-clearance",
-      "title": "Tax Clearance",
+      "id": "rpt-clearance",
+      "title": "Real Property Tax Clearance",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "description": "Certificate of no tax liability",
-      "keywords": ["tax", "clearance", "certificate", "liability"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "tax-payments.html"
+      "description": "Certifies that real property tax payments are complete and up to date, for sale or loan transactions.",
+      "keywords": [
+        "real property tax",
+        "rpt",
+        "tax clearance",
+        "property"
+      ],
+      "fee": "PHP 50.00",
+      "processingTime": "5 minutes",
+      "office": "City Treasurer's Office, Real Property Tax Division (Teller 57)",
+      "url": "/services/tax-payments",
+      "requirements": [
+        "Registered owner: photocopy of the current RPT official receipt and photocopy of a valid ID",
+        "Representative/buyer: photocopy of the current RPT official receipt, authorization letter or SPA from the owner, photocopies of the owner's and representative's valid IDs, and photocopies of the documents to be used in the sale or loan"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Treasury, p. 91"
+      }
     },
     {
-      "id": "agricultural-loan",
-      "title": "Agricultural Loans",
-      "category": "Agriculture & Economic Development",
-      "categoryId": "agriculture",
-      "description": "Low-interest loans for farmers",
-      "keywords": ["agricultural", "loan", "farmer", "farming", "credit", "pautang"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Agriculture Office",
-      "url": "agriculture.html"
+      "id": "police-clearance-fee",
+      "title": "Police Clearance (Payment of Fee)",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "description": "Get an order of payment at the police station, then pay the fee at the Treasury cashier for the police clearance (employment, passport/visa, firearms, change of name, etc.).",
+      "keywords": [
+        "police clearance",
+        "clearance",
+        "npc"
+      ],
+      "fee": "Based on the order of payment",
+      "processingTime": "Order of payment 5 minutes, then payment at the cashier",
+      "office": "Marikina Police Station and Treasury Cashier",
+      "url": "/services/certificates",
+      "requirements": [
+        "Order of payment issued by the Police Station"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Treasury, pp. 99-100"
+      }
     },
     {
-      "id": "crop-insurance",
-      "title": "Crop Insurance",
-      "category": "Agriculture & Economic Development",
-      "categoryId": "agriculture",
-      "description": "Insurance coverage for crop damage",
-      "keywords": ["crop", "insurance", "damage", "calamity", "pcic"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Agriculture Office",
-      "url": "agriculture.html"
-    },
-    {
-      "id": "fertilizer-assistance",
-      "title": "Fertilizer Assistance",
-      "category": "Agriculture & Economic Development",
-      "categoryId": "agriculture",
-      "description": "Free or subsidized fertilizer for registered farmers",
-      "keywords": ["fertilizer", "assistance", "farmer", "farming", "abono"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Agriculture Office",
-      "url": "agriculture.html"
+      "id": "locational-clearance",
+      "title": "Locational Clearance for Building Permit",
+      "category": "Infrastructure & Public Works",
+      "categoryId": "infrastructure",
+      "description": "Required before a building permit; checks that the building conforms with the Comprehensive Land Use Plan and zoning ordinance.",
+      "keywords": [
+        "locational clearance",
+        "zoning",
+        "building permit",
+        "planning"
+      ],
+      "fee": "Based on the order of payment (computed by the Planning Office; paid at the Treasury cashier)",
+      "processingTime": "Simple transactions 5 days; highly technical transactions 20 days",
+      "office": "City Planning and Development Office",
+      "url": "/services/infrastructure",
+      "requirements": [
+        "2 sets of complete plans (architectural, structural, electrical, plumbing)",
+        "Barangay clearance for construction",
+        "Lot plan signed and sealed by a geodetic engineer (2 sets)",
+        "Bill of materials signed and sealed by a licensed engineer/architect",
+        "Proof of ownership (certified true copy of the latest title, tax declaration of land and improvement)",
+        "Contract of lease (if renting)",
+        "Affidavit of undertaking",
+        "Notarized authorization letter or Secretary's Certificate for a representative",
+        "Notarized consent of immediate neighbors if needed",
+        "Other clearances under the 2005 National Building Code where necessary"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "City Planning and Development Office, p. 134; fees p. 102-103"
+      }
     },
     {
       "id": "building-permit",
-      "title": "Building Permit",
+      "title": "Building Permit and Ancillary Permits",
       "category": "Infrastructure & Public Works",
       "categoryId": "infrastructure",
-      "description": "Permit for new construction or renovation",
-      "keywords": ["building", "permit", "construction", "house", "renovation", "build"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Engineering Office",
-      "url": "infrastructure.html"
+      "description": "Processing and issuance of building and ancillary permits under the National Building Code (PD 1096).",
+      "keywords": [
+        "building permit",
+        "construction",
+        "engineering",
+        "building official"
+      ],
+      "fee": "Based on the Philippine Electrical Code, Mechanical Code and National Building Code fee schedules",
+      "processingTime": "1 day and 3 hours in total (as stated in the charter)",
+      "office": "Office of the Building Official",
+      "url": "/services/infrastructure",
+      "requirements": [
+        "TCT, tax declaration, tax receipt, bill of materials, specifications, CSHP certificate from DOLE, locational clearance",
+        "Signed and sealed construction plans (architectural, structural, lot plan, electrical, sanitary, mechanical)",
+        "Other government agency clearances as required"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Office of the Building Official, p. 139"
+      }
     },
     {
-      "id": "occupancy-permit",
-      "title": "Occupancy Permit",
-      "category": "Infrastructure & Public Works",
-      "categoryId": "infrastructure",
-      "description": "Certificate of completion for new buildings",
-      "keywords": ["occupancy", "permit", "completion", "building", "certificate"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Engineering Office",
-      "url": "infrastructure.html"
+      "id": "health-sanitation-fees",
+      "title": "Sanitation and Health Certificate Fees",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "description": "Pay sanitation and health certificate fees at the Treasury cashier after an order of payment from the City Health Office.",
+      "keywords": [
+        "health certificate",
+        "sanitary permit",
+        "sanitation",
+        "health office"
+      ],
+      "fee": "Based on the order of payment",
+      "processingTime": "Order of payment 5 minutes, then payment at the cashier",
+      "office": "City Health Office and Treasury Cashier",
+      "url": "/services/health",
+      "requirements": [
+        "Order of payment issued by the Health Office"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "Treasury, p. 104"
+      }
     },
     {
-      "id": "road-maintenance",
-      "title": "Road Maintenance Request",
-      "category": "Infrastructure & Public Works",
-      "categoryId": "infrastructure",
-      "description": "Report road damage or request repairs",
-      "keywords": ["road", "maintenance", "repair", "pothole", "damage", "street"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Engineering Office",
-      "url": "infrastructure.html"
-    },
-    {
-      "id": "scholarship",
-      "title": "Scholarship Programs",
-      "category": "Education & Scholarship",
-      "categoryId": "education",
-      "description": "Financial assistance for students",
-      "keywords": ["scholarship", "student", "education", "school", "college", "tuition"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Mayor's Office",
-      "url": "education.html"
-    },
-    {
-      "id": "student-assistance",
-      "title": "Student Assistance",
-      "category": "Education & Scholarship",
-      "categoryId": "education",
-      "description": "Educational grants and allowances",
-      "keywords": ["student", "assistance", "education", "allowance", "grant"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO",
-      "url": "education.html"
-    },
-    {
-      "id": "emergency-response",
-      "title": "Emergency Response",
-      "category": "Public Safety & Security",
-      "categoryId": "public-safety",
-      "description": "24/7 emergency assistance and rescue",
-      "keywords": ["emergency", "response", "rescue", "911", "help", "disaster"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CDRRMO",
-      "url": "public-safety.html"
-    },
-    {
-      "id": "disaster-preparedness",
-      "title": "Disaster Preparedness",
-      "category": "Public Safety & Security",
-      "categoryId": "public-safety",
-      "description": "Training and resources for disaster readiness",
-      "keywords": ["disaster", "preparedness", "training", "evacuation", "calamity"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CDRRMO",
-      "url": "public-safety.html"
-    },
-    {
-      "id": "environmental-clearance",
-      "title": "Environmental Clearance",
-      "category": "Environment & Natural Resources",
-      "categoryId": "environment",
-      "description": "Environmental compliance certificate for projects",
-      "keywords": ["environmental", "clearance", "ecc", "compliance", "permit"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Environment Office",
-      "url": "environment.html"
-    },
-    {
-      "id": "tree-cutting-permit",
-      "title": "Tree Cutting Permit",
-      "category": "Environment & Natural Resources",
-      "categoryId": "environment",
-      "description": "Permit to cut or trim trees",
-      "keywords": ["tree", "cutting", "permit", "trim", "remove"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Environment Office",
-      "url": "environment.html"
-    },
-    {
-      "id": "mswdo-services",
-      "title": "CSWDO Services",
-      "category": "Social Services & Assistance",
-      "categoryId": "social-services",
-      "description": "Social case studies, indigency certificates, AICS, PWD and senior citizen assistance",
-      "keywords": ["CSWDO", "social welfare", "indigency", "certificate", "AICS", "PWD", "senior citizen", "assistance", "social worker", "welfare"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "CSWDO",
-      "url": "../service-details/mswdo-services.html"
-    },
-    {
-      "id": "waste-management",
-      "title": "Waste Management Services",
-      "category": "Environment & Natural Resources",
-      "categoryId": "environment",
-      "description": "Garbage collection and disposal services",
-      "keywords": ["waste", "garbage", "trash", "collection", "disposal", "basura"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Environment Office",
-      "url": "environment.html"
-    },
-    {
-      "id": "business-permits-licensing",
-      "title": "Business Permits & Licensing Office",
-      "category": "Business, Trade & Investment",
-      "categoryId": "business",
-      "description": "New permits, renewals, Mayor's clearance, and other business permits",
-      "keywords": ["BPLS", "business permit", "license", "mayor clearance", "renewal", "new business"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Mayor's Office - BPLS",
-      "url": "../service-details/business-permits-licensing.html"
-    },
-    {
-      "id": "tricycle-franchising",
-      "title": "Tricycle Franchising & Records",
-      "category": "Business, Trade & Investment",
-      "categoryId": "business",
-      "description": "Apply for tricycle franchise (MTOF) and request records",
-      "keywords": ["tricycle", "franchise", "MTOF", "pedicab", "toda", "driver", "operator"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "BPLS / SBO",
-      "url": "../service-details/tricycle-franchising.html"
-    },
-    {
-      "id": "municipal-treasurer",
-      "title": "City Treasurer's Office",
-      "category": "Taxation & Payments",
-      "categoryId": "tax-payments",
-      "description": "Tax collection, cedula, clearances, and payment services",
-      "keywords": ["treasurer", "MTO", "tax", "payment", "cedula", "clearance", "collection"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "../service-details/municipal-treasurer.html"
-    },
-    {
-      "id": "municipal-budget",
-      "title": "City Budget Office",
-      "category": "Taxation & Payments",
-      "categoryId": "tax-payments",
-      "description": "Obligation requests, barangay budget review, and SEF budget preparation",
-      "keywords": ["budget", "MBO", "obligation", "appropriation", "SEF", "barangay budget"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Budget Office",
-      "url": "../service-details/municipal-budget.html"
-    },
-    {
-      "id": "municipal-accounting",
-      "title": "City Accounting Office",
-      "category": "Taxation & Payments",
-      "categoryId": "tax-payments",
-      "description": "Pre-audit of disbursements, payroll, check issuance, and financial reporting",
-      "keywords": ["accounting", "MACCO", "audit", "payroll", "check", "disbursement", "voucher"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Accounting Office",
-      "url": "../service-details/municipal-accounting.html"
-    },
-    {
-      "id": "property-declaration",
-      "title": "Property Declaration",
-      "category": "Taxation & Payments",
-      "categoryId": "tax-payments",
-      "description": "Declaration of land, building and machineries for tax assessment",
-      "keywords": ["property", "declaration", "assessor", "land", "building", "tax assessment", "real property"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Assessor's Office",
-      "url": "../service-details/property-declaration.html"
-    },
-    {
-      "id": "municipal-assessor",
-      "title": "City Assessor's Office",
-      "category": "Taxation & Payments",
-      "categoryId": "tax-payments",
-      "description": "Property assessment, tax declaration, and land records",
-      "keywords": ["assessor", "property", "assessment", "tax declaration", "land", "appraisal"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Assessor's Office",
-      "url": "../service-details/municipal-assessor.html"
-    },
-    {
-      "id": "civil-registrar",
-      "title": "Local Civil Registrar",
-      "category": "Certificates & Vital Records",
-      "categoryId": "certificates",
-      "description": "Birth, marriage, death certificates and civil registry services",
-      "keywords": ["civil registrar", "LCR", "birth", "marriage", "death", "certificate", "vital records", "CENOMAR"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Local Civil Registrar",
-      "url": "../service-details/civil-registrar.html"
-    },
-    {
-      "id": "municipal-engineering",
-      "title": "City Engineering Office",
-      "category": "Infrastructure & Public Works",
-      "categoryId": "infrastructure",
-      "description": "Building permits, infrastructure projects, and engineering services",
-      "keywords": ["engineering", "MEO", "building permit", "construction", "infrastructure", "road"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Engineering Office",
-      "url": "../service-details/municipal-engineering.html"
-    },
-    {
-      "id": "municipal-planning",
-      "title": "City Planning & Development Office",
-      "category": "Infrastructure & Public Works",
-      "categoryId": "infrastructure",
-      "description": "Zoning, land use, development permits, and planning services",
-      "keywords": ["planning", "MPDO", "zoning", "land use", "development", "locational clearance"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Planning Office",
-      "url": "../service-details/municipal-planning.html"
-    },
-    {
-      "id": "municipal-agriculture",
-      "title": "City Agriculture Office",
-      "category": "Agriculture & Economic Development",
-      "categoryId": "agriculture",
-      "description": "Agricultural assistance, farm registration, and livelihood programs",
-      "keywords": ["agriculture", "MAO", "farmer", "farm", "livestock", "crops", "RSBSA", "livelihood"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Agriculture Office",
-      "url": "../service-details/municipal-agriculture.html"
-    },
-    {
-      "id": "general-services",
-      "title": "General Services Office",
-      "category": "Government Services",
-      "categoryId": "government",
-      "description": "Property management, vehicle maintenance, and general city services",
-      "keywords": ["general services", "MGSO", "property", "vehicle", "maintenance", "supplies"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "General Services Office",
-      "url": "../service-details/general-services.html"
-    },
-    {
-      "id": "human-resource",
-      "title": "Human Resource Management Office",
-      "category": "Government Services",
-      "categoryId": "government",
-      "description": "Employment, personnel records, and HR services",
-      "keywords": ["human resource", "HRMO", "employment", "job", "personnel", "hiring", "application"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "Human Resource Management Office",
-      "url": "../service-details/human-resource-management.html"
-    },
-    {
-      "id": "online-business-billing",
-      "title": "Business Online Billing & Payment",
+      "id": "online-business-registration",
+      "title": "Online Business Registration and Payment",
       "category": "Online Services",
       "categoryId": "online",
-      "description": "View and pay your business tax bills online via the official Marikina City portal",
-      "keywords": ["online", "billing", "payment", "business tax", "marikina", "e-payment", "digital"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "BPLS Office",
-      "url": "https://bplo.marikina.gov.ph/client/index"
-    },
-    {
-      "id": "online-new-business",
-      "title": "New Business Application Online",
-      "category": "Online Services",
-      "categoryId": "online",
-      "description": "Apply for a new business permit online via the official Marikina City portal",
-      "keywords": ["online", "new business", "application", "permit", "marikina", "e-services"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "BPLS Office",
-      "url": "https://bplo.marikina.gov.ph/client/index"
-    },
-    {
-      "id": "online-business-renewal",
-      "title": "Business Permit Renewal Online",
-      "category": "Online Services",
-      "categoryId": "online",
-      "description": "Renew your existing business permit online via the official Marikina City portal",
-      "keywords": ["online", "renewal", "business permit", "marikina", "e-services", "renew"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "BPLS Office",
-      "url": "https://bplo.marikina.gov.ph/client/index"
-    },
-    {
-      "id": "online-rpt-billing",
-      "title": "Real Property Tax Online Billing & Payment",
-      "category": "Online Services",
-      "categoryId": "online",
-      "description": "View and pay your real property tax (amilyar) online via the official Marikina City portal",
-      "keywords": ["online", "property tax", "amilyar", "billing", "payment", "marikina", "RPT"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "https://payment.marikina.gov.ph/"
-    },
-    {
-      "id": "online-payment-order",
-      "title": "Online Payment Order",
-      "category": "Online Services",
-      "categoryId": "online",
-      "description": "Process payment orders for various city fees online via the official Marikina City portal",
-      "keywords": ["online", "payment order", "fees", "marikina", "e-payment", "city fees"],
-      "fee": "See Citizen's Charter",
-      "processingTime": "Varies",
-      "office": "City Treasurer's Office",
-      "url": "https://payment.marikina.gov.ph/"
+      "description": "Register and pay business fees online through the city's BPLO portal and online payment site.",
+      "keywords": [
+        "online",
+        "business registration",
+        "payment",
+        "bplo portal"
+      ],
+      "fee": "Based on the Revenue Code of Marikina City",
+      "processingTime": "15 minutes (as stated in the charter)",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "url": "/services/online",
+      "requirements": [
+        "Register on the BPLO portal (https://bplo.marikina.gov.ph/client/index)",
+        "Pay through https://payment.marikina.gov.ph/"
+      ],
+      "charter": {
+        "edition": "2022 edition",
+        "ref": "BPLO, p. 108"
+      },
+      "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
     }
   ]
 }
