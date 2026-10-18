@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['bettersolano.org'],
+    domains: ['bettermarikina.org'],
   },
   // Preserve existing URL structure
   async rewrites() {

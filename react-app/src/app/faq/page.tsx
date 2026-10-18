@@ -25,7 +25,7 @@ export default function FAQPage() {
           <div className="page-header-content">
             <span className="page-header-badge"><i className="bi bi-question-circle-fill"></i> FAQ</span>
             <h1>{t('faq-title') || 'Frequently Asked Questions'}</h1>
-            <p className="page-header-desc">{t('faq-subtitle') || 'Find answers to common questions about municipal services'}</p>
+            <p className="page-header-desc">{t('faq-subtitle') || 'Find answers to common questions about city services'}</p>
           </div>
         </div>
       </section>
@@ -41,15 +41,15 @@ export default function FAQPage() {
               </div>
               <div className="faq-list">
                 <details className="faq-accordion">
-                  <summary>What are the office hours of the Municipal Hall?</summary>
+                  <summary>What are the office hours of the City Hall?</summary>
                   <div className="faq-answer">
-                    <p>The Municipal Hall is open Monday to Friday, 8:00 AM to 5:00 PM, with a lunch break from 12:00 PM to 1:00 PM. We are closed on weekends and national/local holidays.</p>
+                    <p>The City Hall is open Monday to Friday, 8:00 AM to 5:00 PM, with a lunch break from 12:00 PM to 1:00 PM. We are closed on weekends and national/local holidays.</p>
                   </div>
                 </details>
                 <details className="faq-accordion">
-                  <summary>How can I contact a specific municipal office?</summary>
+                  <summary>How can I contact a specific city office?</summary>
                   <div className="faq-answer">
-                    <p>Visit our <Link href="/government">Government Directory</Link> page to find contact information for all municipal offices and department heads.</p>
+                    <p>Visit our <Link href="/government">Government Directory</Link> page to find contact information for all city offices and department heads.</p>
                   </div>
                 </details>
                 <details className="faq-accordion">
@@ -71,7 +71,7 @@ export default function FAQPage() {
                 <details className="faq-accordion">
                   <summary>How long does it take to get a birth certificate?</summary>
                   <div className="faq-answer">
-                    <p>For birth certificates registered in Solano, it typically takes 15-30 minutes while you wait, provided the record is readily available.</p>
+                    <p>Processing time depends on the Local Civil Registry and whether the record is readily available. Check the <a href="https://fdpp.marikina.gov.ph/citizen-charter" target="_blank" rel="noopener noreferrer">Marikina City Citizen&apos;s Charter</a> for official processing times.</p>
                   </div>
                 </details>
                 <details className="faq-accordion">
@@ -108,7 +108,7 @@ export default function FAQPage() {
                   </div>
                 </details>
                 <details className="faq-accordion">
-                  <summary>What do I need to start a new business in Solano?</summary>
+                  <summary>What do I need to start a new business in Marikina?</summary>
                   <div className="faq-answer">
                     <p>To start a new business, you&apos;ll need:</p>
                     <ul>
@@ -134,13 +134,13 @@ export default function FAQPage() {
                 <details className="faq-accordion">
                   <summary>What payment methods are accepted?</summary>
                   <div className="faq-answer">
-                    <p>Currently, we accept cash payments at the Municipal Treasurer&apos;s Office. We are working on implementing online payment options for taxes and fees.</p>
+                    <p>Currently, we accept cash payments at the City Treasurer&apos;s Office. We are working on implementing online payment options for taxes and fees.</p>
                   </div>
                 </details>
                 <details className="faq-accordion">
                   <summary>How can I pay my real property tax?</summary>
                   <div className="faq-answer">
-                    <p>Visit the Municipal Treasurer&apos;s Office at the Municipal Hall with your Tax Declaration or latest Official Receipt. Payment is in cash. Property taxes are due quarterly, but you may pay annually to avail of discounts.</p>
+                    <p>Visit the City Treasurer&apos;s Office at the City Hall with your Tax Declaration or latest Official Receipt. Payment is in cash. Property taxes are due quarterly, but you may pay annually to avail of discounts.</p>
                   </div>
                 </details>
               </div>
@@ -156,7 +156,7 @@ export default function FAQPage() {
                 <details className="faq-accordion">
                   <summary>How do I apply for a Senior Citizen ID?</summary>
                   <div className="faq-answer">
-                    <p>Go to the Municipal Social Welfare and Development Office (MSWDO) with:</p>
+                    <p>Go to the City Social Welfare and Development Office (CSWDO) with:</p>
                     <ul>
                       <li>Birth Certificate or any valid ID showing your age (60 and above)</li>
                       <li>1x1 ID photo</li>
@@ -168,7 +168,7 @@ export default function FAQPage() {
                 <details className="faq-accordion">
                   <summary>What benefits do senior citizens receive?</summary>
                   <div className="faq-answer">
-                    <p>Senior citizens enjoy 20% discount and VAT exemption on purchases (with a minimum purchase amount per establishment), priority lanes, and access to special programs and medical assistance from the municipality.</p>
+                    <p>Senior citizens enjoy 20% discount and VAT exemption on purchases (with a minimum purchase amount per establishment), priority lanes, and access to special programs and medical assistance from the city.</p>
                   </div>
                 </details>
               </div>
@@ -184,13 +184,13 @@ export default function FAQPage() {
                 <details className="faq-accordion">
                   <summary>I found a broken link or error on this website. How do I report it?</summary>
                   <div className="faq-answer">
-                    <p>Thank you for helping us improve! Please send us message at <a href="mailto:volunteer@bettersolano.org">volunteer@bettersolano.org</a> and write &quot;Website Issue&quot; as the subject. Describe the problem and include the page URL if possible.</p>
+                    <p>Thank you for helping us improve! Please open an issue on our <a href="https://github.com/BetterMarikina/bettermarikina/issues" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Describe the problem and include the page URL if possible.</p>
                   </div>
                 </details>
                 <details className="faq-accordion">
                   <summary>Is this website mobile-friendly?</summary>
                   <div className="faq-answer">
-                    <p>Yes! Better Solano is fully responsive and optimized for mobile phones, tablets, and desktop computers.</p>
+                    <p>Yes! BetterMarikina is fully responsive and optimized for mobile phones, tablets, and desktop computers.</p>
                   </div>
                 </details>
               </div>
@@ -200,15 +200,15 @@ export default function FAQPage() {
             <div className="faq-category">
               <div className="faq-category-header">
                 <i className="bi bi-person-badge-fill"></i>
-                <h2>About the Developer</h2>
+                <h2>About BetterMarikina</h2>
               </div>
               <div className="faq-list">
                 <details className="faq-accordion">
-                  <summary>Who developed Better Solano?</summary>
+                  <summary>Who runs BetterMarikina?</summary>
                   <div className="faq-answer">
-                    <p><a href="https://ramonloganjr.com/" target="_blank" rel="noopener noreferrer">Ramon Logan Jr.</a> is the developer behind BetterSolano.org. Based in the United Arab Emirates, he works in IT and practices full-stack development, helping build practical digital solutions in web development, design, cloud services, and cybersecurity. He also started <a href="https://hellopinas.com" target="_blank" rel="noopener noreferrer">HelloPinas.com</a>, a small cloud-based solutions initiative.</p>
-                    <p>Ramon contributes to <a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.ph</a>, a volunteer-driven civic-tech effort focused on improving access to local government information and services in the Philippines. He is also an individual participant of the <a href="https://openjsf.org/" target="_blank" rel="noopener noreferrer">OpenJS Foundation</a>, a nonprofit supporting open-source JavaScript communities worldwide.</p>
-                    <p>Ramon has made the Solano Project open source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, data researcher, designer, content writer, translator, or a concerned citizen of Solano, your participation helps shape the project for all.</p>
+                    <p>BetterMarikina is an independent, volunteer-run civic project. It is not an official website of the Marikina City Government. For official transactions, visit <a href="https://www.marikina.gov.ph/" target="_blank" rel="noopener noreferrer">marikina.gov.ph</a>.</p>
+                    <p>The site is built on <a href="https://github.com/BetterSolano/bettersolano" target="_blank" rel="noopener noreferrer">BetterSolano</a> by <a href="https://ramonloganjr.com/" target="_blank" rel="noopener noreferrer">Ramon Logan Jr.</a>, shared under MIT | CC BY 4.0, and is part of the <a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.ph</a> community of Better LGU portals.</p>
+                    <p>Contributions are welcome from everyone: developers, data researchers, designers, writers, translators, and concerned citizens of Marikina. Get involved on <a href="https://github.com/BetterMarikina/bettermarikina/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
                   </div>
                 </details>
               </div>

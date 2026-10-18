@@ -27,7 +27,7 @@ interface SearchSuggestions {
   suggestions: string[];
 }
 
-const RECENT_SEARCHES_KEY = 'bettersolano_recent_searches';
+const RECENT_SEARCHES_KEY = 'bettermarikina_recent_searches';
 const MAX_RECENT_SEARCHES = 10;
 
 const CURATED_POPULAR = [

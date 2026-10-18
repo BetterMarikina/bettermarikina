@@ -30,7 +30,7 @@ export interface Official {
 }
 
 // Translation types
-export type Language = 'en' | 'fil' | 'ilo';
+export type Language = 'en' | 'fil';
 
 export interface TranslationKeys {
   [key: string]: string;

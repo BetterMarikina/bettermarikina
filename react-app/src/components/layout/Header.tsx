@@ -15,7 +15,7 @@ export default function Header() {
       <div className="container header-inner">
         <div className="logo-container">
           <Link href="/">
-            <img src="/assets/images/logo/better-solano-logo.svg" alt="Better Solano Logo" className="logo-img" />
+            <img src="/assets/images/logo/better-marikina-logo.svg" alt="Better Marikina Logo" className="logo-img" />
           </Link>
         </div>
 
@@ -68,14 +68,6 @@ export default function Header() {
               aria-label="Switch to Filipino"
             >
               FIL
-            </button>
-            <button 
-              type="button" 
-              className={`btn btn-secondary btn-sm lang-btn ${language === 'ilo' ? 'active' : ''}`}
-              onClick={() => setLanguage('ilo')}
-              aria-label="Switch to Ilocano"
-            >
-              ILO
             </button>
           </div>
         </div>

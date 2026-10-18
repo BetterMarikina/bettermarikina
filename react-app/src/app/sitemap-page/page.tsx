@@ -23,7 +23,7 @@ export default function SitemapPage() {
           <div className="page-header-content">
             <span className="page-header-badge"><i className="bi bi-diagram-3-fill"></i> Navigation</span>
             <h1>Sitemap</h1>
-            <p className="page-header-desc">Navigate all pages and services of Better Solano</p>
+            <p className="page-header-desc">Navigate all pages and services of BetterMarikina</p>
           </div>
         </div>
       </section>
@@ -70,11 +70,11 @@ export default function SitemapPage() {
             </div>
           </div>
 
-          {/* Municipal Offices */}
+          {/* City Offices */}
           <div className="sitemap-section-new">
             <div className="sitemap-section-header">
               <span className="sitemap-section-icon"><i className="bi bi-building"></i></span>
-              <h2>Municipal Offices</h2>
+              <h2>City Offices</h2>
             </div>
             <div className="sitemap-links-grid sitemap-links-grid--4col">
               <Link href="/service-details/civil-registrar" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Local Civil Registrar</Link>
@@ -85,12 +85,10 @@ export default function SitemapPage() {
               <Link href="/service-details/municipal-engineering" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Engineering Office</Link>
               <Link href="/service-details/municipal-planning" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Planning Office</Link>
               <Link href="/service-details/municipal-agriculture" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Agriculture Office</Link>
-              <Link href="/service-details/mswdo-services" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> MSWDO</Link>
+              <Link href="/service-details/mswdo-services" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> CSWDO</Link>
               <Link href="/service-details/business-permits-licensing" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> BPLS Office</Link>
               <Link href="/service-details/general-services" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> General Services</Link>
               <Link href="/service-details/human-resource-management" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> HR Management</Link>
-              <Link href="/service-details/seedo-public-market" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> SEEDO Public Market</Link>
-              <Link href="/service-details/seedo-slaughterhouse" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> SEEDO Slaughterhouse</Link>
               <Link href="/service-details/tricycle-franchising" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Tricycle Franchising</Link>
               <Link href="/service-details/property-declaration" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Property Declaration</Link>
             </div>
@@ -116,14 +114,14 @@ export default function SitemapPage() {
             <div className="sitemap-section-header">
               <span className="sitemap-section-icon sitemap-section-icon--online"><i className="bi bi-globe2"></i></span>
               <h2>Online Services</h2>
-              <span className="sitemap-badge">via Filipizen</span>
+              <span className="sitemap-badge">Official City Portal</span>
             </div>
             <div className="sitemap-links-grid">
-              <a href="https://www.filipizen.com/partners/nuevavizcaya_solano/bpls/billing" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Business Billing &amp; Payment</a>
-              <a href="https://www.filipizen.com/partners/nuevavizcaya_solano/bpls/newbusiness" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> New Business Application</a>
-              <a href="https://www.filipizen.com/partners/nuevavizcaya_solano/bpls/renewbusiness" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Business Permit Renewal</a>
-              <a href="https://www.filipizen.com/partners/nuevavizcaya_solano/rptis/billing" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Real Property Tax Payment</a>
-              <a href="https://www.filipizen.com/partners/nuevavizcaya_solano/po/billing" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Online Payment Order</a>
+              <a href="https://bplo.marikina.gov.ph/client/index" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Business Billing &amp; Payment</a>
+              <a href="https://bplo.marikina.gov.ph/client/index" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> New Business Application</a>
+              <a href="https://bplo.marikina.gov.ph/client/index" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Business Permit Renewal</a>
+              <a href="https://payment.marikina.gov.ph/" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Real Property Tax Payment</a>
+              <a href="https://payment.marikina.gov.ph/" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Online Payment Order</a>
             </div>
           </div>
 
@@ -134,9 +132,9 @@ export default function SitemapPage() {
               <h2>External Resources</h2>
             </div>
             <div className="sitemap-links-grid">
-              <a href="https://solano.gov.ph" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Official Solano Website</a>
-              <a href="https://sangguniangbayan.solano.gov.ph/" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Sangguniang Bayan</a>
-              <a href="https://www.facebook.com/OfficialLguSolanoFanpage/" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Facebook Page</a>
+              <a href="https://www.marikina.gov.ph/" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Official Marikina City Website</a>
+              <a href="https://fdpp.marikina.gov.ph/city-ordinance" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> City Ordinances &amp; Resolutions</a>
+              <a href="https://www.facebook.com/MarikinaCityPIO" target="_blank" rel="noopener noreferrer" className="sitemap-link-item sitemap-link-item--external"><i className="bi bi-box-arrow-up-right"></i> Facebook Page</a>
               <Link href="/terms" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Terms of Use</Link>
               <Link href="/privacy" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Privacy Policy</Link>
             </div>

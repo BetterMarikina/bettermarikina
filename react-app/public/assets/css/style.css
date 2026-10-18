@@ -1,4 +1,4 @@
-/* Better Solano - Complete Main Stylesheet */
+/* BetterMarikina - Complete Main Stylesheet */
 :root {
     --color-primary: #0032a0;
     --color-primary-dark: #002170;
@@ -727,6 +727,16 @@ p {
 .info-box small {
     color: var(--color-text-light);
     font-size: .875rem
+}
+
+.coming-soon {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.coming-soon i {
+    display: block
 }
 
 .service-content {
@@ -2218,7 +2228,7 @@ h6 {
 }
 
 .cost-badge::before {
-    content: "Cost to the People of Solano";
+    content: "Cost to the People of Marikina";
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -6332,7 +6342,7 @@ cklist with Icons - Proper Indentation */
 
 .hotlines-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--spacing-sm);
 }
 
@@ -6381,13 +6391,13 @@ cklist with Icons - Proper Indentation */
 /* Hotlines Responsive */
 @media (max-width: 992px) {
     .hotlines-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 @media (max-width: 576px) {
     .hotlines-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .hotlines-title {

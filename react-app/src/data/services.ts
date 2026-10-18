@@ -12,7 +12,7 @@ export const serviceCategories: ServiceCategory[] = [
   { id: 'public-safety', name: 'Public Safety & Security', description: 'Emergency services, disaster preparedness, and community safety programs.', icon: 'bi-shield-fill' },
   { id: 'environment', name: 'Environment & Natural Resources', description: 'Environmental permits, waste management, and conservation programs.', icon: 'bi-tree' },
   { id: 'online', name: 'Online Services', description: 'Digital services available through Filipizen and other online platforms.', icon: 'bi-globe' },
-  { id: 'government', name: 'Government Services', description: 'General municipal services and administrative functions.', icon: 'bi-bank' },
+  { id: 'government', name: 'Government Services', description: 'General city services and administrative functions.', icon: 'bi-bank' },
 ];
 
 // Services data will be imported from JSON
