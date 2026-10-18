@@ -2,3 +2,6 @@
 node_modules/
 dist/
 node_modules
+
+# Raw source downloads (hashes recorded in docs/data/SOURCES.md)
+data-raw/

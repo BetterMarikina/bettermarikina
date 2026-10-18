@@ -74,3 +74,24 @@ export interface Hotline {
   number: string;
   icon: string;
 }
+
+// Sourced dataset envelope (see docs/data/README.md)
+export interface DatasetSource {
+  id: string;
+  tier: 1 | 2 | 3;
+  url: string;
+  retrievedAt: string;
+  covers: string;
+}
+
+export interface DatasetMeta {
+  title: string;
+  sources: DatasetSource[];
+  asOf: string;
+  notes?: string;
+}
+
+export interface Dataset<T> {
+  meta: DatasetMeta;
+  data: T;
+}
