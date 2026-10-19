@@ -17,7 +17,7 @@ Entries marked "2026-10-19 (seed)" were checked while the sprint was being plann
 | `city-forms` | Marikina City – Download Forms | https://www.marikina.gov.ph/download-forms | Application forms | PDF | ⚠️ | 2026-10-19 | Reachable. Not used in Sprint 01. |
 | `fdp-city` | Marikina Full Disclosure Portal | https://fdpp.marikina.gov.ph/full-disclosure | 2020–2026: Annual Budget, APP/SAPP, GAD AR, Bid Results, SRE, SEF, Cash Flow, Trust Fund, LDRRMF, Manpower, Indebtedness, Unliquidated CA, 20% NTA | PDF | ⚠️ | 2026-10-19 | File URLs ARE in the static HTML as data-url attributes: https://fdpp.marikina.gov.ph/file/full_disclosure/<YEAR>_<Document name>.pdf for 2020-2026 (91 files). Most PDFs are image scans with no text layer and could not be read here (no OCR available). See blockers. |
 | `fdp-ordinances` | Marikina City Ordinance/Resolution | https://fdpp.marikina.gov.ph/city-ordinance | Ordinances (and possibly resolutions) | HTML/PDF | ✅ | 2026-10-19 | Static HTML lists 150 ordinance PDFs (2000-2026) with number and title; one item is a resolution. File URL pattern: https://fdpp.marikina.gov.ph/file/ordinance/<ORDINANCE NO. xxx, SERIES OF yyyy>.pdf. No dates on the listing. |
-| `fdp-charter` | Citizen's Charter | https://fdpp.marikina.gov.ph/citizen-charter | Services, requirements, fees, processing times | PDF | ⚠️ | 2026-10-19 | Page lists ~40 per-office charter PDFs at https://fdpp.marikina.gov.ph/file/citizens charter/<office>.pdf. Not downloaded or compared with the 2022 edition (carry-over). |
+| `fdp-charter` | Citizen's Charter | https://fdpp.marikina.gov.ph/citizen-charter | Services, requirements, fees, processing times | PDF | ✅ | 2026-10-19 | Sprint 03: all 40 per-office charters (edition 2024; BPLO 2026) downloaded with a readable text layer; hashes in the manifest. Index of service titles published in services.json (`charterIndex`); fees and times not transcribed. |
 | `fdp-bids` | Bids and Awards | https://fdpp.marikina.gov.ph/bids-and-awards | Procurement notices and awards | HTML/PDF | ⚠️ | 2026-10-19 | Reachable, very little content in static HTML. Bid results are under fdp-city (<YEAR>_Bid Result.pdf), image scans. |
 | `city-bplo` | Business Permits & Licensing | https://bplo.marikina.gov.ph/ | Business permit process, online portal | HTML | ⚠️ | 2026-10-19 | Reachable. Linked from services; no data taken. |
 | `city-payment` | Online Payment | https://payment.marikina.gov.ph/ | Online payment of city fees and taxes | HTML | ⚠️ | 2026-10-19 | Reachable. Link only; no data entered. |
@@ -119,6 +119,47 @@ Record every file downloaded into `data-raw/` here, so others can fetch and chec
 | data-raw/fdp/2026_Annual Budget.pdf | `fdp-city` | https://fdpp.marikina.gov.ph/file/full_disclosure/2026_Annual%20Budget.pdf | 2026-10-19 | `8899b940ebd20558954feed6070aa14bc720f3d63731b176e117fc68cdbdd31c` |
 | data-raw/fdp/2026_Statement Of Indebtedness.pdf | `fdp-city` | https://fdpp.marikina.gov.ph/file/full_disclosure/2026_Statement%20Of%20Indebtedness.pdf | 2026-10-19 | `b46c7874baeef743a5a18688ebedde81080795c73ff48ef5dbd4c462a0de7a08` |
 | data-raw/fdp/2026_Statement of Receipts and Expenditures.pdf | `fdp-city` | https://fdpp.marikina.gov.ph/file/full_disclosure/2026_Statement%20of%20Receipts%20and%20Expenditures.pdf | 2026-10-19 | `8fc4dc3d9d65dbc7945c9dd8bfbb2ddf3ecab89a106ca11c2b5eb90ab29a880f` |
+
+| data-raw/charters/accounting.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/accounting.pdf | 2026-10-19 | `b50e976be549841e591d5289a5833c145d2bfcd80ae2f644f625b27c969ec7bd` |
+| data-raw/charters/assessors.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/assessors.pdf | 2026-10-19 | `8138cf9afaa735b494438328eec9d2b0591ffae8fe5337384bfc52ad5ccdc47c` |
+| data-raw/charters/bfp.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/bfp.pdf | 2026-10-19 | `6600b4240df51042809305bbc83d9be6987edf758b589d30af6394dc802769e1` |
+| data-raw/charters/bplo.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/bplo.pdf | 2026-10-19 | `31fa82493115a5c367447859375e058198f14360df227e31ebe64b8f3fe50a4b` |
+| data-raw/charters/budget.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/budget.pdf | 2026-10-19 | `06ef2ae10e0606cd079991043538c8a7e1f9bb3fc2b72689ff1792279d81e021` |
+| data-raw/charters/building official.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/building%20official.pdf | 2026-10-19 | `0da1f9ba2d93e1dcbcc57d789581abf54452ad4651b357d888a3f7dc25269070` |
+| data-raw/charters/cho.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/cho.pdf | 2026-10-19 | `d78e0eb967bce228c7b9be4300cbc413ec818cae26b6f12891ee9043dac03e67` |
+| data-raw/charters/city jail f.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/city%20jail%20f.pdf | 2026-10-19 | `78f75d118d5d991e2eba87f889397663a59b384ecc59e9acfe9b1f60139dd077` |
+| data-raw/charters/city jail m.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/city%20jail%20m.pdf | 2026-10-19 | `abcbca74c14266a27361452e840762bdbf449f2a3923a1196797114511ea2e1e` |
+| data-raw/charters/city-legal.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/city%20legal.pdf | 2026-10-19 | `457262d5fcd998102f5c803f88e269b4ac8cc5009df0de8bfbced179803587a0` |
+| data-raw/charters/civil registry.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/civil%20registry.pdf | 2026-10-19 | `40a35b296491f2bfc3fcd2476a0f9c8816378906c23f5c3b624f01b2dfe07188` |
+| data-raw/charters/cro.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/cro.pdf | 2026-10-19 | `8f8662acdb4ae50022d156bf7af51d895ac227957a40f11813c456f28bbd7549` |
+| data-raw/charters/cswdo.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/cswdo.pdf | 2026-10-19 | `703d42c60c363ae388dccf26c4648c70292154f9691dc922dcde2423713d009e` |
+| data-raw/charters/drrmo.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/drrmo.pdf | 2026-10-19 | `4cc0cc4d2e628712353c40669261ee5fd20d78e8a63707046e8742daa3b85c66` |
+| data-raw/charters/gad.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/gad.pdf | 2026-10-19 | `8f04935d71bde83ec598607d55369c7a3879935445967b882a712d1d73aab46e` |
+| data-raw/charters/gso.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/gso.pdf | 2026-10-19 | `ae8e95016012cac4df02c7088dee03adc37859cb8a138fe497887d94f76c884a` |
+| data-raw/charters/iaso.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/iaso.pdf | 2026-10-19 | `0d7b33bdb2924c24a367a374de57828103f235b37ba6231653e0778dbf295c6c` |
+| data-raw/charters/library.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/library.pdf | 2026-10-19 | `613b5135ae7ebcea0be0364585b80c556e0e04ed46a855605e1fefb5a6eadd65` |
+| data-raw/charters/lrpeso.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/lrpeso.pdf | 2026-10-19 | `719730a02d66e6f8bcfa271f83a6474898428582b0e6723ecee6d75df051eb56` |
+| data-raw/charters/market.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/market.pdf | 2026-10-19 | `674e1abe3e2ced1609139f239d74a0cb6489fc15e8df130f5bc8b172565038ec` |
+| data-raw/charters/mayors office.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/mayors%20office.pdf | 2026-10-19 | `c4bafcfb831e8e67eeefe7ff4a099ce00d13c2f92ac84a4cac34a012a9cdd390` |
+| data-raw/charters/mis.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/mis.pdf | 2026-10-19 | `02c245064721480ff5b496053df749de3c45404eab322d9fc38f586bd882f01b` |
+| data-raw/charters/msc.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/msc.pdf | 2026-10-19 | `be10635c28cce0145a29eecf5e7dabee8e75100aea4693e4f9e13b2c8bb30376` |
+| data-raw/charters/mso.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/mso.pdf | 2026-10-19 | `b4aadbe8fc8487ae11ceac7a4410f5cc2a912a8de39f8fb51a856974ec0fc32a` |
+| data-raw/charters/office secretary.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/office%20secretary.pdf | 2026-10-19 | `33993f1d67cd65b0bb20890914e32eb52aed93c2ebc811ba1e9936dfa70d8ba0` |
+| data-raw/charters/opss.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/opss.pdf | 2026-10-19 | `3c63ba0f8f42b9d4774b457c133f5f9a81d8967cb4d69526faf1a7acbea5eb01` |
+| data-raw/charters/osca.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/osca.pdf | 2026-10-19 | `bfd100a0e259bf93311dfabbb8931df480c82b1963d0868739d4c5dfb9b373dd` |
+| data-raw/charters/pdo.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/pdo.pdf | 2026-10-19 | `32da0131bcbe6f1980e84f3e0bf1824c72e6d3ff20ea3e3f46bff560fc9c7671` |
+| data-raw/charters/personnel.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/personnel.pdf | 2026-10-19 | `5390eb47cc810712334d6c80f971bd9818db47ee26ad4ee28c6ceeaaf214a33f` |
+| data-raw/charters/pio.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/pio.pdf | 2026-10-19 | `4fd2e4dd4f0682fe09761ca5e8cd1cf858d0cf70f6f35d6f332662e0a5b643aa` |
+| data-raw/charters/planning.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/planning.pdf | 2026-10-19 | `6276f53f2bb12127cf3623d161be2dd3741349e096b4af99c406c1f4a0a41c17` |
+| data-raw/charters/plmar.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/plmar.pdf | 2026-10-19 | `c72596a7b1135b3c464dbaf477d3ddcfa1cdad8b00414408093cd87a95e11204` |
+| data-raw/charters/police.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/police.pdf | 2026-10-19 | `77db7a0099c0e7ec6f5cecc32c44bbe6dbf8896c1815bb4114f797ccdff39ea3` |
+| data-raw/charters/rpa.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/rpa.pdf | 2026-10-19 | `390185820958463395d36f1b3b633002cd0d3012c369615a6b847c9471b84528` |
+| data-raw/charters/srmg.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/srmg.pdf | 2026-10-19 | `a48accd993dfb22805ac7d53ddde03d53e6ec10dd9637ca861f4259603fb1b8b` |
+| data-raw/charters/tourism.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/tourism.pdf | 2026-10-19 | `4c05183cd3035585172c34fb5eff468375ccd1b429d08704d5dc01a617bcadd0` |
+| data-raw/charters/trade.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/trade.pdf | 2026-10-19 | `680ecdb93190d7041d5a08fc5d490e4c3787c24b66621de2dab2705ea215a27f` |
+| data-raw/charters/treasury.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/treasury.pdf | 2026-10-19 | `6dfbfe57656d489442f55b205985c7cbb6535f1bf632eec805fdd2fc4106b8c9` |
+| data-raw/charters/vet.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/vet.pdf | 2026-10-19 | `38adc79851e9090bfb9437d0284226197835d7470071e577b92f497d7583d20a` |
+| data-raw/charters/vice mayor.pdf | `fdp-charter` | https://fdpp.marikina.gov.ph/file/citizens%20charter/vice%20mayor.pdf | 2026-10-19 | `fac4ab5107bd8ea600c612184dab09463ad23f73d9ab725a17237d737e160867` |
 
 ## Discrepancy log
 
