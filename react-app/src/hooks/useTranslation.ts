@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Language, TranslationKeys } from '@/types';
 import { translations } from '@/data/translations';
 
-const STORAGE_KEY = 'bettersolano-lang';
+const STORAGE_KEY = 'bettermarikina-lang';
 
 export function useTranslation() {
   const [language, setLanguageState] = useState<Language>('en');
@@ -12,7 +12,7 @@ export function useTranslation() {
   useEffect(() => {
     // Load saved language preference
     const saved = localStorage.getItem(STORAGE_KEY) as Language | null;
-    if (saved && ['en', 'fil', 'ilo'].includes(saved)) {
+    if (saved && ['en', 'fil'].includes(saved)) {
       setLanguageState(saved);
     }
   }, []);

@@ -1,6 +1,6 @@
-# BetterSolano React
+# BetterMarikina React
 
-React + TypeScript migration of BetterSolano.org using Next.js 14.
+The BetterMarikina.org site, built with Next.js 14, React and TypeScript. Based on BetterSolano.
 
 ## Getting Started
 
@@ -19,7 +19,6 @@ react-app/
 ├── src/
 │   ├── app/              # Next.js App Router pages
 │   ├── components/       # React components
-│   │   ├── home/         # Homepage components
 │   │   └── layout/       # Layout components (Header, Footer, etc.)
 │   ├── data/             # Static data and translations
 │   ├── hooks/            # Custom React hooks

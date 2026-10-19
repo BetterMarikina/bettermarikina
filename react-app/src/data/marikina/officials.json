@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "title": "Marikina City elected officials, 2025-2028",
+    "sources": [
+      {
+        "id": "city-contact",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/contact-us",
+        "retrievedAt": "2026-10-19",
+        "covers": "City Council Directory: Vice Mayor and the 16 councilors by district (current)"
+      },
+      {
+        "id": "city-our-city",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/our-city",
+        "retrievedAt": "2026-10-19",
+        "covers": "Mayor, Vice Mayor and House representatives. Its councilor list is OUT OF DATE and was not used (discrepancy log #4)."
+      },
+      {
+        "id": "wiki-2025-elections",
+        "tier": 3,
+        "url": "https://en.wikipedia.org/wiki/2025_Marikina_local_elections",
+        "retrievedAt": "2026-10-19",
+        "covers": "SECONDARY cross-check only: its 2025 election results list the same 16 councilors as contact-us. Not checked against COMELEC."
+      }
+    ],
+    "asOf": "2026-10-19",
+    "notes": "City Council names come from the city's contact-us page, which agrees with the 2025 election results on Wikipedia (citing GMA/ABS-CBN). They have not been checked against COMELEC certified results; the COMELEC results site could not be read. The older list on the city's own our-city page (Sarmiento, Bernardino, Rommel Acuña, Favis, Levy de Guzman, etc.) is the previous council and is not used. Term is 2025-06-30 to 2028-06-30. The ex-officio council members (Liga ng mga Barangay and SK Federation presidents) and committee chairs are null: not published on the pages checked. No photos are used."
+  },
+  "data": [
+    {
+      "id": "mayor",
+      "name": "Marjorie Ann A. Teodoro",
+      "position": "City Mayor",
+      "body": "Executive",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "vice-mayor",
+      "name": "Del R. De Guzman",
+      "position": "City Vice Mayor",
+      "body": "Sangguniang Panlungsod (presiding officer)",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "rep-d1",
+      "name": "Marcelino R. Teodoro",
+      "position": "Representative, 1st District",
+      "body": "House of Representatives",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "rep-d2",
+      "name": "Romero Federico Quimbo",
+      "position": "Representative, 2nd District",
+      "body": "House of Representatives",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-romina-kate-n-de-guzman",
+      "name": "Romina Kate N. De Guzman",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-celeste-reyes",
+      "name": "Celeste Reyes",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-atty-pat-sicat",
+      "name": "Atty. Pat Sicat",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-samuel-s-ferriol",
+      "name": "Samuel S. Ferriol",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-cloyd-casimiro",
+      "name": "Cloyd Casimiro",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-jojo-banzon",
+      "name": "Jojo Banzon",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-ginny-pioquinto",
+      "name": "Ginny Pioquinto",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d1-carl-eli-f-afica",
+      "name": "Carl Eli F. Afica",
+      "position": "City Councilor, 1st District",
+      "body": "Sangguniang Panlungsod",
+      "district": "I",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-jaren-feliciano",
+      "name": "Jaren Feliciano",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-angelito-r-nunez",
+      "name": "Angelito R. Nuñez",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-ziffred-ancheta",
+      "name": "Ziffred Ancheta",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-ronnie-s-acuna",
+      "name": "Ronnie S. Acuña",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-marife-dayao",
+      "name": "Marife Dayao",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-loreto-f-tolentino-jr",
+      "name": "Loreto F. Tolentino Jr.",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-renato-b-magtubo",
+      "name": "Renato B. Magtubo",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    },
+    {
+      "id": "sp-d2-hilario-punzalan",
+      "name": "Hilario Punzalan",
+      "position": "City Councilor, 2nd District",
+      "body": "Sangguniang Panlungsod",
+      "district": "II",
+      "term": {
+        "start": "2025-06-30",
+        "end": "2028-06-30"
+      },
+      "image": null
+    }
+  ]
+}

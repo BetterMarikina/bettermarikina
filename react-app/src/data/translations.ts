@@ -15,8 +15,8 @@ export const translations: Record<Language, TranslationKeys> = {
     'nav-sitemap': 'Sitemap',
 
     // Hero Section
-    'hero-welcome': 'Welcome to BetterSolano.org',
-    'hero-subtitle': 'Access government services, information, and resources for the people of Solano, Nueva Vizcaya.',
+    'hero-welcome': 'Welcome to BetterMarikina.org',
+    'hero-subtitle': 'Access government services, information, and resources for the people of Marikina City, Metro Manila.',
 
     // Popular Services
     'section-popular': 'Popular Services',
@@ -44,14 +44,14 @@ export const translations: Record<Language, TranslationKeys> = {
     'legislative-resolutions': 'Resolutions',
 
     // Footer
-    'footer-title': 'Better Solano',
-    'footer-desc': 'A service-first information portal for the Municipality of Solano, Nueva Vizcaya.',
+    'footer-title': 'BetterMarikina',
+    'footer-desc': 'A service-first information portal for Marikina City, Metro Manila.',
     'footer-quick-links': 'Quick Links',
     'footer-all-services': 'All Services',
     'footer-officials': 'Officials',
     'footer-contact-us': 'Contact Us',
     'footer-faq': 'FAQ',
-    'footer-copyright': 'Better Solano. All rights reserved.',
+    'footer-copyright': 'BetterMarikina. All rights reserved.',
     'footer-resources': 'Resources',
     'footer-privacy': 'Privacy Policy',
     'footer-terms': 'Terms of Use',
@@ -72,8 +72,8 @@ export const translations: Record<Language, TranslationKeys> = {
     'nav-sitemap': 'Mapa ng Site',
 
     // Hero Section
-    'hero-welcome': 'Maligayang Pagdating sa BetterSolano.org',
-    'hero-subtitle': 'I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Solano, Nueva Vizcaya.',
+    'hero-welcome': 'Maligayang Pagdating sa BetterMarikina.org',
+    'hero-subtitle': 'I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Marikina City, Metro Manila.',
 
     // Popular Services
     'section-popular': 'Mga Sikat na Serbisyo',
@@ -101,75 +101,18 @@ export const translations: Record<Language, TranslationKeys> = {
     'legislative-resolutions': 'Mga Resolusyon',
 
     // Footer
-    'footer-title': 'Better Solano',
-    'footer-desc': 'Isang portal ng impormasyon na inuuna ang serbisyo para sa Munisipalidad ng Solano, Nueva Vizcaya.',
+    'footer-title': 'BetterMarikina',
+    'footer-desc': 'Isang portal ng impormasyon na inuuna ang serbisyo para sa Lungsod ng Marikina, Metro Manila.',
     'footer-quick-links': 'Mabilis na Links',
     'footer-all-services': 'Lahat ng Serbisyo',
     'footer-officials': 'Mga Opisyal',
     'footer-contact-us': 'Makipag-ugnayan sa Amin',
     'footer-faq': 'Mga Madalas Itanong',
-    'footer-copyright': 'Better Solano. Nakalaan ang lahat ng karapatan.',
+    'footer-copyright': 'BetterMarikina. Nakalaan ang lahat ng karapatan.',
     'footer-resources': 'Mga Mapagkukunan',
     'footer-privacy': 'Patakaran sa Privacy',
     'footer-terms': 'Mga Tuntunin ng Paggamit',
     'accessibility-statement': 'Pahayag ng Aksesibilidad',
     'section-contact': 'Impormasyon sa Pakikipag-ugnayan',
-  },
-
-  ilo: {
-    // Navigation - Ilocano
-    'nav-home': 'Pagtaengan',
-    'nav-services': 'Dagiti Serbisio',
-    'nav-government': 'Gobierno',
-    'nav-statistics': 'Estadistika',
-    'nav-legislative': 'Lehislatura',
-    'nav-transparency': 'Transparensiya',
-    'nav-contact': 'Kontaken',
-    'nav-budget': 'Badyet',
-    'nav-sitemap': 'Mapa ti Site',
-
-    // Hero Section
-    'hero-welcome': 'Naragsak nga Isasangbay iti BetterSolano.org',
-    'hero-subtitle': 'Aksesen dagiti serbisio ti gobierno, impormasion, ken dagiti resources para kadagiti umili ti Solano, Nueva Vizcaya.',
-
-    // Popular Services
-    'section-popular': 'Dagiti Popular a Serbisio',
-    'service-certificates': 'Dagiti Sertipiko',
-    'service-certificates-desc': 'Sertipiko ti pannakayanak, kasar, ken patay',
-    'service-business': 'Dagiti Permit ti Negosio',
-    'service-business-desc': 'Baro a permit ken panagrenew',
-    'service-tax': 'Panagbayad ti Buwis',
-    'service-tax-desc': 'Buwis ti sanikua ken negosio',
-    'service-social': 'Serbisio Sosial',
-    'service-social-desc': 'Serbisio para kadagiti senior citizen ken PWD',
-    'service-health': 'Serbisio ti Salun-at',
-    'service-health-desc': 'Tulong medikal ken dagiti programa',
-    'btn-view-all-services': 'Kitaen Amin a Serbisio',
-
-    // Service Categories
-    'cat-agriculture': 'Agrikultura',
-    'cat-infrastructure': 'Imprastraktura',
-    'cat-education': 'Edukasion',
-    'cat-safety': 'Kinatalged ti Publiko',
-    'cat-environment': 'Aglawlaw',
-
-    // Legislative
-    'legislative-ordinances': 'Dagiti Ordinansa',
-    'legislative-resolutions': 'Dagiti Resolusion',
-
-    // Footer
-    'footer-title': 'Better Solano',
-    'footer-desc': 'Maysa a portal ti impormasion a mangipangpangulo ti serbisio para iti Munisipalidad ti Solano, Nueva Vizcaya.',
-    'footer-quick-links': 'Dagiti Napartak a Links',
-    'footer-all-services': 'Amin a Serbisio',
-    'footer-officials': 'Dagiti Opisial',
-    'footer-contact-us': 'Kontaken Kami',
-    'footer-faq': 'Masansan a Maisaludsod',
-    'footer-copyright': 'Better Solano. Amin a karbengan ket naireserbaan.',
-    'footer-resources': 'Dagiti Resources',
-    'footer-privacy': 'Patakaran ti Privacy',
-    'footer-terms': 'Dagiti Kondision ti Panagusar',
-    'accessibility-statement': 'Pahayag ti Aksesibilidad',
-    'section-contact': 'Impormasion ti Panagkontak',
   },
 };

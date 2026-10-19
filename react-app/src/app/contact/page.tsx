@@ -1,8 +1,14 @@
 'use client';
 
 import Link from 'next/link';
+import SourceNote from '@/components/SourceNote';
+import directoryData from '@/data/marikina/directory.json';
+import type { Dataset, DirectoryData } from '@/types';
 
-export default function ContactPage() {
+const directory = directoryData as unknown as Dataset<DirectoryData>;
+const medicalGroups = directory.data.groups.filter((group) => ['health-office', 'health-centers'].includes(group.id));
+
+export default function ContactPage(): JSX.Element {
   return (
     <>
       {/* Breadcrumbs */}
@@ -29,30 +35,30 @@ export default function ContactPage() {
       <section className="section">
         <div className="container">
           <div className="grid grid-3" style={{ gap: 'var(--spacing-md)' }}>
-            <a href="mailto:lgusolanonv@gmail.com" className="contact-card">
+            <a href="mailto:web@marikina.gov.ph" className="contact-card">
               <div className="contact-card-icon"><i className="bi bi-envelope-fill"></i></div>
               <div className="contact-card-content">
                 <h3>Email</h3>
-                <p className="contact-card-value">lgusolanonv@gmail.com</p>
-                <span className="contact-card-note">We&apos;ll respond within 24 hours</span>
+                <p className="contact-card-value">web@marikina.gov.ph</p>
+                <span className="contact-card-note">Marikina City Government</span>
               </div>
             </a>
-            <a href="tel:09175951931" className="contact-card">
-              <div className="contact-card-icon"><i className="bi bi-phone-fill"></i></div>
-              <div className="contact-card-content">
-                <h3>Mobile</h3>
-                <p className="contact-card-value">0917-595-1931</p>
-                <span className="contact-card-note">Mon-Fri: 8:00 AM - 5:00 PM</span>
-              </div>
-            </a>
-            <a href="tel:0788053581" className="contact-card">
+            <a href="tel:0286460462" className="contact-card">
               <div className="contact-card-icon"><i className="bi bi-telephone-fill"></i></div>
               <div className="contact-card-content">
-                <h3>Phone</h3>
-                <p className="contact-card-value">(078) 805-3581</p>
+                <h3>City Hall</h3>
+                <p className="contact-card-value">(02) 8646-0462</p>
                 <span className="contact-card-note">Mon-Fri: 8:00 AM - 5:00 PM</span>
               </div>
             </a>
+            <div className="contact-card">
+              <div className="contact-card-icon"><i className="bi bi-geo-alt-fill"></i></div>
+              <div className="contact-card-content">
+                <h3>Address</h3>
+                <p className="contact-card-value">Marikina City Hall</p>
+                <span className="contact-card-note">Shoe Avenue, Sta. Elena, Marikina City 1800</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -102,62 +108,58 @@ export default function ContactPage() {
             <p>For emergencies and inquiries, contact these numbers anytime.</p>
           </div>
           <div className="hotlines-grid">
-            <a href="tel:09263833744" className="hotline-card">
+            <a href="tel:161" className="hotline-card">
               <i className="bi bi-exclamation-triangle-fill"></i>
-              <span className="hotline-card-label">MDRRMO Solano</span>
-              <span className="hotline-card-number">0926 383 3744</span>
+              <span className="hotline-card-label">Marikina Rescue 161</span>
+              <span className="hotline-card-number">161</span>
             </a>
-            <a href="tel:09274008033" className="hotline-card">
-              <i className="bi bi-shield-fill"></i>
-              <span className="hotline-card-label">PNP Solano</span>
-              <span className="hotline-card-number">0927 400 8033</span>
+            <a href="tel:0286462436" className="hotline-card">
+              <i className="bi bi-telephone-fill"></i>
+              <span className="hotline-card-label">Rescue 161 (Landline)</span>
+              <span className="hotline-card-number">(02) 8646-2436</span>
             </a>
-            <a href="tel:09162840885" className="hotline-card">
-              <i className="bi bi-heart-fill"></i>
-              <span className="hotline-card-label">MSWDO Solano</span>
-              <span className="hotline-card-number">0916 284 0885</span>
+            <a href="tel:09175842168" className="hotline-card">
+              <i className="bi bi-phone-fill"></i>
+              <span className="hotline-card-label">Rescue 161 (Globe)</span>
+              <span className="hotline-card-number">0917 584 2168</span>
             </a>
-            <a href="tel:09054471061" className="hotline-card">
-              <i className="bi bi-broadcast"></i>
-              <span className="hotline-card-label">KABALIKAT Civicom</span>
-              <span className="hotline-card-number">0905 447 1061</span>
+            <a href="tel:09285593341" className="hotline-card">
+              <i className="bi bi-phone-fill"></i>
+              <span className="hotline-card-label">Rescue 161 (Smart)</span>
+              <span className="hotline-card-number">0928 559 3341</span>
             </a>
-            <a href="tel:09358121081" className="hotline-card">
-              <i className="bi bi-lightning-fill"></i>
-              <span className="hotline-card-label">NUVELCO Solano</span>
-              <span className="hotline-card-number">0935 812 1081</span>
-            </a>
-            <a href="tel:09175951931" className="hotline-card">
+            <a href="tel:0286461634" className="hotline-card">
               <i className="bi bi-building-fill"></i>
               <span className="hotline-card-label">Mayor&apos;s Office</span>
-              <span className="hotline-card-number">0917 595 1931</span>
+              <span className="hotline-card-number">(02) 8646-1634</span>
             </a>
-            <a href="tel:09061880868" className="hotline-card">
-              <i className="bi bi-building"></i>
-              <span className="hotline-card-label">DILG Solano</span>
-              <span className="hotline-card-number">0906 188 0868</span>
+            <a href="tel:0286466451" className="hotline-card">
+              <i className="bi bi-megaphone-fill"></i>
+              <span className="hotline-card-label">Public Information Office</span>
+              <span className="hotline-card-number">(02) 8646-6451</span>
             </a>
-            <a href="tel:09171345511" className="hotline-card">
+            <a href="tel:0286460373" className="hotline-card">
+              <i className="bi bi-file-earmark-text-fill"></i>
+              <span className="hotline-card-label">Local Civil Registry</span>
+              <span className="hotline-card-number">(02) 8646-0373</span>
+            </a>
+            <a href="tel:0286829571" className="hotline-card">
+              <i className="bi bi-cash-coin"></i>
+              <span className="hotline-card-label">Treasury Office</span>
+              <span className="hotline-card-number">(02) 8682-9571</span>
+            </a>
+            <a href="tel:0282441800" className="hotline-card">
               <i className="bi bi-shop"></i>
-              <span className="hotline-card-label">SEEDO Public Market</span>
-              <span className="hotline-card-number">0917 134 5511</span>
+              <span className="hotline-card-label">Business Permits (BPLO)</span>
+              <span className="hotline-card-number">(02) 8244-1800</span>
             </a>
-            <a href="tel:09161744979" className="hotline-card">
-              <i className="bi bi-tree-fill"></i>
-              <span className="hotline-card-label">MAGRO Solano</span>
-              <span className="hotline-card-number">0916 174 4979</span>
-            </a>
-            <a href="tel:09171227150" className="hotline-card">
-              <i className="bi bi-cone-striped"></i>
-              <span className="hotline-card-label">PDRRMO N. Vizcaya</span>
-              <span className="hotline-card-number">0917 122 7150</span>
-            </a>
-            <a href="tel:09360620305" className="hotline-card">
-              <i className="bi bi-fire"></i>
-              <span className="hotline-card-label">BFP Solano</span>
-              <span className="hotline-card-number">0936 062 0305</span>
+            <a href="tel:0286591956" className="hotline-card">
+              <i className="bi bi-person-hearts"></i>
+              <span className="hotline-card-label">Senior Citizen Affairs (OSCA)</span>
+              <span className="hotline-card-number">(02) 8659-1956</span>
             </a>
           </div>
+          <p className="contact-card-note">Source: <a href="https://www.marikina.gov.ph/contact-us" target="_blank" rel="noopener noreferrer">marikina.gov.ph/contact-us</a></p>
         </div>
       </section>
 
@@ -171,38 +173,18 @@ export default function ContactPage() {
             </div>
             <p>For medical emergencies and hospital inquiries.</p>
           </div>
-          <div className="hotlines-grid">
-            <a href="tel:09679103054" className="hotline-card hotline-card--medical">
-              <i className="bi bi-hospital"></i>
-              <span className="hotline-card-label">RHU Solano</span>
-              <span className="hotline-card-number">0967 910 3054</span>
-            </a>
-            <a href="tel:09068195569" className="hotline-card hotline-card--medical">
-              <i className="bi bi-truck"></i>
-              <span className="hotline-card-label">R2TMC (Former VRH)</span>
-              <span className="hotline-card-number">0906 819 5569</span>
-            </a>
-            <a href="tel:09208335766" className="hotline-card hotline-card--medical">
-              <i className="bi bi-hospital"></i>
-              <span className="hotline-card-label">PLT Hospital</span>
-              <span className="hotline-card-number">0920 833 5766</span>
-            </a>
-            <a href="tel:09474981746" className="hotline-card hotline-card--medical">
-              <i className="bi bi-hospital"></i>
-              <span className="hotline-card-label">MMG Hospital</span>
-              <span className="hotline-card-number">0947 498 1746</span>
-            </a>
-            <a href="tel:09171080452" className="hotline-card hotline-card--medical">
-              <i className="bi bi-hospital"></i>
-              <span className="hotline-card-label">Salubris Hospital</span>
-              <span className="hotline-card-number">0917 108 0452</span>
-            </a>
-            <a href="tel:09175079950" className="hotline-card hotline-card--medical">
-              <i className="bi bi-plus-circle-fill"></i>
-              <span className="hotline-card-label">Red Cross</span>
-              <span className="hotline-card-number">0917 507 9950</span>
-            </a>
-          </div>
+          {medicalGroups.map((group) => (
+            <div key={group.id} style={{ marginBottom: 'var(--spacing-md)' }}>
+              <h3>{group.title}</h3>
+              <ul style={{ columns: 2, paddingLeft: '1.25rem' }}>
+                {group.entries.map((entry) => (
+                  <li key={entry.name}>{entry.name}: {entry.phones.join(' / ')}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+          <p className="contact-card-note">Private hospitals and DOH-registered facilities are not listed yet. For emergencies call Rescue 161.</p>
+          <SourceNote meta={directory.meta} />
         </div>
       </section>
     </>

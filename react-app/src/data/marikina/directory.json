@@ -1,0 +1,838 @@
+{
+  "meta": {
+    "title": "Marikina City directory: hotlines and offices",
+    "sources": [
+      {
+        "id": "city-contact",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/contact-us",
+        "retrievedAt": "2026-10-19",
+        "covers": "All entries"
+      }
+    ],
+    "asOf": "2026-10-19",
+    "notes": "Copied from the city contact-us page as listed. City Hall main line 8646-0462 (Mon-Fri, 8am-5pm); the page says trunklines 8646 2360-62 are unavailable. Numbers are as printed on the page; spot-check by calling (quarterly). Fortune and Tumana barangay halls have no landline on the page (Fortune lists only a mobile number, omitted here; Parang mobile numbers also omitted). The Marikina Hotel mobile number and school phone numbers are not included (schools belong to Phase 12). Private hospitals and DOH NHFR facilities are not included yet (NHFR blocked)."
+  },
+  "data": {
+    "cityHall": {
+      "address": "Marikina City Hall, Shoe Avenue, Sta. Elena, Marikina City 1800",
+      "phone": "8646-0462",
+      "hours": "Monday to Friday, 8am-5pm",
+      "email": "web@marikina.gov.ph"
+    },
+    "groups": [
+      {
+        "id": "emergency",
+        "title": "Emergency",
+        "entries": [
+          {
+            "name": "Marikina City Rescue 161 (landline)",
+            "phones": [
+              "8-161",
+              "8-646-2436 to 38",
+              "8-646-0427",
+              "7-116-5532"
+            ]
+          },
+          {
+            "name": "Marikina City Rescue 161 (hotline cellphone)",
+            "phones": [
+              "0917-584-2168",
+              "0928-559-3341",
+              "0998-997-0115",
+              "0998-579-6435"
+            ]
+          },
+          {
+            "name": "Radio Room Tactical Operation Center",
+            "phones": [
+              "646-1631"
+            ]
+          },
+          {
+            "name": "Police Admin (DOJ Building Directory)",
+            "phones": [
+              "646-1622",
+              "571-8136"
+            ]
+          },
+          {
+            "name": "BJMP (Bureau of Jail Management and Penology)",
+            "phones": [
+              "646-6483",
+              "942-3299"
+            ]
+          },
+          {
+            "name": "Bureau of Fire Protection",
+            "phones": [
+              "681-0233",
+              "273-9629"
+            ]
+          },
+          {
+            "name": "Office of Public Safety and Security (OPSS)",
+            "phones": [
+              "682-9572",
+              "369-9228"
+            ]
+          },
+          {
+            "name": "PNP Marikina Community Precinct",
+            "phones": [
+              "8405-0091"
+            ]
+          },
+          {
+            "name": "PNP Precinct, Barangka",
+            "phones": [
+              "508-8287"
+            ]
+          },
+          {
+            "name": "PNP Precinct, Concepcion II",
+            "phones": [
+              "942-3618"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fire-stations",
+        "title": "Fire stations",
+        "entries": [
+          {
+            "name": "Malanday",
+            "phones": [
+              "998-7412"
+            ]
+          },
+          {
+            "name": "IVC",
+            "phones": [
+              "477-7003"
+            ]
+          },
+          {
+            "name": "Central",
+            "phones": [
+              "681-0233"
+            ]
+          },
+          {
+            "name": "Nangka",
+            "phones": [
+              "586-4397"
+            ]
+          },
+          {
+            "name": "Concepcion Uno",
+            "phones": [
+              "706-1663"
+            ]
+          },
+          {
+            "name": "Parang",
+            "phones": [
+              "636-2915"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "city-hall",
+        "title": "City Hall offices",
+        "entries": [
+          {
+            "name": "Treasury Office",
+            "phones": [
+              "8682-9571",
+              "8646-1623"
+            ]
+          },
+          {
+            "name": "Mayor's Office",
+            "phones": [
+              "8646-1634"
+            ]
+          },
+          {
+            "name": "Mayor's Office (Admin)",
+            "phones": [
+              "8682-9281"
+            ]
+          },
+          {
+            "name": "MISCC (Management Information System & Call Center)",
+            "phones": [
+              "8646-2731"
+            ]
+          },
+          {
+            "name": "Accounting Office",
+            "phones": [
+              "8682-9282"
+            ]
+          },
+          {
+            "name": "Assessor's Office",
+            "phones": [
+              "8646-0352"
+            ]
+          },
+          {
+            "name": "BPLO (Business Permit and Licensing Office)",
+            "phones": [
+              "8244-1800",
+              "8646-2354"
+            ]
+          },
+          {
+            "name": "Budget Office",
+            "phones": [
+              "8646-6450"
+            ]
+          },
+          {
+            "name": "Centex (Center for Excellence)",
+            "phones": [
+              "682-9280"
+            ]
+          },
+          {
+            "name": "COA (Commission on Audit)",
+            "phones": [
+              "8646-6515"
+            ]
+          },
+          {
+            "name": "CRO (Community Relations Office)",
+            "phones": [
+              "8646-6516 loc. 227"
+            ]
+          },
+          {
+            "name": "GSO (General Services Office)",
+            "phones": [
+              "8646-0462"
+            ]
+          },
+          {
+            "name": "GSO Building & Ground Maintenance Division",
+            "phones": [
+              "8646-0306"
+            ]
+          },
+          {
+            "name": "GSO Records/Inventory Division",
+            "phones": [
+              "8646-2371"
+            ]
+          },
+          {
+            "name": "GSO Procurement Division",
+            "phones": [
+              "8646-6452"
+            ]
+          },
+          {
+            "name": "Gender and Development (GAD) Office",
+            "phones": [
+              "8354-4390"
+            ]
+          },
+          {
+            "name": "MCDA (Marikina City Development Authority, Architectural)",
+            "phones": [
+              "8646-0385"
+            ]
+          },
+          {
+            "name": "City Planning and Development Office / MCTTIPO",
+            "phones": [
+              "8646-1823"
+            ]
+          },
+          {
+            "name": "Local Civil Registry (LCR)",
+            "phones": [
+              "8646-0373"
+            ]
+          },
+          {
+            "name": "Marikina Settlement Office (MSO)",
+            "phones": [
+              "8646-2317"
+            ]
+          },
+          {
+            "name": "Office of Senior Citizen Affairs (OSCA)",
+            "phones": [
+              "8659-1956"
+            ]
+          },
+          {
+            "name": "Personnel Office",
+            "phones": [
+              "8646-0365"
+            ]
+          },
+          {
+            "name": "Public Information Office (PIO)",
+            "phones": [
+              "8646-6451",
+              "8646-2915"
+            ]
+          },
+          {
+            "name": "Legal Office",
+            "phones": [
+              "8646-6517"
+            ]
+          },
+          {
+            "name": "Market Office (Admin)",
+            "phones": [
+              "8646-1996"
+            ]
+          },
+          {
+            "name": "COMELEC Marikina",
+            "phones": [
+              "646-1665"
+            ]
+          },
+          {
+            "name": "DILG Service Hotline",
+            "phones": [
+              "8925-1135",
+              "8925-0343"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "city-council",
+        "title": "City Council",
+        "entries": [
+          {
+            "name": "Office of the Vice Mayor",
+            "phones": [
+              "8646-1632"
+            ]
+          },
+          {
+            "name": "City Council Secretariat",
+            "phones": [
+              "(8)289-89-61"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-action",
+        "title": "Social Action Center",
+        "entries": [
+          {
+            "name": "DSWD",
+            "phones": [
+              "369-4132"
+            ]
+          },
+          {
+            "name": "LRPESO (Labor Relations & Public Employment Service Office)",
+            "phones": [
+              "8687-6220"
+            ]
+          },
+          {
+            "name": "VMO (Volunteers Management Office)",
+            "phones": [
+              "647-4421"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-office",
+        "title": "City Health Office",
+        "entries": [
+          {
+            "name": "Health Office",
+            "phones": [
+              "997-1108",
+              "942-2359"
+            ]
+          },
+          {
+            "name": "Amang Rodriguez Hospital",
+            "phones": [
+              "942-0055"
+            ]
+          },
+          {
+            "name": "Central Supply Section",
+            "phones": [
+              "934-3249"
+            ]
+          },
+          {
+            "name": "Clean Food Laboratory / Laboratory Section",
+            "phones": [
+              "942-0831"
+            ]
+          },
+          {
+            "name": "Eye Center",
+            "phones": [
+              "942-47-06"
+            ]
+          },
+          {
+            "name": "Health Zone and Dental",
+            "phones": [
+              "997-6547"
+            ]
+          },
+          {
+            "name": "Medical Employees Clinic",
+            "phones": [
+              "942-2497"
+            ]
+          },
+          {
+            "name": "POPCOM/Nutrition",
+            "phones": [
+              "997-4130"
+            ]
+          },
+          {
+            "name": "Sanitation Section",
+            "phones": [
+              "942-2359"
+            ]
+          },
+          {
+            "name": "Senior Citizen HLC",
+            "phones": [
+              "948-0979"
+            ]
+          },
+          {
+            "name": "Technical Blood",
+            "phones": [
+              "997-1013"
+            ]
+          },
+          {
+            "name": "THQ (Teen Headquarters)",
+            "phones": [
+              "948-8925"
+            ]
+          },
+          {
+            "name": "Ultrasound / Animal Bite Treatment Center",
+            "phones": [
+              "997-1021"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-centers",
+        "title": "Barangay health centers",
+        "entries": [
+          {
+            "name": "Tumana",
+            "phones": [
+              "586-6219"
+            ]
+          },
+          {
+            "name": "Barangka",
+            "phones": [
+              "622-3772"
+            ]
+          },
+          {
+            "name": "Calumpang",
+            "phones": [
+              "622-4700"
+            ]
+          },
+          {
+            "name": "Concepcion I",
+            "phones": [
+              "622-7527"
+            ]
+          },
+          {
+            "name": "Concepcion II",
+            "phones": [
+              "942-0563"
+            ]
+          },
+          {
+            "name": "Fortune",
+            "phones": [
+              "943-1283"
+            ]
+          },
+          {
+            "name": "IVC",
+            "phones": [
+              "369-8254"
+            ]
+          },
+          {
+            "name": "J. Dela Peña",
+            "phones": [
+              "948-0412"
+            ]
+          },
+          {
+            "name": "Malanday",
+            "phones": [
+              "532-2192"
+            ]
+          },
+          {
+            "name": "Marikina Heights",
+            "phones": [
+              "622-8143"
+            ]
+          },
+          {
+            "name": "Nangka",
+            "phones": [
+              "586-4836"
+            ]
+          },
+          {
+            "name": "Parang",
+            "phones": [
+              "624-4372"
+            ]
+          },
+          {
+            "name": "San Roque",
+            "phones": [
+              "532-2233"
+            ]
+          },
+          {
+            "name": "Sta. Elena",
+            "phones": [
+              "532-2230"
+            ]
+          },
+          {
+            "name": "Sto. Niño",
+            "phones": [
+              "942-0083"
+            ]
+          },
+          {
+            "name": "Tañong",
+            "phones": [
+              "577-1174"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "engineering",
+        "title": "Engineering and public works",
+        "entries": [
+          {
+            "name": "APCO / CVO (City Veterinary Office)",
+            "phones": [
+              "475-4719"
+            ]
+          },
+          {
+            "name": "CTMDO (City Transportation Management and Development Office)",
+            "phones": [
+              "948-1208"
+            ]
+          },
+          {
+            "name": "CEMO (City Environmental Management Office)",
+            "phones": [
+              "8658-7849"
+            ]
+          },
+          {
+            "name": "GSO Central Warehouse",
+            "phones": [
+              "948-1207"
+            ]
+          },
+          {
+            "name": "Engineering",
+            "phones": [
+              "8948-1201",
+              "948-1202"
+            ]
+          },
+          {
+            "name": "SRMG (School Repair and Maintenance Group)",
+            "phones": [
+              "8876-7558"
+            ]
+          },
+          {
+            "name": "Fabrication",
+            "phones": [
+              "948-1203"
+            ]
+          },
+          {
+            "name": "Parks Development Office",
+            "phones": [
+              "8687-6758"
+            ]
+          },
+          {
+            "name": "Motorpool",
+            "phones": [
+              "948-1209"
+            ]
+          },
+          {
+            "name": "TEU (Traffic Engineering Unit)",
+            "phones": [
+              "948-1210"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "facilities",
+        "title": "City facilities",
+        "entries": [
+          {
+            "name": "Marikina Sports Park (Admin)",
+            "phones": [
+              "646-1635"
+            ]
+          },
+          {
+            "name": "Marikina Sports Park (Booking)",
+            "phones": [
+              "682-9573"
+            ]
+          },
+          {
+            "name": "Bikeways Office",
+            "phones": [
+              "369-5508"
+            ]
+          },
+          {
+            "name": "Marikina Livelihood",
+            "phones": [
+              "703-1661"
+            ]
+          },
+          {
+            "name": "Local Economic and Investment Promotions Office",
+            "phones": [
+              "8367-8892"
+            ]
+          },
+          {
+            "name": "Marikina River Park (Admin)",
+            "phones": [
+              "8541-7461"
+            ]
+          },
+          {
+            "name": "Health Lifestyle",
+            "phones": [
+              "998-1181"
+            ]
+          },
+          {
+            "name": "Youth Camp",
+            "phones": [
+              "369-5508",
+              "569-5508"
+            ]
+          },
+          {
+            "name": "Teatro Marikina",
+            "phones": [
+              "647-3360"
+            ]
+          },
+          {
+            "name": "Sentrong Pangkultura",
+            "phones": [
+              "646-1823"
+            ]
+          },
+          {
+            "name": "City Library (Admin)",
+            "phones": [
+              "7004-8005"
+            ]
+          },
+          {
+            "name": "City Library (Library)",
+            "phones": [
+              "7005-8006"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "education-offices",
+        "title": "Education offices",
+        "entries": [
+          {
+            "name": "Marikina Polytechnic College",
+            "phones": [
+              "646-0598",
+              "646-1614"
+            ]
+          },
+          {
+            "name": "Pamantasan ng Lungsod ng Marikina",
+            "phones": [
+              "369-8650",
+              "975-5726"
+            ]
+          },
+          {
+            "name": "DepEd District I",
+            "phones": [
+              "646-1724"
+            ]
+          },
+          {
+            "name": "DepEd District II",
+            "phones": [
+              "942-0023"
+            ]
+          },
+          {
+            "name": "DepEd Supply Division",
+            "phones": [
+              "682-0592"
+            ]
+          },
+          {
+            "name": "DepEd Supervisor",
+            "phones": [
+              "682-3989"
+            ]
+          },
+          {
+            "name": "Schools Division Superintendent",
+            "phones": [
+              "682-2472"
+            ]
+          },
+          {
+            "name": "DepEd Records Division",
+            "phones": [
+              "646-0544"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "barangay-halls",
+        "title": "Barangay halls (office landlines)",
+        "entries": [
+          {
+            "name": "Barangka Barangay Hall",
+            "phones": [
+              "8948-1274"
+            ]
+          },
+          {
+            "name": "Kalumpang Barangay Hall",
+            "phones": [
+              "8647-7205"
+            ]
+          },
+          {
+            "name": "Industrial Valley Complex Barangay Hall",
+            "phones": [
+              "8523-5306"
+            ]
+          },
+          {
+            "name": "Jesus dela Peña Barangay Hall",
+            "phones": [
+              "8948-6963"
+            ]
+          },
+          {
+            "name": "Malanday Barangay Hall",
+            "phones": [
+              "8941-6106"
+            ]
+          },
+          {
+            "name": "San Roque Barangay Hall",
+            "phones": [
+              "8646-8479"
+            ]
+          },
+          {
+            "name": "Santa Elena Barangay Hall",
+            "phones": [
+              "8646-1877",
+              "8647-8954"
+            ]
+          },
+          {
+            "name": "Santo Niño Barangay Hall",
+            "phones": [
+              "8543-9703"
+            ]
+          },
+          {
+            "name": "Tañong Barangay Hall",
+            "phones": [
+              "8525-3037"
+            ]
+          },
+          {
+            "name": "Concepcion Uno Barangay Hall",
+            "phones": [
+              "8942-0419"
+            ]
+          },
+          {
+            "name": "Concepcion Dos Barangay Hall",
+            "phones": [
+              "8942-0561"
+            ]
+          },
+          {
+            "name": "Marikina Heights Barangay Hall",
+            "phones": [
+              "8942-0527"
+            ]
+          },
+          {
+            "name": "Nangka Barangay Hall",
+            "phones": [
+              "7934-8626"
+            ]
+          },
+          {
+            "name": "Parang Barangay Hall",
+            "phones": [
+              "8570-1643"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

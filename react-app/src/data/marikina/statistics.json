@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "Marikina City statistics and indices",
+    "sources": [
+      {
+        "id": "city-facts",
+        "tier": 1,
+        "url": "https://www.marikina.gov.ph/facts-and-figures",
+        "retrievedAt": "2026-10-19",
+        "covers": "BPLO statistical reports: registered business 2021-2025, footwear 1991-2025 (PDFs under /facts/); 2023 Facts and Figures for the population series"
+      },
+      {
+        "id": "dti-cmci",
+        "tier": 2,
+        "url": "https://cmci.dti.gov.ph/rankings-data.php?unit=Highly+Urbanized+Cities",
+        "retrievedAt": "2026-10-19",
+        "covers": "CMCI rank and pillar scores for Highly Urbanized Cities, 2015-2024"
+      }
+    ],
+    "asOf": "2025-12-31",
+    "notes": "Business counts are BPLO paid/registered establishments as of Dec. 31 of each year (2025 total 19,264); the nature-of-business table is read from the BPLO 2021-2025 report text, with each year summing to the report total and the 2025 column matching the report's 2025 chart. Footwear manufacturers: only 2011-2025 are included, read from single-line chart labels of the BPLO footwear report. The 1991-2010 values are omitted because the chart labels in the extracted text cannot be matched to years with confidence (blocker). Not included: business by barangay (chart labels not readable from the text), employee counts, ownership type, 2026 Q2 report, PSA small-area poverty estimates (psa.gov.ph blocked). CMCI: highly-urbanized-city ranks (not all cities) from the DTI portal; Resiliency starts 2017 and Innovation 2022 in the portal tables."
+  },
+  "data": {
+    "population": [
+      {
+        "year": 2010,
+        "count": 424150
+      },
+      {
+        "year": 2015,
+        "count": 450741
+      },
+      {
+        "year": 2020,
+        "count": 456059
+      },
+      {
+        "year": 2024,
+        "count": 471323
+      }
+    ],
+    "households": [
+      {
+        "year": 2020,
+        "households": 104415
+      }
+    ],
+    "cmci": [
+      {
+        "year": 2024,
+        "overallRank": 31,
+        "overallScore": 34.7844,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 19,
+            "score": 3.9761
+          },
+          "governmentEfficiency": {
+            "rank": 32,
+            "score": 8.3097
+          },
+          "infrastructure": {
+            "rank": 27,
+            "score": 4.4433
+          },
+          "resiliency": {
+            "rank": 28,
+            "score": 11.3768
+          },
+          "innovation": {
+            "rank": 28,
+            "score": 6.6785
+          }
+        }
+      },
+      {
+        "year": 2023,
+        "overallRank": 23,
+        "overallScore": 36.6775,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 26,
+            "score": 3.6077
+          },
+          "governmentEfficiency": {
+            "rank": 19,
+            "score": 10.1265
+          },
+          "infrastructure": {
+            "rank": 23,
+            "score": 4.5201
+          },
+          "resiliency": {
+            "rank": 25,
+            "score": 11.5079
+          },
+          "innovation": {
+            "rank": 27,
+            "score": 6.9153
+          }
+        }
+      },
+      {
+        "year": 2022,
+        "overallRank": 22,
+        "overallScore": 37.6813,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 21,
+            "score": 5.0984
+          },
+          "governmentEfficiency": {
+            "rank": 13,
+            "score": 10.7409
+          },
+          "infrastructure": {
+            "rank": 29,
+            "score": 3.8106
+          },
+          "resiliency": {
+            "rank": 26,
+            "score": 11.5538
+          },
+          "innovation": {
+            "rank": 25,
+            "score": 6.4776
+          }
+        }
+      },
+      {
+        "year": 2021,
+        "overallRank": 30,
+        "overallScore": 30.5437,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 23,
+            "score": 4.4664
+          },
+          "governmentEfficiency": {
+            "rank": 27,
+            "score": 8.4513
+          },
+          "infrastructure": {
+            "rank": 21,
+            "score": 5.5964
+          },
+          "resiliency": {
+            "rank": 33,
+            "score": 12.0295
+          },
+          "innovation": null
+        }
+      },
+      {
+        "year": 2020,
+        "overallRank": 32,
+        "overallScore": 32.829,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 32,
+            "score": 3.175
+          },
+          "governmentEfficiency": {
+            "rank": 19,
+            "score": 10.2409
+          },
+          "infrastructure": {
+            "rank": 23,
+            "score": 5.3006
+          },
+          "resiliency": {
+            "rank": 31,
+            "score": 14.1125
+          },
+          "innovation": null
+        }
+      },
+      {
+        "year": 2019,
+        "overallRank": 21,
+        "overallScore": 37.7537,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 26,
+            "score": 4.5864
+          },
+          "governmentEfficiency": {
+            "rank": 19,
+            "score": 10.3665
+          },
+          "infrastructure": {
+            "rank": 21,
+            "score": 6.3105
+          },
+          "resiliency": {
+            "rank": 17,
+            "score": 16.4903
+          },
+          "innovation": null
+        }
+      },
+      {
+        "year": 2018,
+        "overallRank": 17,
+        "overallScore": 44.1069,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 24,
+            "score": 4.6251
+          },
+          "governmentEfficiency": {
+            "rank": 12,
+            "score": 13.9589
+          },
+          "infrastructure": {
+            "rank": 21,
+            "score": 7.2884
+          },
+          "resiliency": {
+            "rank": 15,
+            "score": 18.2345
+          },
+          "innovation": null
+        }
+      },
+      {
+        "year": 2017,
+        "overallRank": 24,
+        "overallScore": 39.4154,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 16,
+            "score": 6.0772
+          },
+          "governmentEfficiency": {
+            "rank": 14,
+            "score": 12.2433
+          },
+          "infrastructure": {
+            "rank": 26,
+            "score": 6.322
+          },
+          "resiliency": {
+            "rank": 30,
+            "score": 14.773
+          },
+          "innovation": null
+        }
+      },
+      {
+        "year": 2016,
+        "overallRank": 17,
+        "overallScore": 35.3606,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 19,
+            "score": 9.3124
+          },
+          "governmentEfficiency": {
+            "rank": 10,
+            "score": 16.2906
+          },
+          "infrastructure": {
+            "rank": 19,
+            "score": 9.7575
+          },
+          "resiliency": null,
+          "innovation": null
+        }
+      },
+      {
+        "year": 2015,
+        "overallRank": 20,
+        "overallScore": 37.9577,
+        "pillars": {
+          "economicDynamism": {
+            "rank": 16,
+            "score": 9.6183
+          },
+          "governmentEfficiency": {
+            "rank": 12,
+            "score": 20.4009
+          },
+          "infrastructure": {
+            "rank": 23,
+            "score": 7.9386
+          },
+          "resiliency": null,
+          "innovation": null
+        }
+      }
+    ],
+    "businessByNature": {
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rows": [
+        {
+          "nature": "Franchise Tax (Utilities)",
+          "counts": [
+            37,
+            57,
+            53,
+            66,
+            82
+          ]
+        },
+        {
+          "nature": "Manufacturer",
+          "counts": [
+            355,
+            382,
+            383,
+            361,
+            334
+          ]
+        },
+        {
+          "nature": "Wholesaler",
+          "counts": [
+            250,
+            277,
+            288,
+            298,
+            328
+          ]
+        },
+        {
+          "nature": "Retailer",
+          "counts": [
+            8698,
+            8971,
+            9240,
+            8897,
+            8504
+          ]
+        },
+        {
+          "nature": "Contractor",
+          "counts": [
+            2211,
+            2347,
+            2485,
+            2539,
+            2589
+          ]
+        },
+        {
+          "nature": "Banks & Other Financial Inst.",
+          "counts": [
+            357,
+            363,
+            369,
+            355,
+            362
+          ]
+        },
+        {
+          "nature": "Printer, Publisher",
+          "counts": [
+            22,
+            20,
+            20,
+            21,
+            21
+          ]
+        },
+        {
+          "nature": "Amusement",
+          "counts": [
+            219,
+            224,
+            227,
+            231,
+            229
+          ]
+        },
+        {
+          "nature": "Eatery",
+          "counts": [
+            1258,
+            1488,
+            1599,
+            1624,
+            1581
+          ]
+        },
+        {
+          "nature": "Transportation",
+          "counts": [
+            13,
+            13,
+            15,
+            11,
+            11
+          ]
+        },
+        {
+          "nature": "Property for Lease",
+          "counts": [
+            2989,
+            3012,
+            3061,
+            3098,
+            3095
+          ]
+        },
+        {
+          "nature": "Other Services/Business",
+          "counts": [
+            1769,
+            1830,
+            1954,
+            2034,
+            2128
+          ]
+        }
+      ],
+      "total": [
+        18178,
+        18984,
+        19694,
+        19535,
+        19264
+      ]
+    },
+    "footwearManufacturers": [
+      {
+        "year": 2011,
+        "value": 153
+      },
+      {
+        "year": 2012,
+        "value": 156
+      },
+      {
+        "year": 2013,
+        "value": 181
+      },
+      {
+        "year": 2014,
+        "value": 191
+      },
+      {
+        "year": 2015,
+        "value": 188
+      },
+      {
+        "year": 2016,
+        "value": 178
+      },
+      {
+        "year": 2017,
+        "value": 178
+      },
+      {
+        "year": 2018,
+        "value": 165
+      },
+      {
+        "year": 2019,
+        "value": 176
+      },
+      {
+        "year": 2020,
+        "value": 148
+      },
+      {
+        "year": 2021,
+        "value": 103
+      },
+      {
+        "year": 2022,
+        "value": 124
+      },
+      {
+        "year": 2023,
+        "value": 130
+      },
+      {
+        "year": 2024,
+        "value": 115
+      },
+      {
+        "year": 2025,
+        "value": 108
+      }
+    ]
+  }
+}

@@ -30,10 +30,10 @@ export default function InfoBar() {
               <span className="rate-display">1 USD = ₱ 56.50</span>
             </span>
           </div>
-          <div className="info-bar-item info-bar-weather" aria-label="Current weather in Solano">
+          <div className="info-bar-item info-bar-weather" aria-label="Current weather in Marikina">
             <i className="bi bi-thermometer-half" aria-hidden="true"></i>
-            <span className="weather-location">Solano</span>
-            <span className="weather-temp">29°C</span>
+            <span className="weather-location">Marikina</span>
+            <span className="weather-temp">—</span>
           </div>
           <div className="info-bar-item info-bar-datetime" aria-label="Philippine Date and Time">
             <i className="bi bi-calendar3" aria-hidden="true"></i>

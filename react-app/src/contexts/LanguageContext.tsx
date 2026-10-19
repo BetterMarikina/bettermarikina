@@ -15,8 +15,8 @@ const translations: Record<string, Record<string, string>> = {
     "nav-contact": "Contact",
 
     // Hero Section
-    "hero-welcome": "Welcome to BetterSolano.org",
-    "hero-subtitle": "Access government services, information, and resources for the people of Solano, Nueva Vizcaya.",
+    "hero-welcome": "Welcome to BetterMarikina.org",
+    "hero-subtitle": "Access government services, information, and resources for the people of Marikina City, Metro Manila.",
     "hero-find-service": "Find a Service",
 
     // Popular Services
@@ -37,10 +37,10 @@ const translations: Record<string, Record<string, string>> = {
     "section-updates": "Latest Updates",
     "btn-view-all": "View All",
 
-    // Municipal Leadership
-    "section-leadership": "Municipal Leadership",
-    "title-mayor": "Municipal Mayor",
-    "title-vice-mayor": "Municipal Vice Mayor",
+    // City Leadership
+    "section-leadership": "City Leadership",
+    "title-mayor": "City Mayor",
+    "title-vice-mayor": "City Vice Mayor",
     "btn-view-officials": "View All Officials",
 
     // Contact Section
@@ -50,11 +50,11 @@ const translations: Record<string, Record<string, string>> = {
     "contact-address": "Address",
     "contact-hours": "Mon-Fri: 8:00 AM - 5:00 PM",
     "contact-response": "We'll respond within 24 hours",
-    "contact-municipal-hall": "Municipal Hall",
+    "contact-municipal-hall": "City Hall",
 
     // Services Page
-    "services-title": "Municipal Services Directory",
-    "services-subtitle": "Browse all services offered by the Municipality of Solano",
+    "services-title": "City Services Directory",
+    "services-subtitle": "Browse all services offered by the City of Marikina",
     "life-events-title": "Browse by Life Event",
     "life-events-subtitle": "Find services based on what's happening in your life",
     "life-starting-business": "Starting a Business",
@@ -90,7 +90,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // FAQ Page
     "faq-title": "Frequently Asked Questions",
-    "faq-subtitle": "Find answers to common questions about municipal services",
+    "faq-subtitle": "Find answers to common questions about city services",
     "faq-general": "General Questions",
     "faq-certificates": "Certificates & Documents",
     "faq-business": "Business & Permits",
@@ -111,8 +111,8 @@ const translations: Record<string, Record<string, string>> = {
     "nav-contact": "Makipag-ugnayan",
 
     // Hero Section
-    "hero-welcome": "Maligayang Pagdating sa BetterSolano.org",
-    "hero-subtitle": "I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Solano, Nueva Vizcaya.",
+    "hero-welcome": "Maligayang Pagdating sa BetterMarikina.org",
+    "hero-subtitle": "I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Marikina City, Metro Manila.",
     "hero-find-service": "Maghanap ng Serbisyo",
 
     // Popular Services
@@ -133,8 +133,8 @@ const translations: Record<string, Record<string, string>> = {
     "section-updates": "Pinakabagong Balita",
     "btn-view-all": "Tingnan Lahat",
 
-    // Municipal Leadership
-    "section-leadership": "Pamunuan ng Munisipalidad",
+    // City Leadership
+    "section-leadership": "Pamunuan ng Lungsod",
     "title-mayor": "Punong Bayan",
     "title-vice-mayor": "Bise Punong Bayan",
     "btn-view-officials": "Tingnan Lahat ng Opisyal",
@@ -146,11 +146,11 @@ const translations: Record<string, Record<string, string>> = {
     "contact-address": "Tirahan",
     "contact-hours": "Lunes-Biyernes: 8:00 AM - 5:00 PM",
     "contact-response": "Sasagutin namin sa loob ng 24 na oras",
-    "contact-municipal-hall": "Munisipyo",
+    "contact-municipal-hall": "Bulwagang Panlungsod",
 
     // Services Page
-    "services-title": "Direktoryo ng Serbisyong Munisipal",
-    "services-subtitle": "Tingnan ang lahat ng serbisyong inaalok ng Munisipalidad ng Solano",
+    "services-title": "Direktoryo ng Serbisyong Panlungsod",
+    "services-subtitle": "Tingnan ang lahat ng serbisyong inaalok ng Lungsod ng Marikina",
     "life-events-title": "Maghanap Ayon sa Pangyayari sa Buhay",
     "life-events-subtitle": "Hanapin ang mga serbisyo batay sa nangyayari sa iyong buhay",
     "life-starting-business": "Magsimula ng Negosyo",
@@ -186,7 +186,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // FAQ Page
     "faq-title": "Mga Madalas Itanong",
-    "faq-subtitle": "Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa mga serbisyong munisipal",
+    "faq-subtitle": "Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa mga serbisyong panlungsod",
     "faq-general": "Mga Pangkalahatang Tanong",
     "faq-certificates": "Mga Sertipiko at Dokumento",
     "faq-business": "Negosyo at Permit",
@@ -196,105 +196,9 @@ const translations: Record<string, Record<string, string>> = {
     "faq-still-questions": "May tanong pa ba kayo?",
     "faq-contact-help": "Kung hindi ninyo nakita ang sagot na hinahanap, huwag mag-atubiling makipag-ugnayan sa amin.",
   },
-  ilo: {
-    // Navigation - Ilocano
-    "nav-home": "Pagtaengan",
-    "nav-services": "Dagiti Serbisyo",
-    "nav-government": "Gobierno",
-    "nav-statistics": "Estadistika",
-    "nav-legislative": "Lehislatura",
-    "nav-transparency": "Transparensiya",
-    "nav-contact": "Kontaken",
-
-    // Hero Section
-    "hero-welcome": "Naragsak nga Isasangbay iti BetterSolano.org",
-    "hero-subtitle": "Aksesen dagiti serbisyo ti gobierno, impormasyon, ken dagiti resources para kadagiti umili ti Solano, Nueva Vizcaya.",
-    "hero-find-service": "Agsapul ti Serbisyo",
-
-    // Popular Services
-    "section-popular": "Dagiti Popular a Serbisyo",
-    "service-certificates": "Dagiti Sertipiko",
-    "service-certificates-desc": "Sertipiko ti pannakayanak, kasar, ken patay",
-    "service-business": "Permit ti Negosyo",
-    "service-business-desc": "Baro a permit ken panagrenew",
-    "service-tax": "Panagbayad ti Buwis",
-    "service-tax-desc": "Buwis ti sanikua ken negosyo",
-    "service-social": "Serbisyo Sosyal",
-    "service-social-desc": "Serbisyo para kadagiti senior citizen ken PWD",
-    "service-health": "Serbisyo ti Salun-at",
-    "service-health-desc": "Tulong medikal ken dagiti programa",
-    "btn-view-all-services": "Kitaen Amin a Serbisyo",
-
-    // Latest Updates
-    "section-updates": "Kabarbaro a Damag",
-    "btn-view-all": "Kitaen Amin",
-
-    // Municipal Leadership
-    "section-leadership": "Panguluan ti Munisipalidad",
-    "title-mayor": "Mayor ti Munisipalidad",
-    "title-vice-mayor": "Bise Mayor ti Munisipalidad",
-    "btn-view-officials": "Kitaen Amin nga Opisyal",
-
-    // Contact Section
-    "section-contact": "Impormasyon ti Panagkontak",
-    "contact-phone": "Telepono",
-    "contact-email": "Email",
-    "contact-address": "Pagtaengan",
-    "contact-hours": "Lunes-Biernes: 8:00 AM - 5:00 PM",
-    "contact-response": "Sumungbat kami iti uneg ti 24 nga oras",
-    "contact-municipal-hall": "Municipal Hall",
-
-    // Services Page
-    "services-title": "Direktorio ti Serbisyo ti Munisipalidad",
-    "services-subtitle": "Kitaen amin a serbisyo nga idatag ti Munisipalidad ti Solano",
-    "life-events-title": "Agsapul Segun iti Pasamak iti Biag",
-    "life-events-subtitle": "Biroken dagiti serbisyo segun iti mapasamak iti biagmo",
-    "life-starting-business": "Mangrugi ti Negosyo",
-    "life-getting-married": "Agkasar",
-    "life-having-baby": "Addaan ti Ubing",
-    "life-financial-help": "Kasapulan ti Tulong Pinansyal",
-    "life-senior": "Serbisyo para kadagiti Senior Citizen",
-    "life-pwd": "Tao nga Addaan Kapansanan",
-    "life-building": "Panagbangon/Panagpasayaat ti Balay",
-    "life-trouble": "Adda Problema",
-
-    // Service Categories
-    "cat-certificates": "Dagiti Sertipiko ken Vital Records",
-    "cat-certificates-desc": "Sertipiko ti pannakayanak, patay, kasar, ken dadduma pay a vital records.",
-    "cat-business": "Negosyo ken Kalakalan",
-    "cat-business-desc": "Dagiti permit ti negosyo, lisensya, ken serbisyo ti panagparehistro ti kalakalan.",
-    "cat-social": "Serbisyo Sosyal",
-    "cat-social-desc": "Dagiti programa ti welfare, serbisyo para kadagiti senior citizen, benepisyo ti PWD, ken tulong pinansyal.",
-    "cat-health": "Salun-at ken Wellness",
-    "cat-health-desc": "Dagiti programa ti bakuna, health certificates, ken tulong medikal.",
-    "cat-tax": "Panagbuwis ken Panagbayad",
-    "cat-tax-desc": "Buwis ti sanikua, buwis ti negosyo, panagbayad, ken tax clearance.",
-    "cat-agriculture": "Agrikultura",
-    "cat-agriculture-desc": "Dagiti pautang ti agrikultura, insurance ti mula, tulong ti abono, ken panagsanay.",
-    "cat-infrastructure": "Imprastraktura",
-    "cat-infrastructure-desc": "Dagiti permit ti konstruksyon, dawat ti panagmantener ti kalsada, ken pampubliko a pasilidad.",
-    "cat-education": "Edukasyon ken Iskolarship",
-    "cat-education-desc": "Dagiti programa ti iskolarship, tulong ti estudiante, ken dagiti grant ti edukasyon.",
-    "cat-safety": "Kinatalged ti Publiko",
-    "cat-safety-desc": "Dagiti serbisyo ti emergency, panagisagana ti kalamidad, ken dagiti programa ti kinatalged ti komunidad.",
-    "cat-environment": "Aglawlaw",
-    "cat-environment-desc": "Dagiti permit ti aglawlaw, panagtaripato ti basura, ken dagiti programa ti konserbasyon.",
-
-    // FAQ Page
-    "faq-title": "Masansan a Maisaludsod",
-    "faq-subtitle": "Biruken dagiti sungbat kadagiti gagangay a saludsod maipapan kadagiti serbisyo ti munisipalidad",
-    "faq-general": "Dagiti Gagangay a Saludsod",
-    "faq-certificates": "Dagiti Sertipiko ken Dokumento",
-    "faq-business": "Negosyo ken Permit",
-    "faq-payments": "Panagbayad ken Bayadan",
-    "faq-social": "Serbisyo Sosyal",
-    "faq-technical": "Dagiti Teknikal a Saludsod",
-    "faq-still-questions": "Adda pay saludsodyo?",
-    "faq-contact-help": "No saandayo a nasarakan ti sungbat a sapulenyo, dikay agmuna nga agkontak kadakami.",
-  }
 };
 
-type Language = 'en' | 'fil' | 'ilo';
+type Language = 'en' | 'fil';
 
 interface LanguageContextType {
   language: Language;
@@ -309,15 +213,15 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     // Load saved language from localStorage
-    const savedLang = localStorage.getItem('bettersolano_lang') as Language;
-    if (savedLang && ['en', 'fil', 'ilo'].includes(savedLang)) {
+    const savedLang = localStorage.getItem('bettermarikina_lang') as Language;
+    if (savedLang && ['en', 'fil'].includes(savedLang)) {
       setLanguageState(savedLang);
     }
   }, []);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem('bettersolano_lang', lang);
+    localStorage.setItem('bettermarikina_lang', lang);
   };
 
   const t = (key: string): string => {

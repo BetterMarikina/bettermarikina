@@ -22,7 +22,7 @@ export default function TermsPage() {
           <div className="legal-hero-content">
             <span className="legal-hero-badge"><i className="bi bi-file-earmark-text"></i> Legal</span>
             <h1>Terms of Use</h1>
-            <p>Guidelines for using BetterSolano.org</p>
+            <p>Guidelines for using BetterMarikina.org</p>
           </div>
         </div>
       </section>
@@ -57,8 +57,8 @@ export default function TermsPage() {
             <article className="legal-article">
               <section id="introduction" className="legal-section">
                 <h2>Introduction</h2>
-                <p>BetterSolano.org is a civic platform dedicated to empowering the people of Solano by providing transparent access to the services, programs, and public funds of LGU Solano.</p>
-                <p>While volunteers make every effort to secure BetterSolano.org from online threats and keep information accurate, no system can be guaranteed to be perfectly secure, error-free, or completely up-to-date at all times.</p>
+                <p>BetterMarikina.org is a civic platform dedicated to empowering the people of Marikina by providing transparent access to the services, programs, and public funds of Marikina City.</p>
+                <p>While volunteers make every effort to secure BetterMarikina.org from online threats and keep information accurate, no system can be guaranteed to be perfectly secure, error-free, or completely up-to-date at all times.</p>
                 <div className="legal-highlight">
                   <i className="bi bi-heart-fill"></i>
                   <span>This platform is provided <strong>free of charge</strong> as a public service.</span>
@@ -73,10 +73,10 @@ export default function TermsPage() {
               <section id="public-domain" className="legal-section">
                 <h2>Public Domain Content and Volunteer Operation</h2>
                 <p>This website and its content are provided as a public domain resource and are operated entirely by volunteers. All information, data, documents, and materials on this website are in the public domain unless otherwise stated.</p>
-                <p>Public domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to BetterSolano.org and LGU Solano is encouraged as a civic courtesy.</p>
+                <p>Public domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to BetterMarikina.org and Marikina City is encouraged as a civic courtesy.</p>
                 <div className="legal-note">
                   <i className="bi bi-info-circle"></i>
-                  <p>As a volunteer-run initiative, this website does not replace official government channels. Residents and stakeholders are encouraged to conduct their own independent research and verification of all information found here and to consult official LGU Solano offices and government agencies when making important decisions.</p>
+                  <p>As a volunteer-run initiative, this website does not replace official government channels. Residents and stakeholders are encouraged to conduct their own independent research and verification of all information found here and to consult official Marikina City offices and government agencies when making important decisions.</p>
                 </div>
               </section>
 
@@ -148,7 +148,7 @@ export default function TermsPage() {
 
               <section id="availability" className="legal-section">
                 <h2>Website Availability</h2>
-                <p>Although volunteers aim to keep the website accessible and functional, BetterSolano.org cannot guarantee that the website will be:</p>
+                <p>Although volunteers aim to keep the website accessible and functional, BetterMarikina.org cannot guarantee that the website will be:</p>
                 <ul className="legal-list">
                   <li>Available or accessible at all times</li>
                   <li>Error-free or uninterrupted</li>
@@ -180,7 +180,7 @@ export default function TermsPage() {
 
               <section id="takedown" className="legal-section">
                 <h2>Content Concerns and Takedown Requests</h2>
-                <p>BetterSolano.org values accuracy, public safety, and respect for rights. Despite good-faith efforts, some content may become outdated, incomplete, or raise legitimate concerns.</p>
+                <p>BetterMarikina.org values accuracy, public safety, and respect for rights. Despite good-faith efforts, some content may become outdated, incomplete, or raise legitimate concerns.</p>
                 <p>If you believe that any content on this website is:</p>
                 <ul className="legal-list">
                   <li>Factually incorrect or misleading</li>
@@ -189,7 +189,7 @@ export default function TermsPage() {
                   <li>Containing personal information that should not be public</li>
                   <li>Infringing upon legitimate rights or interests</li>
                 </ul>
-                <p>Please contact us at: <a href="mailto:volunteer@bettersolano.org">volunteer@bettersolano.org</a></p>
+                <p>Please contact us at: <a href="https://github.com/BetterMarikina/bettermarikina/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a></p>
                 
                 <div className="legal-callout">
                   <h4><i className="bi bi-envelope"></i> When reaching out, kindly include:</h4>
@@ -215,12 +215,12 @@ export default function TermsPage() {
                 <h2>Contact Information</h2>
                 <p>For questions about these terms, feedback on civic information, or content-related concerns, please contact:</p>
                 <div className="legal-contact">
-                  <a href="mailto:volunteer@bettersolano.org" className="contact-link">
+                  <a href="https://github.com/BetterMarikina/bettermarikina/issues" className="contact-link" target="_blank" rel="noopener noreferrer">
                     <i className="bi bi-envelope-fill"></i>
-                    <span>volunteer@bettersolano.org</span>
+                    <span>GitHub Issues</span>
                   </a>
                 </div>
-                <p className="legal-closing">BetterSolano.org provides public domain information to support civic engagement, transparency, and informed participation in local governance.</p>
+                <p className="legal-closing">BetterMarikina.org provides public domain information to support civic engagement, transparency, and informed participation in local governance.</p>
               </section>
             </article>
           </div>

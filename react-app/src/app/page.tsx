@@ -4,6 +4,15 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import SearchAutocomplete from '@/components/SearchAutocomplete';
+import NewsChannels from '@/components/NewsChannels';
+import SourceNote from '@/components/SourceNote';
+import cityProfileData from '@/data/marikina/city-profile.json';
+import officialsData from '@/data/marikina/officials.json';
+import type { CityProfile, Dataset, ElectedOfficial } from '@/types';
+
+const cityProfile = cityProfileData as unknown as Dataset<CityProfile>;
+const officials = officialsData as unknown as Dataset<ElectedOfficial[]>;
+const leaders = officials.data.filter((o) => ['mayor', 'vice-mayor', 'rep-d1', 'rep-d2'].includes(o.id));
 
 export default function HomePage() {
   const { t } = useLanguage();
@@ -52,7 +61,7 @@ export default function HomePage() {
         <div className="container">
           <div className="home-section-header">
             <h2>{t('section-popular')}</h2>
-            <p>Quick access to frequently requested municipal services</p>
+            <p>Quick access to frequently requested city services</p>
           </div>
           <div className="home-services-grid">
             <Link href="/services/certificates" className="home-service-card">
@@ -111,22 +120,22 @@ export default function HomePage() {
       <section className="home-stats-v2">
         <div className="container">
           <div className="home-stats-v2-header">
-            <h2>Solano at a Glance</h2>
+            <h2>Marikina at a Glance</h2>
             <Link href="/statistics" className="home-section-link">View Statistics <i className="bi bi-arrow-right"></i></Link>
           </div>
           <div className="home-stats-v2-grid">
             <Link href="/statistics" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-people-fill"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">69,296</span>
+                <span className="home-stat-card-value">—</span>
                 <span className="home-stat-card-label">Population</span>
-                <span className="home-stat-card-source">2024 Census</span>
+                <span className="home-stat-card-source">Coming soon</span>
               </div>
             </Link>
             <Link href="/government" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-geo-alt-fill"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">22</span>
+                <span className="home-stat-card-value">16</span>
                 <span className="home-stat-card-label">Barangays</span>
                 <span className="home-stat-card-source">Administrative Units</span>
               </div>
@@ -134,17 +143,17 @@ export default function HomePage() {
             <Link href="/budget" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-award-fill"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">1st Class</span>
-                <span className="home-stat-card-label">Municipality</span>
-                <span className="home-stat-card-source">Income Classification</span>
+                <span className="home-stat-card-value">—</span>
+                <span className="home-stat-card-label">Income Class</span>
+                <span className="home-stat-card-source">Coming soon</span>
               </div>
             </Link>
             <Link href="/statistics" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-rulers"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">162.70 km²</span>
+                <span className="home-stat-card-value">—</span>
                 <span className="home-stat-card-label">Land Area</span>
-                <span className="home-stat-card-source">Total Municipal Area</span>
+                <span className="home-stat-card-source">Coming soon</span>
               </div>
             </Link>
           </div>
@@ -155,34 +164,34 @@ export default function HomePage() {
       <section className="section weather-map-section">
         <div className="container">
           <div className="home-stats-v2-header">
-            <h2>Weather and Map of Solano</h2>
+            <h2>Weather and Map of Marikina</h2>
           </div>
           <div className="weather-map-grid">
             <div className="weather-column">
               <div id="weather-container" aria-live="polite">
-                <div className="weather-widget" role="region" aria-label="Current weather in Solano">
+                <div className="weather-widget" role="region" aria-label="Current weather in Marikina">
                   <div className="weather-current">
                     <div className="weather-current-icon"><i className="bi bi-cloud-sun-fill"></i></div>
                     <div className="weather-current-info">
-                      <div className="weather-current-temp">29°C</div>
-                      <div className="weather-current-condition">Mainly clear</div>
-                      <div className="weather-current-location"><i className="bi bi-geo-alt"></i> Solano, Nueva Vizcaya</div>
+                      <div className="weather-current-temp">—</div>
+                      <div className="weather-current-condition">Live weather coming soon</div>
+                      <div className="weather-current-location"><i className="bi bi-geo-alt"></i> Marikina City, Metro Manila</div>
                     </div>
                   </div>
                   <div className="weather-stats">
-                    <div className="weather-stat"><i className="bi bi-droplet"></i><span>65%</span></div>
-                    <div className="weather-stat"><i className="bi bi-wind"></i><span>12 km/h</span></div>
+                    <div className="weather-stat"><i className="bi bi-droplet"></i><span>—</span></div>
+                    <div className="weather-stat"><i className="bi bi-wind"></i><span>—</span></div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="map-column">
               <div className="map-card">
-                <div id="map-container" role="application" aria-label="Interactive map of Solano, Nueva Vizcaya" className="map-container-iframe">
-                  <iframe width="100%" height="300" frameBorder="0" scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=121.1633%2C16.5017%2C121.2033%2C16.5317&layer=mapnik&marker=16.5167%2C121.1833" className="map-iframe" title="Map of Solano" loading="lazy"></iframe>
+                <div id="map-container" role="application" aria-label="Interactive map of Marikina City, Metro Manila" className="map-container-iframe">
+                  <iframe width="100%" height="300" frameBorder="0" scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=121.0800%2C14.6200%2C121.1300%2C14.6800&layer=mapnik&marker=14.6507%2C121.1029" className="map-iframe" title="Map of Marikina" loading="lazy"></iframe>
                 </div>
                 <p className="map-attribution">
-                  <i className="bi bi-geo-alt" aria-hidden="true"></i> Solano Municipal Hall, Nueva Vizcaya 3708
+                  <i className="bi bi-geo-alt" aria-hidden="true"></i> Marikina City Hall, Shoe Avenue, Sta. Elena, Marikina City 1800
                 </p>
               </div>
             </div>
@@ -190,81 +199,34 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Brief History of Solano */}
+      {/* Brief History of Marikina */}
       <section className="section history-section">
         <div className="container">
           <div className="home-stats-v2-header">
-            <h2><i className="bi bi-book" aria-hidden="true"></i> Brief History of Solano</h2>
+            <h2><i className="bi bi-book" aria-hidden="true"></i> Brief History of Marikina</h2>
           </div>
           <div className="history-content">
             <div className="history-timeline">
-              <div className="timeline-item" data-year="1760">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1760</span>
-                  <p>The original name of the town was <strong>Bintauan</strong>, then a Gaddang settlement that is now a barangay of Villaverde.</p>
+              {cityProfile.data.history.map((item) => (
+                <div key={`${item.year}-${item.event}`} className="timeline-item">
+                  <div className="timeline-marker"></div>
+                  <div className="timeline-content">
+                    <span className="timeline-year">{item.year}</span>
+                    <p>{item.event}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="timeline-item" data-year="1767">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1767</span>
-                  <p>The town was formally founded by <strong>Father Alejandro Vidal</strong>, a Dominican priest who led a Spanish mission.</p>
-                </div>
-              </div>
-              <div className="timeline-item" data-year="1768">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1768</span>
-                  <p>Named <strong>Lungabang</strong>, from the Gaddang word for cave, <em>lungab</em>. Later changed to Lumabang by the Spaniards.</p>
-                </div>
-              </div>
-              <div className="timeline-item" data-year="1851">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1851</span>
-                  <p>Governor General Antonio Urbiztondo declared Lumabang a barrio of Bayombong for insufficient inhabitants and revenue.</p>
-                </div>
-              </div>
-              <div className="timeline-item" data-year="1853">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1853</span>
-                  <p>The first <strong>Ilocanos arrived</strong>, brought by Don Diego Lumicao, a former gobernadorcillo.</p>
-                </div>
-              </div>
-              <div className="timeline-item" data-year="1889">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1889</span>
-                  <p>Renamed <strong>Solano</strong> in honor of Governor General <strong>Ramon Solano y Llanderal</strong>. The town was redeveloped by Father Juan Villaverde with 14 parallel wide streets, each 20 meters wide, forming 100 square blocks.</p>
-                </div>
-              </div>
-              <div className="timeline-item" data-year="1957">
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">1957</span>
-                  <p>The barrios of Ibung and Bintawan were separated to form the town of Ibung, later renamed as <strong>Villaverde</strong>. Solano&apos;s land area was reduced to <strong>13,980 hectares</strong>.</p>
-                </div>
-              </div>
+              ))}
             </div>
             <div className="history-summary">
               <div className="history-card">
-                <div className="history-card-icon"><i className="bi bi-geo-alt-fill"></i></div>
                 <div className="history-card-content">
-                  <h4>Once the Largest</h4>
-                  <p>Solano was the largest municipality in the province until Caliat and Bintawan were separated to become Quezon and Villaverde respectively.</p>
-                </div>
-              </div>
-              <div className="history-card">
-                <div className="history-card-icon"><i className="bi bi-grid-3x3"></i></div>
-                <div className="history-card-content">
-                  <h4>Urban Planning</h4>
-                  <p>The 1889 redevelopment created a grid of 100 square blocks, each with an aggregate area of one hectare, with streets running north-south and east-west.</p>
+                  <h4>Marikina at a glance</h4>
+                  <p>{cityProfile.data.classification} in the {cityProfile.data.region}. {cityProfile.data.barangayCount} barangays, {cityProfile.data.legislativeDistricts} legislative districts, {cityProfile.data.landAreaHa.toLocaleString('en-PH')} hectares. Population {cityProfile.data.population[cityProfile.data.population.length - 1].count.toLocaleString('en-PH')} (PSA 2024 Census).</p>
                 </div>
               </div>
             </div>
           </div>
+          <SourceNote meta={cityProfile.meta} />
         </div>
         <style jsx>{`
           .history-section { background: linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%); }
@@ -310,59 +272,26 @@ export default function HomePage() {
             <h2>{t('section-updates')}</h2>
             <Link href="/news" className="home-section-link"><span>{t('btn-view-all')}</span> <i className="bi bi-arrow-right"></i></Link>
           </div>
-          <div className="home-news-grid">
-            <article className="home-news-card">
-              <div className="home-news-meta">
-                <span className="home-news-badge home-news-badge--info">Announcement</span>
-                <span className="home-news-date">Nov 28, 2025</span>
-              </div>
-              <h3><Link href="/news">Business Permit Renewal 2025</Link></h3>
-              <p>Deadline for business permit renewal is set for January 20, 2025. Early renewal is encouraged.</p>
-            </article>
-            <article className="home-news-card">
-              <div className="home-news-meta">
-                <span className="home-news-badge home-news-badge--success">Project</span>
-                <span className="home-news-date">Nov 15, 2025</span>
-              </div>
-              <h3><Link href="/news">New Public Market Wing Opens</Link></h3>
-              <p>The renovated wing of the Solano Public Market is now open to vendors and the public.</p>
-            </article>
-            <article className="home-news-card">
-              <div className="home-news-meta">
-                <span className="home-news-badge home-news-badge--warning">Advisory</span>
-                <span className="home-news-date">Nov 10, 2025</span>
-              </div>
-              <h3><Link href="/news">Scheduled Power Interruption</Link></h3>
-              <p>Maintenance scheduled for Barangay Osmeña on Dec 1, 8:00 AM - 5:00 PM.</p>
-            </article>
-          </div>
+          <NewsChannels />
         </div>
       </section>
 
-      {/* Municipal Leadership */}
+      {/* City Leadership */}
       <section className="section home-leadership-section">
         <div className="container">
           <div className="home-section-header">
             <h2>{t('section-leadership')}</h2>
             <Link href="/government" className="home-section-link"><span>{t('btn-view-officials')}</span> <i className="bi bi-arrow-right"></i></Link>
           </div>
-          <div className="home-leadership-grid">
-            <div className="home-leader-card">
-              <div className="home-leader-badge">{t('title-mayor')}</div>
-              <h3>Hon. Philip A. Dacayo</h3>
-              <div className="home-leader-contacts">
-                <a href="mailto:mayor@solano.gov.ph"><i className="bi bi-envelope"></i> mayor@solano.gov.ph</a>
-                <a href="tel:0783265002"><i className="bi bi-telephone"></i> (078) 326-5002</a>
+          <div className="grid grid-4" style={{ gap: 'var(--spacing-sm)' }}>
+            {leaders.map((o) => (
+              <div key={o.id} className="dept-card">
+                <div className="dept-card-content">
+                  <h4 className="dept-card-title">{o.name}</h4>
+                  <p className="dept-card-desc">{o.position}</p>
+                </div>
               </div>
-            </div>
-            <div className="home-leader-card">
-              <div className="home-leader-badge">{t('title-vice-mayor')}</div>
-              <h3>Hon. Eduardo D. Tiongson</h3>
-              <div className="home-leader-contacts">
-                <a href="mailto:vicemayor@solano.gov.ph"><i className="bi bi-envelope"></i> vicemayor@solano.gov.ph</a>
-                <a href="tel:0783265003"><i className="bi bi-telephone"></i> (078) 326-5003</a>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -375,19 +304,19 @@ export default function HomePage() {
             <Link href="/contact" className="home-section-link">{t('btn-view-all')} <i className="bi bi-arrow-right"></i></Link>
           </div>
           <div className="home-contact-v2-grid">
-            <a href="tel:0788053581" className="home-contact-v2-card">
+            <a href="tel:0286460462" className="home-contact-v2-card">
               <div className="home-contact-v2-icon"><i className="bi bi-telephone-fill"></i></div>
               <div className="home-contact-v2-content">
                 <h3>{t('contact-phone')}</h3>
-                <p className="home-contact-v2-value">(078) 805-3581</p>
+                <p className="home-contact-v2-value">(02) 8646-0462</p>
                 <span className="home-contact-v2-note">{t('contact-hours')}</span>
               </div>
             </a>
-            <a href="mailto:lgusolanonv@gmail.com" className="home-contact-v2-card">
+            <a href="mailto:web@marikina.gov.ph" className="home-contact-v2-card">
               <div className="home-contact-v2-icon"><i className="bi bi-envelope-fill"></i></div>
               <div className="home-contact-v2-content">
                 <h3>{t('contact-email')}</h3>
-                <p className="home-contact-v2-value">lgusolanonv@gmail.com</p>
+                <p className="home-contact-v2-value">web@marikina.gov.ph</p>
                 <span className="home-contact-v2-note">{t('contact-response')}</span>
               </div>
             </a>
@@ -396,7 +325,7 @@ export default function HomePage() {
               <div className="home-contact-v2-content">
                 <h3>{t('contact-address')}</h3>
                 <p className="home-contact-v2-value">{t('contact-municipal-hall')}</p>
-                <span className="home-contact-v2-note">Solano, Nueva Vizcaya 3708</span>
+                <span className="home-contact-v2-note">Shoe Avenue, Sta. Elena, Marikina City 1800</span>
               </div>
             </div>
           </div>

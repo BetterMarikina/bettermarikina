@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "City Resolutions of Marikina (as listed on the Full Disclosure Portal)",
+    "sources": [
+      {
+        "id": "fdp-ordinances",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/city-ordinance",
+        "retrievedAt": "2026-10-19",
+        "covers": "Number, title and PDF link as listed on the portal"
+      }
+    ],
+    "asOf": "2026-10-19",
+    "notes": "Only 1 resolution is listed on the portal page \"City Ordinance and City Resolution\" (filed under the ordinance folder). No separate Sangguniang Panlungsod resolution listing was found; see sprint blockers."
+  },
+  "data": [
+    {
+      "id": "res-2025-109",
+      "number": "109",
+      "series": 2025,
+      "title": "RESOLUTION DECLARING MARIKINA CITY UNDER A STATE OF CALAMITY DUE TO THE DEVASTATING EFFECTS OF TYPHOON \"CRISING\" AND SOUTHWEST MONSOON \"HABAGAT\"",
+      "approvedDate": null,
+      "category": "other",
+      "url": "https://fdpp.marikina.gov.ph/file/ordinance/RESOLUTION%20NO.%20109,%20SERIES%20OF%202025.pdf"
+    }
+  ]
+}
