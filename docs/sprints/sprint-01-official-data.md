@@ -135,14 +135,14 @@ Tasks:
 
 **Output:** `react-app/src/data/marikina/finance.json` and `procurement.json`
 
-- [ ] Annual budget, 2020–2026 (FDP)
-- [ ] Statement of Receipts and Expenditures (SRE): FDP quarterly, cross-checked against **BLGF** published SRE (income sources, IRA/NTA share, local revenue)
+- [x] Annual budget, 2020–2026 (FDP): ordinance amounts 2023–2026 and Form 7 income lines 2020–2022; sector expenditures not transcribed
+- [~] Statement of Receipts and Expenditures (SRE): 15 FDP quarters transcribed and sum-checked; BLGF cross-check NOT done (blgf.gov.ph 403). Original goal: FDP quarterly, cross-checked against **BLGF** published SRE (income sources, IRA/NTA share, local revenue)
 - [ ] COA Annual Audit Reports for Marikina City, latest 3 years: audit opinion and key findings count. Link to them rather than restating findings.
-- [ ] 20% NTA development fund, SEF, LDRRMF and GAD utilization. For the latest year, record a summary plus a link to the source.
-- [ ] Statement of indebtedness, latest available
+- [x] 20% NTA development fund, SEF, LDRRMF (2025 done, LDRRMF Jan–Sep only; GAD report not transcribed). For the latest year, record a summary plus a link to the source.
+- [x] Statement of indebtedness, latest available (Q1–Q3 2025, Q1 2026)
 - [ ] Annual Procurement Plan and bid results (FDP), cross-referenced with PhilGEPS
 - [ ] DILG Full Disclosure Policy compliance status and SGLG awards history
-- [ ] Replace the financial-reports `ComingSoon` in `react-app/src/app/budget/page.tsx`
+- [x] Replace the financial-reports `ComingSoon` in `react-app/src/app/budget/page.tsx`
 
 ## Phase 7: Statistics & indices
 
@@ -240,7 +240,7 @@ Tasks:
 - [3] Barangay rows all unticked: Kagawad, SK Chairperson, barangay hall address, official FB page, flood hazard level and urban/rural are null; Punong Barangay and office phone are from the city contact page (footer 2023) and not checked against COMELEC; boundaries GeoJSON not done — 👤 FOI-1 drafted.
 - [4] Councilor names are not checked against COMELEC certified results (the COMELEC site gave no table). The city's own our-city page still shows the previous council (discrepancy #4). Ex-officio members (Liga, SK Federation), committees and department heads are not published on pages we could read (the 2023 Facts and Figures names are out of date) — 👤 FOI-2, FOI-5 drafted.
 - [5] No separate Sangguniang Panlungsod portal or resolution list found; the FDP lists 149 ordinances and 1 resolution with no approval dates — 👤 FOI-4 drafted. The legacy Solano data/*.json is only marked deprecated because the legacy static pages still load it; retiring the legacy static site is the maintainer's call.
-- [6] Whole phase blocked: FDP budget, SRE, indebtedness, SEF, LDRRMF, NTA, GAD, APP and bid-result PDFs are image scans with no text layer, and no OCR was available. They are downloaded and hashed in data-raw/fdp/ (22 files). COA audit reports (coa.gov.ph 403), BLGF SRE (403), PhilGEPS cross-check, SGLG history and the finance.json/procurement.json files were not done — needs OCR or spreadsheets (👤 FOI-3 drafted). The budget page keeps a ComingSoon with this explanation.
+- [6] (Partly unblocked in the Phase 6 follow-up: finance.json now published, see docs/data/SOURCES.md discrepancy log 9-13; still not done: COA reports, BLGF cross-check, PhilGEPS, SGLG, procurement.json, GAD, 2020-2022 budget ordinance totals.) Original blocker: FDP budget, SRE, indebtedness, SEF, LDRRMF, NTA, GAD, APP and bid-result PDFs are image scans with no text layer, and no OCR was available. They are downloaded and hashed in data-raw/fdp/ (22 files). COA audit reports (coa.gov.ph 403), BLGF SRE (403), PhilGEPS cross-check, SGLG history and the finance.json/procurement.json files were not done — needs OCR or spreadsheets (👤 FOI-3 drafted). The budget page keeps a ComingSoon with this explanation.
 - [7] Statistics: footwear series 1991-2010 omitted (chart labels in the extracted text cannot be matched to years), business by barangay, employee counts, ownership type, the 2026 Q2 report and PSA small-area poverty estimates not done (PSA blocked). The legacy data/competitive-index.json is deprecated.
 - [8] Services: only 12 services read directly from the 2022 Citizen's Charter are in services.json (other services are carry-over); the newer per-office charters at fdpp.marikina.gov.ph/citizen-charter were not downloaded or compared; the service category pages (categoriesContent.ts) and service detail pages (serviceDetailsContent.ts) are generic template text, not charter-based, and were left untouched — needs a content pass.
 - [9] No private hospitals or DOH NHFR facilities (nhfr.doh.gov.ph 403); the hotline page lists only the City Health Office, Amang Rodriguez Hospital line and 16 barangay health centers from the city page.
