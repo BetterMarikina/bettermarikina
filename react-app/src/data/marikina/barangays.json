@@ -3,6 +3,13 @@
     "title": "Barangays of Marikina City",
     "sources": [
       {
+        "id": "psa-psgc",
+        "tier": 1,
+        "url": "https://psa.gov.ph/classification/psgc/barangays/1380700000",
+        "retrievedAt": "2026-10-19",
+        "covers": "PSGC correspondence codes, urban/rural flag and 2024 POPCEN population for all 16 barangays (PSGC as of 31 July 2025); city income class 1st and 2024 total 471,323"
+      },
+      {
         "id": "city-contact",
         "tier": 1,
         "url": "https://www.marikina.gov.ph/contact-us",
@@ -60,7 +67,7 @@
       }
     ],
     "asOf": "2024-07-01",
-    "notes": "Per-barangay 2010, 2015 and 2024 populations and PSGC codes are secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad and skChairperson are null (no source read). urbanRural (PSA PSGC), hall, facebook and floodHazard are null: those sources were blocked or not checked. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326, signed 2026-09-24). As of 2026-10-19 two petitions challenge the law at the Supreme Court (G.R. No. E-08557, filed 2026-09-28 by Romulo Macalintal; a second petition by youth groups filed 2026-10-05) and the Court had issued no restraining order, so COMELEC treats the law as in effect. Some area figures differ between city pages; see discrepancy log."
+    "notes": "PSGC codes, the urban/rural flag and the 2024 populations were read from the PSA PSGC page on 2026-10-19 (Tier 1); the 16 barangay counts sum to the city total of 471,323 and agree with the earlier secondary values. The 2010 and 2015 populations are still secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad and skChairperson are null (no source read). hall, facebook and floodHazard are null: no official source read. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326, signed 2026-09-24). As of 2026-10-19 two petitions challenge the law at the Supreme Court (G.R. No. E-08557, filed 2026-09-28 by Romulo Macalintal; a second petition by youth groups filed 2026-10-05) and the Court had issued no restraining order, so COMELEC treats the law as in effect. Some area figures differ between city pages; see discrepancy log."
   },
   "data": [
     {
@@ -76,7 +83,7 @@
         "2024": 16144
       },
       "landAreaHa": 80.11,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Efren Managuit",
@@ -101,7 +108,7 @@
         "2024": 15914
       },
       "landAreaHa": 80.27,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Mario M. De Leon",
@@ -126,7 +133,7 @@
         "2024": 16678
       },
       "landAreaHa": 74.89,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Fernando F. Mira",
@@ -151,7 +158,7 @@
         "2024": 10224
       },
       "landAreaHa": 90.03,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Rosette Sarmiento",
@@ -176,7 +183,7 @@
         "2024": 54134
       },
       "landAreaHa": 165.58,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Mark James P. Alfonso",
@@ -201,7 +208,7 @@
         "2024": 17268
       },
       "landAreaHa": 115.79,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Tadeo Allan Aramil",
@@ -226,7 +233,7 @@
         "2024": 7599
       },
       "landAreaHa": 51.43,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Bernard C. Bernardo",
@@ -251,7 +258,7 @@
         "2024": 30271
       },
       "landAreaHa": 162.56,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Rizaldy C. Josef",
@@ -276,7 +283,7 @@
         "2024": 9415
       },
       "landAreaHa": 116.86,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Danilo C. Del Castillo",
@@ -301,7 +308,7 @@
         "2024": 46629
       },
       "landAreaHa": 226.24,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Gerardo F. Sto. Domingo",
@@ -326,7 +333,7 @@
         "2024": 25268
       },
       "landAreaHa": 194.77,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Mary Jane Zubiri-Dela Rosa",
@@ -351,7 +358,7 @@
         "2024": 40941
       },
       "landAreaHa": 200.93,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": {
         "instrument": "Republic Act No. 9431",
         "date": "2007-04-10",
@@ -381,7 +388,7 @@
         "2024": 45968
       },
       "landAreaHa": 233.55,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Miguel A. Punzalan Jr.",
@@ -406,7 +413,7 @@
         "2024": 43661
       },
       "landAreaHa": 159.5,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Celso delas Armas",
@@ -431,7 +438,7 @@
         "2024": 41259
       },
       "landAreaHa": 170.46,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": null,
       "officials": {
         "punongBarangay": "Ronald D. Zulieta",
@@ -456,7 +463,7 @@
         "2024": 49950
       },
       "landAreaHa": 191.4,
-      "urbanRural": null,
+      "urbanRural": "Urban",
       "creation": {
         "instrument": "Republic Act No. 9432",
         "date": "2007-04-10",

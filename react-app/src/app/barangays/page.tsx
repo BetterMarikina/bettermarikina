@@ -43,14 +43,14 @@ export default function BarangaysPage(): JSX.Element {
           <div style={{ overflowX: 'auto' }}>
             <table className="data-table" style={{ width: '100%', borderCollapse: 'collapse' }}>
               <caption style={{ textAlign: 'left', paddingBottom: 8 }}>
-                Population is from the 2020 Census (PSA, as printed by the city). The 2024 column is a secondary source (see notes).
+                Population is from the 2020 Census (PSA, as printed by the city) and the 2024 POPCEN (PSA PSGC, 2024 values as of 1 July 2024).
               </caption>
               <thead>
                 <tr>
                   <th scope="col" align="left">Barangay</th>
                   <th scope="col">District</th>
                   <th scope="col" align="right">Population 2020</th>
-                  <th scope="col" align="right">Population 2024 (secondary)</th>
+                  <th scope="col" align="right">Population 2024</th>
                   <th scope="col" align="right">Land area (ha)</th>
                   <th scope="col" align="left">Punong Barangay</th>
                   <th scope="col" align="left">Office phone</th>

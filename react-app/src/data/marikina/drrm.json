@@ -21,14 +21,14 @@
         "tier": 2,
         "url": "https://noah.up.edu.ph/",
         "retrievedAt": "2026-10-19",
-        "covers": "UP NOAH hazard maps (web map; link only)"
+        "covers": "UP NOAH hazard maps (web map, link only)"
       },
       {
         "id": "phivolcs-hazardhunter",
         "tier": 1,
         "url": "https://hazardhunter.georisk.gov.ph/",
         "retrievedAt": "2026-10-19",
-        "covers": "HazardHunterPH (web map; link only)"
+        "covers": "HazardHunterPH (web map, link only)"
       }
     ],
     "asOf": "2026-10-19",

@@ -7,17 +7,17 @@
       { "id": "city-our-city", "tier": 1, "url": "https://www.marikina.gov.ph/our-city", "retrievedAt": "2026-10-19", "covers": "History timeline, inauguration date" },
       { "id": "law-ra8223", "tier": 1, "url": "https://lawphil.net/statutes/repacts/ra1996/ra_8223_1996.html", "retrievedAt": "2026-10-19", "covers": "Charter of Marikina City, approved 1996-11-06" },
       { "id": "law-ra9364", "tier": 1, "url": "https://lawphil.net/statutes/repacts/ra2006/ra_9364_2006.html", "retrievedAt": "2026-10-19", "covers": "Two legislative districts, approved 2006-12-15" },
-      { "id": "psa-popcen-2024", "tier": 1, "url": "https://psa.gov.ph/classification/psgc/barangays/137402000", "retrievedAt": "2026-10-19", "covers": "2024 POPCEN city total 471,323, read from the search-result snippet of this PSA page; the page itself blocked access" }
+      { "id": "psa-popcen-2024", "tier": 1, "url": "https://psa.gov.ph/classification/psgc/barangays/1380700000", "retrievedAt": "2026-10-19", "covers": "2024 POPCEN city total 471,323 and income class (1st), read from the PSA PSGC barangays page for the City of Marikina (retried with Firecrawl)" }
     ],
     "asOf": "2024-07-01",
-    "notes": "Population is the PSA census count (2010, 2015, 2020 as printed in the city's 2023 Facts and Figures; 2024 POPCEN total from the PSA PSGC page snippet). incomeClass is null: the PSA PSGC page and DOF orders could not be read. The PD 824 (1975) and Act No. 137 (1901) rows cite the city documents, not the original texts. Land area uses 2,314.37 ha (see discrepancy log #1)."
+    "notes": "Population is the PSA census count (2010, 2015, 2020 as printed in the city's 2023 Facts and Figures; 2024 POPCEN total 471,323 and income class 1st read from the PSA PSGC page on 2026-10-19). The PD 824 (1975) and Act No. 137 (1901) rows cite the city documents, not the original texts. Land area uses 2,314.37 ha (see discrepancy log #1)."
   },
   "data": {
     "name": "City of Marikina",
     "psgc": "137402000",
     "region": "National Capital Region (NCR)",
     "classification": "Highly urbanized city",
-    "incomeClass": null,
+    "incomeClass": "1st",
     "legislativeDistricts": 2,
     "barangayCount": 16,
     "landAreaHa": 2314.37,
