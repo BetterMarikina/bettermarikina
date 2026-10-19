@@ -10,6 +10,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.bettermarikina.org'),
   title: { default: 'BetterMarikina.org | Community Portal', template: '%s | BetterMarikina.org' },
   description: 'BetterMarikina.org - A community-built guide to Marikina City government services.',
   keywords: ['BetterMarikina', 'Marikina City', 'LGU Marikina', 'city services'],
@@ -17,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_PH',
-    url: 'https://bettermarikina.org/',
+    url: 'https://www.bettermarikina.org/',
     siteName: 'BetterMarikina.org',
     title: 'BetterMarikina.org | Community Portal',
     description: 'Empowering the people of Marikina with transparent access to services.',
-    images: [{ url: 'https://bettermarikina.org/assets/images/banners/opengraph.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://www.bettermarikina.org/assets/images/banners/opengraph.png', width: 1200, height: 630 }],
   },
   twitter: { card: 'summary_large_image' },
   icons: { icon: '/assets/images/logo/favicon.svg', apple: '/assets/images/logo/favicon.svg' },
