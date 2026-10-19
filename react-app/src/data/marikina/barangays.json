@@ -50,10 +50,17 @@
         "url": "https://citypopulation.de/en/philippines/marikina/",
         "retrievedAt": "2026-10-19",
         "covers": "SECONDARY: 2010, 2015 and 2024 barangay populations and 9-digit PSGC codes, which cite PSA. The PSA site was blocked, so these were not checked against PSA directly; their sums match the official city totals (424,150 / 450,741 / 471,323), and the 2020 column matches the city document."
+      },
+      {
+        "id": "comelec-ra12326",
+        "tier": 2,
+        "url": "https://sc.judiciary.gov.ph/wp-content/uploads/2026/10/G.R.-No.-E-08557-Comment.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Status of the Supreme Court challenge to RA 12326 (Supreme Court docket G.R. No. E-08557; news reports cited in the registry)."
       }
     ],
     "asOf": "2024-07-01",
-    "notes": "Per-barangay 2010, 2015 and 2024 populations and PSGC codes are secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad and skChairperson are null (no source read). urbanRural (PSA PSGC), hall, facebook and floodHazard are null: those sources were blocked or not checked. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326; a Supreme Court challenge was pending when this was written). Some area figures differ between city pages; see discrepancy log."
+    "notes": "Per-barangay 2010, 2015 and 2024 populations and PSGC codes are secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad and skChairperson are null (no source read). urbanRural (PSA PSGC), hall, facebook and floodHazard are null: those sources were blocked or not checked. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326, signed 2026-09-24). As of 2026-10-19 two petitions challenge the law at the Supreme Court (G.R. No. E-08557, filed 2026-09-28 by Romulo Macalintal; a second petition by youth groups filed 2026-10-05) and the Court had issued no restraining order, so COMELEC treats the law as in effect. Some area figures differ between city pages; see discrepancy log."
   },
   "data": [
     {
