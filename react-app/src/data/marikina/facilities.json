@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "title": "Public schools and higher education in Marikina City",
+    "sources": [
+      {
+        "id": "deped-nid",
+        "tier": 2,
+        "url": "https://nid.deped.gov.ph/public-dashboard/region/NCR/division/Marikina%20City",
+        "retrievedAt": "2026-10-19",
+        "covers": "DepEd National Inventory Dashboard: the 33 public schools of the Marikina City division with DepEd school IDs"
+      },
+      {
+        "id": "fdp-charter",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/citizens%20charter/plmar.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Pamantasan ng Lungsod ng Marikina 2024 Citizen's Charter (a city-run college)"
+      }
+    ],
+    "asOf": "2026-10-19",
+    "notes": "The school list is the DepEd National Inventory Dashboard for the Marikina City division (33 schools; 33 of 33 had submitted to the inventory). School names are as printed there. Level is read from the name suffix (ES = elementary; HS/NHS or 'High School' = secondary; Integrated School). The dashboard does not give the barangay, so barangay is null. Private schools, other higher-education institutions (CHED HEI list: ched.gov.ph unreachable on 2026-10-19), health facilities (DOH NHFR unreachable) and city markets, libraries and sports facilities are not in this file. Pamantasan ng Lungsod ng Marikina is the only college listed, taken from the city's own charter; Marikina Polytechnic College and others are not verified."
+  },
+  "data": {
+    "publicSchools": [
+      {
+        "schoolId": "136671",
+        "name": "Barangka ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136672",
+        "name": "Industrial Valley ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136673",
+        "name": "Kalumpang ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136674",
+        "name": "L. Victorino ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136675",
+        "name": "Malanday ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136676",
+        "name": "Marikina ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136677",
+        "name": "Nangka ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136678",
+        "name": "San Roque ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136680",
+        "name": "Concepcion ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136681",
+        "name": "Fortune ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136682",
+        "name": "H. Bautista ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136683",
+        "name": "Kapitan Moy ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136684",
+        "name": "Parang ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136685",
+        "name": "SSS Village ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136686",
+        "name": "St. Mary ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "136687",
+        "name": "Sto. Nino ES",
+        "level": "Elementary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305398",
+        "name": "Marikina HS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305399",
+        "name": "Tañong HS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305400",
+        "name": "Marikina Heights NHS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305401",
+        "name": "Marikina Science HS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305402",
+        "name": "Malanday National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305404",
+        "name": "Parang HS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305405",
+        "name": "Sta. Elena HS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "305630",
+        "name": "SSS National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "306040",
+        "name": "Industrial Valley Complex National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319901",
+        "name": "Nangka HS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319902",
+        "name": "Fortune High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319903",
+        "name": "Barangka NHS",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319904",
+        "name": "Kalumpang National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319905",
+        "name": "San Roque National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319906",
+        "name": "Sto. Nino National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "319907",
+        "name": "Jesus Dela Peña National High School",
+        "level": "Secondary",
+        "ownership": "Public",
+        "barangay": null
+      },
+      {
+        "schoolId": "500052",
+        "name": "Concepcion Integrated School",
+        "level": "Integrated (elementary and secondary)",
+        "ownership": "Public",
+        "barangay": null
+      }
+    ],
+    "higherEducation": [
+      {
+        "name": "Pamantasan ng Lungsod ng Marikina (PLMar)",
+        "operator": "City Government of Marikina",
+        "source": "fdp-charter"
+      }
+    ],
+    "healthFacilities": null
+  }
+}

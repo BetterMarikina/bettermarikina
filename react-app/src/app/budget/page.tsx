@@ -247,7 +247,7 @@ export default function BudgetPage(): JSX.Element {
             <span className="infra-label-v5"><i className="bi bi-building"></i> National Government Projects</span>
             <h2>DPWH Infrastructure Projects in Marikina</h2>
           </div>
-          <ComingSoon title="Project list not yet available" message="Search results indicate that DPWH's Metro Manila 1st District Engineering Office covers Marikina, but we have not been able to read DPWH's project listings, so no projects are shown." />
+          <ComingSoon title="Project list not yet available" message="DPWH's own procurement notices list Marikina City projects under the Metro Manila 1st District Engineering Office. DPWH's project listings could not be read by our tools on 2026-10-19, so no project list is shown yet. Search DPWH's civil works notices for the full list." />
           <p className="sre-source dpwh-source-margin"><i className="bi bi-info-circle"></i> Source: <a href="https://transparency.dpwh.gov.ph/" target="_blank" rel="noopener noreferrer">DPWH Transparency Portal</a></p>
         </div>
       </section>

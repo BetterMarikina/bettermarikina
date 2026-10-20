@@ -176,6 +176,36 @@ export interface StatisticsData {
   footwearManufacturers: { year: number; value: number | null }[];
 }
 
+export interface PublicSchool {
+  schoolId: string;
+  name: string;
+  level: string;
+  ownership: string;
+  barangay: string | null;
+}
+
+export interface FacilitiesData {
+  publicSchools: PublicSchool[];
+  higherEducation: { name: string; operator: string; source: string }[];
+  healthFacilities: null;
+}
+
+export interface DrrmData {
+  riverAlarmLevels: null;
+  liveReadings: { label: string; url: string; source: string }[];
+  evacuationCenters: null;
+  hazardMaps: { label: string; url: string; source: string }[];
+  emergencyServices: {
+    service: string;
+    office: string;
+    whoMayAvail: string;
+    fee: string;
+    processingTime: string;
+    howTo: string;
+    source: string;
+  }[];
+}
+
 // finance.json
 export interface FundSplit {
   generalFund: number | null;

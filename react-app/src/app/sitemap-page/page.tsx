@@ -43,6 +43,8 @@ export default function SitemapPage() {
               <Link href="/statistics" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Statistics</Link>
               <Link href="/legislative" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Legislative</Link>
               <Link href="/budget" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Transparency</Link>
+              <Link href="/schools" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Schools</Link>
+              <Link href="/disaster-risk" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Disaster risk</Link>
               <Link href="/contact" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Contact</Link>
               <Link href="/news" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> News</Link>
               <Link href="/faq" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> FAQ</Link>

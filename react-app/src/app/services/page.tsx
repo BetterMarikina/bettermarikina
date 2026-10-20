@@ -3,6 +3,7 @@
 import { Suspense } from 'react';
 import Link from 'next/link';
 import SearchAutocomplete from '@/components/SearchAutocomplete';
+import CharterIndex from '@/components/CharterIndex';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 function ServicesContent() {
@@ -129,6 +130,8 @@ function ServicesContent() {
           </div>
         </div>
       </section>
+
+      <CharterIndex />
 
       {/* Browse by Life Event */}
       <section className="section life-events-section">

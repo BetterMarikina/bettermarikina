@@ -8,10 +8,17 @@
         "url": "https://www.marikina.gov.ph/facts/MARIKINA%202022%20Citizens%20Charter.pdf",
         "retrievedAt": "2026-10-19",
         "covers": "Fees, processing time, requirements and office for each service, 2022 edition"
+      },
+      {
+        "id": "fdp-charter",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/citizen-charter",
+        "retrievedAt": "2026-10-19",
+        "covers": "Per-office Citizen's Charter PDFs (40 files, text layer). Used for the office index: office name, edition, PDF link and SHA-256, and external service titles where the PDF text could be read in full."
       }
     ],
     "asOf": "2022-12-31",
-    "notes": "Only services read directly from the 2022 Citizen's Charter are listed (12 of the charter's many services); all other services are carry-over (see sprint blockers). Fees stated as \"Based on ...\" are ordinance-based in the charter itself. Processing times are as printed. The 2022 edition may be outdated; newer per-office charters are listed at fdpp.marikina.gov.ph/citizen-charter and were not compared. Staff names printed in the charter are deliberately omitted."
+    "notes": "Only services read directly from the 2022 Citizen's Charter are listed (12 of the charter's many services); all other services are carry-over (see sprint blockers). Fees stated as \"Based on ...\" are ordinance-based in the charter itself. Processing times are as printed. The 2022 edition may be outdated; newer per-office charters are listed at fdpp.marikina.gov.ph/citizen-charter and were not compared. Staff names printed in the charter are deliberately omitted. Sprint 03 added `charterIndex`: the 40 per-office charters on the Full Disclosure Portal (edition 2024, BPLO 2026). Only service titles are listed; fees, requirements and processing times are not transcribed (the PDF tables do not extract reliably) and are in the linked PDF. Offices whose external service list could not be read in full have externalServices null."
   },
   "services": [
     {
@@ -329,6 +336,497 @@
         "ref": "BPLO, p. 108"
       },
       "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
+    }
+  ],
+  "charterIndex": [
+    {
+      "id": "accounting",
+      "office": "City Accounting Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/accounting.pdf",
+      "sha256": "b50e976be549841e591d5289a5833c145d2bfcd80ae2f644f625b27c969ec7bd",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "assessors",
+      "office": "City Assessor's Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/assessors.pdf",
+      "sha256": "8138cf9afaa735b494438328eec9d2b0591ffae8fe5337384bfc52ad5ccdc47c",
+      "externalServices": [
+        "Issuance Of Tax Declaration For Undeclared Land",
+        "Issuance Of Tax Declaration For New And Renovated Buildings",
+        "Issuance Of Tax Declaration For Operational Machineries And Equipment",
+        "Transfer Of Tax Declaration To The New Owner",
+        "Transfer Of Tax Declaration With Segregation / Consolidation",
+        "Issuance Of Different Certifications, Certified True Copy Of Tax"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "bfp",
+      "office": "Bureau of Fire Protection (Marikina)",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/bfp.pdf",
+      "sha256": "6600b4240df51042809305bbc83d9be6987edf758b589d30af6394dc802769e1",
+      "externalServices": [
+        "Fire Safety Evaluation Clearance (Fsec)",
+        "Fire Safety Inspection Certificate For Occupancy (Fsic)",
+        "Fire Safety Inspection Certificate For New Business (Fsic)",
+        "Fire Safety Inspection Certificate For Business Renewal(Fsic)"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "bplo",
+      "office": "Business Permits and Licensing Office",
+      "edition": "2026",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/bplo.pdf",
+      "sha256": "31fa82493115a5c367447859375e058198f14360df227e31ebe64b8f3fe50a4b",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "budget",
+      "office": "City Budget Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/budget.pdf",
+      "sha256": "06ef2ae10e0606cd079991043538c8a7e1f9bb3fc2b72689ff1792279d81e021",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "building-official",
+      "office": "Office of the Building Official",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/building%20official.pdf",
+      "sha256": "0da1f9ba2d93e1dcbcc57d789581abf54452ad4651b357d888a3f7dc25269070",
+      "externalServices": [
+        "Building Permit And Other Ancillary Permits Application"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "cho",
+      "office": "City Health Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/cho.pdf",
+      "sha256": "d78e0eb967bce228c7b9be4300cbc413ec818cae26b6f12891ee9043dac03e67",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "city-jail-f",
+      "office": "Marikina City Jail – Female Dormitory",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/city%20jail%20f.pdf",
+      "sha256": "78f75d118d5d991e2eba87f889397663a59b384ecc59e9acfe9b1f60139dd077",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "city-jail-m",
+      "office": "Marikina City Jail – Male Dormitory",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/city%20jail%20m.pdf",
+      "sha256": "abcbca74c14266a27361452e840762bdbf449f2a3923a1196797114511ea2e1e",
+      "externalServices": [
+        "Commitment Of Persons Deprived Of Liberty (Pdl)",
+        "Release Of Persons Deprived Of Liberty (Pdl)",
+        "Visitation Privilege",
+        "Escort Duty",
+        "Issuance Of Certificate Of Detention",
+        "Accreditation Of Jail Ministry",
+        "Livelihood And Skills Training",
+        "Dental Consultation",
+        "Medical Consultation"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "city-legal",
+      "office": "City Legal Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/city%20legal.pdf",
+      "sha256": "457262d5fcd998102f5c803f88e269b4ac8cc5009df0de8bfbced179803587a0",
+      "externalServices": [
+        "Free Legal Advice / Assistance (Walk-In And Online Clients)",
+        "Notarial Services"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "civil-registry",
+      "office": "Civil Registry Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/civil%20registry.pdf",
+      "sha256": "40a35b296491f2bfc3fcd2476a0f9c8816378906c23f5c3b624f01b2dfe07188",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "cro",
+      "office": "Community Relations Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/cro.pdf",
+      "sha256": "8f8662acdb4ae50022d156bf7af51d895ac227957a40f11813c456f28bbd7549",
+      "externalServices": [
+        "Community Request"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "cswdo",
+      "office": "City Social Welfare and Development Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/cswdo.pdf",
+      "sha256": "703d42c60c363ae388dccf26c4648c70292154f9691dc922dcde2423713d009e",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "drrmo",
+      "office": "City Disaster Risk Reduction and Management Office (Rescue 161)",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/drrmo.pdf",
+      "sha256": "4cc0cc4d2e628712353c40669261ee5fd20d78e8a63707046e8742daa3b85c66",
+      "externalServices": [
+        "Respond To Medical Emergencies And Search And Rescue",
+        "Non-Emergency Ambulance Service"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "gad",
+      "office": "Gender and Development / Manpower Development and Training Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/gad.pdf",
+      "sha256": "8f04935d71bde83ec598607d55369c7a3879935445967b882a712d1d73aab46e",
+      "externalServices": [
+        "Crisis Intervention Services: Marikina Referral System",
+        "Crisis Intervention Services: Women And Children's Shelter"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "gso",
+      "office": "General Services Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/gso.pdf",
+      "sha256": "ae8e95016012cac4df02c7088dee03adc37859cb8a138fe497887d94f76c884a",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "iaso",
+      "office": "Internal Audit and Services Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/iaso.pdf",
+      "sha256": "0d7b33bdb2924c24a367a374de57828103f235b37ba6231653e0778dbf295c6c",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "library",
+      "office": "Marikina City Library",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/library.pdf",
+      "sha256": "613b5135ae7ebcea0be0364585b80c556e0e04ed46a855605e1fefb5a6eadd65",
+      "externalServices": [
+        "Availment Of Library Card And Borrowing Of Books"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "lrpeso",
+      "office": "Labor Relations and Public Employment Services Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/lrpeso.pdf",
+      "sha256": "719730a02d66e6f8bcfa271f83a6474898428582b0e6723ecee6d75df051eb56",
+      "externalServices": [
+        "Employment Facilitation",
+        "Employers Accreditation",
+        "Tripartite Industrial Relations",
+        "Migrants Welfare Services"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "market",
+      "office": "City Public Market Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/market.pdf",
+      "sha256": "674e1abe3e2ced1609139f239d74a0cb6489fc15e8df130f5bc8b172565038ec",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "mayors-office",
+      "office": "Office of the Mayor",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/mayors%20office.pdf",
+      "sha256": "c4bafcfb831e8e67eeefe7ff4a099ce00d13c2f92ac84a4cac34a012a9cdd390",
+      "externalServices": [
+        "Mayor's Clearance: Pnp/Bfp/Afp/Firearms' License",
+        "Medical Endorsements To National Agencies",
+        "Issuance Of Film Shooting, Motorcade, Recorida And Procession Permits",
+        "Marriage Solemnization",
+        "Requests/Complaints (Walk-In, Phone Calls, Letters, Emails, Etc.)",
+        "Request For Appointment (Letter/Walk-In)"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "mis",
+      "office": "Management Information System and Call Center",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/mis.pdf",
+      "sha256": "02c245064721480ff5b496053df749de3c45404eab322d9fc38f586bd882f01b",
+      "externalServices": [
+        "Issuance Of Vaccine Certificates"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "msc",
+      "office": "Marikina Sports Center Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/msc.pdf",
+      "sha256": "be10635c28cce0145a29eecf5e7dabee8e75100aea4693e4f9e13b2c8bb30376",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "mso",
+      "office": "Marikina Settlements Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/mso.pdf",
+      "sha256": "b4aadbe8fc8487ae11ceac7a4410f5cc2a912a8de39f8fb51a856974ec0fc32a",
+      "externalServices": [
+        "Mso Clearance / Certification",
+        "Land Management Unit"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "office-secretary",
+      "office": "Office of the Sangguniang Panlungsod Secretary",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/office%20secretary.pdf",
+      "sha256": "33993f1d67cd65b0bb20890914e32eb52aed93c2ebc811ba1e9936dfa70d8ba0",
+      "externalServices": [
+        "Enact Ordinances And Approve Resolutions, Issuance (Upon Request) Of"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "opss",
+      "office": "Office of Public Safety and Security",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/opss.pdf",
+      "sha256": "3c63ba0f8f42b9d4774b457c133f5f9a81d8967cb4d69526faf1a7acbea5eb01",
+      "externalServices": [
+        "Application Of Excavation Permit Or Working Permit On Road / Traffic",
+        "Application/Renewal Of Opss-Tsr Puv Driver's Id",
+        "Complaints From Citizen",
+        "Redemption Of Licenses And Impounded Vehicles",
+        "Renewal Of Franchise, Change Motor, Change Of Ownership, Change Route,",
+        "Renewal Of Regulation Stickers For Pedicab",
+        "Renewal Of Regulation Stickers For Puj (Marikina Based",
+        "Renewal Of Regulation Stickers For Uv Express (Marikina"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "osca",
+      "office": "Office for Senior Citizens Affairs",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/osca.pdf",
+      "sha256": "bfd100a0e259bf93311dfabbb8931df480c82b1963d0868739d4c5dfb9b373dd",
+      "externalServices": [
+        "Processing Of Senior Citizen's Id With Booklet",
+        "Replacement Of Senior Citizen's Id",
+        "Issuance Of Booklet For Medicine And Grocery",
+        "Delivery Of Birthday Subsidy",
+        "Issuance Of Record Transaction For Other Office And Certifications"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "pdo",
+      "office": "Marikina Parks Development Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/pdo.pdf",
+      "sha256": "32da0131bcbe6f1980e84f3e0bf1824c72e6d3ff20ea3e3f46bff560fc9c7671",
+      "externalServices": [
+        "Tree Trimming, Balling, Prunning And Cutting Operation",
+        "Tree Planting Activities",
+        "Installation / Fabrication Of Physical And Playground Equipments And Open",
+        "Earth Clearing And Ground Levelling On Vacant Lots",
+        "Development Of Various Parks"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "personnel",
+      "office": "City Human Resource Management Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/personnel.pdf",
+      "sha256": "5390eb47cc810712334d6c80f971bd9818db47ee26ad4ee28c6ceeaaf214a33f",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "pio",
+      "office": "Public Information Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/pio.pdf",
+      "sha256": "4fd2e4dd4f0682fe09761ca5e8cd1cf858d0cf70f6f35d6f332662e0a5b643aa",
+      "externalServices": [
+        "Reply To Inquiries, Comments And Complaints Via Walk-In, Phone-In And"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "planning",
+      "office": "City Planning and Development Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/planning.pdf",
+      "sha256": "6276f53f2bb12127cf3623d161be2dd3741349e096b4af99c406c1f4a0a41c17",
+      "externalServices": [
+        "Issuance Of Zoning Certificate For Business",
+        "Issuance Of Locational Clearance For Building Permit",
+        "Provide Assistance To Researchers On Marikina"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "plmar",
+      "office": "Pamantasan ng Lungsod ng Marikina",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/plmar.pdf",
+      "sha256": "c72596a7b1135b3c464dbaf477d3ddcfa1cdad8b00414408093cd87a95e11204",
+      "externalServices": [
+        "Application For Admission (New Students Bachelor's Degree",
+        "Application For Admission (New Students Graduate Studies)",
+        "Enrollment Of New And Continuing Students For The Bachelor And Graduate"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "police",
+      "office": "Eastern Police District – Marikina City Police Station",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/police.pdf",
+      "sha256": "77db7a0099c0e7ec6f5cecc32c44bbe6dbf8896c1815bb4114f797ccdff39ea3",
+      "externalServices": [
+        "Investigation And Detective Management Section",
+        "Requirements For Lifting Of Fingerprint Of Civilian Applying For Overseas",
+        "Application For National Police Clearance",
+        "Vehicular Traffic And Investigation Unit"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "rpa",
+      "office": "Marikina River Parks Authority",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/rpa.pdf",
+      "sha256": "390185820958463395d36f1b3b633002cd0d3012c369615a6b847c9471b84528",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "srmg",
+      "office": "School Repair and Maintenance Group",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/srmg.pdf",
+      "sha256": "a48accd993dfb22805ac7d53ddde03d53e6ec10dd9637ca861f4259603fb1b8b",
+      "externalServices": [
+        "Design, Repair, Rehabilitation & Maintenance Of Public Schools Facilities"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "tourism",
+      "office": "Marikina Cultural and Tourism Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/tourism.pdf",
+      "sha256": "4c05183cd3035585172c34fb5eff468375ccd1b429d08704d5dc01a617bcadd0",
+      "externalServices": [
+        "Booking Of Kapitan Moy",
+        "Booking Of Teatro Marikina",
+        "Booking Of Lakbay-Aral Tour"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "trade",
+      "office": "Local Economic Development and Investment Promotions Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/trade.pdf",
+      "sha256": "680ecdb93190d7041d5a08fc5d490e4c3787c24b66621de2dab2705ea215a27f",
+      "externalServices": [
+        "Promotion Of Local Trade And Investment",
+        "Business Assistance Desk",
+        "Assistance To Msmes To Access Market For Their Products And Services"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "treasury",
+      "office": "City Treasury Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/treasury.pdf",
+      "sha256": "6dfbfe57656d489442f55b205985c7cbb6535f1bf632eec805fdd2fc4106b8c9",
+      "externalServices": [
+        "Collection Of Real Property Tax",
+        "Issuance Of Real Property Tax Clearance",
+        "Collection Of Business Tax",
+        "Collection Of Transfer Tax",
+        "Collection Of Community Tax Certificate Fees",
+        "Collection Of Professional Tax Fees",
+        "Collection Of Fees For Sealing And Licensing Weights And Measures Fees",
+        "Collection Of Mayor's Permit Fees",
+        "Collection Of Secretary's Fees (Certification And Other Copies Of Any",
+        "Collection Of Building And Other Construction Permit Fees",
+        "Collection Of Excavation Permit Fees",
+        "Collection Of Market Rentals And Fees",
+        "Collection Of Parking Fees (Market Area)",
+        "Collection Of Parking Fees (Multi-Level Pay Parking & Lto Parking)",
+        "Collection Of Parking Fees (Central Parking Area)",
+        "Collection Of Marikina Sports Center Fees",
+        "Collection Of Rental Entrance Fees To Marikina Cultural Site And Events",
+        "Collection Of Civil Registry Fees",
+        "Collection Of Environmental Fees",
+        "Collection Of Pnb / Flower Stall Rental",
+        "Collection Of Services And Traffic Violation Fees",
+        "Collection Of Plmar School Fees",
+        "Collection Of Locational/Zoning Clearance Fees",
+        "Collection Of Sanitation And Health Certificate Fees",
+        "Collection Of Cemetery Fees",
+        "Releasing Of Check Payment To City Government, Suppliers, Contractors"
+      ],
+      "externalServicesNote": null
+    },
+    {
+      "id": "vet",
+      "office": "City Veterinary Office",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/vet.pdf",
+      "sha256": "38adc79851e9090bfb9437d0284226197835d7470071e577b92f497d7583d20a",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
+    },
+    {
+      "id": "vice-mayor",
+      "office": "Office of the Vice Mayor",
+      "edition": "2024",
+      "pdfUrl": "https://fdpp.marikina.gov.ph/file/citizens%20charter/vice%20mayor.pdf",
+      "sha256": "fac4ab5107bd8ea600c612184dab09463ad23f73d9ab725a17237d737e160867",
+      "externalServices": null,
+      "externalServicesNote": "External service titles could not be read reliably from the PDF text; see the charter."
     }
   ]
 }

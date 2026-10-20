@@ -232,7 +232,7 @@ export default function GovernmentPage() {
               <i className="bi bi-geo-alt-fill"></i> Barangay Units
             </span>
             <h3 style={{ fontSize: '1.75rem', marginBottom: 'var(--spacing-xs)' }}>Barangays of Marikina</h3>
-            <p style={{ color: 'var(--color-text-light)' }}>16 Barangays serving our community. <Link href="/barangays">See populations, areas and districts</Link></p>
+            <p style={{ color: 'var(--color-text-light)' }}>16 Barangays serving our community. <Link href="/barangays">See populations, areas and districts</Link>. Also: <Link href="/schools">public schools</Link> · <Link href="/disaster-risk">disaster risk and flood information</Link>.</p>
           </div>
 
           <div className="grid grid-4" style={{ gap: 'var(--spacing-sm)' }}>

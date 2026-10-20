@@ -22,10 +22,17 @@
         "url": "https://en.wikipedia.org/wiki/2025_Marikina_local_elections",
         "retrievedAt": "2026-10-19",
         "covers": "SECONDARY cross-check only: its 2025 election results list the same 16 councilors as contact-us. Not checked against COMELEC."
+      },
+      {
+        "id": "rappler-2025",
+        "tier": 3,
+        "url": "https://ph.rappler.com/elections/2025/local-race/ncr-marikina-city",
+        "retrievedAt": "2026-10-19",
+        "covers": "SECONDARY cross-check: partial, unofficial 2025 results from the COMELEC Media Server as reproduced by Rappler (100% of precincts as of 2025-05-15). The top 8 per district match the 16 councilors listed on the city contact page."
       }
     ],
     "asOf": "2026-10-19",
-    "notes": "City Council names come from the city's contact-us page, which agrees with the 2025 election results on Wikipedia (citing GMA/ABS-CBN). They have not been checked against COMELEC certified results; the COMELEC results site could not be read. The older list on the city's own our-city page (Sarmiento, Bernardino, Rommel Acuña, Favis, Levy de Guzman, etc.) is the previous council and is not used. Term is 2025-06-30 to 2028-06-30. The ex-officio council members (Liga ng mga Barangay and SK Federation presidents) and committee chairs are null: not published on the pages checked. No photos are used."
+    "notes": "City Council names come from the city's contact-us page (Tier 1). On 2026-10-19 they were cross-checked against the unofficial COMELEC Media Server results reproduced by Rappler: the top 8 vote-getters in each district are the same 16 people (ballot names are nicknames, e.g. \"Kate\" De Guzman, \"Zif\" Ancheta, \"Coach Elvis\" Tolentino, \"Larry\" Punzalan, \"Bong\" Magtubo). Mayor, Vice Mayor and both representatives also match. COMELEC's own certified results (the 2025 results site) could not be read by Firecrawl, so the check is against a secondary reproduction, not COMELEC's proclamation. The older list on the city's our-city page is the previous council and is not used. Term is 2025-06-30 to 2028-06-30. The ex-officio council members (Liga ng mga Barangay and SK Federation presidents) and committee chairs are null: no official source was found on 2026-10-19. No photos are used."
   },
   "data": [
     {
