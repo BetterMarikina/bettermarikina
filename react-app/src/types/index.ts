@@ -205,3 +205,120 @@ export interface DrrmData {
     source: string;
   }[];
 }
+
+// finance.json
+export interface FundSplit {
+  generalFund: number | null;
+  sef: number | null;
+  total: number | null;
+}
+
+export interface AnnualBudget {
+  year: number;
+  ordinanceAmount: number | null;
+  totalIncome: number | null;
+  taxRevenue: number | null;
+  operatingAndMiscellaneousRevenue: number | null;
+  shareFromNationalTaxAllotment: number | null;
+  beginningCashBalance: number | null;
+}
+
+export interface SreStatement {
+  year: number;
+  quarter: string;
+  sourceFile: string;
+  page: number | string;
+  incomeTarget: number;
+  localSources: FundSplit;
+  taxRevenue: FundSplit;
+  nonTaxRevenue: FundSplit;
+  externalSources: FundSplit;
+  totalCurrentOperatingIncome: FundSplit;
+  totalCurrentOperatingExpenditures: FundSplit;
+  netOperatingIncome: FundSplit;
+  proceedsFromLoans: FundSplit;
+  otherNonIncomeReceipts: FundSplit | null;
+  capitalOutlay: FundSplit;
+  debtServicePrincipal: FundSplit;
+  otherNonOperatingExpenditures: FundSplit | null;
+  netIncreaseInFunds: FundSplit;
+  beginningCashBalance: FundSplit;
+  endingCashBalance: FundSplit;
+  priorYearAccountsPayable: FundSplit | null;
+  advancePaymentForRpt: FundSplit | null;
+}
+
+export interface LoanReport {
+  year: number;
+  quarter: string;
+  totalAmountReleased: number;
+  cumulativePrincipalPaid: number;
+  outstandingPrincipal: number;
+}
+
+export interface Loan {
+  loanReference: string;
+  creditor: string;
+  amountApproved: number;
+  actualPrincipalAmount: number;
+  interestRatePct: number;
+  maturityDate: string;
+  termYears: number;
+  purpose: string | null;
+  reports: LoanReport[];
+}
+
+export interface DebtTotal {
+  year: number;
+  quarter: string;
+  outstandingPrincipal: number;
+  currentAnnualBudget: number;
+  budgetAllocationForDebtService: number | null;
+}
+
+export interface SefQuarter {
+  year: number;
+  quarter: string;
+  specialEducationTax: number;
+  discountOnSpecialEducationTax: number;
+  interestIncome: number;
+  netReceipts: number;
+  maintenanceAndOtherOperatingExpenses: number;
+  capitalOutlay: number;
+  totalDisbursements: number;
+  balance: number;
+}
+
+export interface NtaItem {
+  item: string;
+  category: string;
+  location: string | null;
+  totalCost: number;
+  dateStarted: string | null;
+  targetCompletionDate: string | null;
+  percentCompletion: number | null;
+  costIncurredToDate: number | null;
+}
+
+export interface NtaQuarter {
+  year: number;
+  quarter: string;
+  items: NtaItem[];
+}
+
+export interface LdrrmfMonth {
+  year: number;
+  month: string;
+  totalFundsAvailable: number;
+  totalUtilization: number | null;
+  unutilizedBalance: number | null;
+}
+
+export interface FinanceData {
+  annualBudgets: AnnualBudget[];
+  statementOfReceiptsAndExpenditures: SreStatement[];
+  indebtedness: { loans: Loan[]; totals: DebtTotal[] };
+  specialEducationFund: SefQuarter[];
+  twentyPercentNta: NtaQuarter[];
+  ldrrmf: LdrrmfMonth[];
+}

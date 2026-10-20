@@ -39,7 +39,7 @@ Nothing was bypassed. Details and dates are in [SOURCES.md](../data/SOURCES.md).
 1. Ex-officio council members, 7 Kagawads and the SK Chair per barangay (no official source readable). 👤 FOI-1, FOI-2.
 2. Official COMELEC check of the councilors. 👤 Open the COMELEC 2025 results site in a normal browser.
 3. DPWH project list (site unreachable; the Metro Manila 1st DEO covers Marikina per DPWH notices). 👤 FOI-6.
-4. River alarm thresholds, evacuation centers and hazard levels per barangay: no official source; news reports disagree (discrepancy #9). 👤 FOI-7.
+4. River alarm thresholds, evacuation centers and hazard levels per barangay: no official source; news reports disagree (discrepancy #14). 👤 FOI-7.
 5. Health facilities and CHED higher-education list (sources blocked).
 6. Charter fees, requirements and processing times: PDF tables do not extract reliably, so only titles are indexed.
 7. COA audit reports, BLGF SRE (Phase 6 cross-checks) and SGLG history.

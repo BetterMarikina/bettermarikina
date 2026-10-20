@@ -45,7 +45,7 @@ For each source, record the new status and a last-checked date in [SOURCES.md](.
 - [ ] Ex-officio members (Liga ng mga Barangay president, SK Federation president)
 - [ ] Barangay Kagawads (7 each) and SK Chairpersons for all 16 barangays
 - [ ] Punong Barangay names checked
-- [x] Discrepancy log updated for any conflict — no conflicts found in names; #9 added for river alarm levels
+- [x] Discrepancy log updated for any conflict — no conflicts found in names; #14 added for river alarm levels
 
 ## Phase 2: RA 12326 and the Supreme Court challenge (priority b)
 
@@ -115,7 +115,7 @@ Every checklist item is ticked or has a written blocker, the sprint-03 report ex
 - [1] Councilors are cross-checked only against Rappler's copy of the COMELEC Media Server results (Tier 3); the official COMELEC results site loads but its local results are behind a script-driven menu that could not be read. Names on the ballot are nicknames. 👤 The maintainer can open https://2025electionresults.comelec.gov.ph/ in a normal browser and confirm the Marikina councilors.
 - [1] Ex-officio members (Liga ng mga Barangay and SK Federation presidents), Kagawads (7 per barangay), SK chairs and the Punong Barangay check: no official source could be read (DILG sites fail with a proxy error; COMELEC BSKE 2023 results not found). Still null. 👤 FOI-1, FOI-2.
 - [3] DPWH projects: no project list could be read; budget page keeps its DPWH ComingSoon with updated text.
-- [4] River alarm thresholds, evacuation centers and hazard level per barangay: no official source found (news disagrees, see discrepancy #9). Still null. 👤 FOI-7.
+- [4] River alarm thresholds, evacuation centers and hazard level per barangay: no official source found (news disagrees, see discrepancy #14). Still null. 👤 FOI-7.
 - [5] Health facilities (NHFR blocked), CHED higher-education list (blocked), private schools and the barangay of each public school are not in `facilities.json`. Marikina Polytechnic College is not verified.
 - [6] Fees, requirements and processing times from the charters are not transcribed: the PDF tables do not extract reliably. 15 of 40 offices have no clean external service list. The 2022 charter rows in services.json are unchanged and still the only fee data. A reviewer can transcribe the highest-use offices from the PDFs in `data-raw/charters/` (hashes in SOURCES.md).
 - [7] The budget page still shows the Sprint 01 SRE ComingSoon here; Sprint 02 (PR #2) replaces it, so expect a small merge conflict in `react-app/src/app/budget/page.tsx`.

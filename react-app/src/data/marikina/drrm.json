@@ -32,7 +32,7 @@
       }
     ],
     "asOf": "2026-10-19",
-    "notes": "The city's official alarm thresholds for the Marikina River could not be found on a government page. News reports retrieved on 2026-10-19 disagree: they give the first alarm at 15 m and the second at 16 m, but the third at 18 m (GMA News) while others describe forced evacuation at 16 m. Thresholds are therefore null here and logged as discrepancy #9. The number of evacuation centers is also not published in a list we could read (news reports say 33 and 36), so no count or list is given. Hazard levels per barangay are not extracted from the web maps. Not yet published: ask the CDRRMO (FOI-7)."
+    "notes": "The city's official alarm thresholds for the Marikina River could not be found on a government page. News reports retrieved on 2026-10-19 disagree: they give the first alarm at 15 m and the second at 16 m, but the third at 18 m (GMA News) while others describe forced evacuation at 16 m. Thresholds are therefore null here and logged as discrepancy #14. The number of evacuation centers is also not published in a list we could read (news reports say 33 and 36), so no count or list is given. Hazard levels per barangay are not extracted from the web maps. Not yet published: ask the CDRRMO (FOI-7)."
   },
   "data": {
     "riverAlarmLevels": null,

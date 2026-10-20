@@ -1,0 +1,1837 @@
+{
+  "meta": {
+    "title": "Marikina City finance: budget, receipts and expenditures, debt, SEF, 20% NTA and LDRRMF",
+    "sources": [
+      {
+        "id": "fdp-finance-budget",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/full_disclosure/2026_Annual%20Budget.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Annual Budget ordinances and LBP Form 7 statements, 2020-2026 (Full Disclosure Portal)"
+      },
+      {
+        "id": "fdp-finance-sre",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/full_disclosure/2025_Statement%20of%20Receipts%20and%20Expenditures.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Statement of Receipts and Expenditures (BLGF format), quarterly 2019-2026 (Full Disclosure Portal)"
+      },
+      {
+        "id": "fdp-finance-indebtedness",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/full_disclosure/2025_Statement%20Of%20Indebtedness.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Statement of Indebtedness, Payment and Balances, Q1-Q3 2025 and Q1 2026 (Full Disclosure Portal)"
+      },
+      {
+        "id": "fdp-finance-sef",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/full_disclosure/2025_SEF%20Utilization.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Special Education Fund utilization, 2025 (Full Disclosure Portal)"
+      },
+      {
+        "id": "fdp-finance-nta",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/full_disclosure/2025_Component%20of%20NTA%20Utilization.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Utilization of the 20% of the National Tax Allotment, 2025 (Full Disclosure Portal)"
+      },
+      {
+        "id": "fdp-finance-ldrrmf",
+        "tier": 1,
+        "url": "https://fdpp.marikina.gov.ph/file/full_disclosure/2025_LDRRMF%20Utilization.pdf",
+        "retrievedAt": "2026-10-19",
+        "covers": "Utilization of the Local Disaster Risk Reduction and Management Fund, Jan-Sep 2025 (Full Disclosure Portal)"
+      }
+    ],
+    "asOf": "2026-03-31",
+    "notes": "All source PDFs are image scans with no text layer. Figures were transcribed by reading zoomed page images, with Windows built-in OCR used only as a cross-check; none comes from OCR alone. Checks passed for every published value: GF + SEF = Total on each row; Local Sources = Tax + Non-Tax; Income = Local + External; net operating income = income - expenditures; net increase in funds = net operating income + loan and other non-income receipts - capital outlay - debt principal - other non-operating spending; ending cash = beginning cash + net increase - prior-year payables + advance RPT payment (for the periods where those rows were read); loans: released - principal paid = outstanding; SEF receipts, disbursements and balance; LDRRMF available - utilization = unutilized; 2020-2022 budget tax + other revenue = total income. Each SRE period is cumulative year to date and is taken from the document header, not the file name (2020 file = Q4 2019, 2021 file = Q4 2020, 2022 file = Q4 2021, 2023 file = Q4 2022 and Q2-Q4 2023, 2024 file = Q1-Q4 2024, 2025 file = Q1-Q3 2025, 2026 file = Q1 2026). Other quarters are not in the files and are absent. null means not read reliably or not shown: Q4 2020 tax revenue SEF and total; the budget ordinance amount for 2020-2022; income split for 2023-2026 (only the ordinance amount was read); LDRRMF utilization and unutilized balance for May, July and September 2025 (the 2025 LDRRMF file ends in September). Budget total income excludes the beginning cash balance, as printed on LBP Form 7. Loan statements cover Q1-Q3 2025 and Q1 2026 only (no Q4 2025 report on the portal). Annual Procurement Plan, bid results and GAD report are not included. Amounts are in Philippine pesos. Source oddities published as printed are logged in docs/data/SOURCES.md (discrepancy log 9-13)."
+  },
+  "data": {
+    "annualBudgets": [
+      {
+        "year": 2020,
+        "ordinanceAmount": null,
+        "totalIncome": 2573374319.2,
+        "taxRevenue": 1099771070.0,
+        "operatingAndMiscellaneousRevenue": 1473603249.2,
+        "shareFromNationalTaxAllotment": null,
+        "beginningCashBalance": 337034308.37
+      },
+      {
+        "year": 2021,
+        "ordinanceAmount": null,
+        "totalIncome": 2744925906.34,
+        "taxRevenue": 1172902238.0,
+        "operatingAndMiscellaneousRevenue": 1572023668.34,
+        "shareFromNationalTaxAllotment": null,
+        "beginningCashBalance": 259217936.17
+      },
+      {
+        "year": 2022,
+        "ordinanceAmount": null,
+        "totalIncome": 3142549247.0,
+        "taxRevenue": 1157860000.0,
+        "operatingAndMiscellaneousRevenue": 367330000.0,
+        "shareFromNationalTaxAllotment": 1617359247.0,
+        "beginningCashBalance": 285207060.11
+      },
+      {
+        "year": 2023,
+        "ordinanceAmount": 3010995118.0,
+        "totalIncome": null,
+        "taxRevenue": null,
+        "operatingAndMiscellaneousRevenue": null,
+        "shareFromNationalTaxAllotment": null,
+        "beginningCashBalance": null
+      },
+      {
+        "year": 2024,
+        "ordinanceAmount": 3138352579.5,
+        "totalIncome": null,
+        "taxRevenue": null,
+        "operatingAndMiscellaneousRevenue": null,
+        "shareFromNationalTaxAllotment": null,
+        "beginningCashBalance": null
+      },
+      {
+        "year": 2025,
+        "ordinanceAmount": 3457314318.0,
+        "totalIncome": null,
+        "taxRevenue": null,
+        "operatingAndMiscellaneousRevenue": null,
+        "shareFromNationalTaxAllotment": null,
+        "beginningCashBalance": null
+      },
+      {
+        "year": 2026,
+        "ordinanceAmount": 4200068352.0,
+        "totalIncome": null,
+        "taxRevenue": null,
+        "operatingAndMiscellaneousRevenue": null,
+        "shareFromNationalTaxAllotment": null,
+        "beginningCashBalance": null
+      }
+    ],
+    "statementOfReceiptsAndExpenditures": [
+      {
+        "year": 2019,
+        "quarter": "Q4",
+        "sourceFile": "2020_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 2719040434.13,
+        "localSources": {
+          "generalFund": 1458613740.92,
+          "sef": 229807080.28,
+          "total": 1688420821.2
+        },
+        "taxRevenue": {
+          "generalFund": 1042808245.56,
+          "sef": 208238840.22,
+          "total": 1251047085.78
+        },
+        "nonTaxRevenue": {
+          "generalFund": 415805495.36,
+          "sef": 21568240.06,
+          "total": 437373735.42
+        },
+        "externalSources": {
+          "generalFund": 981315172.62,
+          "sef": 0,
+          "total": 981315172.62
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2439928913.54,
+          "sef": 229807080.28,
+          "total": 2669735993.82
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 1899355329.62,
+          "sef": 187871172.08,
+          "total": 2087226501.7
+        },
+        "netOperatingIncome": {
+          "generalFund": 540573583.92,
+          "sef": 41935908.2,
+          "total": 582509492.12
+        },
+        "proceedsFromLoans": {
+          "generalFund": 803873159.44,
+          "sef": 0,
+          "total": 803873159.44
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 501890350.38,
+          "sef": 0,
+          "total": 501890350.38
+        },
+        "capitalOutlay": {
+          "generalFund": 188627313.2,
+          "sef": 0,
+          "total": 188627313.2
+        },
+        "debtServicePrincipal": {
+          "generalFund": 84363039.15,
+          "sef": 0,
+          "total": 84363039.15
+        },
+        "otherNonOperatingExpenditures": {
+          "generalFund": 1089771468.39,
+          "sef": 0,
+          "total": 1089771468.39
+        },
+        "netIncreaseInFunds": {
+          "generalFund": 483575273.0,
+          "sef": 41935908.2,
+          "total": 525511181.2
+        },
+        "beginningCashBalance": {
+          "generalFund": 1084965243.0,
+          "sef": 195473987.34,
+          "total": 1280439230.34
+        },
+        "endingCashBalance": {
+          "generalFund": 1281003158.42,
+          "sef": 248769221.59,
+          "total": 1529772380.01
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 480372262.01,
+          "sef": 133532268.37,
+          "total": 613904530.38
+        },
+        "advancePaymentForRpt": {
+          "generalFund": 192834904.43,
+          "sef": 144891594.42,
+          "total": 337726498.85
+        }
+      },
+      {
+        "year": 2020,
+        "quarter": "Q4",
+        "sourceFile": "2021_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 3161535851.2,
+        "localSources": {
+          "generalFund": 1324082702.01,
+          "sef": 276793561.44,
+          "total": 1600876263.45
+        },
+        "taxRevenue": {
+          "generalFund": 1055393904.74,
+          "sef": null,
+          "total": null
+        },
+        "nonTaxRevenue": {
+          "generalFund": 268688797.27,
+          "sef": 176585038.28,
+          "total": 445273835.55
+        },
+        "externalSources": {
+          "generalFund": 1627178229.39,
+          "sef": 0,
+          "total": 1627178229.39
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2951260931.4,
+          "sef": 276793561.44,
+          "total": 3228054492.84
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 4195441619.77,
+          "sef": 172895596.1,
+          "total": 4368337215.87
+        },
+        "netOperatingIncome": {
+          "generalFund": -1244180688.37,
+          "sef": 103897965.34,
+          "total": -1140282723.03
+        },
+        "proceedsFromLoans": {
+          "generalFund": 648662909.23,
+          "sef": 0,
+          "total": 648662909.23
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 1390065794.92,
+          "sef": 0,
+          "total": 1390065794.92
+        },
+        "capitalOutlay": {
+          "generalFund": 260222607.81,
+          "sef": 0,
+          "total": 260222607.81
+        },
+        "debtServicePrincipal": {
+          "generalFund": 144840385.44,
+          "sef": 3155944.64,
+          "total": 147996330.08
+        },
+        "otherNonOperatingExpenditures": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "netIncreaseInFunds": {
+          "generalFund": 389485022.53,
+          "sef": 100742020.7,
+          "total": 490227043.23
+        },
+        "beginningCashBalance": {
+          "generalFund": 1384415109.36,
+          "sef": 248769221.59,
+          "total": 1633184330.95
+        },
+        "endingCashBalance": {
+          "generalFund": 1474719360.14,
+          "sef": 405521538.87,
+          "total": 1880240899.01
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 508469974.78,
+          "sef": 101702842.81,
+          "total": 610172817.59
+        },
+        "advancePaymentForRpt": {
+          "generalFund": 209289203.03,
+          "sef": 157713139.39,
+          "total": 367002342.42
+        }
+      },
+      {
+        "year": 2021,
+        "quarter": "Q4",
+        "sourceFile": "2022_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 3245178224.94,
+        "localSources": {
+          "generalFund": 1175528818.13,
+          "sef": 309874219.56,
+          "total": 1485403037.69
+        },
+        "taxRevenue": {
+          "generalFund": 905195223.53,
+          "sef": 101094058.41,
+          "total": 1006289281.94
+        },
+        "nonTaxRevenue": {
+          "generalFund": 270333594.6,
+          "sef": 208780161.15,
+          "total": 479113755.75
+        },
+        "externalSources": {
+          "generalFund": 2102713687.14,
+          "sef": 0,
+          "total": 2102713687.14
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 3278242505.27,
+          "sef": 309874219.56,
+          "total": 3588116724.83
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 2702875671.49,
+          "sef": 177582611.17,
+          "total": 2880458282.66
+        },
+        "netOperatingIncome": {
+          "generalFund": 575366833.78,
+          "sef": 132291608.39,
+          "total": 707658442.17
+        },
+        "proceedsFromLoans": {
+          "generalFund": 586275481.03,
+          "sef": 0,
+          "total": 586275481.03
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 960606270.8,
+          "sef": 0,
+          "total": 960606270.8
+        },
+        "capitalOutlay": {
+          "generalFund": 339584704.3,
+          "sef": 16835417.09,
+          "total": 356420121.39
+        },
+        "debtServicePrincipal": {
+          "generalFund": 165671159.43,
+          "sef": 0,
+          "total": 165671159.43
+        },
+        "otherNonOperatingExpenditures": {
+          "generalFund": 350839773.27,
+          "sef": 0,
+          "total": 350839773.27
+        },
+        "netIncreaseInFunds": {
+          "generalFund": 1266152948.61,
+          "sef": 115456191.3,
+          "total": 1381609139.91
+        },
+        "beginningCashBalance": {
+          "generalFund": 1319379958.78,
+          "sef": 247808399.48,
+          "total": 1567188358.26
+        },
+        "endingCashBalance": {
+          "generalFund": 2277405214.41,
+          "sef": 358765156.2,
+          "total": 2636170370.61
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 558996973.19,
+          "sef": 190914780.62,
+          "total": 749911753.81
+        },
+        "advancePaymentForRpt": {
+          "generalFund": 250869280.21,
+          "sef": 186415346.04,
+          "total": 437284626.25
+        }
+      },
+      {
+        "year": 2022,
+        "quarter": "Q4",
+        "sourceFile": "2023_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 3731749247.0,
+        "localSources": {
+          "generalFund": 1321477597.32,
+          "sef": 152436325.26,
+          "total": 1473913922.58
+        },
+        "taxRevenue": {
+          "generalFund": 922502388.37,
+          "sef": 89608358.37,
+          "total": 1012110746.74
+        },
+        "nonTaxRevenue": {
+          "generalFund": 398975208.95,
+          "sef": 62827966.89,
+          "total": 461803175.84
+        },
+        "externalSources": {
+          "generalFund": 1535632863.96,
+          "sef": 0,
+          "total": 1535632863.96
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2857110461.28,
+          "sef": 152436325.26,
+          "total": 3009546786.54
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 2902759449.18,
+          "sef": 199422246.03,
+          "total": 3102181695.21
+        },
+        "netOperatingIncome": {
+          "generalFund": -45648987.9,
+          "sef": -46985920.77,
+          "total": -92634908.67
+        },
+        "proceedsFromLoans": {
+          "generalFund": 1181943575.13,
+          "sef": 0,
+          "total": 1181943575.13
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 617653247.54,
+          "sef": 0,
+          "total": 617653247.54
+        },
+        "capitalOutlay": {
+          "generalFund": 410695296.02,
+          "sef": 0,
+          "total": 410695296.02
+        },
+        "debtServicePrincipal": {
+          "generalFund": 46970545.63,
+          "sef": 405715.27,
+          "total": 47376260.9
+        },
+        "otherNonOperatingExpenditures": {
+          "generalFund": 1129429208.45,
+          "sef": 0,
+          "total": 1129429208.45
+        },
+        "netIncreaseInFunds": {
+          "generalFund": 166852784.67,
+          "sef": -47391636.04,
+          "total": 119461148.63
+        },
+        "beginningCashBalance": {
+          "generalFund": 1454218876.33,
+          "sef": 358765156.2,
+          "total": 1812984032.53
+        },
+        "endingCashBalance": {
+          "generalFund": 1567967454.94,
+          "sef": 466442801.11,
+          "total": 2034410256.05
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 328860311.14,
+          "sef": 50884983.99,
+          "total": 379745295.13
+        },
+        "advancePaymentForRpt": {
+          "generalFund": 275756105.08,
+          "sef": 205954264.94,
+          "total": 481710370.02
+        }
+      },
+      {
+        "year": 2023,
+        "quarter": "Q2",
+        "sourceFile": "2023_Statement of Receipts and Expenditures.pdf",
+        "page": 2,
+        "incomeTarget": 3546998253.04,
+        "localSources": {
+          "generalFund": 971527126.49,
+          "sef": 74435997.2,
+          "total": 1045963123.69
+        },
+        "taxRevenue": {
+          "generalFund": 810959980.61,
+          "sef": 59327355.83,
+          "total": 870287336.44
+        },
+        "nonTaxRevenue": {
+          "generalFund": 160567145.88,
+          "sef": 15108641.37,
+          "total": 175675787.25
+        },
+        "externalSources": {
+          "generalFund": 654493897.98,
+          "sef": 0,
+          "total": 654493897.98
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 1626021024.47,
+          "sef": 74435997.2,
+          "total": 1700457021.67
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 992987501.23,
+          "sef": 34742843.39,
+          "total": 1027730344.62
+        },
+        "netOperatingIncome": {
+          "generalFund": 633033523.24,
+          "sef": 39693153.81,
+          "total": 672726677.05
+        },
+        "proceedsFromLoans": {
+          "generalFund": 344218335.73,
+          "sef": 0,
+          "total": 344218335.73
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 289129404.2,
+          "sef": 0,
+          "total": 289129404.2
+        },
+        "capitalOutlay": {
+          "generalFund": 109726775.51,
+          "sef": 3422240.0,
+          "total": 113149015.51
+        },
+        "debtServicePrincipal": {
+          "generalFund": 42758728.69,
+          "sef": 405715.27,
+          "total": 43164443.96
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 1113895758.97,
+          "sef": 35865198.54,
+          "total": 1149760957.51
+        },
+        "beginningCashBalance": {
+          "generalFund": 1567967454.94,
+          "sef": 466442801.11,
+          "total": 2034410256.05
+        },
+        "endingCashBalance": {
+          "generalFund": 2408727857.58,
+          "sef": 468897429.73,
+          "total": 2877625287.31
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 273135356.33,
+          "sef": 33410569.92,
+          "total": 306545926.25
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2023,
+        "quarter": "Q3",
+        "sourceFile": "2023_Statement of Receipts and Expenditures.pdf",
+        "page": 3,
+        "incomeTarget": 3546998253.04,
+        "localSources": {
+          "generalFund": 1288663247.29,
+          "sef": 85133827.77,
+          "total": 1373797075.06
+        },
+        "taxRevenue": {
+          "generalFund": 971536767.63,
+          "sef": 67853083.06,
+          "total": 1039389850.69
+        },
+        "nonTaxRevenue": {
+          "generalFund": 317126479.66,
+          "sef": 17280744.71,
+          "total": 334407224.37
+        },
+        "externalSources": {
+          "generalFund": 981740846.97,
+          "sef": 0,
+          "total": 981740846.97
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2270404094.26,
+          "sef": 85133827.77,
+          "total": 2355537922.03
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 1633923093.05,
+          "sef": 257556670.27,
+          "total": 1891479763.32
+        },
+        "netOperatingIncome": {
+          "generalFund": 636481001.21,
+          "sef": -172422842.5,
+          "total": 464058158.71
+        },
+        "proceedsFromLoans": {
+          "generalFund": 435018454.4,
+          "sef": 0,
+          "total": 435018454.4
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 352673773.73,
+          "sef": 0,
+          "total": 352673773.73
+        },
+        "capitalOutlay": {
+          "generalFund": 178980181.58,
+          "sef": 3422240.0,
+          "total": 182402421.58
+        },
+        "debtServicePrincipal": {
+          "generalFund": 66263344.51,
+          "sef": 405715.27,
+          "total": 66669059.78
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 1178929703.25,
+          "sef": -176250797.77,
+          "total": 1002678905.48
+        },
+        "beginningCashBalance": {
+          "generalFund": 1567967454.94,
+          "sef": 466442801.11,
+          "total": 2034410256.05
+        },
+        "endingCashBalance": {
+          "generalFund": 2396229042.37,
+          "sef": 219397330.88,
+          "total": 2615626373.25
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 350668115.82,
+          "sef": 70794672.46,
+          "total": 421462788.28
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2023,
+        "quarter": "Q4",
+        "sourceFile": "2023_Statement of Receipts and Expenditures.pdf",
+        "page": 4,
+        "incomeTarget": 3546998253.04,
+        "localSources": {
+          "generalFund": 1470558019.38,
+          "sef": 112721353.33,
+          "total": 1583279372.71
+        },
+        "taxRevenue": {
+          "generalFund": 1100543314.05,
+          "sef": 86154563.99,
+          "total": 1186697878.04
+        },
+        "nonTaxRevenue": {
+          "generalFund": 370014705.33,
+          "sef": 26566789.34,
+          "total": 396581494.67
+        },
+        "externalSources": {
+          "generalFund": 1371306867.8,
+          "sef": 0,
+          "total": 1371306867.8
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2841864887.18,
+          "sef": 112721353.33,
+          "total": 2954586240.51
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 2681071709.19,
+          "sef": 315347893.3,
+          "total": 2996419602.49
+        },
+        "netOperatingIncome": {
+          "generalFund": 160793177.99,
+          "sef": -202626539.97,
+          "total": -41833361.98
+        },
+        "proceedsFromLoans": {
+          "generalFund": 435018454.4,
+          "sef": 0,
+          "total": 435018454.4
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 660608421.25,
+          "sef": 0,
+          "total": 660608421.25
+        },
+        "capitalOutlay": {
+          "generalFund": 347373135.01,
+          "sef": 12740801.0,
+          "total": 360113936.01
+        },
+        "debtServicePrincipal": {
+          "generalFund": 95673818.02,
+          "sef": 405715.27,
+          "total": 96079533.29
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 813373100.61,
+          "sef": -215773056.24,
+          "total": 597600044.37
+        },
+        "beginningCashBalance": {
+          "generalFund": 1567967454.94,
+          "sef": 466442801.11,
+          "total": 2034410256.05
+        },
+        "endingCashBalance": {
+          "generalFund": 2203691146.54,
+          "sef": 396559267.01,
+          "total": 2600250413.55
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 473730347.42,
+          "sef": 76240403.38,
+          "total": 549970750.8
+        },
+        "advancePaymentForRpt": {
+          "generalFund": 296080938.41,
+          "sef": 222129925.52,
+          "total": 518210863.93
+        }
+      },
+      {
+        "year": 2024,
+        "quarter": "Q1",
+        "sourceFile": "2024_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 3684571579.5,
+        "localSources": {
+          "generalFund": 831630277.02,
+          "sef": 36385095.97,
+          "total": 868015372.99
+        },
+        "taxRevenue": {
+          "generalFund": 719895726.57,
+          "sef": 36333519.71,
+          "total": 756229246.28
+        },
+        "nonTaxRevenue": {
+          "generalFund": 111734550.45,
+          "sef": 51576.26,
+          "total": 111786126.71
+        },
+        "externalSources": {
+          "generalFund": 346861104.75,
+          "sef": 0,
+          "total": 346861104.75
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 1178491381.77,
+          "sef": 36385095.97,
+          "total": 1214876477.74
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 756853424.46,
+          "sef": 17517666.17,
+          "total": 774371090.63
+        },
+        "netOperatingIncome": {
+          "generalFund": 421637957.31,
+          "sef": 18867429.8,
+          "total": 440505387.11
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 86685827.17,
+          "sef": 0,
+          "total": 86685827.17
+        },
+        "debtServicePrincipal": {
+          "generalFund": 30181597.65,
+          "sef": 0,
+          "total": 30181597.65
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 304770532.49,
+          "sef": 18867429.8,
+          "total": 323637962.29
+        },
+        "beginningCashBalance": {
+          "generalFund": 2203691146.54,
+          "sef": 396559267.01,
+          "total": 2600250413.55
+        },
+        "endingCashBalance": {
+          "generalFund": 2182139628.61,
+          "sef": 399947055.0,
+          "total": 2582086683.61
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 326322050.42,
+          "sef": 15479641.81,
+          "total": 341801692.23
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2024,
+        "quarter": "Q2",
+        "sourceFile": "2024_Statement of Receipts and Expenditures.pdf",
+        "page": "2-3",
+        "incomeTarget": 3684571579.5,
+        "localSources": {
+          "generalFund": 1116297540.8,
+          "sef": 46282317.01,
+          "total": 1162579857.81
+        },
+        "taxRevenue": {
+          "generalFund": 880384162.54,
+          "sef": 46193971.59,
+          "total": 926578134.13
+        },
+        "nonTaxRevenue": {
+          "generalFund": 235913378.26,
+          "sef": 88345.42,
+          "total": 236001723.68
+        },
+        "externalSources": {
+          "generalFund": 693722209.5,
+          "sef": 0,
+          "total": 693722209.5
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 1810019750.3,
+          "sef": 46282317.01,
+          "total": 1856302067.31
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 1607586150.85,
+          "sef": 43955581.56,
+          "total": 1651541732.41
+        },
+        "netOperatingIncome": {
+          "generalFund": 202433599.45,
+          "sef": 2326735.45,
+          "total": 204760334.9
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 163082083.84,
+          "sef": 53813258.32,
+          "total": 216895342.16
+        },
+        "debtServicePrincipal": {
+          "generalFund": 60363195.3,
+          "sef": 0,
+          "total": 60363195.3
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": -21011679.69,
+          "sef": -51486522.87,
+          "total": -72498202.56
+        },
+        "beginningCashBalance": {
+          "generalFund": 2203691146.54,
+          "sef": 396559267.01,
+          "total": 2600250413.55
+        },
+        "endingCashBalance": {
+          "generalFund": 1772462019.2,
+          "sef": 256809622.79,
+          "total": 2029271641.99
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 410217447.65,
+          "sef": 88263121.35,
+          "total": 498480569.0
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2024,
+        "quarter": "Q3",
+        "sourceFile": "2024_Statement of Receipts and Expenditures.pdf",
+        "page": 4,
+        "incomeTarget": 3684571579.5,
+        "localSources": {
+          "generalFund": 1353788216.26,
+          "sef": 54576826.42,
+          "total": 1408365042.68
+        },
+        "taxRevenue": {
+          "generalFund": 1044384517.3,
+          "sef": 54475386.64,
+          "total": 1098859903.94
+        },
+        "nonTaxRevenue": {
+          "generalFund": 309403698.96,
+          "sef": 101439.78,
+          "total": 309505138.74
+        },
+        "externalSources": {
+          "generalFund": 1040583314.25,
+          "sef": 0,
+          "total": 1040583314.25
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2394371530.51,
+          "sef": 54576826.42,
+          "total": 2448948356.93
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 2126004196.53,
+          "sef": 70167911.65,
+          "total": 2196172108.18
+        },
+        "netOperatingIncome": {
+          "generalFund": 268367333.98,
+          "sef": -15591085.23,
+          "total": 252776248.75
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 223363998.5,
+          "sef": 54021258.32,
+          "total": 277385256.82
+        },
+        "debtServicePrincipal": {
+          "generalFund": 99452928.1,
+          "sef": 0,
+          "total": 99452928.1
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": -54449592.62,
+          "sef": -69612343.55,
+          "total": -124061936.17
+        },
+        "beginningCashBalance": {
+          "generalFund": 2203691146.54,
+          "sef": 396559267.01,
+          "total": 2600250413.55
+        },
+        "endingCashBalance": {
+          "generalFund": 1579577577.41,
+          "sef": 233088600.77,
+          "total": 1812666178.18
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 569663976.51,
+          "sef": 93858322.69,
+          "total": 663522299.2
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2024,
+        "quarter": "Q4",
+        "sourceFile": "2024_Statement of Receipts and Expenditures.pdf",
+        "page": 5,
+        "incomeTarget": 3684571579.5,
+        "localSources": {
+          "generalFund": 1533218521.57,
+          "sef": 116921278.47,
+          "total": 1650139800.04
+        },
+        "taxRevenue": {
+          "generalFund": 1173335359.97,
+          "sef": 70157326.45,
+          "total": 1243492686.42
+        },
+        "nonTaxRevenue": {
+          "generalFund": 359883161.6,
+          "sef": 46763952.02,
+          "total": 406647113.62
+        },
+        "externalSources": {
+          "generalFund": 1387444419.0,
+          "sef": 0,
+          "total": 1387444419.0
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2920662940.57,
+          "sef": 116921278.47,
+          "total": 3037584219.04
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 2894154842.7,
+          "sef": 250650616.52,
+          "total": 3144805459.22
+        },
+        "netOperatingIncome": {
+          "generalFund": 26508097.87,
+          "sef": -133729338.05,
+          "total": -107221240.18
+        },
+        "proceedsFromLoans": {
+          "generalFund": 138136130.88,
+          "sef": 0,
+          "total": 138136130.88
+        },
+        "otherNonIncomeReceipts": {
+          "generalFund": 634968898.97,
+          "sef": 0,
+          "total": 634968898.97
+        },
+        "capitalOutlay": {
+          "generalFund": 309865011.38,
+          "sef": 55814893.32,
+          "total": 365679904.7
+        },
+        "debtServicePrincipal": {
+          "generalFund": 140197442.82,
+          "sef": 0,
+          "total": 140197442.82
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 349550673.52,
+          "sef": -189544231.37,
+          "total": 160006442.15
+        },
+        "beginningCashBalance": {
+          "generalFund": 2203691146.54,
+          "sef": 396559267.01,
+          "total": 2600250413.55
+        },
+        "endingCashBalance": {
+          "generalFund": 2189616977.96,
+          "sef": 320377071.84,
+          "total": 2509994049.8
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 659867668.47,
+          "sef": 112130837.25,
+          "total": 771998505.72
+        },
+        "advancePaymentForRpt": {
+          "generalFund": 296242826.37,
+          "sef": 225492873.45,
+          "total": 521735699.82
+        }
+      },
+      {
+        "year": 2025,
+        "quarter": "Q1",
+        "sourceFile": "2025_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 4010166578.0,
+        "localSources": {
+          "generalFund": 843953362.2,
+          "sef": 36193416.34,
+          "total": 880146778.54
+        },
+        "taxRevenue": {
+          "generalFund": 743997048.97,
+          "sef": 36170253.39,
+          "total": 780167302.36
+        },
+        "nonTaxRevenue": {
+          "generalFund": 99956313.23,
+          "sef": 23162.95,
+          "total": 99979476.18
+        },
+        "externalSources": {
+          "generalFund": 411486132.0,
+          "sef": 0,
+          "total": 411486132.0
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 1255439494.2,
+          "sef": 36193416.34,
+          "total": 1291632910.54
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 1100363367.3,
+          "sef": 198249376.98,
+          "total": 1298612744.28
+        },
+        "netOperatingIncome": {
+          "generalFund": 155076126.9,
+          "sef": -162055960.64,
+          "total": -6979833.74
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 112285387.55,
+          "sef": 8664284.8,
+          "total": 120949672.35
+        },
+        "debtServicePrincipal": {
+          "generalFund": 49774040.36,
+          "sef": 0,
+          "total": 49774040.36
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": -6983301.01,
+          "sef": -170720245.44,
+          "total": -177703546.45
+        },
+        "beginningCashBalance": {
+          "generalFund": 2189616977.96,
+          "sef": 320377071.84,
+          "total": 2509994049.8
+        },
+        "endingCashBalance": {
+          "generalFund": 1713136773.34,
+          "sef": 129421823.79,
+          "total": 1842558597.13
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 469496903.61,
+          "sef": 20235002.61,
+          "total": 489731906.22
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2025,
+        "quarter": "Q2",
+        "sourceFile": "2025_Statement of Receipts and Expenditures.pdf",
+        "page": 2,
+        "incomeTarget": 4010166578.0,
+        "localSources": {
+          "generalFund": 1301104663.33,
+          "sef": 49456933.54,
+          "total": 1350561596.87
+        },
+        "taxRevenue": {
+          "generalFund": 950270670.24,
+          "sef": 49421946.21,
+          "total": 999692616.45
+        },
+        "nonTaxRevenue": {
+          "generalFund": 350833993.09,
+          "sef": 34987.33,
+          "total": 350868980.42
+        },
+        "externalSources": {
+          "generalFund": 822972264.0,
+          "sef": 0,
+          "total": 822972264.0
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2124076927.33,
+          "sef": 49456933.54,
+          "total": 2173533860.87
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 1637292889.33,
+          "sef": 230342458.29,
+          "total": 1867635347.62
+        },
+        "netOperatingIncome": {
+          "generalFund": 486784038.0,
+          "sef": -180885524.75,
+          "total": 305898513.25
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 196302800.85,
+          "sef": 8664284.8,
+          "total": 204967085.65
+        },
+        "debtServicePrincipal": {
+          "generalFund": 99548080.72,
+          "sef": 0,
+          "total": 99548080.72
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 190933156.43,
+          "sef": -189549809.55,
+          "total": 1383346.88
+        },
+        "beginningCashBalance": {
+          "generalFund": 2189616977.96,
+          "sef": 320377071.84,
+          "total": 2509994049.8
+        },
+        "endingCashBalance": {
+          "generalFund": 1860852390.89,
+          "sef": 69095899.16,
+          "total": 1929948290.05
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 519697743.5,
+          "sef": 61731363.13,
+          "total": 581429106.63
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2025,
+        "quarter": "Q3",
+        "sourceFile": "2025_Statement of Receipts and Expenditures.pdf",
+        "page": 3,
+        "incomeTarget": 4010166578.0,
+        "localSources": {
+          "generalFund": 1579405644.51,
+          "sef": 60542797.04,
+          "total": 1639948441.55
+        },
+        "taxRevenue": {
+          "generalFund": 1168407517.71,
+          "sef": 60497616.43,
+          "total": 1228905134.14
+        },
+        "nonTaxRevenue": {
+          "generalFund": 410998126.8,
+          "sef": 45180.61,
+          "total": 411043307.41
+        },
+        "externalSources": {
+          "generalFund": 1234458393.0,
+          "sef": 0,
+          "total": 1234458393.0
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 2813864037.51,
+          "sef": 60542797.04,
+          "total": 2874406834.55
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 2231358843.82,
+          "sef": 236985345.47,
+          "total": 2468344189.29
+        },
+        "netOperatingIncome": {
+          "generalFund": 582505193.69,
+          "sef": -176442548.43,
+          "total": 406062645.26
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 259097455.48,
+          "sef": 8664284.8,
+          "total": 267761740.28
+        },
+        "debtServicePrincipal": {
+          "generalFund": 149322121.08,
+          "sef": 0,
+          "total": 149322121.08
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 174085617.13,
+          "sef": -185106833.23,
+          "total": -11021216.1
+        },
+        "beginningCashBalance": {
+          "generalFund": 2189616977.96,
+          "sef": 320377071.84,
+          "total": 2509994049.8
+        },
+        "endingCashBalance": {
+          "generalFund": 1680649838.38,
+          "sef": 50164830.75,
+          "total": 1730814669.13
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 683052756.71,
+          "sef": 85105407.86,
+          "total": 768158164.57
+        },
+        "advancePaymentForRpt": null
+      },
+      {
+        "year": 2026,
+        "quarter": "Q1",
+        "sourceFile": "2026_Statement of Receipts and Expenditures.pdf",
+        "page": 1,
+        "incomeTarget": 4877166862.0,
+        "localSources": {
+          "generalFund": 959398989.18,
+          "sef": 35307066.28,
+          "total": 994706055.46
+        },
+        "taxRevenue": {
+          "generalFund": 839507053.62,
+          "sef": 35276403.93,
+          "total": 874783457.55
+        },
+        "nonTaxRevenue": {
+          "generalFund": 119891935.56,
+          "sef": 30662.35,
+          "total": 119922597.91
+        },
+        "externalSources": {
+          "generalFund": 470596605.0,
+          "sef": 0,
+          "total": 470596605.0
+        },
+        "totalCurrentOperatingIncome": {
+          "generalFund": 1429995594.18,
+          "sef": 35307066.28,
+          "total": 1465302660.46
+        },
+        "totalCurrentOperatingExpenditures": {
+          "generalFund": 782390350.68,
+          "sef": 47895538.07,
+          "total": 830285888.75
+        },
+        "netOperatingIncome": {
+          "generalFund": 647605243.5,
+          "sef": -12588471.79,
+          "total": 635016771.71
+        },
+        "proceedsFromLoans": {
+          "generalFund": 0,
+          "sef": 0,
+          "total": 0
+        },
+        "otherNonIncomeReceipts": null,
+        "capitalOutlay": {
+          "generalFund": 74282637.17,
+          "sef": 0,
+          "total": 74282637.17
+        },
+        "debtServicePrincipal": {
+          "generalFund": 51123035.94,
+          "sef": 0,
+          "total": 51123035.94
+        },
+        "otherNonOperatingExpenditures": null,
+        "netIncreaseInFunds": {
+          "generalFund": 522199570.39,
+          "sef": -12588471.79,
+          "total": 509611098.6
+        },
+        "beginningCashBalance": {
+          "generalFund": 2469439715.1,
+          "sef": 566431905.33,
+          "total": 3035871620.43
+        },
+        "endingCashBalance": {
+          "generalFund": 2684576818.11,
+          "sef": 543827089.9,
+          "total": 3228403908.01
+        },
+        "priorYearAccountsPayable": {
+          "generalFund": 307062467.38,
+          "sef": 10016343.64,
+          "total": 317078811.02
+        },
+        "advancePaymentForRpt": null
+      }
+    ],
+    "indebtedness": {
+      "loans": [
+        {
+          "loanReference": "2021-06-01",
+          "creditor": "Land Bank of the Philippines",
+          "amountApproved": 883951124.35,
+          "actualPrincipalAmount": 877448686.38,
+          "interestRatePct": 4.0,
+          "maturityDate": "2036-03-17",
+          "termYears": 15,
+          "purpose": "Various infrastructures",
+          "reports": [
+            {
+              "year": 2025,
+              "quarter": "Q1",
+              "totalAmountReleased": 745726921.39,
+              "cumulativePrincipalPaid": 15236345.87,
+              "outstandingPrincipal": 730490575.52
+            },
+            {
+              "year": 2025,
+              "quarter": "Q2",
+              "totalAmountReleased": 746580948.88,
+              "cumulativePrincipalPaid": 49765251.74,
+              "outstandingPrincipal": 696815697.14
+            },
+            {
+              "year": 2025,
+              "quarter": "Q3",
+              "totalAmountReleased": 746580948.88,
+              "cumulativePrincipalPaid": 45709037.61,
+              "outstandingPrincipal": 700871911.27
+            },
+            {
+              "year": 2026,
+              "quarter": "Q1",
+              "totalAmountReleased": 746580948.88,
+              "cumulativePrincipalPaid": 76181729.35,
+              "outstandingPrincipal": 670399219.53
+            }
+          ]
+        },
+        {
+          "loanReference": "2021-04-01",
+          "creditor": "Land Bank of the Philippines",
+          "amountApproved": 1658882300.43,
+          "actualPrincipalAmount": 1637423437.04,
+          "interestRatePct": 5.0,
+          "maturityDate": "2036-09-15",
+          "termYears": 15,
+          "purpose": "Various priority development projects and programs and acquisition of lots",
+          "reports": [
+            {
+              "year": 2025,
+              "quarter": "Q1",
+              "totalAmountReleased": 1554168313.32,
+              "cumulativePrincipalPaid": 165985854.1,
+              "outstandingPrincipal": 1388182459.22
+            },
+            {
+              "year": 2025,
+              "quarter": "Q2",
+              "totalAmountReleased": 1554168313.33,
+              "cumulativePrincipalPaid": 201521392.99,
+              "outstandingPrincipal": 1352646920.34
+            },
+            {
+              "year": 2025,
+              "quarter": "Q3",
+              "totalAmountReleased": 1554168313.33,
+              "cumulativePrincipalPaid": 237460151.78,
+              "outstandingPrincipal": 1316708161.55
+            },
+            {
+              "year": 2026,
+              "quarter": "Q1",
+              "totalAmountReleased": 1589852820.95,
+              "cumulativePrincipalPaid": 311158227.76,
+              "outstandingPrincipal": 1278694593.19
+            }
+          ]
+        },
+        {
+          "loanReference": "2021-05-01",
+          "creditor": "Land Bank of the Philippines",
+          "amountApproved": 1540000000.0,
+          "actualPrincipalAmount": 1447137652.06,
+          "interestRatePct": 4.25,
+          "maturityDate": "2036-08-29",
+          "termYears": 15,
+          "purpose": null,
+          "reports": [
+            {
+              "year": 2025,
+              "quarter": "Q1",
+              "totalAmountReleased": 1447137652.06,
+              "cumulativePrincipalPaid": 258417437.9,
+              "outstandingPrincipal": 1188720214.16
+            },
+            {
+              "year": 2025,
+              "quarter": "Q2",
+              "totalAmountReleased": 1447137652.06,
+              "cumulativePrincipalPaid": 284259181.69,
+              "outstandingPrincipal": 1162878470.37
+            },
+            {
+              "year": 2025,
+              "quarter": "Q3",
+              "totalAmountReleased": 1447137652.06,
+              "cumulativePrincipalPaid": 310100925.48,
+              "outstandingPrincipal": 1137036726.58
+            },
+            {
+              "year": 2026,
+              "quarter": "Q1",
+              "totalAmountReleased": 1447137652.06,
+              "cumulativePrincipalPaid": 361784413.06,
+              "outstandingPrincipal": 1085353239.0
+            }
+          ]
+        },
+        {
+          "loanReference": "2019-01-01",
+          "creditor": "Philippine Veterans Bank",
+          "amountApproved": 500000000.0,
+          "actualPrincipalAmount": 430533264.53,
+          "interestRatePct": 8.48,
+          "maturityDate": "2028-03-18",
+          "termYears": 12,
+          "purpose": null,
+          "reports": [
+            {
+              "year": 2025,
+              "quarter": "Q1",
+              "totalAmountReleased": 430533264.53,
+              "cumulativePrincipalPaid": 311264678.02,
+              "outstandingPrincipal": 119268586.51
+            },
+            {
+              "year": 2025,
+              "quarter": "Q2",
+              "totalAmountReleased": 430533264.53,
+              "cumulativePrincipalPaid": 321203722.58,
+              "outstandingPrincipal": 109329541.95
+            },
+            {
+              "year": 2025,
+              "quarter": "Q3",
+              "totalAmountReleased": 430533264.53,
+              "cumulativePrincipalPaid": 331142767.14,
+              "outstandingPrincipal": 99390497.39
+            },
+            {
+              "year": 2026,
+              "quarter": "Q1",
+              "totalAmountReleased": 430533264.53,
+              "cumulativePrincipalPaid": 351020406.26,
+              "outstandingPrincipal": 79512858.27
+            }
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "year": 2025,
+          "quarter": "Q1",
+          "outstandingPrincipal": 3426661835.41,
+          "currentAnnualBudget": 3457314318.0,
+          "budgetAllocationForDebtService": 314626115.86
+        },
+        {
+          "year": 2025,
+          "quarter": "Q2",
+          "outstandingPrincipal": 3321670629.8,
+          "currentAnnualBudget": 3457314318.0,
+          "budgetAllocationForDebtService": 314626115.86
+        },
+        {
+          "year": 2025,
+          "quarter": "Q3",
+          "outstandingPrincipal": 3254007296.79,
+          "currentAnnualBudget": 3457314318.0,
+          "budgetAllocationForDebtService": 314626115.86
+        },
+        {
+          "year": 2026,
+          "quarter": "Q1",
+          "outstandingPrincipal": 3113959909.99,
+          "currentAnnualBudget": 4200068352.0,
+          "budgetAllocationForDebtService": null
+        }
+      ]
+    },
+    "specialEducationFund": [
+      {
+        "year": 2025,
+        "quarter": "Q1",
+        "specialEducationTax": 302448775.55,
+        "discountOnSpecialEducationTax": -41161064.39,
+        "interestIncome": 29074.37,
+        "netReceipts": 261316785.53,
+        "maintenanceAndOtherOperatingExpenses": 184807545.66,
+        "capitalOutlay": 6953484.8,
+        "totalDisbursements": 191761030.46,
+        "balance": 69555755.07
+      },
+      {
+        "year": 2025,
+        "quarter": "Q2",
+        "specialEducationTax": 14059334.08,
+        "discountOnSpecialEducationTax": -807641.26,
+        "interestIncome": 14900.76,
+        "netReceipts": 13266593.58,
+        "maintenanceAndOtherOperatingExpenses": 26083233.59,
+        "capitalOutlay": 633935.0,
+        "totalDisbursements": 26717168.59,
+        "balance": -13450575.01
+      },
+      {
+        "year": 2025,
+        "quarter": "Q3",
+        "specialEducationTax": 11551803.05,
+        "discountOnSpecialEducationTax": -469695.19,
+        "interestIncome": 12894.03,
+        "netReceipts": 11095001.89,
+        "maintenanceAndOtherOperatingExpenses": 19317542.38,
+        "capitalOutlay": 800000.0,
+        "totalDisbursements": 20117542.38,
+        "balance": -9022540.49
+      },
+      {
+        "year": 2025,
+        "quarter": "Q4",
+        "specialEducationTax": 20116142.59,
+        "discountOnSpecialEducationTax": -506403.21,
+        "interestIncome": 17274.96,
+        "netReceipts": 19627014.34,
+        "maintenanceAndOtherOperatingExpenses": 27671800.21,
+        "capitalOutlay": 0,
+        "totalDisbursements": 27671800.21,
+        "balance": -8044785.87
+      }
+    ],
+    "twentyPercentNta": [
+      {
+        "year": 2025,
+        "quarter": "Q1",
+        "items": [
+          {
+            "item": "Proposed Animal Shelter",
+            "category": "Other structures",
+            "location": "Gil Fernando Avenue, Sto. Niño",
+            "totalCost": 27999882.84,
+            "dateStarted": "2025-03-13",
+            "targetCompletionDate": "2025-07-13",
+            "percentCompletion": 16.23,
+            "costIncurredToDate": 27979761.43
+          },
+          {
+            "item": "LBP loan amortization and interest (year to date)",
+            "category": "Loan amortization",
+            "location": null,
+            "totalCost": 281112574.18,
+            "dateStarted": null,
+            "targetCompletionDate": null,
+            "percentCompletion": null,
+            "costIncurredToDate": 65371966.12
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "quarter": "Q2",
+        "items": [
+          {
+            "item": "Proposed Animal Shelter",
+            "category": "Other structures",
+            "location": "Gil Fernando Avenue, Sto. Niño",
+            "totalCost": 27999882.84,
+            "dateStarted": "2025-03-13",
+            "targetCompletionDate": "2025-07-13",
+            "percentCompletion": 23.0,
+            "costIncurredToDate": 27979761.43
+          },
+          {
+            "item": "Proposed Drainage Improvement",
+            "category": "Other land improvements",
+            "location": "Aquilina St., Sto. Niño",
+            "totalCost": 12492136.5,
+            "dateStarted": "2025-04-04",
+            "targetCompletionDate": "2025-08-04",
+            "percentCompletion": 80.48,
+            "costIncurredToDate": 12486088.31
+          },
+          {
+            "item": "LBP loan amortization and interest (year to date)",
+            "category": "Loan amortization",
+            "location": null,
+            "totalCost": 281112574.18,
+            "dateStarted": null,
+            "targetCompletionDate": null,
+            "percentCompletion": null,
+            "costIncurredToDate": 131292418.93
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "quarter": "Q3",
+        "items": [
+          {
+            "item": "Proposed Animal Shelter",
+            "category": "Other structures",
+            "location": "Gil Fernando Avenue, Sto. Niño",
+            "totalCost": 27999882.84,
+            "dateStarted": "2025-03-13",
+            "targetCompletionDate": "2025-07-13",
+            "percentCompletion": 52.91,
+            "costIncurredToDate": 27979761.43
+          },
+          {
+            "item": "Proposed Drainage Improvement",
+            "category": "Other land improvements",
+            "location": "Aquilina St., Sto. Niño",
+            "totalCost": 12492136.5,
+            "dateStarted": "2025-04-04",
+            "targetCompletionDate": "2025-08-04",
+            "percentCompletion": 100.0,
+            "costIncurredToDate": 12486088.31
+          },
+          {
+            "item": "LBP loan amortization and interest (year to date)",
+            "category": "Loan amortization",
+            "location": null,
+            "totalCost": 281112574.18,
+            "dateStarted": null,
+            "targetCompletionDate": null,
+            "percentCompletion": null,
+            "costIncurredToDate": 196119218.74
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "quarter": "Q4",
+        "items": [
+          {
+            "item": "Proposed Animal Shelter",
+            "category": "Other structures",
+            "location": "Gil Fernando Avenue, Sto. Niño",
+            "totalCost": 27999882.84,
+            "dateStarted": "2025-03-13",
+            "targetCompletionDate": "2025-07-13",
+            "percentCompletion": 100.0,
+            "costIncurredToDate": 27979761.43
+          },
+          {
+            "item": "Proposed Drainage Improvement",
+            "category": "Other land improvements",
+            "location": "Aquilina St., Sto. Niño",
+            "totalCost": 12492136.5,
+            "dateStarted": "2025-04-04",
+            "targetCompletionDate": "2025-08-04",
+            "percentCompletion": 100.0,
+            "costIncurredToDate": 12486088.31
+          },
+          {
+            "item": "LBP loan amortization and interest (year to date)",
+            "category": "Loan amortization",
+            "location": null,
+            "totalCost": 281112574.18,
+            "dateStarted": null,
+            "targetCompletionDate": null,
+            "percentCompletion": null,
+            "costIncurredToDate": 260285885.39
+          }
+        ]
+      }
+    ],
+    "ldrrmf": [
+      {
+        "year": 2025,
+        "month": "January",
+        "totalFundsAvailable": 280522763.25,
+        "totalUtilization": 0,
+        "unutilizedBalance": 280522763.25
+      },
+      {
+        "year": 2025,
+        "month": "February",
+        "totalFundsAvailable": 280522763.25,
+        "totalUtilization": 96484236.33,
+        "unutilizedBalance": 184038526.92
+      },
+      {
+        "year": 2025,
+        "month": "March",
+        "totalFundsAvailable": 189038526.92,
+        "totalUtilization": 1920987.91,
+        "unutilizedBalance": 187117539.01
+      },
+      {
+        "year": 2025,
+        "month": "April",
+        "totalFundsAvailable": 187117539.01,
+        "totalUtilization": 22119795.0,
+        "unutilizedBalance": 164997744.01
+      },
+      {
+        "year": 2025,
+        "month": "May",
+        "totalFundsAvailable": 164997744.01,
+        "totalUtilization": null,
+        "unutilizedBalance": null
+      },
+      {
+        "year": 2025,
+        "month": "June",
+        "totalFundsAvailable": 163953442.71,
+        "totalUtilization": 467052.97,
+        "unutilizedBalance": 163486389.74
+      },
+      {
+        "year": 2025,
+        "month": "July",
+        "totalFundsAvailable": 163486389.74,
+        "totalUtilization": null,
+        "unutilizedBalance": null
+      },
+      {
+        "year": 2025,
+        "month": "August",
+        "totalFundsAvailable": 124589525.74,
+        "totalUtilization": 9044157.92,
+        "unutilizedBalance": 115545367.82
+      },
+      {
+        "year": 2025,
+        "month": "September",
+        "totalFundsAvailable": 115545367.82,
+        "totalUtilization": null,
+        "unutilizedBalance": null
+      }
+    ]
+  }
+}
