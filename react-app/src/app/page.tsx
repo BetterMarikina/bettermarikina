@@ -6,6 +6,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import SearchAutocomplete from '@/components/SearchAutocomplete';
 import NewsChannels from '@/components/NewsChannels';
 import SourceNote from '@/components/SourceNote';
+import WeatherWidget from '@/components/WeatherWidget';
 import cityProfileData from '@/data/marikina/city-profile.json';
 import officialsData from '@/data/marikina/officials.json';
 import type { CityProfile, Dataset, ElectedOfficial } from '@/types';
@@ -169,20 +170,7 @@ export default function HomePage() {
           <div className="weather-map-grid">
             <div className="weather-column">
               <div id="weather-container" aria-live="polite">
-                <div className="weather-widget" role="region" aria-label="Current weather in Marikina">
-                  <div className="weather-current">
-                    <div className="weather-current-icon"><i className="bi bi-cloud-sun-fill"></i></div>
-                    <div className="weather-current-info">
-                      <div className="weather-current-temp">—</div>
-                      <div className="weather-current-condition">Live weather coming soon</div>
-                      <div className="weather-current-location"><i className="bi bi-geo-alt"></i> Marikina City, Metro Manila</div>
-                    </div>
-                  </div>
-                  <div className="weather-stats">
-                    <div className="weather-stat"><i className="bi bi-droplet"></i><span>—</span></div>
-                    <div className="weather-stat"><i className="bi bi-wind"></i><span>—</span></div>
-                  </div>
-                </div>
+                <WeatherWidget />
               </div>
             </div>
             <div className="map-column">

@@ -37,17 +37,24 @@ export interface TranslationKeys {
 }
 
 // Weather types
-export interface WeatherData {
+export interface MarikinaWeather {
   temp: number;
-  description: string;
-  icon: string;
-  location: string;
+  feelsLike: number;
+  humidity: number;
+  windKph: number;
+  /** WMO weather interpretation code */
+  code: number;
+  isDay: boolean;
+  /** Local (Asia/Manila) ISO timestamp of the observation */
+  observedAt: string;
+  hourly: { time: string; temp: number; code: number }[];
 }
 
 // Exchange rate types
-export interface ExchangeRate {
-  currency: string;
+export interface UsdPhpRate {
   rate: number;
+  updatedAt: string;
+  source: string;
 }
 
 // Ordinance/Resolution types
