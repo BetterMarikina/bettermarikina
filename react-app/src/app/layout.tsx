@@ -25,7 +25,13 @@ export const metadata: Metadata = {
     images: [{ url: 'https://www.bettermarikina.org/assets/images/banners/opengraph.png', width: 1200, height: 630 }],
   },
   twitter: { card: 'summary_large_image' },
-  icons: { icon: '/assets/images/logo/favicon.svg', apple: '/assets/images/logo/favicon.svg' },
+  icons: {
+    icon: [
+      { url: '/assets/images/logo/favicon.ico', sizes: 'any' },
+      { url: '/assets/images/logo/favicon.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: '/assets/images/logo/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

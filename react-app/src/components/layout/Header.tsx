@@ -15,7 +15,7 @@ export default function Header() {
       <div className="container header-inner">
         <div className="logo-container">
           <Link href="/">
-            <img src="/assets/images/logo/better-marikina-logo.svg" alt="Better Marikina Logo" className="logo-img" />
+            <img src="/assets/images/logo/better-marikina-logo.png" alt="Better Marikina Logo" className="logo-img" />
           </Link>
         </div>
 

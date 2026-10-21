@@ -6,7 +6,7 @@ export default function Footer(): JSX.Element {
       <div className="container">
         <div className="footer-main-new">
           <div className="footer-brand">
-            <img src="/assets/images/logo/better-marikina-logo-white.svg" alt="Better Marikina logo" className="footer-logo" />
+            <img src="/assets/images/logo/better-marikina-logo-white.png" alt="Better Marikina logo" className="footer-logo" />
             <p className="footer-tagline">Empowering the people of Marikina with transparent access to the services, programs, and public funds of Marikina City.</p>
             <div className="footer-social-new">
               <a href="https://github.com/BetterMarikina/bettermarikina" className="footer-social-btn" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i className="bi bi-github"></i></a>
