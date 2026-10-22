@@ -9,6 +9,7 @@ export default function Footer(): JSX.Element {
             <img src="/assets/images/logo/better-marikina-logo-white.png" alt="Better Marikina logo" className="footer-logo" />
             <p className="footer-tagline">Empowering the people of Marikina with transparent access to the services, programs, and public funds of Marikina City.</p>
             <div className="footer-social-new">
+              <a href="https://www.facebook.com/bettermarikina" className="footer-social-btn" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="bi bi-facebook"></i></a>
               <a href="https://github.com/BetterMarikina/bettermarikina" className="footer-social-btn" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i className="bi bi-github"></i></a>
               <a href="https://discord.com/invite/qeSu7RJkjQ" className="footer-social-btn" target="_blank" rel="noopener noreferrer" aria-label="Discord"><i className="bi bi-discord"></i></a>
             </div>
@@ -39,6 +40,7 @@ export default function Footer(): JSX.Element {
             <div className="footer-cost" role="status" aria-label="Cost to the People of Marikina: Zero Pesos">
               Cost to the People of Marikina = <span className="footer-cost-value">₱0</span>
             </div>
+            <a href="https://www.facebook.com/bettermarikina" className="footer-contribute" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i> Contact BetterMarikina on Facebook</a>
             <a href="https://github.com/BetterMarikina/bettermarikina/issues" className="footer-contribute" target="_blank" rel="noopener noreferrer"><i className="bi bi-envelope-heart"></i> Volunteer with us</a>
             <a href="https://github.com/BetterMarikina/bettermarikina" className="footer-contribute" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i> Contribute code with us</a>
           </div>

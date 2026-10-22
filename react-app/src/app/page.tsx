@@ -34,6 +34,7 @@ export default function HomePage() {
               <div className="home-hero-v2-actions">
                 <Link href="/services" className="btn btn-primary">Browse Services <i className="bi bi-arrow-right"></i></Link>
                 <Link href="/contact" className="btn btn-outline">Contact Us</Link>
+                <a href="https://www.facebook.com/bettermarikina" className="btn btn-outline" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i> Contact BetterMarikina on Facebook</a>
               </div>
             </div>
             <div className="home-hero-v2-search">
