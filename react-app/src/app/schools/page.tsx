@@ -60,10 +60,10 @@ export default function SchoolsPage(): JSX.Element {
           <h2 style={{ marginTop: 'var(--spacing-lg)' }}>Higher education</h2>
           <ul>
             {higherEducation.map((school) => (
-              <li key={school.name}>{school.name}, run by the {school.operator}</li>
+              <li key={school.name}>{school.name} ({school.operator})</li>
             ))}
           </ul>
-          <p>Private schools, other colleges and the CHED list are not yet published here.</p>
+          <p>Colleges are listed only when an official list names them in Marikina. Private basic-education schools and other private colleges are not yet published here.</p>
           <SourceNote meta={facilities.meta} />
         </div>
       </section>

@@ -29,10 +29,17 @@
         "url": "https://ncroffice.doh.gov.ph/RLED/Details",
         "retrievedAt": "2026-10-21",
         "covers": "DOH Metro Manila CHD licensed primary care facilities (barangay health centers): name, address, ownership"
+      },
+      {
+        "id": "unifast-hei",
+        "tier": 1,
+        "url": "https://unifast.gov.ph/hei-list.html",
+        "retrievedAt": "2026-11-02",
+        "covers": "UniFAST (CHED) list of RA 10931 participating higher education institutions: name and type (SUC, LUC, private). No addresses."
       }
     ],
     "asOf": "2026-10-19",
-    "notes": "The school list is the DepEd National Inventory Dashboard for the Marikina City division (33 schools; 33 of 33 had submitted to the inventory). School names are as printed there. Level is read from the name suffix (ES = elementary; HS/NHS or 'High School' = secondary; Integrated School). The dashboard does not give the barangay, so barangay is null. Private schools, other higher-education institutions (CHED HEI list: ched.gov.ph unreachable on 2026-10-19), health facilities (DOH NHFR unreachable) and city markets, libraries and sports facilities are not in this file. Pamantasan ng Lungsod ng Marikina is the only college listed, taken from the city's own charter; Marikina Polytechnic College and others are not verified. Health facilities: the 10 PhilHealth-accredited hospitals and 8 accredited dialysis clinics as of 2026-09-30, and the 17 DOH-licensed primary care facilities (barangay health centers and the city employees clinic). Hospital level is as printed by PhilHealth (\"INF/DISP\" shown as Infirmary). Barangay is read from the address; Garcia General Hospital's address names both Marikina Heights and Concepcion. Phone numbers and emails are not copied. Marikina Doctors Hospital is on the DOH map but not on the PhilHealth list, so it is not included."
+    "notes": "The school list is the DepEd National Inventory Dashboard for the Marikina City division (33 schools; 33 of 33 had submitted to the inventory). School names are as printed there. Level is read from the name suffix (ES = elementary; HS/NHS or 'High School' = secondary; Integrated School). The dashboard does not give the barangay, so barangay is null. Private schools, other higher-education institutions (CHED HEI list: ched.gov.ph unreachable on 2026-10-19), health facilities (DOH NHFR unreachable) and city markets, libraries and sports facilities are not in this file. Higher education: Pamantasan ng Lungsod ng Marikina is from the city's own charter. Marikina Polytechnic College, IETI College of Science and Technology-Marikina and STI College-Marikina are from the UniFAST list of RA 10931 participating HEIs (CHED), which gives names and types but no addresses, so only schools whose name places them in Marikina are listed. Private colleges in Marikina that are not in that list, or whose name does not say Marikina, are not included; the full CHED HEI directory was not reachable. Health facilities: the 10 PhilHealth-accredited hospitals and 8 accredited dialysis clinics as of 2026-09-30, and the 17 DOH-licensed primary care facilities (barangay health centers and the city employees clinic). Hospital level is as printed by PhilHealth (\"INF/DISP\" shown as Infirmary). Barangay is read from the address; Garcia General Hospital's address names both Marikina Heights and Concepcion. Phone numbers and emails are not copied. Marikina Doctors Hospital is on the DOH map but not on the PhilHealth list, so it is not included."
   },
   "data": {
     "publicSchools": [
@@ -273,6 +280,21 @@
         "name": "Pamantasan ng Lungsod ng Marikina (PLMar)",
         "operator": "City Government of Marikina",
         "source": "fdp-charter"
+      },
+      {
+        "name": "Marikina Polytechnic College",
+        "operator": "State college (national government)",
+        "source": "unifast-hei"
+      },
+      {
+        "name": "IETI College of Science and Technology-Marikina",
+        "operator": "Private",
+        "source": "unifast-hei"
+      },
+      {
+        "name": "STI College-Marikina",
+        "operator": "Private",
+        "source": "unifast-hei"
       }
     ],
     "healthFacilities": [
