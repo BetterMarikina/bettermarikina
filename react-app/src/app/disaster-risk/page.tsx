@@ -13,7 +13,7 @@ export const metadata = {
 const drrm = drrmData as unknown as Dataset<DrrmData>;
 
 export default function DisasterRiskPage(): JSX.Element {
-  const { liveReadings, hazardMaps, emergencyServices, riverAlarmLevels } = drrm.data;
+  const { liveReadings, hazardMaps, emergencyServices, riverAlarmLevels, advisories } = drrm.data;
   return (
     <>
       <div className="container">
@@ -95,6 +95,14 @@ export default function DisasterRiskPage(): JSX.Element {
               <p>{service.howTo}</p>
             </article>
           ))}
+
+          <h2>Water and power advisories</h2>
+          <ul>
+            {advisories.map((item) => (
+              <li key={item.url}><a href={item.url} target="_blank" rel="noopener noreferrer">{item.label}</a></li>
+            ))}
+            <li>Emergencies: call Rescue 161 (see Emergency services above).</li>
+          </ul>
 
           <h2>Hazard maps</h2>
           <ul>

@@ -246,6 +246,8 @@ export interface DrrmData {
   riverAlarmLevels: RiverStationLevels[];
   liveReadings: { label: string; url: string; source: string }[];
   evacuationCenters: null;
+  /** Utility advisory pages, link only (no scraping). */
+  advisories: { label: string; url: string; source: string }[];
   hazardMaps: { label: string; url: string; source: string }[];
   emergencyServices: {
     service: string;

@@ -36,6 +36,20 @@
         "url": "https://hazardhunter.georisk.gov.ph/",
         "retrievedAt": "2026-10-19",
         "covers": "HazardHunterPH (web map, link only)"
+      },
+      {
+        "id": "manila-water",
+        "tier": 1,
+        "url": "https://www.manilawater.com/customers/service-advisories",
+        "retrievedAt": "2026-11-02",
+        "covers": "Manila Water service advisories (scheduled and emergency water interruptions by city); link only"
+      },
+      {
+        "id": "meralco",
+        "tier": 1,
+        "url": "https://company.meralco.com.ph/news-and-advisories/maintenance-schedule",
+        "retrievedAt": "2026-11-02",
+        "covers": "Meralco maintenance schedule (planned power interruptions by city); link only"
       }
     ],
     "asOf": "2026-10-19",
@@ -57,6 +71,10 @@
       }
     ],
     "evacuationCenters": null,
+    "advisories": [
+      { "label": "Manila Water service advisories (water interruptions; filter by Marikina)", "url": "https://www.manilawater.com/customers/service-advisories", "source": "manila-water" },
+      { "label": "Meralco maintenance schedule (planned power interruptions)", "url": "https://company.meralco.com.ph/news-and-advisories/maintenance-schedule", "source": "meralco" }
+    ],
     "hazardMaps": [
       { "label": "UP NOAH hazard maps", "url": "https://noah.up.edu.ph/", "source": "noah" },
       { "label": "HazardHunterPH (PHIVOLCS and partners)", "url": "https://hazardhunter.georisk.gov.ph/", "source": "phivolcs-hazardhunter" }
