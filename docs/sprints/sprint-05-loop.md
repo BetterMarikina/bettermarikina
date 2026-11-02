@@ -68,4 +68,31 @@ For each service: requirements list, fee(s) with what each is for, total process
 
 ## Report
 
-*(Fill in at W1: what shipped with commit hashes, what's blocked and why, and what needs a human: FOI-7 and FOI-9, PAGASA's okay on the feed, and the hospital details that couldn't be confirmed.)*
+Loop ran 2026-11-02. 20 items: 18 shipped, 2 blocked. Every pass passed `npm run lint` and `npm run build`; pages were checked over HTTP against `next start` (the browser tool was not connected, so client-side console errors were not checked).
+
+**Shipped**
+
+- Services (V1-V7): 30 new records from the 2024 charters (BPLO 2026) and 7 existing ones updated, 42 in total, each with a charter page ref. Civil Registry `7ec51de`, Treasury `1c3a6f3`, BPLO `e1df5ce`, CHO `3b2dedf`, OSCA/CSWDO/PESO `83524f4`, Assessor/Building Official `ac8db04`. Category cards now show fees and times instead of "See Citizen's Charter". Ten detail pages rewritten or added from the charters, with office numbers from `directory.json` `890c87e`; the old birth/marriage/death pages had wrong facts (for example, death registration "within 48 hours").
+- Health (H1-H2): 10 PhilHealth hospitals, 17 DOH-licensed health centers and 8 dialysis clinics in `facilities.json` `ed50416`; `/health-facilities` page linked from the footer, contact page and sitemap `44d81cc`.
+- Flood (F1-F3): PAGASA station levels on `/disaster-risk`, labeled as not the city's alarm levels `f96e2a3`; live levels via `/api/river` and a widget `a199af8`; Manila Water and Meralco advisory links `422f541`.
+- Barangays (B1): health center per barangay on `/barangays` `c558eb0`. Tañong has none on the DOH list.
+- Sprint 03 leftovers: FY2027 DPWH lines naming Marikina City, NEP vs House Bill 10858, on `/budget` with the API's disclaimers verbatim (L2) `1caddf8`; four colleges from the UniFAST/CHED list (L4) `ff6bbb3`; 13 Sprint 01/03 boxes ticked where the output exists (L5) `b54dd6d`.
+- Setup: PR #5 merged `313781b`.
+
+**Blocked**
+
+- L1 officials: no COMELEC certified results for councilors, ex-officio members or the 2023 BSKE online. Councilors stay sourced from the city contact page (Tier 1). Needs FOI-1 / FOI-2.
+- L3 evacuation centers and per-barangay hazard levels: only Tier 3 or dated lists exist. Needs FOI-7.
+
+**Needs a human**
+
+- FOI-7 (evacuation centers and hazard by barangay, CDRRMO) and FOI-1 / FOI-2 (barangay officials, certified election results). FOI-9 (garbage schedule) was not in this sprint and is still unsent.
+- PAGASA's okay on the FFWS feed. `/api/river` calls it at most every 10 minutes server-side and links back, but the endpoint is undocumented. The route also bundles GlobalSign's intermediate certificate because PAGASA's server leaves it out of the chain (`src/lib/pagasa-ca.ts`, expires 2029-06-23); remove it if PAGASA fixes the chain.
+- Hospital details: hospital and dialysis phone numbers and emails were not published (some are mobiles or personal-looking addresses). Garcia General Hospital's address names both Marikina Heights and Concepcion. Marikina Doctors Hospital is on the DOH map but not on PhilHealth's list, so it was left out.
+- Fees to check on the PDF page: CHO burial permit (public vs private columns read from a garbled table, p. 277) and the dental card's range (dentures PHP 500.00 not shown). Civil Registry on-time marriage registration was skipped because its fee labels are garbled.
+
+**Debt noticed, not fixed**
+
+- `react-app/src/app/sitemap-page/page.tsx:82` links to `/service-details/civil-registrar`, which does not exist.
+- Service facts live in three places (`services.json`, `categoriesContent.ts`, `serviceDetailsContent.ts`), so a fee change means three edits.
+- `react-app/src/app/budget/page.tsx` is over 200 lines; the schools and barangays pages still use inline styles from before this sprint.

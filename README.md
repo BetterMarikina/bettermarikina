@@ -6,7 +6,7 @@ BetterMarikina is an independent, volunteer-run project. It is **not** an offici
 
 **Cost to the People of Marikina = ₱0**
 
-> **Status:** 🟡 Work in Progress. Officials, budget, projects, statistics and ordinances show "Data coming soon" placeholders until verified, sourced Marikina data is added.
+> **Status:** 🟡 Work in Progress. As of Sprint 05 (2026-11-02): city services with fees and requirements from the Citizen's Charters, health facilities, live river levels, FY2027 DPWH budget lines, officials, budget, statistics and ordinances use sourced Marikina data. Still not published: evacuation centers, per-barangay hazard levels and certified barangay officials (waiting on FOI).
 
 ## Getting Started
 
