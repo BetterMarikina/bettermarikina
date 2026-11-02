@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import SourceNote from '@/components/SourceNote';
 import barangaysData from '@/data/marikina/barangays.json';
-import type { Barangay, Dataset } from '@/types';
+import facilitiesData from '@/data/marikina/facilities.json';
+import { healthCentersByBarangay } from '@/lib/health';
+import type { Barangay, Dataset, FacilitiesData } from '@/types';
 
 export const metadata = {
   title: 'Barangays of Marikina',
@@ -10,6 +12,8 @@ export const metadata = {
 
 const barangays = barangaysData as unknown as Dataset<Barangay[]>;
 const numberFormat = new Intl.NumberFormat('en-PH');
+const facilities = facilitiesData as unknown as Dataset<FacilitiesData>;
+const centersByBarangay = healthCentersByBarangay(facilities.data.healthFacilities);
 
 export default function BarangaysPage(): JSX.Element {
   const rows = barangays.data;
@@ -90,6 +94,43 @@ export default function BarangaysPage(): JSX.Element {
             </table>
           </div>
           <SourceNote meta={barangays.meta} />
+
+          <h2 className="section-title-sm">Health centers and barangay halls</h2>
+          <p>
+            Barangay health centers are from the DOH Metro Manila licensed facility list. See all{' '}
+            <Link href="/health-facilities">hospitals, health centers and dialysis clinics</Link>.
+          </p>
+          <div className="table-responsive">
+            <table className="data-table">
+              <caption className="sr-only">Health center and barangay hall per barangay</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Barangay</th>
+                  <th scope="col">Health center</th>
+                  <th scope="col">Barangay hall address</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((b) => {
+                  const centers = centersByBarangay.get(b.name) ?? [];
+                  return (
+                    <tr key={b.name}>
+                      <td>{b.name}</td>
+                      <td>
+                        {centers.length === 0
+                          ? 'Not listed'
+                          : centers.map((c, i) => (
+                              <span key={c.name}>{i > 0 && <br />}{c.name}, {c.address}</span>
+                            ))}
+                      </td>
+                      <td>Not yet published</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <SourceNote meta={facilities.meta} />
         </div>
       </section>
     </>
