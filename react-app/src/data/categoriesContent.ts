@@ -57,11 +57,11 @@ export const categoriesContent: CategoryContent[] = [
         description: 'Business permits, licenses, and trade registration services',
         services: [
             { id: 'business-permit', title: 'Business Permit', icon: 'bi-shop', description: 'New business permit application for commercial operations', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)', link: '/service-details/business-permits-licensing' },
-            { id: 'business-renewal', title: 'Business Permit Renewal', icon: 'bi-arrow-repeat', description: 'Annual renewal of existing business permits', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)', link: '/service-details/business-permits-licensing' },
+            { id: 'business-renewal', title: 'Business Permit Renewal', icon: 'bi-arrow-repeat', description: 'Annual renewal of existing business permits', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)', link: '/service-details/business-renewal' },
             { id: 'business-retirement', title: 'Business Retirement', icon: 'bi-door-closed', description: 'Close a business and retire its permit', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)' },
             { id: 'mayors-clearance', title: "Mayor's Clearance", icon: 'bi-patch-check', description: 'Clearance from the Mayor\'s Office for business operations', fee: 'See Citizen\'s Charter', time: 'Varies' },
             { id: 'tricycle-franchise', title: 'Tricycle Franchise', icon: 'bi-bicycle', description: 'Application for tricycle-for-hire franchise', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/tricycle-franchising' },
-            { id: 'sanitary-permit', title: 'Sanitary Permit', icon: 'bi-heart-pulse', description: 'Health and sanitation permit for food establishments', fee: 'PHP 300.00 (with the business permit)', time: 'About 20 minutes' },
+            { id: 'sanitary-permit', title: 'Sanitary Permit', icon: 'bi-heart-pulse', description: 'Health and sanitation permit for food establishments', fee: 'PHP 300.00 (with the business permit)', time: 'About 20 minutes', link: '/service-details/sanitary-permit' },
             { id: 'fire-safety', title: 'Fire Safety Certificate', icon: 'bi-fire', description: 'Fire safety inspection certificate for business premises', fee: 'See Citizen\'s Charter', time: 'Varies' },
         ],
         offices: [
@@ -76,11 +76,11 @@ export const categoriesContent: CategoryContent[] = [
         badgeText: 'Taxation',
         description: 'Property tax, business tax, payments, and tax clearance',
         services: [
-            { id: 'rpt', title: 'Real Property Tax', icon: 'bi-house', description: 'Pay annual real property tax at the Treasury or online at payment.marikina.gov.ph', fee: 'Based on the property assessment', time: 'About 4 minutes', link: '/service-details/municipal-treasurer' },
+            { id: 'rpt', title: 'Real Property Tax', icon: 'bi-house', description: 'Pay annual real property tax at the Treasury or online at payment.marikina.gov.ph', fee: 'Based on the property assessment', time: 'About 4 minutes', link: '/service-details/real-property-tax' },
             { id: 'tax-clearance', title: 'Tax Clearance', icon: 'bi-file-check', description: 'Real property tax clearance certifying payments are up to date', fee: 'PHP 50.00', time: '5 minutes', link: '/service-details/municipal-treasurer' },
             { id: 'tax-declaration', title: 'Tax Declaration', icon: 'bi-file-text', description: 'Transfer or update of property tax declaration', fee: 'Processing fee per parcel; certified copy PHP 50.00', time: '5-10 days (transfer)', link: '/service-details/property-declaration' },
             { id: 'business-tax', title: 'Business Tax', icon: 'bi-receipt', description: 'Payment of business taxes and fees', fee: 'Based on the business assessment', time: 'About 3 minutes', link: '/service-details/municipal-treasurer' },
-            { id: 'cedula', title: 'Community Tax Certificate', icon: 'bi-card-text', description: 'Cedula or residence certificate', fee: 'Based on taxpayer income', time: 'About 2 minutes' },
+            { id: 'cedula', title: 'Community Tax Certificate', icon: 'bi-card-text', description: 'Cedula or residence certificate', fee: 'Based on taxpayer income', time: 'About 2 minutes', link: '/service-details/community-tax-certificate' },
             { id: 'transfer-tax', title: 'Transfer Tax', icon: 'bi-arrow-left-right', description: 'Tax on the sale, donation or other transfer of real property', fee: '75% of 1% of price or fair market value, whichever is higher', time: 'About 16 minutes' },
             { id: 'professional-tax', title: 'Professional Tax', icon: 'bi-person-workspace', description: 'Annual tax for licensed professionals, due by January 31', fee: 'PHP 300.00', time: 'About 3 minutes' },
             { id: 'assessment', title: 'Property Assessment', icon: 'bi-clipboard-data', description: 'Assessment of property for taxation purposes', fee: 'None listed', time: '5 working days', link: '/service-details/municipal-assessor' },
@@ -97,7 +97,7 @@ export const categoriesContent: CategoryContent[] = [
         badgeText: 'Social Services',
         description: 'Welfare programs, senior citizen services, PWD benefits, and financial aid',
         services: [
-            { id: 'senior-id', title: 'Senior Citizen ID', icon: 'bi-person-vcard', description: 'Registration and ID for citizens aged 60 and above', fee: 'Free', time: 'About 6 minutes', link: '/service-details/mswdo-services' },
+            { id: 'senior-id', title: 'Senior Citizen ID', icon: 'bi-person-vcard', description: 'Registration and ID for citizens aged 60 and above', fee: 'Free', time: 'About 6 minutes', link: '/service-details/senior-citizen-id' },
             { id: 'pwd-id', title: 'PWD ID', icon: 'bi-universal-access', description: 'Registration and ID for persons with disability', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/mswdo-services' },
             { id: 'solo-parent', title: 'Solo Parent ID', icon: 'bi-person-hearts', description: 'Registration for solo parent benefits', fee: 'Free', time: 'About 30 working days', link: '/service-details/mswdo-services' },
             { id: 'financial-aid', title: 'Financial Assistance', icon: 'bi-wallet2', description: 'Emergency financial assistance for indigent families', fee: 'Free', time: 'Assessment about 22 minutes; release depends on approval', link: '/service-details/mswdo-services' },
@@ -117,7 +117,7 @@ export const categoriesContent: CategoryContent[] = [
         badgeText: 'Health',
         description: 'Vaccination programs, health certificates, and medical assistance',
         services: [
-            { id: 'health-cert', title: 'Health Certificate', icon: 'bi-file-medical', description: 'Medical certificate for employment and food handling', fee: 'PHP 150.00 health card + PHP 150.00 X-ray', time: 'About 30 minutes' },
+            { id: 'health-cert', title: 'Health Certificate', icon: 'bi-file-medical', description: 'Medical certificate for employment and food handling', fee: 'PHP 150.00 health card + PHP 150.00 X-ray', time: 'About 30 minutes', link: '/service-details/health-certificate' },
             { id: 'burial-permit', title: 'Burial and Cremation Permits', icon: 'bi-flower2', description: 'Burial, cremation, exhumation and transfer permits', fee: 'From PHP 300.00 (burial PHP 400.00 public, PHP 500.00 private)', time: 'About 20 minutes' },
             { id: 'anti-rabies', title: 'Anti-Rabies Vaccination', icon: 'bi-bandaid', description: 'Animal bite treatment and anti-rabies vaccine', fee: 'Free', time: 'About 20 minutes' },
             { id: 'clinical-lab', title: 'Clinical Laboratory', icon: 'bi-eyedropper', description: 'Blood, urine and stool tests with a doctor\'s request', fee: 'From PHP 50.00 per test', time: '15-30 minutes' },

@@ -50,7 +50,7 @@ export default function HomePage() {
                   <span>Popular:</span>
                   <Link href="/service-details/birth-certificate">Birth Certificate</Link>
                   <Link href="/service-details/business-permits-licensing">Business Permit</Link>
-                  <Link href="/service-details/municipal-treasurer">Real Property Tax</Link>
+                  <Link href="/service-details/real-property-tax">Real Property Tax</Link>
                 </div>
               </div>
             </div>
