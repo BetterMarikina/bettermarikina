@@ -60,7 +60,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 - [x] **L2.** DPWH: record the district engineering office covering Marikina and fill Marikina projects from the BetterGov.PH Budget API (2027 NEP vs HB 10858; label as budgeted, not spent). Replace the DPWH `ComingSoon` in `budget/page.tsx`. (1caddf8)
 - [ ] **L3.** DRRM: evacuation centers and per-barangay hazard levels (flood, landslide, fault) with the map source cited, on `/disaster-risk`.
   BLOCKED (2026-11-02): no current official list. Search found only Tier 3 or dated leads: ProjectLIGTAS (third-party), an Inquirer list (2012), a 2004 City Disaster Coordinating Council PDF (33 centers) and news counts (33 in Nov 2025). Per-barangay hazard levels exist only as web maps (NOAH, HazardHunterPH), already linked. Needs FOI-7 answered (centers with address and barangay served).
-- [ ] **L4.** Higher education from CHED (institutions in Marikina), on the education section.
+- [x] **L4.** Higher education from CHED (institutions in Marikina), on the education section. (ff6bbb3)
 - [ ] **L5.** Housekeeping: tick Sprint 01/03 boxes whose output already exists in the repo (cite the file), leave the rest unticked.
 
 ### Wrap-up
