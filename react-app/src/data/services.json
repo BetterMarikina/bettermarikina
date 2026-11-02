@@ -126,8 +126,8 @@
         "Previous official receipt / tax billing from the BPLO"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "Treasury, pp. 90-91"
+        "edition": "2024 edition",
+        "ref": "Treasury, p. 87"
       },
       "onlineUrl": "https://payment.marikina.gov.ph/"
     },
@@ -144,16 +144,17 @@
         "treasury"
       ],
       "fee": "Based on the taxpayer's income",
-      "processingTime": "About 3 minutes at the window (30-second queue number)",
+      "processingTime": "About 2 minutes at the window (30-second queue number)",
       "office": "City Treasurer's Office, Business Tax Division",
       "url": "/services/tax-payments",
       "requirements": [
         "Duly accomplished Community Tax Certificate (CTC) form (from the Treasury Help Desk)"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "Treasury, pp. 92-93"
-      }
+        "edition": "2024 edition",
+        "ref": "Treasury, p. 88"
+      },
+      "whoMayAvail": "Anyone"
     },
     {
       "id": "professional-tax",
@@ -176,8 +177,8 @@
         "Previous receipt"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "Treasury, p. 93"
+        "edition": "2024 edition",
+        "ref": "Treasury, p. 88"
       }
     },
     {
@@ -194,15 +195,15 @@
       ],
       "fee": "PHP 50.00",
       "processingTime": "5 minutes",
-      "office": "City Treasurer's Office, Real Property Tax Division (Teller 57)",
+      "office": "City Treasurer's Office, Real Property Tax Division",
       "url": "/services/tax-payments",
       "requirements": [
         "Registered owner: photocopy of the current RPT official receipt and photocopy of a valid ID",
         "Representative/buyer: photocopy of the current RPT official receipt, authorization letter or SPA from the owner, photocopies of the owner's and representative's valid IDs, and photocopies of the documents to be used in the sale or loan"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "Treasury, p. 91"
+        "edition": "2024 edition",
+        "ref": "Treasury, p. 86"
       }
     },
     {
@@ -618,6 +619,68 @@
       "charter": {
         "edition": "2024 edition",
         "ref": "Civil Registry, pp. 224-227"
+      }
+    },
+    {
+      "id": "real-property-tax-payment",
+      "title": "Payment of Real Property Tax",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "url": "/services/tax-payments",
+      "description": "Pay real property tax (amilyar) at the Treasury Office or online at payment.marikina.gov.ph.",
+      "keywords": [
+        "real property tax",
+        "rpt",
+        "amilyar",
+        "property tax",
+        "treasury",
+        "payment"
+      ],
+      "fee": "Based on the assessment of the property",
+      "processingTime": "About 4 minutes at the window (30-second queue number)",
+      "office": "City Treasurer's Office, Real Property Tax Division",
+      "whoMayAvail": "Owners and developers of real property in Marikina",
+      "requirements": [
+        "Account number or Property Identification Number (PIN), from the previous official receipt",
+        "Statement of account (from the teller)",
+        "Online: create an account, register each property by PIN, compute the tax, then pay"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Treasury, p. 85"
+      },
+      "onlineUrl": "https://payment.marikina.gov.ph/"
+    },
+    {
+      "id": "transfer-tax",
+      "title": "Payment of Transfer Tax",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "url": "/services/tax-payments",
+      "description": "Pay the tax on the sale, donation or other transfer of real property in Marikina.",
+      "keywords": [
+        "transfer tax",
+        "deed of sale",
+        "donation",
+        "real property",
+        "treasury"
+      ],
+      "fee": "75% of 1% of the selling price or the fair market value, whichever is higher",
+      "processingTime": "About 16 minutes",
+      "office": "City Treasurer's Office, Business Tax Division",
+      "whoMayAvail": "Sellers, buyers, heirs, donors and donees of real property in Marikina",
+      "requirements": [
+        "Deed of transfer",
+        "Tax declaration (City Assessor's Office)",
+        "Tax clearance (City Treasurer's Office)",
+        "TCT, original or certified true copy (Register of Deeds)",
+        "Authorization letter or SPA, if a representative",
+        "Valid ID of the owner and representative",
+        "Photocopies of all the documents above"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Treasury, p. 87"
       }
     }
   ],

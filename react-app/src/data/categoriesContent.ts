@@ -75,11 +75,13 @@ export const categoriesContent: CategoryContent[] = [
         badgeText: 'Taxation',
         description: 'Property tax, business tax, payments, and tax clearance',
         services: [
-            { id: 'rpt', title: 'Real Property Tax', icon: 'bi-house', description: 'Payment of annual real property tax for land and buildings', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/municipal-treasurer' },
-            { id: 'tax-clearance', title: 'Tax Clearance', icon: 'bi-file-check', description: 'Certificate of no tax delinquency', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/municipal-treasurer' },
+            { id: 'rpt', title: 'Real Property Tax', icon: 'bi-house', description: 'Pay annual real property tax at the Treasury or online at payment.marikina.gov.ph', fee: 'Based on the property assessment', time: 'About 4 minutes', link: '/service-details/municipal-treasurer' },
+            { id: 'tax-clearance', title: 'Tax Clearance', icon: 'bi-file-check', description: 'Real property tax clearance certifying payments are up to date', fee: 'PHP 50.00', time: '5 minutes', link: '/service-details/municipal-treasurer' },
             { id: 'tax-declaration', title: 'Tax Declaration', icon: 'bi-file-text', description: 'Transfer or update of property tax declaration', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/property-declaration' },
-            { id: 'business-tax', title: 'Business Tax', icon: 'bi-receipt', description: 'Payment of business taxes and fees', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/municipal-treasurer' },
-            { id: 'cedula', title: 'Community Tax Certificate', icon: 'bi-card-text', description: 'Cedula or residence certificate', fee: 'See Citizen\'s Charter', time: 'Varies' },
+            { id: 'business-tax', title: 'Business Tax', icon: 'bi-receipt', description: 'Payment of business taxes and fees', fee: 'Based on the business assessment', time: 'About 3 minutes', link: '/service-details/municipal-treasurer' },
+            { id: 'cedula', title: 'Community Tax Certificate', icon: 'bi-card-text', description: 'Cedula or residence certificate', fee: 'Based on taxpayer income', time: 'About 2 minutes' },
+            { id: 'transfer-tax', title: 'Transfer Tax', icon: 'bi-arrow-left-right', description: 'Tax on the sale, donation or other transfer of real property', fee: '75% of 1% of price or fair market value, whichever is higher', time: 'About 16 minutes' },
+            { id: 'professional-tax', title: 'Professional Tax', icon: 'bi-person-workspace', description: 'Annual tax for licensed professionals, due by January 31', fee: 'PHP 300.00', time: 'About 3 minutes' },
             { id: 'assessment', title: 'Property Assessment', icon: 'bi-clipboard-data', description: 'Assessment of property for taxation purposes', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/municipal-assessor' },
         ],
         offices: [
