@@ -33,7 +33,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 - [x] **V1.** Civil Registry: birth (on-time, late), marriage license, death (on-time, late), certified true copies, RA 9048 / RA 10172 petitions. (7ec51de)
 - [x] **V2.** Treasury: real property tax, RPT clearance, business tax, transfer tax, community tax certificate (cedula), professional tax. (1c3a6f3)
 - [x] **V3.** BPLO by hand (the extraction is unreliable here): new registration, renewal, retirement, certification, certified true copy. Skip if the existing records already match the 2026 charter; just fix differences. (e1df5ce)
-- [ ] **V4.** CHO: health certificate, sanitary permit, burial/cremation/exhumation permits, anti-rabies vaccination, primary care and lab services.
+- [x] **V4.** CHO: health certificate, sanitary permit, burial/cremation/exhumation permits, anti-rabies vaccination, primary care and lab services. (3b2dedf)
 - [ ] **V5.** Social services: OSCA (senior ID, booklet, birthday subsidy), CSWDO (crisis assistance, solo parent), LRPESO (employment facilitation).
 - [ ] **V6.** Assessors and Building Official: tax declaration services, building permit.
 - [ ] **V7.** Full detail pages (`serviceDetailsContent.ts`) for the 10 most requested: birth registration, marriage license, death registration, civil registry certified copies, real property tax, cedula, business renewal, health certificate, sanitary permit, senior citizen ID. Make sure the homepage "Popular" links still resolve.
