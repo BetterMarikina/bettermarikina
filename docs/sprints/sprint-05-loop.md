@@ -52,7 +52,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 - [x] **F3.** Advisories: add links on `/disaster-risk` to Manila Water service advisories and the Meralco maintenance schedule (no scraping), plus Rescue 161, already in the data. (422f541)
 
 ### Barangays (Sprint 04 §4), stretch
-- [ ] **B1.** On `/barangays`, show each barangay's health center (from H1) and link to the health facilities page. Leave hall address as "not yet published".
+- [x] **B1.** On `/barangays`, show each barangay's health center (from H1) and link to the health facilities page. Leave hall address as "not yet published". (c558eb0)
 
 ### Sprint 03 leftovers
 - [ ] **L1.** Officials: check councilors (16), ex-officio members, Punong Barangay names against COMELEC 2025/2023 BSKE or another Tier 1/2 source. Record the as-of date. Kagawads and SK chairs only if a Tier 1/2 list exists; otherwise BLOCKED.
