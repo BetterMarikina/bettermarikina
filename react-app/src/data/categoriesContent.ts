@@ -56,8 +56,9 @@ export const categoriesContent: CategoryContent[] = [
         badgeText: 'Business',
         description: 'Business permits, licenses, and trade registration services',
         services: [
-            { id: 'business-permit', title: 'Business Permit', icon: 'bi-shop', description: 'New business permit application for commercial operations', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/business-permits-licensing' },
-            { id: 'business-renewal', title: 'Business Permit Renewal', icon: 'bi-arrow-repeat', description: 'Annual renewal of existing business permits', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/business-permits-licensing' },
+            { id: 'business-permit', title: 'Business Permit', icon: 'bi-shop', description: 'New business permit application for commercial operations', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)', link: '/service-details/business-permits-licensing' },
+            { id: 'business-renewal', title: 'Business Permit Renewal', icon: 'bi-arrow-repeat', description: 'Annual renewal of existing business permits', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)', link: '/service-details/business-permits-licensing' },
+            { id: 'business-retirement', title: 'Business Retirement', icon: 'bi-door-closed', description: 'Close a business and retire its permit', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)' },
             { id: 'mayors-clearance', title: "Mayor's Clearance", icon: 'bi-patch-check', description: 'Clearance from the Mayor\'s Office for business operations', fee: 'See Citizen\'s Charter', time: 'Varies' },
             { id: 'tricycle-franchise', title: 'Tricycle Franchise', icon: 'bi-bicycle', description: 'Application for tricycle-for-hire franchise', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/tricycle-franchising' },
             { id: 'sanitary-permit', title: 'Sanitary Permit', icon: 'bi-heart-pulse', description: 'Health and sanitation permit for food establishments', fee: 'See Citizen\'s Charter', time: 'Varies' },

@@ -34,23 +34,26 @@
         "bplo",
         "mayor's permit"
       ],
-      "fee": "Based on the Revenue Code of Marikina City (Chapters 4, 5, 6, 11, 10, 13, 26, 30, 33)",
-      "processingTime": "File 15 minutes; pay 15 minutes (walk-in)",
+      "fee": "Based on the Revenue Code of Marikina City (Chapters 4, 5, 6, 10, 11, 13, 26, 30, 33); quarterly payments due Jan 20, Apr 20, Jul 20 and Oct 20",
+      "processingTime": "File 15 minutes; pay 15 minutes (walk-in or online)",
       "office": "Business Permits and Licensing Office (BPLO)",
       "url": "/services/business",
       "requirements": [
-        "Zoning clearance (City Planning Office)",
-        "Photo of the establishment showing permanent signboard and sidewalk",
-        "DTI registration (sole proprietorship), SEC registration with Articles and Bylaws (corporation/partnership) or CDA registration (cooperative)",
-        "Valid ID",
-        "Certificate of Compliance",
-        "If representative: authorization from the owner, or Secretary's Certificate for a corporation"
+        "Zoning clearance, 1 photocopy (integrated in the BPLS; if non-compliant, go to the City Planning Office)",
+        "Photo of the establishment showing the permanent signboard and sidewalk, and a vicinity sketch",
+        "DTI registration (sole proprietorship), SEC registration with Articles and Bylaws (corporation or partnership) or CDA registration (cooperative), 1 photocopy",
+        "Proof of the place of business: tax declaration (owned), notarized lease (rented), notarized consent letter (free use) or waiver and HOA certificate (settlement area)",
+        "Certificate to process from the Bureau of Fire Protection (Marikina Central Fire Station, Shoe Avenue)",
+        "If a representative (sole proprietorship): authorization letter or SPA from the owner, and valid IDs of the owner and representative",
+        "If a representative (corporation or partnership): Secretary's Certificate, authorization letter from the corporate secretary, and valid IDs of the secretary and representative",
+        "Some business types need more clearances (e.g. ECC for gas stations, DOE for LPG, TESDA NC II for spas) and public liability insurance (Ord. 32 s. 2013); see the charter"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "BPLO, pp. 107-108"
+        "edition": "2026 edition",
+        "ref": "BPLO, pp. 3-6"
       },
-      "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
+      "onlineUrl": "https://bplo.marikina.gov.ph/client/index",
+      "whoMayAvail": "Business taxpayers"
     },
     {
       "id": "business-renewal",
@@ -64,21 +67,23 @@
         "renew",
         "bplo"
       ],
-      "fee": "See Citizen's Charter, p. 109 (not transcribed)",
-      "processingTime": "See Citizen's Charter, p. 109 (not transcribed)",
+      "fee": "Based on the Revenue Code of Marikina City; quarterly payments due Jan 20, Apr 20, Jul 20 and Oct 20",
+      "processingTime": "File 15 minutes; pay 15 minutes (walk-in or online)",
       "office": "Business Permits and Licensing Office (BPLO)",
       "url": "/services/business",
       "requirements": [
-        "Marikina Business Portal compliance",
-        "Financial statement / quarterly VAT returns / monthly percentage tax (photocopies)",
-        "Valid ID (photocopy)",
-        "If representative: authorization from the owner, or Secretary's Certificate for a corporation"
+        "eBOSS compliance (Engineering, BFP, CHO, CEMO); check status at bplo.marikina.gov.ph/client",
+        "Financial statement, quarterly VAT returns or monthly percentage tax (photocopies)",
+        "If a representative (sole proprietorship): authorization letter or SPA from the owner, and valid IDs of the owner and representative",
+        "If a representative (corporation or partnership): Secretary's Certificate, authorization letter from the corporate secretary, and valid IDs of the secretary and representative",
+        "Public liability insurance (Ord. 32 s. 2013)"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "BPLO, p. 109"
+        "edition": "2026 edition",
+        "ref": "BPLO, pp. 7-9"
       },
-      "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
+      "onlineUrl": "https://bplo.marikina.gov.ph/client/index",
+      "whoMayAvail": "Business taxpayers"
     },
     {
       "id": "business-amendments",
@@ -681,6 +686,91 @@
       "charter": {
         "edition": "2024 edition",
         "ref": "Treasury, p. 87"
+      }
+    },
+    {
+      "id": "business-retirement",
+      "title": "Retirement of Business",
+      "category": "Business, Trade & Investment",
+      "categoryId": "business",
+      "url": "/services/business",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "whoMayAvail": "Business taxpayers",
+      "description": "Close a business and retire its permit with the BPLO.",
+      "keywords": [
+        "business retirement",
+        "close business",
+        "cessation",
+        "bplo"
+      ],
+      "fee": "Based on the Revenue Code of Marikina City (Chapter 4, Secs. 25 and 32)",
+      "processingTime": "File 15 minutes; pay 15 minutes",
+      "requirements": [
+        "Original business permit",
+        "Business plate",
+        "Photocopy of the latest business permit receipt",
+        "Notarized application for business retirement",
+        "Financial statements (prior and current year)",
+        "If a representative (sole proprietorship): authorization letter or SPA from the owner, and valid IDs of the owner and representative",
+        "If a representative (corporation or partnership): Secretary's Certificate, authorization letter from the corporate secretary, and valid IDs of the secretary and representative"
+      ],
+      "charter": {
+        "edition": "2026 edition",
+        "ref": "BPLO, pp. 23-24"
+      }
+    },
+    {
+      "id": "business-certification",
+      "title": "Business Certification",
+      "category": "Business, Trade & Investment",
+      "categoryId": "business",
+      "url": "/services/business",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "whoMayAvail": "Business taxpayers",
+      "description": "Certification of no record on file, amendments, retirement, registration or status of a business.",
+      "keywords": [
+        "business certification",
+        "no record",
+        "certificate of retirement",
+        "business status",
+        "bplo"
+      ],
+      "fee": "Based on the Revenue Code of Marikina City (Chapter 22, Sec. 103(b))",
+      "processingTime": "File 15 minutes; pay 15 minutes",
+      "requirements": [
+        "Request letter",
+        "If a representative (sole proprietorship): authorization letter or SPA from the owner, and valid IDs of the owner and representative",
+        "If a representative (corporation or partnership): Secretary's Certificate, authorization letter from the corporate secretary, and valid IDs of the secretary and representative"
+      ],
+      "charter": {
+        "edition": "2026 edition",
+        "ref": "BPLO, pp. 27-28"
+      }
+    },
+    {
+      "id": "business-certified-true-copy",
+      "title": "Certified True Copy of Business Documents",
+      "category": "Business, Trade & Investment",
+      "categoryId": "business",
+      "url": "/services/business",
+      "office": "Business Permits and Licensing Office (BPLO)",
+      "whoMayAvail": "Business taxpayers",
+      "description": "Get a certified true copy of a business record from the BPLO.",
+      "keywords": [
+        "certified true copy",
+        "business permit copy",
+        "bplo"
+      ],
+      "fee": "Based on the Revenue Code of Marikina City (Chapter 22, Sec. 103(b))",
+      "processingTime": "File 15 minutes; pay 15 minutes",
+      "requirements": [
+        "Request letter",
+        "If a representative (sole proprietorship): authorization letter or SPA from the owner, and valid IDs of the owner and representative",
+        "If a representative (corporation or partnership): Secretary's Certificate, authorization letter from the corporate secretary, and valid IDs of the secretary and representative"
+      ],
+      "charter": {
+        "edition": "2026 edition",
+        "ref": "BPLO, p. 29"
       }
     }
   ],
