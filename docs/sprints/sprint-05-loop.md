@@ -44,7 +44,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 
 ### Flood and river (Sprint 04 §2)
 - [x] **F1.** Thresholds: fill `riverAlarmLevels` in `drrm.json` with the PAGASA station levels (Sto. Niño MMDA, Tumana Bridge, Nangka, San Mateo-1, Montalban), labeled as **PAGASA station levels, not the city's alarm levels**. Mention discrepancy #15 in the meta notes. Update `DrrmData`. Show them as a table on `/disaster-risk`. (f96e2a3)
-- [ ] **F2.** Live river level: add `app/api/river/route.ts`, following the `api/weather/route.ts` pattern (timeout, type guards, typed response in `types/index.ts`).
+- [x] **F2.** Live river level: add `app/api/river/route.ts`, following the `api/weather/route.ts` pattern (timeout, type guards, typed response in `types/index.ts`). (a199af8)
   - Upstream: POST `https://pasig-marikina-tullahanffws.pagasa.dost.gov.ph/water/table_list.do`, form body `ymdhm=YYYYMMDDHHmm` in Asia/Manila time, rounded down to 10 minutes. If the latest slot returns nothing, try up to 3 earlier slots.
   - Caching: Next's fetch cache does not cache POST, so wrap the upstream call in `unstable_cache` with `revalidate: 600`. The server calls PAGASA at most once every 10 minutes no matter how many visitors there are.
   - Return only the Marikina stations from F1. Each one needs its level as a number, a `flagged` boolean when PAGASA marks the value with `(*)`, its thresholds, the reading time, and `wl1h` for the trend.
