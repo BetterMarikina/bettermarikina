@@ -40,7 +40,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 
 ### Health facilities (Sprint 04 §3)
 - [x] **H1.** Data: fill `healthFacilities` in `facilities.json` and update `FacilitiesData` in `types/index.ts`. Hospitals: the 10 PhilHealth-accredited ones (`data-raw/health/philhealth-HOSP_093026.pdf`; read name, level, address from the PDF pages, since the text columns are offset). Also add barangay health centers (`data-raw/health/marikina-primary-care.csv`) and dialysis clinics (PhilHealth FDC PDF). Fields: name, type, level (hospitals), ownership, address, barangay if the address says, source id. Optional: lat/lon from `marikina-doh-map-facilities.csv` where the name matches. (ed50416)
-- [ ] **H2.** Page: a health facilities page (hospitals first, then health centers, then dialysis), with `SourceNote` like the schools page. Link it from the footer, the contact page's medical section and `sitemap.ts`.
+- [x] **H2.** Page: a health facilities page (hospitals first, then health centers, then dialysis), with `SourceNote` like the schools page. Link it from the footer, the contact page's medical section and `sitemap.ts`. (44d81cc)
 
 ### Flood and river (Sprint 04 §2)
 - [ ] **F1.** Thresholds: fill `riverAlarmLevels` in `drrm.json` with the PAGASA station levels (Sto. Niño MMDA, Tumana Bridge, Nangka, San Mateo-1, Montalban), labeled as **PAGASA station levels, not the city's alarm levels**. Mention discrepancy #15 in the meta notes. Update `DrrmData`. Show them as a table on `/disaster-risk`.
