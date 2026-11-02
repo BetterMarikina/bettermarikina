@@ -939,6 +939,180 @@
         "edition": "2024 edition",
         "ref": "City Health Office, p. 274"
       }
+    },
+    {
+      "id": "senior-citizen-id",
+      "title": "Senior Citizen ID and Booklet",
+      "category": "Social Services & Assistance",
+      "categoryId": "social-services",
+      "url": "/services/social-services",
+      "description": "Get a senior citizen ID and discount booklet for Marikina residents aged 60 and above.",
+      "keywords": [
+        "senior citizen id",
+        "osca",
+        "senior",
+        "booklet",
+        "discount",
+        "60"
+      ],
+      "fee": "Free",
+      "processingTime": "About 6 minutes",
+      "office": "Office for Senior Citizens Affairs (OSCA)",
+      "whoMayAvail": "Marikina residents aged 60 or older",
+      "requirements": [
+        "Fully accomplished OSCA form",
+        "3 pcs. latest 1x1 photo",
+        "Proof of age, any one: PhilSys national ID, UMID, voter's ID, PRC ID, driver's license, TIN ID, postal ID, birth or baptismal certificate, passport, marriage contract, police, NBI or barangay clearance",
+        "If a representative: authorization letter signed by the applicant, and valid IDs of the senior and the representative",
+        "Replacement (lost or damaged ID): OSCA form, 3 pcs. 1x1 photo and affidavit of loss; about 4 minutes"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "OSCA, pp. 239-240"
+      }
+    },
+    {
+      "id": "senior-citizen-booklet",
+      "title": "Senior Citizen Booklet for Medicine and Grocery",
+      "category": "Social Services & Assistance",
+      "categoryId": "social-services",
+      "url": "/services/social-services",
+      "description": "Get the OSCA discount booklet for medicine, basic necessities and prime commodities.",
+      "keywords": [
+        "senior booklet",
+        "purchase booklet",
+        "osca",
+        "medicine discount",
+        "grocery discount"
+      ],
+      "fee": "Free",
+      "processingTime": "About 2 minutes",
+      "office": "Office for Senior Citizens Affairs (OSCA)",
+      "whoMayAvail": "Senior citizens with an existing OSCA ID",
+      "requirements": [
+        "OSCA ID"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "OSCA, p. 240"
+      }
+    },
+    {
+      "id": "senior-birthday-subsidy",
+      "title": "Senior Citizen Birthday Subsidy",
+      "category": "Social Services & Assistance",
+      "categoryId": "social-services",
+      "url": "/services/social-services",
+      "description": "Active Marikina senior citizens receive PHP 2,000.00 and a grocery item on their birthday, delivered to their address.",
+      "keywords": [
+        "birthday subsidy",
+        "birthday cash gift",
+        "senior",
+        "osca"
+      ],
+      "fee": "Free",
+      "processingTime": "About 6 minutes on delivery (the senior must be at the address)",
+      "office": "Office for Senior Citizens Affairs (OSCA)",
+      "whoMayAvail": "Active Marikina senior citizens celebrating their birthday",
+      "requirements": [
+        "OSCA ID"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "OSCA, p. 241"
+      }
+    },
+    {
+      "id": "crisis-assistance",
+      "title": "Assistance to Individuals in Crisis (Medical, Burial, Financial)",
+      "category": "Social Services & Assistance",
+      "categoryId": "social-services",
+      "url": "/services/social-services",
+      "description": "Medical, burial or financial assistance from the CSWDO for people in a crisis situation.",
+      "keywords": [
+        "financial assistance",
+        "medical assistance",
+        "burial assistance",
+        "aics",
+        "crisis",
+        "cswdo",
+        "ayuda"
+      ],
+      "fee": "Free",
+      "processingTime": "About 22 minutes for assessment; release depends on approval and fund availability (the office calls when the check or cash is ready)",
+      "office": "City Social Welfare and Development Office (CSWDO), Social Service Office",
+      "whoMayAvail": "Clients in a crisis situation",
+      "requirements": [
+        "Personal letter (1 original, 1 photocopy) and 1 valid ID of the claimant (2 photocopies)",
+        "Medical: medical certificate and hospital bill, prescription or charge slip (2 photocopies each)",
+        "Burial: funeral contract and death certificate (2 photocopies each), and the informant's authorization letter and ID"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "CSWDO, pp. 154-155"
+      }
+    },
+    {
+      "id": "solo-parent-id",
+      "title": "Solo Parent ID",
+      "category": "Social Services & Assistance",
+      "categoryId": "social-services",
+      "url": "/services/social-services",
+      "description": "Apply for a Solo Parent ID and booklet at the CSWDO.",
+      "keywords": [
+        "solo parent",
+        "solo parent id",
+        "spic",
+        "single parent",
+        "cswdo"
+      ],
+      "fee": "Free",
+      "processingTime": "About 30 working days, including a home visit and validation",
+      "office": "City Social Welfare and Development Office (CSWDO)",
+      "whoMayAvail": "Parents or guardians who solely provide parental care and support, as defined in the charter (e.g. widowed, separated, abandoned, unmarried, spouse detained or incapacitated, family of low-skilled OFWs)",
+      "requirements": [
+        "Sworn affidavit of sole parental care and support (renewal: only this affidavit, every year)",
+        "PSA birth certificate of each qualified child",
+        "Barangay certification of the circumstances of being a solo parent",
+        "Valid ID with photo, signature and Marikina address (photocopy)",
+        "2 pcs. 1x1 photo, white background, taken within 3 months",
+        "Certificate of employment or latest payslip, or barangay indigency if not working",
+        "Documents for your situation, e.g. death certificate of spouse, annulment petition, CENOMAR, detention certificate, or OFW contract; see the charter"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "CSWDO, pp. 180-182"
+      }
+    },
+    {
+      "id": "employment-facilitation",
+      "title": "Employment Facilitation (PESO)",
+      "category": "Social Services & Assistance",
+      "categoryId": "social-services",
+      "url": "/services/social-services",
+      "description": "Job matching and referral letters to companies, or referral to training and self-employment programs.",
+      "keywords": [
+        "job",
+        "trabaho",
+        "employment",
+        "peso",
+        "lrpeso",
+        "job seeker",
+        "referral letter",
+        "nsrp"
+      ],
+      "fee": "Free",
+      "processingTime": "About 10 minutes",
+      "office": "Labor Relations and Public Employment Service Office (LRPESO)",
+      "whoMayAvail": "Job seekers, researchers, students and the self-employed",
+      "requirements": [
+        "Resume or bio-data",
+        "National Skills Registration Program (NSRP) form, filled out at the office"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "LRPESO, p. 256"
+      }
     }
   ],
   "charterIndex": [
