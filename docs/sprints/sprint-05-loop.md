@@ -30,7 +30,7 @@ Background is in [sprint-04-research.md](sprint-04-research.md). Read only the s
 
 ### Services: requirements, fees, processing time (Sprint 04 §1)
 For each service: requirements list, fee(s) with what each is for, total processing time, office and window, who may avail. Add it to `services.json` `services` (same shape as the existing 12, so search picks it up). First check how `/services/[category]` and search use those records, so new ones actually show.
-- [ ] **V1.** Civil Registry: birth (on-time, late), marriage license, death (on-time, late), certified true copies, RA 9048 / RA 10172 petitions.
+- [x] **V1.** Civil Registry: birth (on-time, late), marriage license, death (on-time, late), certified true copies, RA 9048 / RA 10172 petitions. (7ec51de)
 - [ ] **V2.** Treasury: real property tax, RPT clearance, business tax, transfer tax, community tax certificate (cedula), professional tax.
 - [ ] **V3.** BPLO by hand (the extraction is unreliable here): new registration, renewal, retirement, certification, certified true copy. Skip if the existing records already match the 2026 charter; just fix differences.
 - [ ] **V4.** CHO: health certificate, sanitary permit, burial/cremation/exhumation permits, anti-rabies vaccination, primary care and lab services.
