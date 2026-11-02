@@ -218,6 +218,30 @@ export interface RiverStationLevels {
   source: string;
 }
 
+// dpwh-2027.json: BetterGov.PH Budget API snapshot (NEP vs House Bill 10858). Amounts are pesos; null = no such line.
+export interface DpwhProject {
+  id: string;
+  title: string;
+  office: string;
+  program: string;
+  statusLabel: string;
+  group: string;
+  held: boolean;
+  nepPhp: number | null;
+  housePhp: number | null;
+  deltaPhp: number | null;
+  nepPdfUrl: string | null;
+  housePdfUrl: string | null;
+  url: string;
+}
+
+export interface DpwhBudgetData {
+  office: { name: string; tier: string; coServedDistricts: string[]; officeLedgerUrl: string };
+  projects: DpwhProject[];
+  disclaimers: { id: string; title: string; body: string; url: string }[];
+  notice: string | null;
+}
+
 export type RiverStatus = 'normal' | 'alert' | 'alarm' | 'critical';
 
 /** /api/river response: live PAGASA FFWS readings for the Marikina stations in drrm.json. */

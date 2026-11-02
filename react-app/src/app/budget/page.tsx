@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ComingSoon from '@/components/ComingSoon';
+import DpwhProjects from '@/components/DpwhProjects';
 import SourceNote from '@/components/SourceNote';
 import financeData from '@/data/marikina/finance.json';
 import type { Dataset, FinanceData } from '@/types';
@@ -245,10 +245,10 @@ export default function BudgetPage(): JSX.Element {
         <div className="container">
           <div className="infra-header-v5">
             <span className="infra-label-v5"><i className="bi bi-building"></i> National Government Projects</span>
-            <h2>DPWH Infrastructure Projects in Marikina</h2>
+            <h2>DPWH Projects in the 2027 Budget</h2>
           </div>
-          <ComingSoon title="Project list not yet available" message="DPWH's own procurement notices list Marikina City projects under the Metro Manila 1st District Engineering Office. DPWH's project listings could not be read by our tools on 2026-10-19, so no project list is shown yet. Search DPWH's civil works notices for the full list." />
-          <p className="sre-source dpwh-source-margin"><i className="bi bi-info-circle"></i> Source: <a href="https://transparency.dpwh.gov.ph/" target="_blank" rel="noopener noreferrer">DPWH Transparency Portal</a></p>
+          <DpwhProjects />
+          <p className="sre-source dpwh-source-margin"><i className="bi bi-info-circle"></i> For contracts and project status, see the <a href="https://transparency.dpwh.gov.ph/" target="_blank" rel="noopener noreferrer">DPWH Transparency Portal</a>.</p>
         </div>
       </section>
     </>
