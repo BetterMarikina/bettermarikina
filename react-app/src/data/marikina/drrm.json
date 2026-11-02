@@ -3,6 +3,13 @@
     "title": "Disaster risk and flood information for Marikina City",
     "sources": [
       {
+        "id": "pagasa-ffws",
+        "tier": 1,
+        "url": "https://pasig-marikina-tullahanffws.pagasa.dost.gov.ph/water/table.do",
+        "retrievedAt": "2026-10-21",
+        "covers": "PAGASA Pasig-Marikina-Tullahan FFWS water level stations: alert, alarm and critical levels (EL. m)"
+      },
+      {
         "id": "pagasa",
         "tier": 1,
         "url": "https://pagasa.dost.gov.ph/flood/ncr-pasig-marikina-laguna-de-bay",
@@ -32,10 +39,16 @@
       }
     ],
     "asOf": "2026-10-19",
-    "notes": "The city's official alarm thresholds for the Marikina River could not be found on a government page. News reports retrieved on 2026-10-19 disagree: they give the first alarm at 15 m and the second at 16 m, but the third at 18 m (GMA News) while others describe forced evacuation at 16 m. Thresholds are therefore null here and logged as discrepancy #14. The number of evacuation centers is also not published in a list we could read (news reports say 33 and 36), so no count or list is given. Hazard levels per barangay are not extracted from the web maps. Not yet published: ask the CDRRMO (FOI-7)."
+    "notes": "The city's official alarm thresholds for the Marikina River could not be found on a government page. News reports retrieved on 2026-10-19 disagree: they give the first alarm at 15 m and the second at 16 m, but the third at 18 m (GMA News) while others describe forced evacuation at 16 m. This is logged as discrepancy #14. The river levels shown are PAGASA station levels (alert, alarm, critical, in meters above sea level) from the Pasig-Marikina-Tullahan Flood Forecasting and Warning System, read on 2026-10-21; they are not the city's alarm levels. At Sto. Niño (MMDA) PAGASA's alert and alarm (15 m, 16 m) match the city's reported 1st and 2nd alarms, but PAGASA's critical level is 17 m while news reports give the city's 3rd alarm as 18 m (discrepancy #15). The number of evacuation centers is also not published in a list we could read (news reports say 33 and 36), so no count or list is given. Hazard levels per barangay are not extracted from the web maps. Not yet published: ask the CDRRMO (FOI-7)."
   },
   "data": {
-    "riverAlarmLevels": null,
+    "riverAlarmLevels": [
+      { "station": "Sto. Niño (MMDA)", "stationCode": "11104204", "location": "Marikina River, Sto. Niño", "alert": 15.00, "alarm": 16.00, "critical": 17.00, "source": "pagasa-ffws" },
+      { "station": "Tumana Bridge", "stationCode": "11103203", "location": "Marikina River, Tumana", "alert": 17.26, "alarm": 18.26, "critical": 19.26, "source": "pagasa-ffws" },
+      { "station": "Nangka", "stationCode": "11103202", "location": "Marikina River, Nangka", "alert": 16.50, "alarm": 17.10, "critical": 17.70, "source": "pagasa-ffws" },
+      { "station": "San Mateo-1", "stationCode": "11103201", "location": "Upstream, San Mateo (Rizal)", "alert": 18.00, "alarm": 19.00, "critical": 20.00, "source": "pagasa-ffws" },
+      { "station": "Montalban", "stationCode": "11102202", "location": "Upstream, Rodriguez (Rizal)", "alert": 22.40, "alarm": 23.00, "critical": 23.60, "source": "pagasa-ffws" }
+    ],
     "liveReadings": [
       {
         "label": "PAGASA flood bulletin: Pasig-Marikina-Laguna de Bay River Basin",

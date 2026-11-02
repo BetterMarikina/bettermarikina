@@ -12,7 +12,7 @@ export const metadata = {
 const drrm = drrmData as unknown as Dataset<DrrmData>;
 
 export default function DisasterRiskPage(): JSX.Element {
-  const { liveReadings, hazardMaps, emergencyServices } = drrm.data;
+  const { liveReadings, hazardMaps, emergencyServices, riverAlarmLevels } = drrm.data;
   return (
     <>
       <div className="container">
@@ -42,11 +42,38 @@ export default function DisasterRiskPage(): JSX.Element {
             ))}
           </ul>
 
-          <h2>Marikina River alarm levels</h2>
-          <ComingSoon
-            title="Official thresholds not yet confirmed"
-            message="We could not find the city's alarm levels on a government page, and news reports disagree, so we do not publish them. Follow the city's announcements."
-          />
+          <h2>Marikina River: PAGASA station levels</h2>
+          <p>
+            These are PAGASA&apos;s flood warning levels for each river station, in meters above sea level. They are
+            not the city&apos;s alarm levels. The city&apos;s 1st and 2nd alarms at Sto. Niño (15 m and 16 m) match
+            PAGASA&apos;s alert and alarm, but news reports put the city&apos;s 3rd alarm at 18 m. Follow the city&apos;s
+            announcements for evacuation.
+          </p>
+          <div className="table-responsive">
+            <table className="data-table">
+              <caption className="sr-only">PAGASA water level thresholds for Marikina River stations</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Station</th>
+                  <th scope="col">Location</th>
+                  <th scope="col">Alert (m)</th>
+                  <th scope="col">Alarm (m)</th>
+                  <th scope="col">Critical (m)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {riverAlarmLevels.map((s) => (
+                  <tr key={s.stationCode}>
+                    <td>{s.station}</td>
+                    <td>{s.location}</td>
+                    <td>{s.alert.toFixed(2)}</td>
+                    <td>{s.alarm.toFixed(2)}</td>
+                    <td>{s.critical.toFixed(2)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
           <h2>Evacuation centers</h2>
           <ComingSoon

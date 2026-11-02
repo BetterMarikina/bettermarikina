@@ -208,8 +208,19 @@ export interface HealthFacility {
   source: string;
 }
 
+export interface RiverStationLevels {
+  station: string;
+  stationCode: string;
+  location: string;
+  alert: number;
+  alarm: number;
+  critical: number;
+  source: string;
+}
+
 export interface DrrmData {
-  riverAlarmLevels: null;
+  /** PAGASA FFWS station levels (EL. m), not the city's own alarm levels. */
+  riverAlarmLevels: RiverStationLevels[];
   liveReadings: { label: string; url: string; source: string }[];
   evacuationCenters: null;
   hazardMaps: { label: string; url: string; source: string }[];
