@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import SourceNote from '@/components/SourceNote';
 import ComingSoon from '@/components/ComingSoon';
+import RiverWidget from '@/components/RiverWidget';
 import drrmData from '@/data/marikina/drrm.json';
 import type { Dataset, DrrmData } from '@/types';
 
@@ -41,6 +42,9 @@ export default function DisasterRiskPage(): JSX.Element {
               <li key={item.url}><a href={item.url} target="_blank" rel="noopener noreferrer">{item.label}</a></li>
             ))}
           </ul>
+
+          <h2>Marikina River: live levels</h2>
+          <RiverWidget />
 
           <h2>Marikina River: PAGASA station levels</h2>
           <p>

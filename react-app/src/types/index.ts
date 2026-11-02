@@ -218,6 +218,29 @@ export interface RiverStationLevels {
   source: string;
 }
 
+export type RiverStatus = 'normal' | 'alert' | 'alarm' | 'critical';
+
+/** /api/river response: live PAGASA FFWS readings for the Marikina stations in drrm.json. */
+export interface RiverReading {
+  station: string;
+  stationCode: string;
+  level: number;
+  /** PAGASA marked the value with "(*)"; it may be stale or not validated. */
+  flagged: boolean;
+  /** Level one hour earlier, for the trend; null if missing. */
+  wl1h: number | null;
+  status: RiverStatus;
+  alert: number;
+  alarm: number;
+  critical: number;
+}
+
+export interface RiverResponse {
+  /** PAGASA reading slot, YYYYMMDDHHmm in Asia/Manila time. */
+  readingAt: string;
+  stations: RiverReading[];
+}
+
 export interface DrrmData {
   /** PAGASA FFWS station levels (EL. m), not the city's own alarm levels. */
   riverAlarmLevels: RiverStationLevels[];
