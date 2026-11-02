@@ -23,6 +23,7 @@ export default function Footer(): JSX.Element {
               <li><a href="/privacy">Privacy Policy</a></li>
               <li><a href="/accessibility">Accessibility</a></li>
               <li><a href="/faq">FAQ</a></li>
+              <li><a href="/health-facilities">Hospitals &amp; Health Facilities</a></li>
             </ul>
           </div>
           <div className="footer-column">

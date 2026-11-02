@@ -19,6 +19,7 @@ const STATIC_ROUTES = [
   '/legislative/resolution-framework',
   '/news',
   '/privacy',
+  '/health-facilities',
   '/schools',
   '/services',
   '/sitemap',

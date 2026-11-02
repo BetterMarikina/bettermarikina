@@ -183,7 +183,7 @@ export default function ContactPage(): JSX.Element {
               </ul>
             </div>
           ))}
-          <p className="contact-card-note">Private hospitals and DOH-registered facilities are not listed yet. For emergencies call Rescue 161.</p>
+          <p className="contact-card-note">See all <Link href="/health-facilities">hospitals, health centers and dialysis clinics</Link> in Marikina. For emergencies call Rescue 161.</p>
           <SourceNote meta={directory.meta} />
         </div>
       </section>
