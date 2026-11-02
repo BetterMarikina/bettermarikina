@@ -56,6 +56,8 @@ Common header for each request (the eFOI form asks for the same fields):
 
 **Sprint 04 note:** PAGASA's flood forecasting site gives the station thresholds (Sto. Niño 15 / 16 / 17 m), so the request can focus on the city's own alarm table (news reports put the 3rd alarm at 18 m) and each evacuation center's name, address and the barangays it serves. Someone already filed a similar eFOI request ("List of evacuation centers in Marikina City and Quezon province"); check its answer when the portal is back before sending ours.
 
+**Checked 2026-11-02:** eFOI lists two requests marked successful, both answered by the Office of Civil Defense (OCD), not the city: "List of evacuation centers in Marikina City and Quezon province" (published 2018-11-11) and "List of Evacuation Centers in Marikina City" (requested and published 2023-04-16). eFOI was still in maintenance (503), so neither answer could be read. Read the 2023 one first; if OCD attached a list, it is a Tier 1 lead to confirm with the CDRRMO. The Full Disclosure Portal has only LDRRMF utilization reports (fund use), no DRRM plan or evacuation center list, and no Marikina LDRRMP was found online. So FOI-7 should still go to the CDRRMO for the city's own alarm table and a current list, whatever OCD sent in 2023.
+
 ## FOI-8: Roadmaps for Districts I and II (City Planning and Development Office)
 
 **Why:** The PDFs at https://www.marikina.gov.ph/facts/District%201.pdf and District%202.pdf are image-only and could not be read. (Phase 1.)
