@@ -64,7 +64,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 - [x] **L5.** Housekeeping: tick Sprint 01/03 boxes whose output already exists in the repo (cite the file), leave the rest unticked. (b54dd6d)
 
 ### Wrap-up
-- [ ] **W1.** Update SOURCES.md (`Status` and `Last checked` for every source used), the README status line, and write the report below.
+- [x] **W1.** Update SOURCES.md (`Status` and `Last checked` for every source used), the README status line, and write the report below. (412abad)
 
 ## Report
 
