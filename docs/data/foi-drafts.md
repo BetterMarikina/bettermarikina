@@ -54,8 +54,16 @@ Common header for each request (the eFOI form asks for the same fields):
 
 **Request:** The list of designated evacuation centers per barangay and the official water-level thresholds (alarm levels) of the Marikina River with the date they were last revised.
 
+**Sprint 04 note:** PAGASA's flood forecasting site gives the station thresholds (Sto. Niño 15 / 16 / 17 m), so the request can focus on the city's own alarm table (news reports put the 3rd alarm at 18 m) and each evacuation center's name, address and the barangays it serves. Someone already filed a similar eFOI request ("List of evacuation centers in Marikina City and Quezon province"); check its answer when the portal is back before sending ours.
+
 ## FOI-8: Roadmaps for Districts I and II (City Planning and Development Office)
 
 **Why:** The PDFs at https://www.marikina.gov.ph/facts/District%201.pdf and District%202.pdf are image-only and could not be read. (Phase 1.)
 
 **Request:** Text-searchable copies of the District One and District Two Roadmaps.
+
+## FOI-9: Garbage collection schedule by barangay (City Environmental Management Office)
+
+**Why:** No official collection schedule is published online; the Ecological Profile only says pickups are thrice weekly. (Sprint 04, topic 5.)
+
+**Request:** The current solid waste collection schedule for each of the 16 barangays (collection days and time window, by area or street if the barangay is split, and which days are for biodegradable, residual and recyclable waste), plus where residents can bring bulky or special waste.
