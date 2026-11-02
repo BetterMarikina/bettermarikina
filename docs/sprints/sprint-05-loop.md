@@ -49,7 +49,7 @@ For each service: requirements list, fee(s) with what each is for, total process
   - Caching: Next's fetch cache does not cache POST, so wrap the upstream call in `unstable_cache` with `revalidate: 600`. The server calls PAGASA at most once every 10 minutes no matter how many visitors there are.
   - Return only the Marikina stations from F1. Each one needs its level as a number, a `flagged` boolean when PAGASA marks the value with `(*)`, its thresholds, the reading time, and `wl1h` for the trend.
   - Widget on `/disaster-risk`: current level, status (normal / alert / alarm / critical), the reading time, a "Source: PAGASA" link, and a fallback to the PAGASA link when the API fails. Never show a flagged reading without saying so.
-- [ ] **F3.** Advisories: add links on `/disaster-risk` to Manila Water service advisories and the Meralco maintenance schedule (no scraping), plus Rescue 161, already in the data.
+- [x] **F3.** Advisories: add links on `/disaster-risk` to Manila Water service advisories and the Meralco maintenance schedule (no scraping), plus Rescue 161, already in the data. (422f541)
 
 ### Barangays (Sprint 04 §4), stretch
 - [ ] **B1.** On `/barangays`, show each barangay's health center (from H1) and link to the health facilities page. Leave hall address as "not yet published".
