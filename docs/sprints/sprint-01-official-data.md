@@ -55,10 +55,10 @@
 
 **Output:** `react-app/src/data/marikina/city-profile.json`
 
-- [ ] Official name, PSGC code, region (NCR), income class, and classification (highly urbanized city)
-- [ ] Legal basis: RA 8223 (cityhood, 1996), RA 9364 (two congressional districts, 2006), PD 824 (Metro Manila, 1975). Record the source document for each.
+- [x] Official name, PSGC code, region (NCR), income class, and classification (highly urbanized city) (done in Sprint 05 check: `city-profile.json` name, psgc, region, classification, incomeClass)
+- [x] Legal basis: RA 8223 (cityhood, 1996), RA 9364 (two congressional districts, 2006), PD 824 (Metro Manila, 1975). Record the source document for each. (done in Sprint 05 check: `city-profile.json` legalBasis, each with a source)
 - [x] Land area (settled on 2,314.37 ha, discrepancy #1). The city's own page gives two different figures, ~2,150 ha and 2,314.37 ha. Settle which is current and log the discrepancy.
-- [ ] Population series: 2010, 2015, 2020 and 2024 censuses (PSA). The 2024 POPCEN total **471,323** comes from a secondary source and must be confirmed on PSA.
+- [x] Population series: 2010, 2015, 2020 and 2024 censuses (PSA). The 2024 POPCEN total **471,323** comes from a secondary source and must be confirmed on PSA. (done in Sprint 05 check: `city-profile.json` population; 2024 total confirmed on the PSA PSGC page per `barangays.json` notes)
 - [x] Households, population density and growth rate (PSA)
 - [x] Sourced history timeline (Jesuit mission 1630, parish 1687, Kapitan Moy and shoemaking 1887, Rizal 1901, Metro Manila 1975, cityhood 1996/1997). The proclamation date conflict (Dec 6 vs Dec 8, 1996) goes in the discrepancy log.
 - [ ] City seal, hymn and flag. Include them only if officially published, and with attribution.
@@ -93,7 +93,7 @@ Fields: PSGC code · district · population (2015 / 2020 / 2024) · land area ·
 
 District assignment is from `marikina.gov.ph/our-city`. Confirm it against RA 9364 or COMELEC.
 
-- [ ] PSGC codes and official spellings from the PSA PSGC (Marikina code prefix `137402`)
+- [x] PSGC codes and official spellings from the PSA PSGC (Marikina code prefix `137402`) (done in Sprint 05 check: `barangays.json` psgc)
 - [ ] Per-barangay population, from PSA census tables for 2015, 2020 and 2024
 - [ ] Barangay officials (elected in the **October 2023 BSKE**). **RA 12326** (signed 2026-09-24) moved the next BSKE from 2026-11-02 to **2028-11-13** and extended terms, so 2023 officials stay in office. A Supreme Court challenge (Macalintal) is pending, so recheck its status before publishing and record the as-of date. Sources: COMELEC 2023 BSKE results, DILG-NCR, the city's barangay listings, and barangay FB pages (for current incumbents and vacancies).
 - [x] Note the creation history of Fortune and Tumana, which were split from Parang and Concepcion Uno. Find the founding ordinance or law for each.
@@ -158,12 +158,12 @@ Tasks:
 
 **Output:** `react-app/src/data/services.json` rewritten for Marikina
 
-- [ ] Download the latest Citizen's Charter from `fdpp.marikina.gov.ph/citizen-charter`. The 2022 edition is on the Facts & Figures page; check whether a newer one exists.
+- [x] Download the latest Citizen's Charter from `fdpp.marikina.gov.ph/citizen-charter`. The 2022 edition is on the Facts & Figures page; check whether a newer one exists. (done in Sprint 05 check: the 40 per-office 2024 charters (BPLO 2026) are in `data-raw/charters/`, indexed in `services.json` charterIndex)
 - [ ] For each service, record the office, requirements, fees, processing time and steps, as stated in the charter. Note the charter edition for each.
 - [x] Remove every remaining Solano-specific service (fees, offices and descriptions that mention Solano)
 - [x] Map services to the existing category IDs in `react-app/src/data/categoriesContent.ts`
 - [x] Link to online services where they exist (BPLO business portal, online payment)
-- [ ] ⚠️ `services.json` is stored with CRLF line endings. Stage it with `git -c core.autocrlf=false add`.
+- [x] ⚠️ `services.json` is stored with CRLF line endings. Stage it with `git -c core.autocrlf=false add`. (done in Sprint 05 check: staged this way in every Sprint 05 commit)
 
 ## Phase 9: Contacts & hotlines
 
@@ -179,10 +179,10 @@ Tasks:
 
 **Output:** `react-app/src/data/marikina/dpwh-projects.json`
 
-- [ ] Find which DPWH district engineering office covers Marikina, and record it
+- [x] Find which DPWH district engineering office covers Marikina, and record it (done in Sprint 05 check: `dpwh-2027.json` office: Metro Manila 1st DEO, shared Tier B)
 - [ ] Collect DPWH projects located in Marikina (name, location/barangay, cost, contractor, status, years) from the DPWH transparency portal and flood-control listings
 - [ ] Collect city-funded infrastructure from FDP bid results (Phase 6)
-- [ ] Replace the DPWH `ComingSoon` in `react-app/src/app/budget/page.tsx`
+- [x] Replace the DPWH `ComingSoon` in `react-app/src/app/budget/page.tsx` (done in Sprint 05 check: `components/DpwhProjects.tsx`)
 - [x] (deprecated, see `data/DEPRECATED.md`) Delete or deprecate the legacy Solano `data/dpwh-projects.json`
 
 ## Phase 11: Disaster risk & environment
@@ -200,8 +200,8 @@ Tasks:
 **Output:** `react-app/src/data/marikina/facilities.json`
 
 - [ ] Public schools from the DepEd Schools Division Office of Marikina (school ID, name, level, barangay)
-- [ ] Higher education: Pamantasan ng Lungsod ng Marikina, Marikina Polytechnic College, and others. Cross-check against the CHED HEI list.
-- [ ] Health facilities from the DOH NHFR (name, type, ownership, barangay)
+- [x] Higher education: Pamantasan ng Lungsod ng Marikina, Marikina Polytechnic College, and others. Cross-check against the CHED HEI list. (done in Sprint 05 check: `facilities.json` higherEducation (UniFAST/CHED list))
+- [x] Health facilities from the DOH NHFR (name, type, ownership, barangay) (done in Sprint 05 check: `facilities.json` healthFacilities, from the DOH-NCR registry and PhilHealth since NHFR stays unreachable)
 - [ ] Public markets, libraries and sports facilities, only from city sources
 
 ## Phase 13: Publish to site

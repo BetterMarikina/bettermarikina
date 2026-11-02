@@ -59,7 +59,7 @@ For each source, record the new status and a last-checked date in [SOURCES.md](.
 
 - [x] District engineering office covering Marikina, confirmed — Metro Manila 1st DEO, from DPWH procurement notices seen in search excerpts
 - [ ] Projects located in Marikina (name, location, cost, contractor, status, years)
-- [ ] Replace the DPWH `ComingSoon` in `react-app/src/app/budget/page.tsx`
+- [x] Replace the DPWH `ComingSoon` in `react-app/src/app/budget/page.tsx` (done in Sprint 05 check: `components/DpwhProjects.tsx`)
 
 ## Phase 4: Disaster risk (priority d)
 
@@ -75,8 +75,8 @@ For each source, record the new status and a last-checked date in [SOURCES.md](.
 **Output:** `react-app/src/data/marikina/facilities.json`
 
 - [x] Public schools (DepEd) — 33 schools, `nid.deped.gov.ph`
-- [ ] Higher education (CHED)
-- [ ] Health facilities (DOH NHFR)
+- [x] Higher education (CHED) (done in Sprint 05 check: `facilities.json` higherEducation (UniFAST/CHED list))
+- [x] Health facilities (DOH NHFR) (done in Sprint 05 check: `facilities.json` healthFacilities (DOH-NCR registry and PhilHealth))
 - [x] A facilities page or section — `/schools`
 
 ## Phase 6: Citizen's Charters (priority f)
