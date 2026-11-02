@@ -56,6 +56,7 @@ For each service: requirements list, fee(s) with what each is for, total process
 
 ### Sprint 03 leftovers
 - [ ] **L1.** Officials: check councilors (16), ex-officio members, Punong Barangay names against COMELEC 2025/2023 BSKE or another Tier 1/2 source. Record the as-of date. Kagawads and SK chairs only if a Tier 1/2 list exists; otherwise BLOCKED.
+  BLOCKED (2026-11-02): no COMELEC certified results for Marikina councilors, ex-officio members or the 2023 BSKE are published online (search found only proclamation news and Rappler's unofficial transparency-server tally, which already matches the Tier 1 city contact page). Needs a COMELEC Marikina certified copy (FOI) or the SP's own roster.
 - [ ] **L2.** DPWH: record the district engineering office covering Marikina and fill Marikina projects from the BetterGov.PH Budget API (2027 NEP vs HB 10858; label as budgeted, not spent). Replace the DPWH `ComingSoon` in `budget/page.tsx`.
 - [ ] **L3.** DRRM: evacuation centers and per-barangay hazard levels (flood, landslide, fault) with the map source cited, on `/disaster-risk`.
 - [ ] **L4.** Higher education from CHED (institutions in Marikina), on the education section.
