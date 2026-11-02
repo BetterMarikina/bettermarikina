@@ -194,7 +194,18 @@ export interface PublicSchool {
 export interface FacilitiesData {
   publicSchools: PublicSchool[];
   higherEducation: { name: string; operator: string; source: string }[];
-  healthFacilities: null;
+  healthFacilities: HealthFacility[];
+}
+
+export interface HealthFacility {
+  name: string;
+  type: 'hospital' | 'health-center' | 'dialysis';
+  /** PhilHealth level for hospitals ("Level 1" to "Level 3", "Infirmary"); null otherwise. */
+  level: string | null;
+  ownership: string;
+  address: string;
+  barangay: string | null;
+  source: string;
 }
 
 export interface DrrmData {

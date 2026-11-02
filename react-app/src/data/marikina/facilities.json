@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Public schools and higher education in Marikina City",
+    "title": "Schools and health facilities in Marikina City",
     "sources": [
       {
         "id": "deped-nid",
@@ -15,10 +15,24 @@
         "url": "https://fdpp.marikina.gov.ph/file/citizens%20charter/plmar.pdf",
         "retrievedAt": "2026-10-19",
         "covers": "Pamantasan ng Lungsod ng Marikina 2024 Citizen's Charter (a city-run college)"
+      },
+      {
+        "id": "philhealth-accredited",
+        "tier": 1,
+        "url": "https://www.philhealth.gov.ph/partners/providers/facilities/accredited/",
+        "retrievedAt": "2026-10-21",
+        "covers": "PhilHealth accredited hospitals (HOSP_093026.pdf) and dialysis clinics (FDC_093026.pdf), as of 2026-09-30: name, level, ownership, address"
+      },
+      {
+        "id": "doh-ncr-rled",
+        "tier": 1,
+        "url": "https://ncroffice.doh.gov.ph/RLED/Details",
+        "retrievedAt": "2026-10-21",
+        "covers": "DOH Metro Manila CHD licensed primary care facilities (barangay health centers): name, address, ownership"
       }
     ],
     "asOf": "2026-10-19",
-    "notes": "The school list is the DepEd National Inventory Dashboard for the Marikina City division (33 schools; 33 of 33 had submitted to the inventory). School names are as printed there. Level is read from the name suffix (ES = elementary; HS/NHS or 'High School' = secondary; Integrated School). The dashboard does not give the barangay, so barangay is null. Private schools, other higher-education institutions (CHED HEI list: ched.gov.ph unreachable on 2026-10-19), health facilities (DOH NHFR unreachable) and city markets, libraries and sports facilities are not in this file. Pamantasan ng Lungsod ng Marikina is the only college listed, taken from the city's own charter; Marikina Polytechnic College and others are not verified."
+    "notes": "The school list is the DepEd National Inventory Dashboard for the Marikina City division (33 schools; 33 of 33 had submitted to the inventory). School names are as printed there. Level is read from the name suffix (ES = elementary; HS/NHS or 'High School' = secondary; Integrated School). The dashboard does not give the barangay, so barangay is null. Private schools, other higher-education institutions (CHED HEI list: ched.gov.ph unreachable on 2026-10-19), health facilities (DOH NHFR unreachable) and city markets, libraries and sports facilities are not in this file. Pamantasan ng Lungsod ng Marikina is the only college listed, taken from the city's own charter; Marikina Polytechnic College and others are not verified. Health facilities: the 10 PhilHealth-accredited hospitals and 8 accredited dialysis clinics as of 2026-09-30, and the 17 DOH-licensed primary care facilities (barangay health centers and the city employees clinic). Hospital level is as printed by PhilHealth (\"INF/DISP\" shown as Infirmary). Barangay is read from the address; Garcia General Hospital's address names both Marikina Heights and Concepcion. Phone numbers and emails are not copied. Marikina Doctors Hospital is on the DOH map but not on the PhilHealth list, so it is not included."
   },
   "data": {
     "publicSchools": [
@@ -261,6 +275,322 @@
         "source": "fdp-charter"
       }
     ],
-    "healthFacilities": null
+    "healthFacilities": [
+      {
+        "name": "AMANG RODRIGUEZ MEMORIAL MEDICAL CENTER",
+        "type": "hospital",
+        "level": "Level 3",
+        "ownership": "Government",
+        "address": "Sumulong Highway, Brgy. Sto. Niño, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "GARCIA GENERAL HOSPITAL",
+        "type": "hospital",
+        "level": "Level 1",
+        "ownership": "Private",
+        "address": "49 Bayan-Bayanan Ave., Marikina Heights, Concepcion, Marikina City",
+        "barangay": "Marikina Heights",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "MARIKINA ST. VINCENT GENERAL HOSPITAL, INC.",
+        "type": "hospital",
+        "level": "Level 2",
+        "ownership": "Private",
+        "address": "35 Bayan-Bayanan Avenue, Concepcion Uno, Marikina City",
+        "barangay": "Concepcion Uno",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "MARIKINA VALLEY MEDICAL CENTER",
+        "type": "hospital",
+        "level": "Level 2",
+        "ownership": "Private",
+        "address": "Sumulong Highway cor. Aguinaldo St., Brgy. Sto. Niño, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "NOAH MEDICAL CENTER, INC.",
+        "type": "hospital",
+        "level": "Level 2",
+        "ownership": "Private",
+        "address": "57 J.P. Rizal St., Brgy. Nangka, Marikina City",
+        "barangay": "Nangka",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "P. GONZALES MEMORIAL HOSPITAL, INC.",
+        "type": "hospital",
+        "level": "Infirmary",
+        "ownership": "Private",
+        "address": "582 J.P. Rizal St., Lamuan, Malanday, Marikina City",
+        "barangay": "Malanday",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "SDS MEDICAL CENTER, INC.",
+        "type": "hospital",
+        "level": "Level 1",
+        "ownership": "Private",
+        "address": "Katipunan Rd. cor. Pio del Pilar St., Concepcion 2, Marikina City",
+        "barangay": "Concepcion Dos",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "ST. ANTHONY MEDICAL CENTER OF MARIKINA, INC.",
+        "type": "hospital",
+        "level": "Level 2",
+        "ownership": "Private",
+        "address": "32 Sta. Ana Ext. cor. Betelnut, San Roque, Marikina City",
+        "barangay": "San Roque",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "ST. VICTORIA HOSPITAL",
+        "type": "hospital",
+        "level": "Level 1",
+        "ownership": "Private",
+        "address": "444 J.P. Rizal St., Brgy. Sto. Niño, District 1, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "VILLON-TANSINSIN HOSPITAL, INC.",
+        "type": "hospital",
+        "level": "Level 1",
+        "ownership": "Private",
+        "address": "3 Toyota Ave. cor. Guerilla St., Sto. Niño, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "CONCEPCION UNO HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "A. De Leon St., Concepcion Uno, District I, Marikina City",
+        "barangay": "Concepcion Uno",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "NANGKA HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Makabayan St., Nangka, District II, Marikina City",
+        "barangay": "Nangka",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "MARIKINA HEIGHTS HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Champagnat corner East Drive St., Marikina Heights, District II, Marikina City",
+        "barangay": "Marikina Heights",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "FORTUNE HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Champaca St., Fortune, District II, Marikina City",
+        "barangay": "Fortune",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "PARANG HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "B.G. Molina St. corner Paraluman St., Parang, District II, Marikina City",
+        "barangay": "Parang",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "SAN ROQUE HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Corner Abad Santos St., MA Roxas St., San Roque, District I, Marikina City",
+        "barangay": "San Roque",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "STO. NIÑO HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "E. Santos St., Manotoc Subdivision, Sto. Niño, District I, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "JESUS DELA PEÑA HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "139 Malvar St., corner Lopez Jaena St., Jesus Dela Peña, District I, Marikina City",
+        "barangay": "Jesus dela Peña",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "MARIKINA CITY EMPLOYEES MEDICAL CLINIC",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "G/F Marikina Healthy City Bldg. Shoe Ave., Sto. Niño, District I, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "CALUMPANG HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "112 M.H. Del Pilar St., Kalumpang District I, Marikina City",
+        "barangay": "Kalumpang",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "STA. ELENA HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Shoe Ave., corner W. Paz St., Sta. Elena, District I, Marikina City",
+        "barangay": "Santa Elena",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "CONCEPCION DOS HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Pio Del Pilar St., Concepcion Dos, District II, Marikina City",
+        "barangay": "Concepcion Dos",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "TUMANA HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Bagong Farmers Ave., Tumana, District II, Marikina City",
+        "barangay": "Tumana",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "MALANDAY HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Bulelak St., Malanday, District I, Marikina City",
+        "barangay": "Malanday",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "BALUBAD HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Balubad St., NHA Area 2, Nangka, District II, Marikina City",
+        "barangay": "Nangka",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "BARANGKA HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "Paspasan Road, Barangay Barangka, District I, Marikina City",
+        "barangay": "Barangka",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "IVC HEALTH CENTER",
+        "type": "health-center",
+        "level": null,
+        "ownership": "Government",
+        "address": "E. Abello St. corner Dama de Noche St., Barangay IVC, District I, Marikina City",
+        "barangay": "Industrial Valley Complex",
+        "source": "doh-ncr-rled"
+      },
+      {
+        "name": "EASTERN MARIKINA DIALYSIS CENTER",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "Unit #101, Nodison Centre, Marcos Highway, Brgy. San Roque, Marikina City",
+        "barangay": "San Roque",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "KIDNEY HEALTHCARE DIALYSIS CENTER INC.",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "712 J.P. Rizal, Tumana, Marikina City",
+        "barangay": "Tumana",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "NEPHROCARE HEALTH CARE SERVICES, PHILIPPINES, INC.",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "A. Bonifacio Avenue, Tañong, Marikina City",
+        "barangay": "Tañong",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "ONE DIALYSIS CENTER",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "4th Flr Marikina Sports Center Bldg, McDonalds Avenue, Santo Niño, Marikina City",
+        "barangay": "Santo Niño",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "ST. JOHN BIOCARE AND DIALYSIS CENTER FOUNDATION, INC.",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "#33 Dragon St., San Roque, Marikina City",
+        "barangay": "San Roque",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "ST. JOSEF RENAL CARE FOUNDATION INC.",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "24 Bayan Bayanan Ave., Concepcion Uno, Marikina City",
+        "barangay": "Concepcion Uno",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "UNITED DIALYSIS AND KIDNEY CARE, INC.",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "Lot 2 Block 5, JP Rizal cor. F. Josef II Street, Concepcion Uno, Marikina City",
+        "barangay": "Concepcion Uno",
+        "source": "philhealth-accredited"
+      },
+      {
+        "name": "UNITED DIALYSIS AND KIDNEY CARE, INC.",
+        "type": "dialysis",
+        "level": null,
+        "ownership": "Private",
+        "address": "#6 F. Josef Araneta Subdivision, Concepcion Uno, Marikina City",
+        "barangay": "Concepcion Uno",
+        "source": "philhealth-accredited"
+      }
+    ]
   }
 }
