@@ -772,6 +772,173 @@
         "edition": "2026 edition",
         "ref": "BPLO, p. 29"
       }
+    },
+    {
+      "id": "health-certificate",
+      "title": "Health Certificate (Health Card)",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "url": "/services/health",
+      "description": "Get a health certificate or health card, e.g. for employment or food handling.",
+      "keywords": [
+        "health certificate",
+        "health card",
+        "medical certificate",
+        "food handler",
+        "city health office"
+      ],
+      "fee": "PHP 150.00 health card + PHP 150.00 X-ray",
+      "processingTime": "About 30 minutes",
+      "office": "City Health Office, Medical Employees Clinic",
+      "whoMayAvail": "Anyone who needs the document",
+      "requirements": [
+        "Checklist form (laboratory clinic)",
+        "Urine and stool samples",
+        "Recent 1x1 colored photo",
+        "X-ray result from within the last 6 months"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Health Office, p. 278"
+      }
+    },
+    {
+      "id": "sanitary-permit",
+      "title": "Sanitary Permit",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "url": "/services/health",
+      "description": "Sanitary permit for a business, issued with the business permit.",
+      "keywords": [
+        "sanitary permit",
+        "sanitation",
+        "business",
+        "food establishment",
+        "city health office"
+      ],
+      "fee": "PHP 300.00 (integrated in the business permit)",
+      "processingTime": "About 20 minutes",
+      "office": "City Health Office, Environmental Sanitation",
+      "whoMayAvail": "Business owners",
+      "requirements": [
+        "Business permit (BPLO)"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Health Office, p. 278"
+      }
+    },
+    {
+      "id": "burial-cremation-permit",
+      "title": "Burial, Cremation, Exhumation and Transfer Permit",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "url": "/services/health",
+      "description": "Permit to bury, cremate, exhume, rebury or transfer the remains of a person.",
+      "keywords": [
+        "burial permit",
+        "cremation permit",
+        "exhumation",
+        "transfer permit",
+        "reburial",
+        "city health office"
+      ],
+      "fee": "Burial PHP 400.00 (public cemetery) or PHP 500.00 (private); cremation PHP 300.00; transfer PHP 300.00 within the Philippines or PHP 700.00 abroad; exhumation and reburial from PHP 300.00",
+      "processingTime": "About 20 minutes",
+      "office": "City Health Office, Environmental Sanitation",
+      "whoMayAvail": "Anyone who needs the document",
+      "requirements": [
+        "Original death certificate (hospital, Civil Registry or funeral parlor)"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Health Office, p. 277"
+      }
+    },
+    {
+      "id": "anti-rabies-vaccination",
+      "title": "Anti-Rabies Vaccination",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "url": "/services/health",
+      "description": "Free anti-rabies vaccination at the Animal Bite Treatment Center.",
+      "keywords": [
+        "anti-rabies",
+        "rabies",
+        "dog bite",
+        "animal bite",
+        "vaccine",
+        "city health office"
+      ],
+      "fee": "Free",
+      "processingTime": "About 20 minutes, plus 30 minutes of observation for the ERIG test",
+      "office": "City Health Office, Animal Bite Treatment Center",
+      "whoMayAvail": "Anyone who needs the service",
+      "requirements": [
+        "Referral letter from a health center",
+        "Employee ID or any valid ID with proof of residency"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Health Office, p. 279"
+      }
+    },
+    {
+      "id": "primary-health-care",
+      "title": "Primary Health Care (Health Centers)",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "url": "/services/health",
+      "description": "Free check-ups, consultation and medicines at the barangay health centers.",
+      "keywords": [
+        "health center",
+        "consultation",
+        "check-up",
+        "checkup",
+        "primary care",
+        "medicine",
+        "city health office"
+      ],
+      "fee": "Free",
+      "processingTime": "About 30 minutes",
+      "office": "City Health Office, health centers",
+      "whoMayAvail": "Everyone in the community",
+      "requirements": [
+        "Accomplished patient's information form (from the health center staff)"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Health Office, p. 273"
+      }
+    },
+    {
+      "id": "clinical-laboratory",
+      "title": "Clinical Laboratory Tests",
+      "category": "Health & Wellness",
+      "categoryId": "health",
+      "url": "/services/health",
+      "description": "Low-cost blood, urine and stool tests at the CHO laboratory with a doctor's request.",
+      "keywords": [
+        "laboratory",
+        "blood test",
+        "cbc",
+        "urinalysis",
+        "fecalysis",
+        "fbs",
+        "cholesterol",
+        "city health office"
+      ],
+      "fee": "PHP 50.00 each (blood typing, urinalysis, fecalysis); PHP 100.00 each (FBS, BUN, creatinine, uric acid, cholesterol, triglycerides, HDL/LDL, SGPT, SGOT, hemoglobin/hematocrit); CBC PHP 200.00; RPR/VDRL PHP 200.00; Hepa B screening PHP 175.00; HbA1c PHP 500.00",
+      "processingTime": "15-30 minutes",
+      "office": "City Health Office, Clinical Laboratory",
+      "whoMayAvail": "Anyone with a request from a licensed doctor",
+      "requirements": [
+        "Referral or request form from a licensed physician"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Health Office, p. 274"
+      }
     }
   ],
   "charterIndex": [

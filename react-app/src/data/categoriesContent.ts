@@ -61,7 +61,7 @@ export const categoriesContent: CategoryContent[] = [
             { id: 'business-retirement', title: 'Business Retirement', icon: 'bi-door-closed', description: 'Close a business and retire its permit', fee: 'Based on the Revenue Code', time: 'About 30 minutes (file and pay)' },
             { id: 'mayors-clearance', title: "Mayor's Clearance", icon: 'bi-patch-check', description: 'Clearance from the Mayor\'s Office for business operations', fee: 'See Citizen\'s Charter', time: 'Varies' },
             { id: 'tricycle-franchise', title: 'Tricycle Franchise', icon: 'bi-bicycle', description: 'Application for tricycle-for-hire franchise', fee: 'See Citizen\'s Charter', time: 'Varies', link: '/service-details/tricycle-franchising' },
-            { id: 'sanitary-permit', title: 'Sanitary Permit', icon: 'bi-heart-pulse', description: 'Health and sanitation permit for food establishments', fee: 'See Citizen\'s Charter', time: 'Varies' },
+            { id: 'sanitary-permit', title: 'Sanitary Permit', icon: 'bi-heart-pulse', description: 'Health and sanitation permit for food establishments', fee: 'PHP 300.00 (with the business permit)', time: 'About 20 minutes' },
             { id: 'fire-safety', title: 'Fire Safety Certificate', icon: 'bi-fire', description: 'Fire safety inspection certificate for business premises', fee: 'See Citizen\'s Charter', time: 'Varies' },
         ],
         offices: [
@@ -115,12 +115,15 @@ export const categoriesContent: CategoryContent[] = [
         badgeText: 'Health',
         description: 'Vaccination programs, health certificates, and medical assistance',
         services: [
-            { id: 'health-cert', title: 'Health Certificate', icon: 'bi-file-medical', description: 'Medical certificate for employment and food handling', fee: 'See Citizen\'s Charter', time: 'Varies' },
+            { id: 'health-cert', title: 'Health Certificate', icon: 'bi-file-medical', description: 'Medical certificate for employment and food handling', fee: 'PHP 150.00 health card + PHP 150.00 X-ray', time: 'About 30 minutes' },
+            { id: 'burial-permit', title: 'Burial and Cremation Permits', icon: 'bi-flower2', description: 'Burial, cremation, exhumation and transfer permits', fee: 'From PHP 300.00 (burial PHP 400.00 public, PHP 500.00 private)', time: 'About 20 minutes' },
+            { id: 'anti-rabies', title: 'Anti-Rabies Vaccination', icon: 'bi-bandaid', description: 'Animal bite treatment and anti-rabies vaccine', fee: 'Free', time: 'About 20 minutes' },
+            { id: 'clinical-lab', title: 'Clinical Laboratory', icon: 'bi-eyedropper', description: 'Blood, urine and stool tests with a doctor\'s request', fee: 'From PHP 50.00 per test', time: '15-30 minutes' },
             { id: 'vaccination', title: 'Vaccination Services', icon: 'bi-droplet', description: 'Routine immunization and COVID-19 vaccination', fee: 'See Citizen\'s Charter', time: 'Varies' },
             { id: 'prenatal', title: 'Prenatal Care', icon: 'bi-heart', description: 'Prenatal checkup and monitoring for pregnant women', fee: 'See Citizen\'s Charter', time: 'Varies' },
-            { id: 'dental', title: 'Dental Services', icon: 'bi-emoji-smile', description: 'Dental checkup, extraction, and treatment', fee: 'See Citizen\'s Charter', time: 'Varies' },
+            { id: 'dental', title: 'Dental Services', icon: 'bi-emoji-smile', description: 'Dental checkup, extraction, and treatment', fee: 'PHP 50.00-150.00 per service; 20% off for seniors', time: 'About 20 minutes' },
             { id: 'tb-dots', title: 'TB-DOTS Program', icon: 'bi-lungs', description: 'Tuberculosis screening, treatment, and monitoring', fee: 'See Citizen\'s Charter', time: 'Varies' },
-            { id: 'medical-consult', title: 'Medical Consultation', icon: 'bi-stethoscope', description: 'General medical consultation and treatment', fee: 'See Citizen\'s Charter', time: 'Varies' },
+            { id: 'medical-consult', title: 'Medical Consultation', icon: 'bi-stethoscope', description: 'General medical consultation and treatment at the health centers', fee: 'Free', time: 'About 30 minutes' },
         ],
         offices: [
             { title: 'City Health Office', icon: 'bi-hospital', description: 'Health programs, vaccination, and medical services', link: '/services/health' },
