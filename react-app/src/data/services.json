@@ -289,8 +289,8 @@
         "Other government agency clearances as required"
       ],
       "charter": {
-        "edition": "2022 edition",
-        "ref": "Office of the Building Official, p. 139"
+        "edition": "2024 edition",
+        "ref": "Office of the Building Official, pp. 124-125"
       }
     },
     {
@@ -1112,6 +1112,121 @@
       "charter": {
         "edition": "2024 edition",
         "ref": "LRPESO, p. 256"
+      }
+    },
+    {
+      "id": "tax-declaration-transfer",
+      "title": "Transfer of Tax Declaration to a New Owner",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "url": "/services/tax-payments",
+      "office": "City Assessor's Office",
+      "whoMayAvail": "Property owners and taxpayers",
+      "description": "Transfer the tax declaration of a property to its new owner after a sale, donation or settlement of estate.",
+      "keywords": [
+        "tax declaration",
+        "transfer",
+        "new owner",
+        "assessor",
+        "deed of sale",
+        "real property"
+      ],
+      "fee": "Processing fee per tax declaration (PHP 50.00 per parcel for transfers with segregation or consolidation)",
+      "processingTime": "5th day for up to 10 parcels; 10th day for up to 30 parcels",
+      "requirements": [
+        "Certified true copy of the TCT in the name of the new owner (Register of Deeds)",
+        "Document of transfer: deed of absolute sale, deed of donation, extrajudicial settlement, or certificate of sale and affidavit of consolidation",
+        "Certified true copy of the BIR Certificate Authorizing Registration (CAR)",
+        "Certified true copy of the transfer tax receipt (City Treasurer's Office)",
+        "Photocopy of the current real property tax receipt",
+        "SPA, if applicable; authorization letter and IDs of the buyer or seller and representative",
+        "With segregation or consolidation: the approved subdivision or consolidation plan"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Assessor's Office, pp. 114-115"
+      }
+    },
+    {
+      "id": "tax-declaration-new-building",
+      "title": "Tax Declaration for a New or Renovated Building",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "url": "/services/tax-payments",
+      "office": "City Assessor's Office",
+      "whoMayAvail": "Property owners and taxpayers",
+      "description": "Declare a new or renovated building for real property tax.",
+      "keywords": [
+        "tax declaration",
+        "new building",
+        "renovation",
+        "assessor",
+        "real property"
+      ],
+      "fee": "None listed in the charter",
+      "processingTime": "5 working days",
+      "requirements": [
+        "Building floor plan",
+        "Photo of the building",
+        "Notarized sworn declaration, if there is no building or occupancy permit"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Assessor's Office, p. 113"
+      }
+    },
+    {
+      "id": "tax-declaration-undeclared-land",
+      "title": "Tax Declaration for Undeclared Land",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "url": "/services/tax-payments",
+      "office": "City Assessor's Office",
+      "whoMayAvail": "Property owners and taxpayers",
+      "description": "Declare land that has no tax declaration yet, titled or untitled.",
+      "keywords": [
+        "tax declaration",
+        "undeclared land",
+        "untitled land",
+        "assessor",
+        "real property"
+      ],
+      "fee": "None listed in the charter",
+      "processingTime": "5 working days, after the ocular inspection",
+      "requirements": [
+        "Untitled: approved survey plan (DENR-LMB), CENRO certification that the land is alienable and disposable, affidavit of ownership or sworn statement of market value, and barangay certification of possession",
+        "Titled: certified true copy of the free patent, homestead or sales application, certified true copy of the title (Register of Deeds), and approved survey plan"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Assessor's Office, pp. 111-112"
+      }
+    },
+    {
+      "id": "tax-declaration-certified-copy",
+      "title": "Certified True Copy of Tax Declaration and Certifications",
+      "category": "Taxation & Payments",
+      "categoryId": "tax-payments",
+      "url": "/services/tax-payments",
+      "office": "City Assessor's Office",
+      "whoMayAvail": "Property owners and taxpayers",
+      "description": "Get a certified true copy of a tax declaration, tax map or other certification from the Assessor's Office.",
+      "keywords": [
+        "certified true copy",
+        "tax declaration",
+        "tax map",
+        "certification",
+        "assessor"
+      ],
+      "fee": "PHP 50.00 per tax declaration",
+      "processingTime": "About 30 minutes",
+      "requirements": [
+        "Filled-out request form",
+        "Personal appearance of the owner or an authorized representative"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "City Assessor's Office, p. 116"
       }
     }
   ],
