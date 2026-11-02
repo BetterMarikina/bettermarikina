@@ -336,6 +336,289 @@
         "ref": "BPLO, p. 108"
       },
       "onlineUrl": "https://bplo.marikina.gov.ph/client/index"
+    },
+    {
+      "id": "birth-registration-on-time",
+      "title": "Birth Registration (On-time)",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Register a birth in Marikina City within 30 days of the date of birth.",
+      "keywords": [
+        "birth certificate",
+        "birth registration",
+        "certificate of live birth",
+        "colb",
+        "civil registry",
+        "lcro"
+      ],
+      "fee": "PHP 100.00 registration fee",
+      "processingTime": "About 9 minutes",
+      "office": "City Civil Registry Office, Window 5",
+      "whoMayAvail": "Parents, guardians, the attendant at birth, hospitals and lying-in clinics",
+      "requirements": [
+        "Municipal Form 102 (Certificate of Live Birth), 1 set, signed in black ink",
+        "If the parents are married: certified true copy or PSA copy of their marriage contract",
+        "If the parents are not married: notarized Affidavit of Admission of Paternity (back of Form 102) and Affidavit to Use the Surname of the Father (4 copies)"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, p. 210"
+      }
+    },
+    {
+      "id": "birth-registration-late",
+      "title": "Late Birth Registration",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Register a birth in Marikina City more than 30 days after the date of birth.",
+      "keywords": [
+        "late registration",
+        "delayed registration",
+        "birth certificate",
+        "civil registry",
+        "lcro"
+      ],
+      "fee": "Late registration fee: PHP 200.00 (30 days up to 1 year late); PHP 400.00 (2 years and above)",
+      "processingTime": "Depends on the verification of the documents submitted",
+      "office": "City Civil Registry Office, Window 5",
+      "whoMayAvail": "Parents, guardians, the attendant at birth, or the person whose birth was not registered (if of legal age)",
+      "requirements": [
+        "Municipal Form 102 (Certificate of Live Birth), 1 set, signed in black ink",
+        "Notarized Affidavit of Delayed Registration of Birth",
+        "Affidavit of two disinterested persons",
+        "Negative certification from PSA (1 original)",
+        "Notarized affidavit of non-baptism (if of another religion)",
+        "Barangay clearance for late registration",
+        "Any 2 documents showing the date and place of birth (e.g. baptismal certificate, school record)",
+        "Proof of the parents' identity (PSA birth or marriage certificate, government ID or passport of the parents)",
+        "Parents married or not married: same marriage contract or paternity affidavits as on-time registration"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 211-213"
+      }
+    },
+    {
+      "id": "marriage-license",
+      "title": "Marriage License Application",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Apply for a marriage license. At least one applicant must be a Marikina resident.",
+      "keywords": [
+        "marriage license",
+        "kasal",
+        "wedding",
+        "cenomar",
+        "civil registry",
+        "lcro"
+      ],
+      "fee": "PHP 100.00 application fee + PHP 300.00 marriage license fee",
+      "processingTime": "11 days",
+      "office": "City Civil Registry Office, Window 1",
+      "whoMayAvail": "Single persons aged 18 and above who intend to marry; at least one must reside in Marikina",
+      "requirements": [
+        "Municipal Form 90 (Application for Marriage License)",
+        "Personal appearance of both applicants",
+        "Valid government-issued or company ID",
+        "PSA or local civil registry birth certificate, or baptismal certificate, of both applicants",
+        "PSA Certificate of No Marriage Record (CENOMAR)",
+        "Community Tax Certificate (cedula)",
+        "2x2 photo of each applicant",
+        "Ages 18-25: parental consent or advice, with the parents present",
+        "Pre-marriage orientation and counseling, if applicable",
+        "Foreigners: passport copy and Certificate of Legal Capacity to Marry; if divorced, the final divorce decree"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 217-218"
+      }
+    },
+    {
+      "id": "death-registration-on-time",
+      "title": "Death Registration (On-time)",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Register a death that occurred in Marikina City within 30 days of the date of death.",
+      "keywords": [
+        "death certificate",
+        "death registration",
+        "civil registry",
+        "lcro"
+      ],
+      "fee": "PHP 100.00 registration fee + PHP 150.00 certified true copy",
+      "processingTime": "About 9 minutes",
+      "office": "City Civil Registry Office, Window 3",
+      "whoMayAvail": "Families of people who died in Marikina, and funeral parlors",
+      "requirements": [
+        "Municipal Form 103 (Certificate of Death), 1 set, signed in black ink",
+        "Medical certificate and certification of death",
+        "Certification of embalmer",
+        "Burial, cremation or transfer permit (City Health Office)",
+        "Autopsy report, if applicable"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 218-219"
+      }
+    },
+    {
+      "id": "death-registration-late",
+      "title": "Late Death Registration",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Register a death that occurred in Marikina City more than 30 days after the date of death.",
+      "keywords": [
+        "late registration",
+        "delayed registration",
+        "death certificate",
+        "civil registry",
+        "lcro"
+      ],
+      "fee": "PHP 200.00 late registration fee + PHP 150.00 certified true copy",
+      "processingTime": "15 working days",
+      "office": "City Civil Registry Office, Window 3",
+      "whoMayAvail": "Families of people who died in Marikina, and funeral parlors",
+      "requirements": [
+        "Municipal Form 103 (Certificate of Death), 1 set, signed in black ink",
+        "Negative result from PSA (1 original, 1 photocopy)",
+        "Notarized Affidavit of Delayed Registration of Death (back of Form 103)",
+        "Medical certificate and certification of death",
+        "Certificate of burial (cemetery) and certificate of service (funeral parlor)",
+        "Certification of embalmer",
+        "Burial, cremation or transfer permit (City Health Office)",
+        "Autopsy report, if applicable"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 219-220"
+      }
+    },
+    {
+      "id": "civil-registry-certified-copy",
+      "title": "Certified True Copy of Birth, Marriage or Death Certificate",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Get a certified true copy of a birth, marriage or death certificate registered in Marikina.",
+      "keywords": [
+        "certified true copy",
+        "ctc",
+        "birth certificate",
+        "marriage certificate",
+        "death certificate",
+        "civil registry"
+      ],
+      "fee": "PHP 150.00 per copy",
+      "processingTime": "About 6 minutes",
+      "office": "City Civil Registry Office, Window 4",
+      "whoMayAvail": "General public",
+      "requirements": [
+        "Request form (Window 4)",
+        "Valid government-issued ID of the requester and of any authorized representative",
+        "Authorization letter or special power of attorney, if not the document owner"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, p. 221"
+      }
+    },
+    {
+      "id": "ra9048-change-of-first-name",
+      "title": "Change of First Name (RA 9048)",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Petition to change a first name or nickname in a civil registry record without going to court.",
+      "keywords": [
+        "ra 9048",
+        "change of first name",
+        "correction",
+        "petition",
+        "civil registry"
+      ],
+      "fee": "PHP 3,000.00 filing fee; PHP 500.00 more for a migrant petition; newspaper publication for 2 weeks starts at PHP 2,500.00 (paid to the newspaper)",
+      "processingTime": "2-3 months (includes approval by the PSA Legal Division)",
+      "office": "City Civil Registry Office, Window 5",
+      "whoMayAvail": "The record owner or their spouse, children, parents, siblings, grandparents, guardian or authorized representative, of legal age",
+      "requirements": [
+        "PSA copy of the certificate to be changed, with 2 photocopies",
+        "Certificate of employment with no pending case, or affidavit of non-employment",
+        "Current NBI clearance and police clearance (for change of first name)",
+        "Documents showing the correct entry (e.g. baptismal certificate, school records, SSS/GSIS, IDs); the processor decides which apply",
+        "RA 9048 Form 4.1 petition (3 notarized originals)",
+        "Other documents the Civil Registrar may require"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 221-222"
+      }
+    },
+    {
+      "id": "ra9048-clerical-error",
+      "title": "Correction of Clerical Error (RA 9048)",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Petition to correct a clerical or typographical error in a civil registry record without going to court.",
+      "keywords": [
+        "ra 9048",
+        "clerical error",
+        "typographical error",
+        "correction",
+        "petition",
+        "civil registry"
+      ],
+      "fee": "PHP 1,000.00 filing fee; PHP 500.00 more for a migrant petition",
+      "processingTime": "2-3 months",
+      "office": "City Civil Registry Office, Window 5",
+      "whoMayAvail": "The record owner or their spouse, children, parents, siblings, grandparents, guardian or authorized representative, of legal age",
+      "requirements": [
+        "PSA copy of the certificate to be corrected, with 2 photocopies",
+        "Documents showing the correct entry (e.g. birth certificates of siblings or children, baptismal certificate, school records); the processor decides which apply",
+        "RA 9048 petition form (LCRO)",
+        "Other documents the Civil Registrar may require"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 222-224"
+      }
+    },
+    {
+      "id": "ra10172-sex-or-birth-date",
+      "title": "Correction of Sex or Day and Month of Birth (RA 10172)",
+      "category": "Certificates & Vital Records",
+      "categoryId": "certificates",
+      "url": "/services/certificates",
+      "description": "Petition to correct the sex, or the day and month of birth, in a birth certificate without going to court.",
+      "keywords": [
+        "ra 10172",
+        "gender correction",
+        "sex correction",
+        "date of birth",
+        "correction",
+        "petition",
+        "civil registry"
+      ],
+      "fee": "PHP 3,000.00 filing fee; PHP 500.00 more for a migrant petition; newspaper publication for 2 weeks starts at PHP 2,500.00 (paid to the newspaper)",
+      "processingTime": "2-3 months (includes approval by the PSA Legal Division)",
+      "office": "City Civil Registry Office, Window 5",
+      "whoMayAvail": "The record owner or their spouse, children, parents, siblings, grandparents, guardian or authorized representative, of legal age",
+      "requirements": [
+        "PSA copy of the birth certificate, with 2 photocopies",
+        "Current NBI clearance and police clearance",
+        "Documents showing the correct entry; the processor decides which apply",
+        "RA 10172 Form 4.1 petition (notarized)",
+        "Other documents the Civil Registrar may require"
+      ],
+      "charter": {
+        "edition": "2024 edition",
+        "ref": "Civil Registry, pp. 224-227"
+      }
     }
   ],
   "charterIndex": [
