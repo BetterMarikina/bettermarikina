@@ -64,10 +64,24 @@
         "url": "https://sc.judiciary.gov.ph/wp-content/uploads/2026/10/G.R.-No.-E-08557-Comment.pdf",
         "retrievedAt": "2026-10-19",
         "covers": "Status of the Supreme Court challenge to RA 12326 (Supreme Court docket G.R. No. E-08557; news reports cited in the registry)."
+      },
+      {
+        "id": "fb-san-roque-council",
+        "tier": 1,
+        "url": "https://www.facebook.com/BarangaySanRoqueMarikinaCity/posts/san-roque-barangay-council-ibat-iba-man-ang-pinagmulan-pinagkaisa-ng-pusong-puno/122117065286102454/",
+        "retrievedAt": "2026-11-03",
+        "covers": "San Roque Sangguniang Barangay and SK Chairperson, from the barangay's official Facebook page (post of 2023-12-12). Names as posted; nicknames dropped."
+      },
+      {
+        "id": "fb-santa-elena-oath",
+        "tier": 1,
+        "url": "https://www.facebook.com/BrgyStaElenaMarikinaOfficial/",
+        "retrievedAt": "2026-11-03",
+        "covers": "Santa Elena Punong Barangay and seven kagawads, from the oath-taking post of 2023-11-09 on the barangay's official Facebook page (found with the page search for \"oath taking\"). Names as posted, some are nicknames. The post does not name the SK Chairperson."
       }
     ],
     "asOf": "2024-07-01",
-    "notes": "PSGC codes, the urban/rural flag and the 2024 populations were read from the PSA PSGC page on 2026-10-19 (Tier 1); the 16 barangay counts sum to the city total of 471,323 and agree with the earlier secondary values. The 2010 and 2015 populations are still secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad and skChairperson are null (no source read). hall, facebook and floodHazard are null: no official source read. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326, signed 2026-09-24). As of 2026-10-19 two petitions challenge the law at the Supreme Court (G.R. No. E-08557, filed 2026-09-28 by Romulo Macalintal; a second petition by youth groups filed 2026-10-05) and the Court had issued no restraining order, so COMELEC treats the law as in effect. Some area figures differ between city pages; see discrepancy log."
+    "notes": "PSGC codes, the urban/rural flag and the 2024 populations were read from the PSA PSGC page on 2026-10-19 (Tier 1); the 16 barangay counts sum to the city total of 471,323 and agree with the earlier secondary values. The 2010 and 2015 populations are still secondary (citypopulation.de citing PSA) and are labeled as such on the page. 2020 populations and land areas are Tier 1 (city documents). Punong Barangay names and office landlines are from the city contact-us page (Tier 1; the page footer reads 2023). Six of the names (Concepcion Dos, Malanday, Parang, Santa Elena, Tañong, Tumana) also appear in secondary directory listings of the 2023 BSKE winners. They were not checked against COMELEC results, and changes since 2023 (resignation, succession) are not tracked. Mobile numbers listed by the city for Fortune and Parang are omitted by the personal-data rule and Tumana lists no number. kagawad, skChairperson and facebook are filled only for San Roque and Santa Elena, from council posts on their official Facebook pages (2023 posts, read 2026-11-03; \"Casimifo\" is spelled as posted). The other 14 are null: no full council post was found on their pages, so they wait on FOI-1. hall and floodHazard are null: no official source read. Barangay officials elected in the 2023 BSKE stay in office until the next election (2028-11-13 per RA 12326, signed 2026-09-24). As of 2026-10-19 two petitions challenge the law at the Supreme Court (G.R. No. E-08557, filed 2026-09-28 by Romulo Macalintal; a second petition by youth groups filed 2026-10-05) and the Court had issued no restraining order, so COMELEC treats the law as in effect. Some area figures differ between city pages; see discrepancy log."
   },
   "data": [
     {
@@ -212,12 +226,20 @@
       "creation": null,
       "officials": {
         "punongBarangay": "Tadeo Allan Aramil",
-        "kagawad": null,
-        "skChairperson": null
+        "kagawad": [
+          "Dennis Santiago",
+          "Andrew Salvador",
+          "Edgardo Casimifo Jr.",
+          "Albert Caro",
+          "Wilbert Juanson",
+          "Sandee Cartativo Tolentino",
+          "Ramon Reyes"
+        ],
+        "skChairperson": "Juday Montemayor Santiago"
       },
       "hall": null,
       "officePhone": "8646-8479",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/BarangaySanRoqueMarikinaCity/",
       "floodHazard": null
     },
     {
@@ -237,12 +259,20 @@
       "creation": null,
       "officials": {
         "punongBarangay": "Bernard C. Bernardo",
-        "kagawad": null,
+        "kagawad": [
+          "Edwin Caro",
+          "Joy San Juan",
+          "Jojo Guevara",
+          "Emer Paz",
+          "Burt De Jesus",
+          "Jan De Guzman",
+          "Iboy Rodriguez"
+        ],
         "skChairperson": null
       },
       "hall": null,
       "officePhone": "8646-1877 / 8647-8954",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/BrgyStaElenaMarikinaOfficial/",
       "floodHazard": null
     },
     {

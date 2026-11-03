@@ -34,6 +34,31 @@ Found by web search on 2026-11-02. Our tools can't open Facebook (Firecrawl refu
 3. **Note any changes since 2023**: a resignation, death, suspension or new appointment.
 4. **Do not copy** personal mobile numbers or personal emails, even if the page posts them. Office landlines and office emails are fine.
 
+## Results of the 2026-11-03 check
+
+Read while logged in, using each page's own search for "kagawad" and "oath taking" (no Facebook-wide search). Read only: nothing liked, commented or messaged.
+
+| Barangay | Result | What was found |
+|---|---|---|
+| San Roque | **Published** | Full council and SK Chairperson in the post of 2023-12-12. In `barangays.json`. |
+| Santa Elena | **Published** | Oath-taking post of 2023-11-09: Punong Barangay and 7 kagawads, some by nickname. SK Chairperson not named. In `barangays.json`. |
+| Fortune | Partial | Official page, 2026 posts name 5 kagawads across separate posts (Cesar P. Bordas, Elpidio V. Felipe, Raul R. Apostol, Jess L. Llantada, Luis "Weng" Buenaventura). No single council post. Not published. |
+| Nangka | Partial | The page is titled "Barangay Nangka" (profile 61569340538226). Posts name 5 kagawads (Randy G. Leal, Eric Delos Reyes, Judy Magtubo, Jaime G. Cruz Jr., Patrick Gene B. Urrutia). No single council post. Not published. |
+| Concepcion Uno | Not found | Official page; only passing mentions (Kagawad Rodolfo Francisco). |
+| Tañong | Not found | Official page; only passing mentions (Kagawad Rhom Berdin, Kagawad Leonides A. Loresco). |
+| Concepcion Dos | Not found | Official page (profile 61556051116171); only birthday posts for single kagawads. |
+| Kalumpang | Not found | Official page, but the kagawad posts are from 2019 (previous council). |
+| Industrial Valley Complex | Not found | Posts are from 2020. |
+| Santo Niño | Not found | Only HOA and BPAT oath-takings, and 2020 posts. |
+| Marikina Heights | Not found | The "Official PART 2" link is a Facebook group (member welcome posts), not the barangay's page. |
+| Barangka | Not found | Community page that reshares other posts; not the barangay's own. |
+| Malanday | Not found | Page shows "This content isn't available right now". |
+| Parang | Not found | Community page (candidate posts, 2013 reposts). |
+| Jesus dela Peña | Not found | Place page, no posts. |
+| Tumana | Not found | Place page, no posts. |
+
+Fourteen barangays stay on FOI-1. The partial lists for Fortune and Nangka can be used to check the FOI-1 answer when it arrives.
+
 ## After checking
 
 Send the confirmed page links and council posts back, and they go into `barangays.json` (`facebook`, `officials`) as Tier 1 announcement sources, with the post date as the as-of date. Barangays with no official page or council post stay on FOI-1.
