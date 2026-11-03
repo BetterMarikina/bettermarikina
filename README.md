@@ -20,6 +20,17 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Open Data API
+
+Every dataset on the site is available as free JSON, with its sources and a CC BY 4.0 license. No key needed; CORS is open.
+
+```bash
+curl https://www.bettermarikina.org/api/v1            # list of datasets
+curl https://www.bettermarikina.org/api/v1/barangays  # one dataset: { id, license, meta, data }
+```
+
+See [/open-data](https://www.bettermarikina.org/open-data) for the endpoints and how to read `meta.sources`.
+
 ## Data Sources
 
 Every figure published on the site must come from an official source:
@@ -41,6 +52,15 @@ We welcome contributions from everyone: developers, designers, data researchers,
 1. Fork the repository and create a feature branch.
 2. Make your changes. Cite the official source for any data you add.
 3. Open a pull request against `main`.
+
+Before opening a pull request, run the checks CI runs (from `react-app/`):
+
+```bash
+npm run check:data   # dataset rules: sources, mobile numbers, barangay councils
+npm run lint
+npm run build
+npm start & npm run check:links   # crawl the build for broken internal links
+```
 
 Report issues or volunteer through [GitHub Issues](https://github.com/BetterMarikina/bettermarikina/issues).
 
