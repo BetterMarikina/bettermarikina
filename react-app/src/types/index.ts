@@ -135,6 +135,7 @@ export interface Barangay {
   creation: { instrument: string; date: string; note: string; source: string } | null;
   officials: { punongBarangay: string; kagawad: string[] | null; skChairperson: string | null } | null;
   officePhone: string | null;
+  facebook: string | null;
 }
 
 export interface ElectedOfficial {

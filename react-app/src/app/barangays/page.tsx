@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import BarangayCouncil from '@/components/BarangayCouncil';
 import SourceNote from '@/components/SourceNote';
 import barangaysData from '@/data/marikina/barangays.json';
 import facilitiesData from '@/data/marikina/facilities.json';
@@ -94,6 +95,8 @@ export default function BarangaysPage(): JSX.Element {
             </table>
           </div>
           <SourceNote meta={barangays.meta} />
+
+          <BarangayCouncil barangays={rows} />
 
           <h2 className="section-title-sm">Health centers and barangay halls</h2>
           <p>
