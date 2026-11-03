@@ -111,6 +111,13 @@ for (const path of listJson(DATA_DIR)) {
   if (file === 'marikina/barangays.json') checkBarangays(file, json);
 }
 
+// Every dataset must be served by the open data API (src/lib/open-data.ts imports each file).
+const registry = readFileSync(fileURLToPath(new URL('../src/lib/open-data.ts', import.meta.url)), 'utf8');
+for (const path of listJson(DATA_DIR)) {
+  const file = relative(DATA_DIR, path).replaceAll('\\', '/');
+  if (!registry.includes(`@/data/${file}'`)) report(file, 'is not in the open data API registry (src/lib/open-data.ts)');
+}
+
 if (problems.length > 0) {
   console.error(`Data check failed (${problems.length}):\n- ${problems.join('\n- ')}`);
   process.exit(1);

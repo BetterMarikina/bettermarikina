@@ -29,6 +29,7 @@ export default function Footer(): JSX.Element {
           <div className="footer-column">
             <h4>Resources</h4>
             <ul className="footer-links-new">
+              <li><a href="/open-data">BetterMarikina Open Data API</a></li>
               <li><a href="https://data.gov.ph" target="_blank" rel="noopener noreferrer">Open Data Philippines</a></li>
               <li><a href="https://www.foi.gov.ph/" target="_blank" rel="noopener noreferrer">Freedom of Information</a></li>
               <li><a href="https://www.marikina.gov.ph/" target="_blank" rel="noopener noreferrer">Official Marikina City Portal</a></li>
