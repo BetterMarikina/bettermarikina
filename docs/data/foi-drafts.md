@@ -18,6 +18,8 @@ Common header for each request (the eFOI form asks for the same fields):
 
 **Also:** the status of the terms of office after RA 12326.
 
+**Sent 2026-11-03** by email, from the maintainer's Gmail in the name of Terd Imogen S. Inocentes, to DILG's FOI Receiving Officer (wzgamali@dilg.gov.ph) and central receiving inbox (dilgcentralreceiving01@gmail.com), asking for referral to DILG-NCR / the Marikina Field Office. Not filed on the interim form (foi.gov.ph/standard-requests), which needs a government ID upload. Under EO 2 the reply is due within 15 working days, so follow up around 2026-11-24 if there is no answer. DILG may ask for an ID first. When the list arrives, fill `kagawad`, `skChairperson` and `facebook` in `barangays.json` and check it against the Fortune and Nangka partial lists in [barangay-facebook-pages.md](barangay-facebook-pages.md).
+
 ## FOI-2: Certified 2025 election results for Marikina City (COMELEC Marikina Election Office)
 
 **Why:** The councilor list on the city's contact page matches secondary sources, but the city's own "Our City" page still shows the previous council. We want to confirm against the certified results. (Phase 4.)

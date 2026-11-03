@@ -63,7 +63,7 @@ Entries marked "2026-10-19 (seed)" were checked while the sprint was being plann
 | `mgb-geohazard` | 1 | MGB Geohazard maps | https://mgb.gov.ph/ | Flood/landslide susceptibility | PDF/map | ❌ | 403. |
 | `phivolcs-hazardhunter` | 1 | PHIVOLCS / HazardHunterPH | https://hazardhunter.georisk.gov.ph/ | Fault proximity (West Valley Fault), liquefaction | Web | ⚠️ | Reachable; web map, not used. |
 | `data-gov-ph` | 2 | data.gov.ph | https://data.gov.ph/ | Assorted datasets | CSV/JSON | ⚠️ | Retried 2026-10-19: loads (200), 175 datasets, 17 organizations. No Marikina-level dataset seen on the home page. |
-| `foi` | — | eFOI Portal | https://www.foi.gov.ph/ | Request channel for unpublished data | — | ⚠️ | 2026-10-19: eFOI portal returns 503 maintenance; interim channel foi.gov.ph/standard-requests. Drafts are in foi-drafts.md for the maintainer. |
+| `foi` | — | eFOI Portal | https://www.foi.gov.ph/ | Request channel for unpublished data | — | ⚠️ | 2026-10-19: eFOI portal returns 503 maintenance; interim channel foi.gov.ph/standard-requests. Drafts are in foi-drafts.md for the maintainer. 2026-11-03: FOI-1 sent by email to DILG's FOI Receiving Officer (wzgamali@dilg.gov.ph) and central receiving inbox (dilgcentralreceiving01@gmail.com), the addresses in DILG's FOI one-page manual; no reference number yet. |
 
 | `city-ecoprofile` | 1 | Marikina Ecological Profile (CPDO) | https://www.marikina.gov.ph/facts/Ecological-Profile.pdf | Land area, density, history, barangay areas | PDF | ✅ | Undated, uses 2020 census. Part of `city-facts`. |
 | `law-ra9431` | 1 | RA 9431 (Barangay Fortune) | https://lawphil.net/statutes/repacts/ra2007/ra_9431_2007.html | Creation of Fortune from Parang, approved 2007-04-10 | HTML | ✅ | Lawphil mirror. |
