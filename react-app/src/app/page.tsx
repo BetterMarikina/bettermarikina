@@ -12,6 +12,7 @@ import officialsData from '@/data/marikina/officials.json';
 import type { CityProfile, Dataset, ElectedOfficial } from '@/types';
 
 const cityProfile = cityProfileData as unknown as Dataset<CityProfile>;
+const latestPopulation = cityProfile.data.population[cityProfile.data.population.length - 1];
 const officials = officialsData as unknown as Dataset<ElectedOfficial[]>;
 const leaders = officials.data.filter((o) => ['mayor', 'vice-mayor', 'rep-d1', 'rep-d2'].includes(o.id));
 
@@ -129,9 +130,9 @@ export default function HomePage() {
             <Link href="/statistics" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-people-fill"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">—</span>
+                <span className="home-stat-card-value">{latestPopulation.count.toLocaleString('en-PH')}</span>
                 <span className="home-stat-card-label">Population</span>
-                <span className="home-stat-card-source">Coming soon</span>
+                <span className="home-stat-card-source">PSA {latestPopulation.year}</span>
               </div>
             </Link>
             <Link href="/government" className="home-stat-card">
@@ -145,17 +146,17 @@ export default function HomePage() {
             <Link href="/budget" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-award-fill"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">—</span>
+                <span className="home-stat-card-value">{cityProfile.data.incomeClass ?? '—'}</span>
                 <span className="home-stat-card-label">Income Class</span>
-                <span className="home-stat-card-source">Coming soon</span>
+                <span className="home-stat-card-source">City income classification</span>
               </div>
             </Link>
             <Link href="/statistics" className="home-stat-card">
               <div className="home-stat-card-icon"><i className="bi bi-rulers"></i></div>
               <div className="home-stat-card-content">
-                <span className="home-stat-card-value">—</span>
+                <span className="home-stat-card-value">{cityProfile.data.landAreaSqKm} km²</span>
                 <span className="home-stat-card-label">Land Area</span>
-                <span className="home-stat-card-source">Coming soon</span>
+                <span className="home-stat-card-source">2012-2013 cadastral survey</span>
               </div>
             </Link>
           </div>
