@@ -31,3 +31,8 @@ jobs:
       - run: npm run check:data
       - run: npm run lint
       - run: npm run build
+      - name: Check internal links
+        run: |
+          npm start -- -p 3000 &
+          for i in $(seq 1 30); do curl -sf http://localhost:3000/ > /dev/null && break; sleep 1; done
+          npm run check:links -- http://localhost:3000
