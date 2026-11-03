@@ -289,6 +289,35 @@ export interface RiverResponse {
   stations: RiverReading[];
 }
 
+// transparency.json
+export interface AuditReport {
+  year: number;
+  kind: 'annual' | 'compliance';
+  title: string;
+  url: string;
+  postedOn: string | null;
+  fileSize: string | null;
+  source: string;
+}
+
+export type FoiStatus = 'draft' | 'sent' | 'answered' | 'denied';
+
+export interface FoiRequest {
+  id: string;
+  subject: string;
+  agency: string;
+  status: FoiStatus;
+  sentOn: string | null;
+  replyDueOn: string | null;
+  reference: string | null;
+  source: string;
+}
+
+export interface TransparencyData {
+  auditReports: AuditReport[];
+  foiRequests: FoiRequest[];
+}
+
 export interface DrrmData {
   /** PAGASA FFWS station levels (EL. m), not the city's own alarm levels. */
   riverAlarmLevels: RiverStationLevels[];

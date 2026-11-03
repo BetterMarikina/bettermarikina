@@ -22,7 +22,9 @@ export default function BudgetPage(): JSX.Element {
         <nav className="breadcrumbs" aria-label="Breadcrumb">
           <Link href="/">Home</Link>
           <span>/</span>
-          <span aria-current="page">Budget &amp; Transparency</span>
+          <Link href="/transparency">Transparency</Link>
+          <span>/</span>
+          <span aria-current="page">Budget</span>
         </nav>
       </div>
 
@@ -241,7 +243,7 @@ export default function BudgetPage(): JSX.Element {
       </section>
 
       {/* DPWH Projects Section */}
-      <section className="infra-section-v5 infra-section-alt">
+      <section id="dpwh" className="infra-section-v5 infra-section-alt">
         <div className="container">
           <div className="infra-header-v5">
             <span className="infra-label-v5"><i className="bi bi-building"></i> National Government Projects</span>

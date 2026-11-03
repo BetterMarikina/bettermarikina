@@ -46,7 +46,7 @@ export default function Header() {
                 <li><Link href="/legislative/resolution-framework">Resolution Framework</Link></li>
               </ul>
             </li>
-            <li><Link href="/budget">{t('nav-transparency')}</Link></li>
+            <li><Link href="/transparency">{t('nav-transparency')}</Link></li>
             <li><Link href="/contact">{t('nav-contact')}</Link></li>
           </ul>
         </nav>

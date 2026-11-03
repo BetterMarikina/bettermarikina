@@ -30,7 +30,7 @@ export const mainNavigation: NavItem[] = [
       { label: 'Resolution Framework', href: '/legislative/resolution-framework', i18nKey: 'legislative-resolutions' },
     ],
   },
-  { label: 'Transparency', href: '/budget', i18nKey: 'nav-transparency' },
+  { label: 'Transparency', href: '/transparency', i18nKey: 'nav-transparency' },
   { label: 'Contact', href: '/contact', i18nKey: 'nav-contact' },
 ];
 

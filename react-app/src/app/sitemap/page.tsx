@@ -9,7 +9,7 @@ const pages = [
   { title: 'Government', href: '/government' },
   { title: 'Statistics', href: '/statistics' },
   { title: 'Legislative', href: '/legislative' },
-  { title: 'Transparency', href: '/budget' },
+  { title: 'Transparency', href: '/transparency' },
   { title: 'Contact', href: '/contact' },
   { title: 'FAQ', href: '/faq' },
   { title: 'Accessibility', href: '/accessibility' },

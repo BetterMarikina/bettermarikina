@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Transparency: COA audit reports and BetterMarikina FOI requests",
+    "sources": [
+      {
+        "id": "coa-aar",
+        "tier": 1,
+        "url": "https://www.coa.gov.ph/",
+        "retrievedAt": "2026-11-03",
+        "covers": "Commission on Audit file pages for Marikina City's annual and compliance audit reports: title, file size and date posted. Each report is a ZIP of PDFs."
+      },
+      {
+        "id": "bettermarikina-foi-log",
+        "tier": 1,
+        "url": "https://github.com/BetterMarikina/bettermarikina/blob/main/docs/data/foi-drafts.md",
+        "retrievedAt": "2026-11-03",
+        "covers": "BetterMarikina's own log of Freedom of Information requests: what was asked, which agency, and when it was sent. This is a record of our requests, not government data."
+      }
+    ],
+    "asOf": "2026-11-03",
+    "notes": "Audit reports are listed only where the COA file page was opened (2019, 2023, 2024) or COA's own page appeared in search with its title and posting date (2021, 2022). The 2020 and 2025 pages could not be reached on 2026-11-03 (COA's server timed out), so they are not listed; they may exist. Links go to COA's file page, not the ZIP, because the files are large (up to 35 MB). FOI reply due dates follow EO 2 (15 working days)."
+  },
+  "data": {
+    "auditReports": [
+      {
+        "year": 2024,
+        "kind": "annual",
+        "title": "Marikina City Annual Audit Report 2024",
+        "url": "https://www.coa.gov.ph/wpfd_file/marikina-city-annual-audit-report-2024/",
+        "postedOn": "2025-12-09",
+        "fileSize": "35.24 MB",
+        "source": "coa-aar"
+      },
+      {
+        "year": 2023,
+        "kind": "annual",
+        "title": "Marikina City Annual Audit Report 2023",
+        "url": "https://www.coa.gov.ph/wpfd_file/marikina-city-annual-audit-report-2023/",
+        "postedOn": "2024-12-13",
+        "fileSize": "29.99 MB",
+        "source": "coa-aar"
+      },
+      {
+        "year": 2022,
+        "kind": "annual",
+        "title": "Marikina City Annual Audit Report 2022",
+        "url": "https://www.coa.gov.ph/wpfd_file/marikina-city-annual-audit-report-2022/",
+        "postedOn": "2023-06-29",
+        "fileSize": "3.38 MB",
+        "source": "coa-aar"
+      },
+      {
+        "year": 2022,
+        "kind": "compliance",
+        "title": "Marikina City Compliance Audit Report 2022 (utilization of the 20% Development Fund)",
+        "url": "https://www.coa.gov.ph/wpfd_file/marikina-city-compliance-audit-report-2022/",
+        "postedOn": null,
+        "fileSize": null,
+        "source": "coa-aar"
+      },
+      {
+        "year": 2021,
+        "kind": "annual",
+        "title": "Marikina City Annual Audit Report 2021",
+        "url": "https://www.coa.gov.ph/wpfd_file/marikina-city-annual-audit-report-2021/",
+        "postedOn": "2022-07-22",
+        "fileSize": "1.77 MB",
+        "source": "coa-aar"
+      },
+      {
+        "year": 2019,
+        "kind": "annual",
+        "title": "Marikina City Annual Audit Report 2019",
+        "url": "https://www.coa.gov.ph/wpfd_file/marikina-city-annual-audit-report-2019/",
+        "postedOn": "2020-08-28",
+        "fileSize": "1.03 MB",
+        "source": "coa-aar"
+      }
+    ],
+    "foiRequests": [
+      {
+        "id": "FOI-1",
+        "subject": "Barangay officials (kagawads, SK Chairpersons) of all 16 barangays",
+        "agency": "DILG (for referral to DILG-NCR / Marikina Field Office)",
+        "status": "sent",
+        "sentOn": "2026-11-03",
+        "replyDueOn": "2026-11-24",
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-2",
+        "subject": "Certified 2025 election results for Marikina City",
+        "agency": "COMELEC Marikina Election Office",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-3",
+        "subject": "Searchable copies of Full Disclosure Portal financial documents, 2020-2026",
+        "agency": "City Budget Office, City Treasurer and CPDO",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-4",
+        "subject": "Index of ordinances and resolutions with approval dates; council committees",
+        "agency": "Office of the City Council Secretary",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-5",
+        "subject": "Current department and office heads",
+        "agency": "City Human Resource Management Office",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-6",
+        "subject": "DPWH projects in Marikina City, 2020 to date, with contractor and status",
+        "agency": "DPWH Metro Manila 1st District Engineering Office",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-7",
+        "subject": "Evacuation centers per barangay and the city's river alarm levels",
+        "agency": "City Disaster Risk Reduction and Management Office",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-8",
+        "subject": "Text-searchable District I and II Roadmaps",
+        "agency": "City Planning and Development Office",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      },
+      {
+        "id": "FOI-9",
+        "subject": "Garbage collection schedule per barangay",
+        "agency": "City Environmental Management Office",
+        "status": "draft",
+        "sentOn": null,
+        "replyDueOn": null,
+        "reference": null,
+        "source": "bettermarikina-foi-log"
+      }
+    ]
+  }
+}

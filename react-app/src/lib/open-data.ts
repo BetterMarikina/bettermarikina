@@ -9,6 +9,7 @@ import officials from '@/data/marikina/officials.json';
 import ordinances from '@/data/marikina/ordinances.json';
 import resolutions from '@/data/marikina/resolutions.json';
 import statistics from '@/data/marikina/statistics.json';
+import transparency from '@/data/marikina/transparency.json';
 import services from '@/data/services.json';
 import type { DatasetMeta } from '@/types';
 
@@ -49,6 +50,7 @@ const REGISTRY: { id: string; description: string; file: RawDataset }[] = [
   { id: 'statistics', description: 'Population, households, CMCI scores and business counts', file: statistics as RawDataset },
   { id: 'ordinances', description: 'City ordinances as listed on the Full Disclosure Portal', file: ordinances as RawDataset },
   { id: 'resolutions', description: 'City resolutions as listed on the Full Disclosure Portal', file: resolutions as RawDataset },
+  { id: 'transparency', description: 'COA audit reports on the city, and the status of our Freedom of Information requests', file: transparency as RawDataset },
   { id: 'dpwh-2027', description: 'DPWH FY2027 budget lines that name Marikina City (snapshot of the BetterGov.PH Budget API)', file: dpwh2027 as RawDataset },
 ];
 

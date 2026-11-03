@@ -29,6 +29,7 @@ const STATIC_ROUTES = [
   '/sitemap-page',
   '/statistics',
   '/terms',
+  '/transparency',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -1,6 +1,6 @@
 # FOI request drafts
 
-These are drafts for the maintainer (@terddyy). **Nothing here has been sent.** Submit them through the eFOI portal (https://www.foi.gov.ph/) or the agency's own FOI channel, and record the reference number and date in [SOURCES.md](SOURCES.md).
+These are drafts for the maintainer (@terddyy). **Nothing here has been sent.** Submit them through the eFOI portal (https://www.foi.gov.ph/) or the agency's own FOI channel, and record the reference number and date in [SOURCES.md](SOURCES.md). Also update the request's row in `react-app/src/data/marikina/transparency.json` (status, sentOn, replyDueOn, reference): it drives the FOI tracker on /transparency.
 
 Common header for each request (the eFOI form asks for the same fields):
 
