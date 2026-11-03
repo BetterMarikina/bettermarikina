@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import SourceNote from '@/components/SourceNote';
+import { barangayPath } from '@/lib/barangays';
 import officialsData from '@/data/marikina/officials.json';
 import barangaysData from '@/data/marikina/barangays.json';
 import type { Barangay, Dataset, DatasetMeta, ElectedOfficial } from '@/types';
@@ -39,7 +40,7 @@ export default function GovernmentPage() {
       </section>
 
       {/* Executive Branch */}
-      <section className="section" style={{ background: 'var(--color-bg-alt)' }}>
+      <section id="officials" className="section" style={{ background: 'var(--color-bg-alt)' }}>
         <div className="container">
           <div className="text-center" style={{ marginBottom: 'var(--spacing-xl)' }}>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%)', color: 'white', padding: '8px 20px', borderRadius: '50px', fontSize: '0.875rem', marginBottom: 'var(--spacing-sm)' }}>
@@ -240,7 +241,7 @@ export default function GovernmentPage() {
               <div key={b.id} className="barangay-card">
                 <div className="barangay-card-header">
                   <i className="bi bi-geo-alt-fill"></i>
-                  <span className="barangay-name">{b.name}</span>
+                  <Link href={barangayPath(b)} className="barangay-name">{b.name}</Link>
                 </div>
                 <div className="barangay-card-body">
                   <span className="barangay-captain">{b.officials ? `Punong Barangay: ${b.officials.punongBarangay}` : 'Officials not yet published'}</span>

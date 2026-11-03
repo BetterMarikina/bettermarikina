@@ -79,7 +79,7 @@ export default function SitemapPage() {
               <h2>City Offices</h2>
             </div>
             <div className="sitemap-links-grid sitemap-links-grid--4col">
-              <Link href="/service-details/civil-registrar" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Local Civil Registrar</Link>
+              <Link href="/service-details/municipal-civil-registrar" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Local Civil Registrar</Link>
               <Link href="/service-details/municipal-treasurer" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Treasurer&apos;s Office</Link>
               <Link href="/service-details/municipal-assessor" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Assessor&apos;s Office</Link>
               <Link href="/service-details/municipal-budget" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Budget Office</Link>
@@ -104,7 +104,7 @@ export default function SitemapPage() {
             </div>
             <div className="sitemap-links-grid">
               <Link href="/government" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Government Structure</Link>
-              <Link href="/government/officials" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Elected Officials</Link>
+              <Link href="/government#officials" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Elected Officials</Link>
               <Link href="/legislative" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Legislative Documents</Link>
               <Link href="/legislative/ordinance-framework" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Ordinance Framework</Link>
               <Link href="/legislative/resolution-framework" className="sitemap-link-item"><i className="bi bi-arrow-right"></i> Resolution Framework</Link>
