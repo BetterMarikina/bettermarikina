@@ -3,6 +3,7 @@ import BarangayCouncil from '@/components/BarangayCouncil';
 import SourceNote from '@/components/SourceNote';
 import barangaysData from '@/data/marikina/barangays.json';
 import facilitiesData from '@/data/marikina/facilities.json';
+import { barangayPath } from '@/lib/barangays';
 import { healthCentersByBarangay } from '@/lib/health';
 import type { Barangay, Dataset, FacilitiesData } from '@/types';
 
@@ -65,7 +66,7 @@ export default function BarangaysPage(): JSX.Element {
                 {rows.map((b) => (
                   <tr key={b.id}>
                     <th scope="row" align="left">
-                      {b.name}
+                      <Link href={barangayPath(b)}>{b.name}</Link>
                       {b.creation && (
                         <small style={{ display: 'block', fontWeight: 400 }}>
                           Created by {b.creation.instrument} ({b.creation.date})

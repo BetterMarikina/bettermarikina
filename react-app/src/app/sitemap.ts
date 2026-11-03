@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { categoriesContent } from '@/data/categoriesContent';
 import { serviceDetailsContent } from '@/data/serviceDetailsContent';
 import { getAllServices, servicePath } from '@/lib/services';
+import { barangayPath, getBarangaysDataset } from '@/lib/barangays';
 
 const SITE_URL = 'https://www.bettermarikina.org';
 
@@ -36,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoriesContent.map((category) => `/services/${category.id}`),
     ...serviceDetailsContent.map((service) => `/service-details/${service.id}`),
     ...getAllServices().map(servicePath),
+    ...getBarangaysDataset().data.map(barangayPath),
   ];
 
   return paths.map((path) => ({ url: `${SITE_URL}${path}` }));
