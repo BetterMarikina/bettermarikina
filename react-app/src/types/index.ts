@@ -12,6 +12,29 @@ export interface Service {
   url: string;
 }
 
+// A service record in services.json, transcribed from the Citizen's Charter.
+export interface CharterService extends Service {
+  requirements: string[];
+  charter: { edition: string; ref: string };
+  onlineUrl?: string;
+  whoMayAvail?: string;
+}
+
+export interface CharterOffice {
+  id: string;
+  office: string;
+  edition: string;
+  pdfUrl: string;
+  externalServices: string[] | null;
+  externalServicesNote: string | null;
+}
+
+export interface ServicesFile {
+  meta: DatasetMeta;
+  services: CharterService[];
+  charterIndex: CharterOffice[];
+}
+
 export interface ServiceCategory {
   id: string;
   name: string;

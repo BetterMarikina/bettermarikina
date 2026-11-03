@@ -37,7 +37,7 @@
       "fee": "Based on the Revenue Code of Marikina City (Chapters 4, 5, 6, 10, 11, 13, 26, 30, 33); quarterly payments due Jan 20, Apr 20, Jul 20 and Oct 20",
       "processingTime": "File 15 minutes; pay 15 minutes (walk-in or online)",
       "office": "Business Permits and Licensing Office (BPLO)",
-      "url": "/services/business",
+      "url": "/services/business/business-new-registration",
       "requirements": [
         "Zoning clearance, 1 photocopy (integrated in the BPLS; if non-compliant, go to the City Planning Office)",
         "Photo of the establishment showing the permanent signboard and sidewalk, and a vicinity sketch",
@@ -70,7 +70,7 @@
       "fee": "Based on the Revenue Code of Marikina City; quarterly payments due Jan 20, Apr 20, Jul 20 and Oct 20",
       "processingTime": "File 15 minutes; pay 15 minutes (walk-in or online)",
       "office": "Business Permits and Licensing Office (BPLO)",
-      "url": "/services/business",
+      "url": "/services/business/business-renewal",
       "requirements": [
         "eBOSS compliance (Engineering, BFP, CHO, CEMO); check status at bplo.marikina.gov.ph/client",
         "Financial statement, quarterly VAT returns or monthly percentage tax (photocopies)",
@@ -100,7 +100,7 @@
       "fee": "Based on the Revenue Code of Marikina City",
       "processingTime": "15 minutes (filing)",
       "office": "Business Permits and Licensing Office (BPLO)",
-      "url": "/services/business",
+      "url": "/services/business/business-amendments",
       "requirements": [
         "Single proprietorship: DTI registration, affidavit of change of ownership, deed of conveyance, original business permit, authorization letter, valid IDs",
         "Corporation to corporation: SEC amended registration, board resolution, Secretary's Certificate, original business permit, authorization letter, valid IDs",
@@ -125,7 +125,7 @@
       "fee": "Based on the assessment of the business",
       "processingTime": "About 3 minutes at the window (30-second queue number)",
       "office": "City Treasurer's Office, Business Tax Division",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/business-tax-payment",
       "requirements": [
         "Business Identification Number (BIN)",
         "Previous official receipt / tax billing from the BPLO"
@@ -151,7 +151,7 @@
       "fee": "Based on the taxpayer's income",
       "processingTime": "About 2 minutes at the window (30-second queue number)",
       "office": "City Treasurer's Office, Business Tax Division",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/community-tax-certificate",
       "requirements": [
         "Duly accomplished Community Tax Certificate (CTC) form (from the Treasury Help Desk)"
       ],
@@ -176,7 +176,7 @@
       "fee": "PHP 300.00",
       "processingTime": "About 3 minutes at the window",
       "office": "City Treasurer's Office, Business Tax Division",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/professional-tax",
       "requirements": [
         "PRC or IBP identification card",
         "Previous receipt"
@@ -201,7 +201,7 @@
       "fee": "PHP 50.00",
       "processingTime": "5 minutes",
       "office": "City Treasurer's Office, Real Property Tax Division",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/rpt-clearance",
       "requirements": [
         "Registered owner: photocopy of the current RPT official receipt and photocopy of a valid ID",
         "Representative/buyer: photocopy of the current RPT official receipt, authorization letter or SPA from the owner, photocopies of the owner's and representative's valid IDs, and photocopies of the documents to be used in the sale or loan"
@@ -225,7 +225,7 @@
       "fee": "Based on the order of payment",
       "processingTime": "Order of payment 5 minutes, then payment at the cashier",
       "office": "Marikina Police Station and Treasury Cashier",
-      "url": "/services/certificates",
+      "url": "/services/certificates/police-clearance-fee",
       "requirements": [
         "Order of payment issued by the Police Station"
       ],
@@ -249,7 +249,7 @@
       "fee": "Based on the order of payment (computed by the Planning Office; paid at the Treasury cashier)",
       "processingTime": "Simple transactions 5 days; highly technical transactions 20 days",
       "office": "City Planning and Development Office",
-      "url": "/services/infrastructure",
+      "url": "/services/infrastructure/locational-clearance",
       "requirements": [
         "2 sets of complete plans (architectural, structural, electrical, plumbing)",
         "Barangay clearance for construction",
@@ -282,7 +282,7 @@
       "fee": "Based on the Philippine Electrical Code, Mechanical Code and National Building Code fee schedules",
       "processingTime": "1 day and 3 hours in total (as stated in the charter)",
       "office": "Office of the Building Official",
-      "url": "/services/infrastructure",
+      "url": "/services/infrastructure/building-permit",
       "requirements": [
         "TCT, tax declaration, tax receipt, bill of materials, specifications, CSHP certificate from DOLE, locational clearance",
         "Signed and sealed construction plans (architectural, structural, lot plan, electrical, sanitary, mechanical)",
@@ -308,7 +308,7 @@
       "fee": "Based on the order of payment",
       "processingTime": "Order of payment 5 minutes, then payment at the cashier",
       "office": "City Health Office and Treasury Cashier",
-      "url": "/services/health",
+      "url": "/services/health/health-sanitation-fees",
       "requirements": [
         "Order of payment issued by the Health Office"
       ],
@@ -332,7 +332,7 @@
       "fee": "Based on the Revenue Code of Marikina City",
       "processingTime": "15 minutes (as stated in the charter)",
       "office": "Business Permits and Licensing Office (BPLO)",
-      "url": "/services/online",
+      "url": "/services/online/online-business-registration",
       "requirements": [
         "Register on the BPLO portal (https://bplo.marikina.gov.ph/client/index)",
         "Pay through https://payment.marikina.gov.ph/"
@@ -348,7 +348,7 @@
       "title": "Birth Registration (On-time)",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/birth-registration-on-time",
       "description": "Register a birth in Marikina City within 30 days of the date of birth.",
       "keywords": [
         "birth certificate",
@@ -377,7 +377,7 @@
       "title": "Late Birth Registration",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/birth-registration-late",
       "description": "Register a birth in Marikina City more than 30 days after the date of birth.",
       "keywords": [
         "late registration",
@@ -411,7 +411,7 @@
       "title": "Marriage License Application",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/marriage-license",
       "description": "Apply for a marriage license. At least one applicant must be a Marikina resident.",
       "keywords": [
         "marriage license",
@@ -447,7 +447,7 @@
       "title": "Death Registration (On-time)",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/death-registration-on-time",
       "description": "Register a death that occurred in Marikina City within 30 days of the date of death.",
       "keywords": [
         "death certificate",
@@ -476,7 +476,7 @@
       "title": "Late Death Registration",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/death-registration-late",
       "description": "Register a death that occurred in Marikina City more than 30 days after the date of death.",
       "keywords": [
         "late registration",
@@ -509,7 +509,7 @@
       "title": "Certified True Copy of Birth, Marriage or Death Certificate",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/civil-registry-certified-copy",
       "description": "Get a certified true copy of a birth, marriage or death certificate registered in Marikina.",
       "keywords": [
         "certified true copy",
@@ -538,7 +538,7 @@
       "title": "Change of First Name (RA 9048)",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/ra9048-change-of-first-name",
       "description": "Petition to change a first name or nickname in a civil registry record without going to court.",
       "keywords": [
         "ra 9048",
@@ -569,7 +569,7 @@
       "title": "Correction of Clerical Error (RA 9048)",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/ra9048-clerical-error",
       "description": "Petition to correct a clerical or typographical error in a civil registry record without going to court.",
       "keywords": [
         "ra 9048",
@@ -599,7 +599,7 @@
       "title": "Correction of Sex or Day and Month of Birth (RA 10172)",
       "category": "Certificates & Vital Records",
       "categoryId": "certificates",
-      "url": "/services/certificates",
+      "url": "/services/certificates/ra10172-sex-or-birth-date",
       "description": "Petition to correct the sex, or the day and month of birth, in a birth certificate without going to court.",
       "keywords": [
         "ra 10172",
@@ -631,7 +631,7 @@
       "title": "Payment of Real Property Tax",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/real-property-tax-payment",
       "description": "Pay real property tax (amilyar) at the Treasury Office or online at payment.marikina.gov.ph.",
       "keywords": [
         "real property tax",
@@ -661,7 +661,7 @@
       "title": "Payment of Transfer Tax",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/transfer-tax",
       "description": "Pay the tax on the sale, donation or other transfer of real property in Marikina.",
       "keywords": [
         "transfer tax",
@@ -693,7 +693,7 @@
       "title": "Retirement of Business",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "url": "/services/business",
+      "url": "/services/business/business-retirement",
       "office": "Business Permits and Licensing Office (BPLO)",
       "whoMayAvail": "Business taxpayers",
       "description": "Close a business and retire its permit with the BPLO.",
@@ -724,7 +724,7 @@
       "title": "Business Certification",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "url": "/services/business",
+      "url": "/services/business/business-certification",
       "office": "Business Permits and Licensing Office (BPLO)",
       "whoMayAvail": "Business taxpayers",
       "description": "Certification of no record on file, amendments, retirement, registration or status of a business.",
@@ -752,7 +752,7 @@
       "title": "Certified True Copy of Business Documents",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "url": "/services/business",
+      "url": "/services/business/business-certified-true-copy",
       "office": "Business Permits and Licensing Office (BPLO)",
       "whoMayAvail": "Business taxpayers",
       "description": "Get a certified true copy of a business record from the BPLO.",
@@ -778,7 +778,7 @@
       "title": "Health Certificate (Health Card)",
       "category": "Health & Wellness",
       "categoryId": "health",
-      "url": "/services/health",
+      "url": "/services/health/health-certificate",
       "description": "Get a health certificate or health card, e.g. for employment or food handling.",
       "keywords": [
         "health certificate",
@@ -807,7 +807,7 @@
       "title": "Sanitary Permit",
       "category": "Health & Wellness",
       "categoryId": "health",
-      "url": "/services/health",
+      "url": "/services/health/sanitary-permit",
       "description": "Sanitary permit for a business, issued with the business permit.",
       "keywords": [
         "sanitary permit",
@@ -833,7 +833,7 @@
       "title": "Burial, Cremation, Exhumation and Transfer Permit",
       "category": "Health & Wellness",
       "categoryId": "health",
-      "url": "/services/health",
+      "url": "/services/health/burial-cremation-permit",
       "description": "Permit to bury, cremate, exhume, rebury or transfer the remains of a person.",
       "keywords": [
         "burial permit",
@@ -860,7 +860,7 @@
       "title": "Anti-Rabies Vaccination",
       "category": "Health & Wellness",
       "categoryId": "health",
-      "url": "/services/health",
+      "url": "/services/health/anti-rabies-vaccination",
       "description": "Free anti-rabies vaccination at the Animal Bite Treatment Center.",
       "keywords": [
         "anti-rabies",
@@ -888,7 +888,7 @@
       "title": "Primary Health Care (Health Centers)",
       "category": "Health & Wellness",
       "categoryId": "health",
-      "url": "/services/health",
+      "url": "/services/health/primary-health-care",
       "description": "Free check-ups, consultation and medicines at the barangay health centers.",
       "keywords": [
         "health center",
@@ -916,7 +916,7 @@
       "title": "Clinical Laboratory Tests",
       "category": "Health & Wellness",
       "categoryId": "health",
-      "url": "/services/health",
+      "url": "/services/health/clinical-laboratory",
       "description": "Low-cost blood, urine and stool tests at the CHO laboratory with a doctor's request.",
       "keywords": [
         "laboratory",
@@ -945,7 +945,7 @@
       "title": "Senior Citizen ID and Booklet",
       "category": "Social Services & Assistance",
       "categoryId": "social-services",
-      "url": "/services/social-services",
+      "url": "/services/social-services/senior-citizen-id",
       "description": "Get a senior citizen ID and discount booklet for Marikina residents aged 60 and above.",
       "keywords": [
         "senior citizen id",
@@ -976,7 +976,7 @@
       "title": "Senior Citizen Booklet for Medicine and Grocery",
       "category": "Social Services & Assistance",
       "categoryId": "social-services",
-      "url": "/services/social-services",
+      "url": "/services/social-services/senior-citizen-booklet",
       "description": "Get the OSCA discount booklet for medicine, basic necessities and prime commodities.",
       "keywords": [
         "senior booklet",
@@ -1002,7 +1002,7 @@
       "title": "Senior Citizen Birthday Subsidy",
       "category": "Social Services & Assistance",
       "categoryId": "social-services",
-      "url": "/services/social-services",
+      "url": "/services/social-services/senior-birthday-subsidy",
       "description": "Active Marikina senior citizens receive PHP 2,000.00 and a grocery item on their birthday, delivered to their address.",
       "keywords": [
         "birthday subsidy",
@@ -1027,7 +1027,7 @@
       "title": "Assistance to Individuals in Crisis (Medical, Burial, Financial)",
       "category": "Social Services & Assistance",
       "categoryId": "social-services",
-      "url": "/services/social-services",
+      "url": "/services/social-services/crisis-assistance",
       "description": "Medical, burial or financial assistance from the CSWDO for people in a crisis situation.",
       "keywords": [
         "financial assistance",
@@ -1057,7 +1057,7 @@
       "title": "Solo Parent ID",
       "category": "Social Services & Assistance",
       "categoryId": "social-services",
-      "url": "/services/social-services",
+      "url": "/services/social-services/solo-parent-id",
       "description": "Apply for a Solo Parent ID and booklet at the CSWDO.",
       "keywords": [
         "solo parent",
@@ -1089,7 +1089,7 @@
       "title": "Employment Facilitation (PESO)",
       "category": "Social Services & Assistance",
       "categoryId": "social-services",
-      "url": "/services/social-services",
+      "url": "/services/social-services/employment-facilitation",
       "description": "Job matching and referral letters to companies, or referral to training and self-employment programs.",
       "keywords": [
         "job",
@@ -1119,7 +1119,7 @@
       "title": "Transfer of Tax Declaration to a New Owner",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/tax-declaration-transfer",
       "office": "City Assessor's Office",
       "whoMayAvail": "Property owners and taxpayers",
       "description": "Transfer the tax declaration of a property to its new owner after a sale, donation or settlement of estate.",
@@ -1152,7 +1152,7 @@
       "title": "Tax Declaration for a New or Renovated Building",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/tax-declaration-new-building",
       "office": "City Assessor's Office",
       "whoMayAvail": "Property owners and taxpayers",
       "description": "Declare a new or renovated building for real property tax.",
@@ -1180,7 +1180,7 @@
       "title": "Tax Declaration for Undeclared Land",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/tax-declaration-undeclared-land",
       "office": "City Assessor's Office",
       "whoMayAvail": "Property owners and taxpayers",
       "description": "Declare land that has no tax declaration yet, titled or untitled.",
@@ -1207,7 +1207,7 @@
       "title": "Certified True Copy of Tax Declaration and Certifications",
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
-      "url": "/services/tax-payments",
+      "url": "/services/tax-payments/tax-declaration-certified-copy",
       "office": "City Assessor's Office",
       "whoMayAvail": "Property owners and taxpayers",
       "description": "Get a certified true copy of a tax declaration, tax map or other certification from the Assessor's Office.",

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getCategoryContent, categoriesContent } from '@/data/categoriesContent';
+import { getServicesInCategory, servicePath } from '@/lib/services';
 
 interface Props {
   params: { category: string };
@@ -23,6 +24,7 @@ export function generateMetadata({ params }: Props) {
 export default function ServiceCategoryPage({ params }: Props) {
   const category = getCategoryContent(params.category);
   if (!category) notFound();
+  const checklists = getServicesInCategory(category.id);
 
   return (
     <>
@@ -89,6 +91,26 @@ export default function ServiceCategoryPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {checklists.length > 0 && (
+        <section className="section section-compact">
+          <div className="container">
+            <h2 className="section-title-sm">Requirement checklists</h2>
+            <p>What to bring, the fee and processing time for each service, from the Citizen&apos;s Charter. Each one can be printed.</p>
+            <div className="grid grid-3">
+              {checklists.map((s) => (
+                <Link key={s.id} href={servicePath(s)} className="service-item-card service-item-link">
+                  <h3 className="service-item-title"><i className="bi bi-clipboard-check"></i> {s.title}</h3>
+                  <div className="service-item-meta">
+                    <span><strong>Time:</strong> {s.processingTime}</span>
+                    <span><strong>Requirements:</strong> {s.requirements.length}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Responsible Offices */}
       {category.offices.length > 0 && (
